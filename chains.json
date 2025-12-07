@@ -1,6 +1,6 @@
 {
   "sha": "406fb2b68e9bada1bd1f75d403073f75806bcf77",
-  "lastUpdated": "2025-12-07T18:06:03.364Z",
+  "lastUpdated": "2025-12-07T20:08:45.687Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -1253,8 +1253,8 @@
             "chainId": "archway-1",
             "coinGeckoId": "vidulum",
             "price": 0,
-            "originDenom": "uvdl",
-            "originChainId": "vidulum-1"
+            "originDenom": "ibc/1BCF1FCAFE3568E234787EDFDA12460BD8931B17FE6A729DCD60FAD845558DA1",
+            "originChainId": "archway-1"
           },
           "cw20:archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n": {
             "denom": "cw20:archway1ecjefhcf8r60wtfnhwefrxhj9caeqa90fj58cqsaafqveawn6cjs5znd2n",
@@ -1306,8 +1306,8 @@
             "chainId": "archway-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/43897B9739BD63E3A08A88191999C632E052724AB96BD4C74AE31375C991F48D",
+            "originChainId": "archway-1"
           },
           "cw20:archway1gaf9nw7n8v5lpjz9caxjpps006kxfcrzcuc8y5qp4clslhven2ns2g0ule": {
             "denom": "cw20:archway1gaf9nw7n8v5lpjz9caxjpps006kxfcrzcuc8y5qp4clslhven2ns2g0ule",
@@ -1340,8 +1340,8 @@
             "networkName": "Archway",
             "chainId": "archway-1",
             "price": 0,
-            "originDenom": "uwhale",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/3F882513A0CCD1C4110ACB7C6C761AC7B48974C9D2D439CD6F652F9B44362518",
+            "originChainId": "archway-1"
           },
           "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58": {
             "denom": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
@@ -1357,8 +1357,8 @@
             "networkName": "Archway",
             "chainId": "archway-1",
             "price": 0,
-            "originDenom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/7364C29ED876F05A82628B738AA2F0D53724991FD0220858570D7A3844B67F58",
+            "originChainId": "archway-1"
           }
         }
       },
@@ -3239,8 +3239,8 @@
             "networkName": "Axelar",
             "chainId": "axelar-dojo-1",
             "price": 0,
-            "originDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
-            "originChainId": "evmos_9001-2"
+            "originDenom": "ibc/53046FFF6CAD109D8F9B2C7C9913853AD241928CD05CDDE419343D176025DA74",
+            "originChainId": "axelar-dojo-1"
           },
           "unit-move": {
             "denom": "unit-move",
@@ -4319,8 +4319,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "originChainId": "beezee-1"
           },
           "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS": {
             "denom": "factory/bze15pqjgk4la0mfphwddce00d05n3th3u66n3ptcv/2MARS",
@@ -4354,8 +4354,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "archway",
             "price": 0,
-            "originDenom": "aarch",
-            "originChainId": "archway-1"
+            "originDenom": "ibc/C00D101A3572A5374E23F11944463D1325319E255D7C824B33AF2F927F532348",
+            "originChainId": "beezee-1"
           },
           "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4": {
             "denom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
@@ -4372,8 +4372,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/6490A7EAB61059BFC1CDDEB05917DD70BDF3A611654162A1A47DB930D40D8AF4",
+            "originChainId": "beezee-1"
           },
           "ibc/08EAEAB525E59C611D5BD8FAC4BE65DF65A69E62874377F6889BBD01A33F385F": {
             "denom": "ibc/08EAEAB525E59C611D5BD8FAC4BE65DF65A69E62874377F6889BBD01A33F385F",
@@ -4390,8 +4390,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "spice-2",
             "price": 0,
-            "originDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/uspice",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/08EAEAB525E59C611D5BD8FAC4BE65DF65A69E62874377F6889BBD01A33F385F",
+            "originChainId": "beezee-1"
           },
           "ibc/4AA3B163580B4377250CD4486FB6AD098EB27822EE056949EC4A39B09C5E3B4E": {
             "denom": "ibc/4AA3B163580B4377250CD4486FB6AD098EB27822EE056949EC4A39B09C5E3B4E",
@@ -4408,8 +4408,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "jackal-protocol",
             "price": 0,
-            "originDenom": "ujkl",
-            "originChainId": "jackal-1"
+            "originDenom": "ibc/4AA3B163580B4377250CD4486FB6AD098EB27822EE056949EC4A39B09C5E3B4E",
+            "originChainId": "beezee-1"
           },
           "ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF": {
             "denom": "ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF",
@@ -4426,8 +4426,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "omniflix-network",
             "price": 0,
-            "originDenom": "uflix",
-            "originChainId": "omniflixhub-1"
+            "originDenom": "ibc/FF39851E73089ACBD0B09BDF62FA3C67FBD77A2CD97CD159DBCE9C770561F8AF",
+            "originChainId": "beezee-1"
           },
           "ibc/02EE50AB3A4B7540FA001B24CB75E688016F65547CABE885EA184338440080B2": {
             "denom": "ibc/02EE50AB3A4B7540FA001B24CB75E688016F65547CABE885EA184338440080B2",
@@ -4443,8 +4443,8 @@
             "networkName": "BeeZee",
             "chainId": "beezee-1",
             "price": 0,
-            "originDenom": "factory/osmo1n6asrjy9754q8y9jsxqf557zmsv3s3xa5m9eg5/usherpa",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/02EE50AB3A4B7540FA001B24CB75E688016F65547CABE885EA184338440080B2",
+            "originChainId": "beezee-1"
           },
           "ibc/B2219CA05421EA988F83E5E824BF69362E80A6A87503EFD18B92C91C9E03763D": {
             "denom": "ibc/B2219CA05421EA988F83E5E824BF69362E80A6A87503EFD18B92C91C9E03763D",
@@ -4460,8 +4460,8 @@
             "networkName": "BeeZee",
             "chainId": "beezee-1",
             "price": 0,
-            "originDenom": "uatone",
-            "originChainId": "atomone-1"
+            "originDenom": "ibc/B2219CA05421EA988F83E5E824BF69362E80A6A87503EFD18B92C91C9E03763D",
+            "originChainId": "beezee-1"
           },
           "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B": {
             "denom": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
@@ -4478,8 +4478,8 @@
             "chainId": "beezee-1",
             "coinGeckoId": "posthuman",
             "price": 0,
-            "originDenom": "cw20:juno1rws84uz7969aaa7pej303udhlkt3j9ca0l3egpcae98jwak9quzq8szn2l",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/12C0B8B561AFCFDA3C73DEE0F7F84AA2B860D48493C27E8E81A5D14724FAB08B",
+            "originChainId": "beezee-1"
           },
           "factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE": {
             "denom": "factory/bze12gyp30f29zg26nuqrwdhl26ej4q066pt572fhm/GGE",
@@ -5364,8 +5364,8 @@
             "chainId": "bitway-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+            "originChainId": "bitway-1"
           },
           "ibc/F03F09579E9B70EBE7801B6541502C6BC71609ED2642E69FB5FE59CCC56D7BF1": {
             "denom": "ibc/F03F09579E9B70EBE7801B6541502C6BC71609ED2642E69FB5FE59CCC56D7BF1",
@@ -5381,8 +5381,8 @@
             "networkName": "Bitway",
             "chainId": "bitway-1",
             "price": 0,
-            "originDenom": "transfer/08-wasm-1369/0xdac17f958d2ee523a2206206994597c13d831ec7",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/F03F09579E9B70EBE7801B6541502C6BC71609ED2642E69FB5FE59CCC56D7BF1",
+            "originChainId": "bitway-1"
           },
           "ibc/5F5E7D25BBAD0BB09FCE567C75EC8527590CA8AC5F947BAF8E533FBF7E270A44": {
             "denom": "ibc/5F5E7D25BBAD0BB09FCE567C75EC8527590CA8AC5F947BAF8E533FBF7E270A44",
@@ -5398,8 +5398,8 @@
             "networkName": "Bitway",
             "chainId": "bitway-1",
             "price": 0,
-            "originDenom": "transfer/08-wasm-1369/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/5F5E7D25BBAD0BB09FCE567C75EC8527590CA8AC5F947BAF8E533FBF7E270A44",
+            "originChainId": "bitway-1"
           }
         }
       },
@@ -6364,8 +6364,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "stargaze",
             "price": 0,
-            "originDenom": "ustars",
-            "originChainId": "stargaze-1"
+            "originDenom": "ibc/07FA7831E1920D0C87C9388F86B0108677F6ED0C9DE7E4063F05ED675192405C",
+            "originChainId": "carbon-1"
           },
           "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5": {
             "denom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
@@ -6382,8 +6382,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "terra-luna-2",
             "price": 0,
-            "originDenom": "uluna",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/2B58B8C147E8718EECCB3713271DF46DEE8A3A00A27242628604E31C2F370EF5",
+            "originChainId": "carbon-1"
           },
           "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5": {
             "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
@@ -6400,8 +6400,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+            "originChainId": "carbon-1"
           },
           "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F": {
             "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
@@ -6418,8 +6418,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "milkyway-staked-tia",
             "price": 0,
-            "originDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+            "originChainId": "carbon-1"
           },
           "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5": {
             "denom": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
@@ -6436,8 +6436,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "stride",
             "price": 0,
-            "originDenom": "ustrd",
-            "originChainId": "stride-1"
+            "originDenom": "ibc/3552CECB7BCE1891DB6070D37EC6E954C972B1400141308FCD85FD148BD06DE5",
+            "originChainId": "carbon-1"
           },
           "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364": {
             "denom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
@@ -6454,8 +6454,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "evmos",
             "price": 0,
-            "originDenom": "aevmos",
-            "originChainId": "evmos_9001-2"
+            "originDenom": "ibc/35E771B8682D828173F4B795F6C307780F96DC64D6F914FAE4CC9B4666F66364",
+            "originChainId": "carbon-1"
           },
           "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118": {
             "denom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
@@ -6472,8 +6472,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "iris-network",
             "price": 0,
-            "originDenom": "uiris",
-            "originChainId": "irishub-1"
+            "originDenom": "ibc/4E06CF24FEBFB3F5AF645377DCC0B70AA6183BAF6B918B8B6243FCDEB7D38118",
+            "originChainId": "carbon-1"
           },
           "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5": {
             "denom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
@@ -6490,8 +6490,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "kujira",
             "price": 0,
-            "originDenom": "ukuji",
-            "originChainId": "kaiyo-1"
+            "originDenom": "ibc/662914D0C1CEBCB070C68F061D035E8B10A07C79AB286E7342C85F3BE74612C5",
+            "originChainId": "carbon-1"
           },
           "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93": {
             "denom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
@@ -6508,8 +6508,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "stride-staked-osmo",
             "price": 0,
-            "originDenom": "stuosmo",
-            "originChainId": "stride-1"
+            "originDenom": "ibc/75249A18DEFBEFE55F83B1C70CAD234DF164F174C6BC51682EE92C2C81C18C93",
+            "originChainId": "carbon-1"
           },
           "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861": {
             "denom": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
@@ -6526,8 +6526,8 @@
             "chainId": "carbon-1",
             "coinGeckoId": "canto",
             "price": 0,
-            "originDenom": "acanto",
-            "originChainId": "canto_7700-1"
+            "originDenom": "ibc/92E974290AF9E2BC3AEEEC35305C8FD76AC5A22A74CF8D91270FDF5A1C41E861",
+            "originChainId": "carbon-1"
           },
           "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701": {
             "denom": "ibc/A4DB47A9D3CF9A068D454513891B526702455D3EF08FB9EB558C561F9DC2B701",
@@ -7728,8 +7728,8 @@
             "networkName": "Chihuahua",
             "chainId": "chihuahua-1",
             "price": 0,
-            "originDenom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/7D01429FF7542DBC41C261793B480B63FE7A83260C751989CC268BC7E852EB99",
+            "originChainId": "chihuahua-1"
           },
           "ibc/DBBDE1753EFA93F09C468DB5E384861BB741D4AA73E9C7032D139BB2C99FDD65": {
             "denom": "ibc/DBBDE1753EFA93F09C468DB5E384861BB741D4AA73E9C7032D139BB2C99FDD65",
@@ -7745,8 +7745,8 @@
             "networkName": "Chihuahua",
             "chainId": "chihuahua-1",
             "price": 0,
-            "originDenom": "factory/migaloo1etlu2h30tjvv8rfa4fwdc43c92f6ul5w9acxzk/uguppy",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/DBBDE1753EFA93F09C468DB5E384861BB741D4AA73E9C7032D139BB2C99FDD65",
+            "originChainId": "chihuahua-1"
           },
           "ibc/FA7112322CE7656DC84D441E49BAEAB9DC0AB3C7618A178A212CDE8B3F17C70B": {
             "denom": "ibc/FA7112322CE7656DC84D441E49BAEAB9DC0AB3C7618A178A212CDE8B3F17C70B",
@@ -7762,8 +7762,8 @@
             "networkName": "Chihuahua",
             "chainId": "chihuahua-1",
             "price": 0,
-            "originDenom": "uwhale",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/FA7112322CE7656DC84D441E49BAEAB9DC0AB3C7618A178A212CDE8B3F17C70B",
+            "originChainId": "chihuahua-1"
           },
           "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua": {
             "denom": "factory/chihuahua1mzcfzh4ufk2cta59pm9a6wdyvv8c4v5epqzj46/Chihuahua",
@@ -8556,7 +8556,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "4",
+            "originDenom": "ibc/EE9046745AEC0E8302CB7ED9D5AD67F528FB3B7AE044B247FB0FB293DBDA35E9",
             "originChainId": "centauri-1"
           },
           "ibc/3CC19CEC7E5A3E90E78A5A9ECC5A0E2F8F826A375CF1E096F4515CF09DA3E366": {
@@ -8573,7 +8573,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "79228162514264337593543950342",
+            "originDenom": "ibc/3CC19CEC7E5A3E90E78A5A9ECC5A0E2F8F826A375CF1E096F4515CF09DA3E366",
             "originChainId": "centauri-1"
           },
           "ibc/F3EC9F834E57DF704FA3AEAF14E8391C2E58397FE56960AD70E67562990D8265": {
@@ -8590,7 +8590,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "130",
+            "originDenom": "ibc/F3EC9F834E57DF704FA3AEAF14E8391C2E58397FE56960AD70E67562990D8265",
             "originChainId": "centauri-1"
           },
           "ibc/C58E5D2571042137CB68B1B9851C4E7211C05F7C2C79E21E0966AF0F063961F8": {
@@ -8607,7 +8607,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "2125",
+            "originDenom": "ibc/C58E5D2571042137CB68B1B9851C4E7211C05F7C2C79E21E0966AF0F063961F8",
             "originChainId": "centauri-1"
           },
           "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C": {
@@ -8624,7 +8624,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "wei",
+            "originDenom": "ibc/F9D075D4079FC56A9C49B601E54A45292C319D8B0E8CC0F8439041130AA7166C",
             "originChainId": "centauri-1"
           },
           "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533": {
@@ -8641,7 +8641,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "0x6b175474e89094c44da98b954eedeac495271d0f",
+            "originDenom": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
             "originChainId": "centauri-1"
           },
           "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29": {
@@ -8658,7 +8658,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
+            "originDenom": "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29",
             "originChainId": "centauri-1"
           },
           "ibc/4F20D68B51ED559F99C3CD658383E91F45486D884BF546E7B25337A058562CDB": {
@@ -8675,7 +8675,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "0x853d955acef822db058eb8505911ed77f175b99e",
+            "originDenom": "ibc/4F20D68B51ED559F99C3CD658383E91F45486D884BF546E7B25337A058562CDB",
             "originChainId": "centauri-1"
           },
           "ibc/458032E654E41DB91EF98F13E2CE4F9E0FE86BA3E0CDBEC074A854E9F5229A90": {
@@ -8692,7 +8692,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "0x5e8422345238f34275888049021821e8e08caa1f",
+            "originDenom": "ibc/458032E654E41DB91EF98F13E2CE4F9E0FE86BA3E0CDBEC074A854E9F5229A90",
             "originChainId": "centauri-1"
           },
           "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A": {
@@ -8709,7 +8709,7 @@
             "networkName": "Picasso",
             "chainId": "centauri-1",
             "price": 0,
-            "originDenom": "0xac3e018457b222d93114458476f3e3416abbe38f",
+            "originDenom": "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A",
             "originChainId": "centauri-1"
           },
           "ibc/5BD7F23FE150D9CF3BCC944DB829380BCC51A4022A131151C4D13B3AFAC2D1D9": {
@@ -11390,8 +11390,8 @@
             "chainId": "dydx-mainnet-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/8E27BA2D5493AF5636760E354E46004562C46AB7EC0CC4C1CA14E9E20E2545B5",
+            "originChainId": "dydx-mainnet-1"
           }
         }
       },
@@ -11699,8 +11699,8 @@
             "networkName": "Dymension Hub",
             "chainId": "dymension_1100-1",
             "price": 0,
-            "originDenom": "anim",
-            "originChainId": "nim_1122-1"
+            "originDenom": "ibc/FB53D1684F155CBB86D9CE917807E42B59209EBE3AD3A92E15EF66586C073942",
+            "originChainId": "dymension_1100-1"
           },
           "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF": {
             "denom": "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF",
@@ -11716,8 +11716,8 @@
             "networkName": "Dymension Hub",
             "chainId": "dymension_1100-1",
             "price": 0,
-            "originDenom": "amand",
-            "originChainId": "mande_18071918-1"
+            "originDenom": "ibc/5A26C8DC8DA66F4DD94326E67F94510188F5F7AFE2DB3933A0C823670E56EABF",
+            "originChainId": "dymension_1100-1"
           }
         }
       },
@@ -11797,8 +11797,8 @@
             "chainId": "dyson-mainnet-01",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+            "originChainId": "dyson-mainnet-01"
           },
           "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC": {
             "denom": "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC",
@@ -11815,8 +11815,8 @@
             "chainId": "dyson-mainnet-01",
             "coinGeckoId": "axlwbtc",
             "price": 0,
-            "originDenom": "wbtc-satoshi",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/9BF31153F7E37F687C75A2F310E7A4DB6E0512B065F709B5EB69FE828133AFAC",
+            "originChainId": "dyson-mainnet-01"
           },
           "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D": {
             "denom": "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D",
@@ -11833,8 +11833,8 @@
             "chainId": "dyson-mainnet-01",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/13DF61376C08483555C6D4C9203612086A1B23218EB5EBDBE609EEC7EFF2D82D",
+            "originChainId": "dyson-mainnet-01"
           }
         }
       },
@@ -12187,8 +12187,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "originChainId": "elys-1"
           },
           "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9": {
             "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
@@ -12205,7 +12205,7 @@
             "chainId": "elys-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
+            "originDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
             "originChainId": "elys-1"
           },
           "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3": {
@@ -12223,8 +12223,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "axelar",
             "price": 0,
-            "originDenom": "uaxl",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/9463E39D230614B313B487836D13A392BD1731928713D4C8427A083627048DB3",
+            "originChainId": "elys-1"
           },
           "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098": {
             "denom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
@@ -12241,8 +12241,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "akash-network",
             "price": 0,
-            "originDenom": "uakt",
-            "originChainId": "akashnet-2"
+            "originDenom": "ibc/799FDD409719A1122586A629AE8FCA17380351A51C1F47A80A1B8E7F2A491098",
+            "originChainId": "elys-1"
           },
           "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229": {
             "denom": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
@@ -12259,8 +12259,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "celestia"
+            "originDenom": "ibc/45D6B52CAD911A15BD9C2F5FFDA80E26AFCB05C7CD520070790ABC86D2B24229",
+            "originChainId": "elys-1"
           },
           "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A": {
             "denom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
@@ -12277,8 +12277,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "xion-2",
             "price": 0,
-            "originDenom": "uxion",
-            "originChainId": "xion-mainnet-1"
+            "originDenom": "ibc/6BFB09FE2464A7681645610F56BBEFF555A00B8AE146339FEB4609BF40FB0F4A",
+            "originChainId": "elys-1"
           },
           "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18": {
             "denom": "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18",
@@ -12295,8 +12295,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "saga-2",
             "price": 0,
-            "originDenom": "usaga",
-            "originChainId": "ssc-1"
+            "originDenom": "ibc/B88C39AD6C8550716DFD64C3AD28F355633554821249AC9F8BCC21341641CD18",
+            "originChainId": "elys-1"
           },
           "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421": {
             "denom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
@@ -12313,8 +12313,8 @@
             "chainId": "elys-1",
             "coinGeckoId": "ripple",
             "price": 0,
-            "originDenom": "axrp",
-            "originChainId": "xrplevm_1440000-1"
+            "originDenom": "ibc/8464A63954C0350A26C8588E20719F3A0AC8705E4CA0F7450B60C3F16B2D3421",
+            "originChainId": "elys-1"
           }
         }
       },
@@ -12990,8 +12990,8 @@
             "chainId": "evmos_9001-2",
             "coinGeckoId": "tether",
             "price": 0,
-            "originDenom": "erc20/tether/usdt",
-            "originChainId": "kava_2222-10"
+            "originDenom": "ibc/95F4898F70B1E3765715808C57E955034419200A7BB6DDECBEAA5FD3AA3DF7D5",
+            "originChainId": "evmos_9001-2"
           },
           "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9": {
             "denom": "erc20/0x655ecB57432CC1370f65e5dc2309588b71b473A9",
@@ -15897,8 +15897,8 @@
             "chainId": "injective-1",
             "coinGeckoId": "tether",
             "price": 0,
-            "originDenom": "erc20/tether/usdt",
-            "originChainId": "kava_2222-10"
+            "originDenom": "ibc/4ABBEF4C8926DDDB320AE5188CFD63267ABBCEFC0583E4AE05D6E5AA2401DDAB",
+            "originChainId": "injective-1"
           },
           "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7": {
             "denom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
@@ -16035,8 +16035,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/DD648F5D3CDA56D0D8D8820CF703D246B9FC4007725D8B38D23A21FF1A1477E3",
+            "originChainId": "injective-1"
           },
           "peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2": {
             "denom": "peggy0xd73175f9eb15eee81745d367ae59309Ca2ceb5e2",
@@ -16087,8 +16087,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/A0C5AD197FECAF6636F589071338DC7ECD6B0809CD3A5AB131EAAA5395E7E5E8",
+            "originChainId": "injective-1"
           },
           "inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88": {
             "denom": "inj1sudjgsyhufqu95yp7rqad3g78ws8g6htf32h88",
@@ -16156,8 +16156,8 @@
             "chainId": "injective-1",
             "coinGeckoId": "astroport-fi",
             "price": 0,
-            "originDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
-            "originChainId": "neutron-1"
+            "originDenom": "ibc/063F4461F7317CFF10F50AB044E44932D22AAD84FA7107082744946E6DB7B7A8",
+            "originChainId": "injective-1"
           },
           "inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f": {
             "denom": "inj1rmzufd7h09sqfrre5dtvu5d09ta7c0t4jzkr2f",
@@ -16310,8 +16310,8 @@
             "chainId": "injective-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/2CBC2EA121AE42563B08028466F37B600F2D7D4282342DE938283CC3FB2BC00E",
+            "originChainId": "injective-1"
           },
           "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN": {
             "denom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
@@ -16378,8 +16378,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/5339B0D20986A7C20C2548ED9D6B8DE47BB64E03ABFD051B7792E713036EA20C",
+            "originChainId": "injective-1"
           },
           "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej": {
             "denom": "cw20:inj19vy83ne9tzta2yqynj8yg7dq9ghca6yqn9hyej",
@@ -16429,8 +16429,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "uwhale",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/D6E6A20ABDD600742D22464340A7701558027759CE14D12590F8EA869CCCF445",
+            "originChainId": "injective-1"
           },
           "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz": {
             "denom": "inj1dafy7fv7qczzatd98dv8hekx6ssckrflswpjaz",
@@ -16463,8 +16463,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
-            "originChainId": "wormchain"
+            "originDenom": "ibc/A8B0B746B5AB736C2D8577259B510D56B8AF598008F68041E3D634BCDE72BE97",
+            "originChainId": "injective-1"
           },
           "inj1zcwr03uqw57g88nqvgpwfkazwutpqz9kplny4s": {
             "denom": "inj1zcwr03uqw57g88nqvgpwfkazwutpqz9kplny4s",
@@ -16616,8 +16616,8 @@
             "networkName": "Injective",
             "chainId": "injective-1",
             "price": 0,
-            "originDenom": "transfer/08-wasm-1369/0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/0E293A7622DC9A6439DB60E6D234B5AF446962E27CA3AB44D0590603DFF6968E",
+            "originChainId": "injective-1"
           },
           "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd": {
             "denom": "factory/inj1n636d9gzrqggdk66n2f97th0x8yuhfrtx520e7/ausd",
@@ -16986,7 +16986,7 @@
             "networkName": "Intento",
             "chainId": "intento-1",
             "price": 0,
-            "originDenom": "uatom",
+            "originDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
             "originChainId": "intento-1"
           },
           "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23": {
@@ -17003,8 +17003,8 @@
             "networkName": "Intento",
             "chainId": "intento-1",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+            "originChainId": "intento-1"
           }
         }
       },
@@ -17577,8 +17577,8 @@
             "chainId": "juno-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "originChainId": "juno-1"
           },
           "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr": {
             "denom": "cw20:juno168ctmpyppk90d34p3jjy658zf5a5l3w8wk35wht6ccqj4mr0yv8s4j5awr",
@@ -18806,8 +18806,8 @@
             "chainId": "juno-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/4A482FA914A4B9B05801ED81C33713899F322B24F76A06F4B8FE872485EA22FF",
+            "originChainId": "juno-1"
           },
           "ibc/F0C440C8040E2FCCAC621D32D3A00D9B347C989D52CE869A91CB34D07B0021D2": {
             "denom": "ibc/F0C440C8040E2FCCAC621D32D3A00D9B347C989D52CE869A91CB34D07B0021D2",
@@ -18823,8 +18823,8 @@
             "networkName": "Juno",
             "chainId": "juno-1",
             "price": 0,
-            "originDenom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/F0C440C8040E2FCCAC621D32D3A00D9B347C989D52CE869A91CB34D07B0021D2",
+            "originChainId": "juno-1"
           },
           "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind": {
             "denom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
@@ -18908,8 +18908,8 @@
             "networkName": "Juno",
             "chainId": "juno-1",
             "price": 0,
-            "originDenom": "uwhale",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/3A6ADE78FB8169C034C29C4F2E1A61CE596EC8235366F22381D981A98F1F5A5C",
+            "originChainId": "juno-1"
           },
           "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr": {
             "denom": "factory/juno1zjqsel42pj5e6wvxxw7hjs9gn06yqz4m3ffyua3x2v44m4l8trjsr92q9s/empr",
@@ -19138,8 +19138,8 @@
             "networkName": "Kava",
             "chainId": "kava_2222-10",
             "price": 0,
-            "originDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
-            "originChainId": "evmos_9001-2"
+            "originDenom": "ibc/D4F1F74C6B90168E05B974F2EBB5938D18704B73DE273CAACF7E96F7821B2C3D",
+            "originChainId": "kava_2222-10"
           }
         }
       },
@@ -19656,8 +19656,8 @@
             "chainId": "luwak-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+            "originChainId": "luwak-1"
           },
           "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0": {
             "denom": "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0",
@@ -19673,8 +19673,8 @@
             "networkName": "Kopi",
             "chainId": "luwak-1",
             "price": 0,
-            "originDenom": "peggy0xdAC17F958D2ee523a2206206994597C13D831ec7",
-            "originChainId": "injective-1"
+            "originDenom": "ibc/D8A36AE90F20FE4843A8D249B1BCF0CCDDE35C4B605C8DED57BED20C639162D0",
+            "originChainId": "luwak-1"
           },
           "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255": {
             "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
@@ -19691,8 +19691,8 @@
             "chainId": "luwak-1",
             "coinGeckoId": "injective-protocol",
             "price": 0,
-            "originDenom": "inj",
-            "originChainId": "injective-1"
+            "originDenom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+            "originChainId": "luwak-1"
           },
           "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986": {
             "denom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
@@ -19709,8 +19709,8 @@
             "chainId": "luwak-1",
             "coinGeckoId": "terra-luna-2",
             "price": 0,
-            "originDenom": "uluna",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/DA59C009A0B3B95E0549E6BF7B075C8239285989FF457A8EDDBB56F10B2A6986",
+            "originChainId": "luwak-1"
           },
           "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955": {
             "denom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
@@ -19727,8 +19727,8 @@
             "chainId": "luwak-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/376222D6D9DAE23092E29740E56B758580935A6D77C24C2ABD57A6A78A1F3955",
+            "originChainId": "luwak-1"
           },
           "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78": {
             "denom": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
@@ -19745,8 +19745,8 @@
             "chainId": "luwak-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
+            "originChainId": "luwak-1"
           },
           "uasusdtinj": {
             "denom": "uasusdtinj",
@@ -20284,8 +20284,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "tether",
             "price": 0,
-            "originDenom": "erc20/tether/usdt",
-            "originChainId": "kava_2222-10"
+            "originDenom": "ibc/20014F963CC9E6488B299622F87B60C6DE71632864859EC08B4753478DAB2BB8",
+            "originChainId": "kaiyo-1"
           },
           "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn": {
             "denom": "factory/kujira1sc6a0347cc5q3k890jj0pf3ylx2s38rh4sza4t/ufuzn",
@@ -20455,8 +20455,8 @@
             "networkName": "Kujira",
             "chainId": "kaiyo-1",
             "price": 0,
-            "originDenom": "factory/wormhole14ejqjyq8um4p3xfqj74yld5waqljf88fz25yxnma0cngspxe3les00fpjx/8sYgCzLRJC3J7qPn2bNbx6PiGcarhyx8rBhVaNnfvHCA",
-            "originChainId": "wormchain"
+            "originDenom": "ibc/E5CA126979E2FFB4C70C072F8094D07ECF27773B37623AD2BF7582AD0726F0F3",
+            "originChainId": "kaiyo-1"
           },
           "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10": {
             "denom": "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
@@ -20473,8 +20473,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "evmos",
             "price": 0,
-            "originDenom": "aevmos",
-            "originChainId": "evmos_9001-2"
+            "originDenom": "ibc/F3AA7EF362EC5E791FE78A0F4CCC69FEE1F9A7485EB1A8CAB3F6601C00522F10",
+            "originChainId": "kaiyo-1"
           },
           "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2": {
             "denom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
@@ -20490,8 +20490,8 @@
             "networkName": "Kujira",
             "chainId": "kaiyo-1",
             "price": 0,
-            "originDenom": "wavax-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/004EBF085BBED1029326D56BE8A2E67C08CECE670A94AC1947DF413EF5130EB2",
+            "originChainId": "kaiyo-1"
           },
           "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9": {
             "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
@@ -20508,8 +20508,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+            "originChainId": "kaiyo-1"
           },
           "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23": {
             "denom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
@@ -20526,8 +20526,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/47BD209179859CDE4A2806763D7189B6E6FE13A17880FE2B42DE1E6C1E329E23",
+            "originChainId": "kaiyo-1"
           },
           "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F": {
             "denom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
@@ -20544,8 +20544,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/295548A78785A1007F232DE286149A6FF512F180AF5657780FC89C009E2C348F",
+            "originChainId": "kaiyo-1"
           },
           "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07": {
             "denom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
@@ -20562,8 +20562,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "comdex",
             "price": 0,
-            "originDenom": "ucmdx",
-            "originChainId": "comdex-1"
+            "originDenom": "ibc/3607EB5B5E64DD1C0E12E07F077FF470D5BC4706AFCBC98FE1BA960E5AE4CE07",
+            "originChainId": "kaiyo-1"
           },
           "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5": {
             "denom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
@@ -20580,8 +20580,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "juno-network",
             "price": 0,
-            "originDenom": "ujuno",
-            "originChainId": "juno-1"
+            "originDenom": "ibc/EFF323CC632EC4F747C61BCE238A758EFDB7699C3226565F7C20DA06509D59A5",
+            "originChainId": "kaiyo-1"
           },
           "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7": {
             "denom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
@@ -20598,8 +20598,8 @@
             "chainId": "kaiyo-1",
             "coinGeckoId": "axlweth",
             "price": 0,
-            "originDenom": "weth-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/1B38805B1C75352B28169284F96DF56BDEBD9E8FAC005BDCC8CF0378C82AA8E7",
+            "originChainId": "kaiyo-1"
           },
           "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2": {
             "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -23060,8 +23060,8 @@
             "chainId": "manifest-ledger-mainnet",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "originChainId": "manifest-ledger-mainnet"
           }
         }
       },
@@ -23779,7 +23779,7 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "cw20:terra17aj4ty4sz4yhgm08na8drc0v03v2jwr3waxcqrwhajj729zhl7zqnpc0ml",
+            "originDenom": "ibc/40C29143BF4153B365089E40E437B7AA819672646C45BB0A5F1E10915A0B6708",
             "originChainId": "migaloo-1"
           },
           "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/urac": {
@@ -23832,8 +23832,8 @@
             "chainId": "migaloo-1",
             "coinGeckoId": "tether",
             "price": 0,
-            "originDenom": "erc20/tether/usdt",
-            "originChainId": "kava_2222-10"
+            "originDenom": "ibc/86A25A8A327164AE7C68A29B6ED745C7EEDC36E260A6666F33A6407BECEC4737",
+            "originChainId": "migaloo-1"
           },
           "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v": {
             "denom": "cw20:migaloo10nucfm2zqgzqmy7y7ls398t58pjt9cwjsvpy88y2nvamtl34rgmqt5em2v",
@@ -23935,8 +23935,8 @@
             "chainId": "migaloo-1",
             "coinGeckoId": "terra-luna-2",
             "price": 0,
-            "originDenom": "uluna",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/4627AD2524E3E0523047E35BB76CC90E37D9D57ACF14F0FCBCEB2480705F3CB8",
+            "originChainId": "migaloo-1"
           },
           "ibc/44C29C91F202E20C8E28DFB1FA89B725C54171CD77B8948836C72E7A97E4A018": {
             "denom": "ibc/44C29C91F202E20C8E28DFB1FA89B725C54171CD77B8948836C72E7A97E4A018",
@@ -23952,8 +23952,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
-            "originChainId": "columbus-5"
+            "originDenom": "ibc/44C29C91F202E20C8E28DFB1FA89B725C54171CD77B8948836C72E7A97E4A018",
+            "originChainId": "migaloo-1"
           },
           "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash": {
             "denom": "factory/migaloo1r9x8fz4alekzr78k42rpmr9unpa7egsldpqeynmwl2nfvzexue9sn8l5rg/gash",
@@ -24003,8 +24003,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "cw20:terra1wez9puj43v4s25vrex7cv3ut3w75w4h6j5e537sujyuxj0r5ne2qp9uwl9",
-            "originChainId": "columbus-5"
+            "originDenom": "ibc/B1BD4EF49A2E051EFC85E8C6A932B559CE62F9519E0E83BE29A8F0BDF89BD1D3",
+            "originChainId": "migaloo-1"
           },
           "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/ugrac": {
             "denom": "factory/migaloo1eqntnl6tzcj9h86psg4y4h6hh05g2h9nj8e09l/ugrac",
@@ -24037,8 +24037,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/juno1h6y8tkceau4d8zyv5aa0fwdj2pa2y0gz2hx0tq/uwind",
-            "originChainId": "juno-1"
+            "originDenom": "ibc/721B42229246EEDA7A656DB17E494127F91E84AD63E21852737628321892A928",
+            "originChainId": "migaloo-1"
           },
           "ibc/0E1B883A15D5FCA533332CBAB1A672934C3936920399F2A3EB4F438E3EBAD0E9": {
             "denom": "ibc/0E1B883A15D5FCA533332CBAB1A672934C3936920399F2A3EB4F438E3EBAD0E9",
@@ -24054,8 +24054,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/0E1B883A15D5FCA533332CBAB1A672934C3936920399F2A3EB4F438E3EBAD0E9",
+            "originChainId": "migaloo-1"
           },
           "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH": {
             "denom": "factory/migaloo1nsskhvvh0msm7d5ke2kfg24a8d4jecsnxd28s27h0uz5kf9ap60shlqmcl/ampGASH",
@@ -24088,8 +24088,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/inj1a6xdezq7a94qwamec6n6cnup02nvewvjtz6h6e/SYN",
-            "originChainId": "injective-1"
+            "originDenom": "ibc/33E97105B5C1F48CB7D6400F4673F9B3699AC59EDB621CCCD57D5D480E0C83B6",
+            "originChainId": "migaloo-1"
           },
           "ibc/D8C6D71032EC7CC4C9CCD0FF709CF87D34A7311FE5491E70F7EDE2351D189C10": {
             "denom": "ibc/D8C6D71032EC7CC4C9CCD0FF709CF87D34A7311FE5491E70F7EDE2351D189C10",
@@ -24106,8 +24106,8 @@
             "chainId": "migaloo-1",
             "coinGeckoId": "dragon-coin-2",
             "price": 0,
-            "originDenom": "udgn",
-            "originChainId": "dungeon-1"
+            "originDenom": "ibc/D8C6D71032EC7CC4C9CCD0FF709CF87D34A7311FE5491E70F7EDE2351D189C10",
+            "originChainId": "migaloo-1"
           },
           "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP": {
             "denom": "factory/migaloo1axtz4y7jyvdkkrflknv9dcut94xr5k8m6wete4rdrw4fuptk896su44x2z/uLP",
@@ -24157,8 +24157,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/1/stable/amplp",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/9E83DB463C088184B6FBB5897F78D8431490DF76F8E1928283FB389A0DE9542C",
+            "originChainId": "migaloo-1"
           },
           "ibc/F9905FB2922CEE27015C339B2B870FB854314AA1CBC2D3F56C5E8BA2691C3B61": {
             "denom": "ibc/F9905FB2922CEE27015C339B2B870FB854314AA1CBC2D3F56C5E8BA2691C3B61",
@@ -24174,8 +24174,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/21/single/amplp",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/F9905FB2922CEE27015C339B2B870FB854314AA1CBC2D3F56C5E8BA2691C3B61",
+            "originChainId": "migaloo-1"
           },
           "ibc/4F5CB28CE3E351058D4CE671EAF935CA6D728C6DF34C1AC662B495310FECBBDA": {
             "denom": "ibc/4F5CB28CE3E351058D4CE671EAF935CA6D728C6DF34C1AC662B495310FECBBDA",
@@ -24191,8 +24191,8 @@
             "networkName": "Migaloo",
             "chainId": "migaloo-1",
             "price": 0,
-            "originDenom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/30/single/amplp",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/4F5CB28CE3E351058D4CE671EAF935CA6D728C6DF34C1AC662B495310FECBBDA",
+            "originChainId": "migaloo-1"
           }
         }
       },
@@ -24320,8 +24320,8 @@
             "chainId": "milkyway",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "celestia"
+            "originDenom": "ibc/F1183DB3D428313A6FD329DF18219F9D6B83257D07D292EA9EC1D877E89EC2B0",
+            "originChainId": "milkyway"
           },
           "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5": {
             "denom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
@@ -24338,8 +24338,8 @@
             "chainId": "milkyway",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/6C349F0EB135C5FA99301758F35B87DB88403D690E5E314AB080401FEE4066E5",
+            "originChainId": "milkyway"
           },
           "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F": {
             "denom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
@@ -24356,8 +24356,8 @@
             "chainId": "milkyway",
             "coinGeckoId": "milkyway-staked-tia",
             "price": 0,
-            "originDenom": "factory/osmo1f5vfcph2dvfeqcqkhetwv75fda69z7e5c2dldm3kvgj23crkv6wqcn47a0/umilkTIA",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/16065EE5282C5217685C8F084FC44864C25C706AC37356B0D62811D50B96920F",
+            "originChainId": "milkyway"
           },
           "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157": {
             "denom": "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157",
@@ -24373,8 +24373,8 @@
             "networkName": "MilkyWay",
             "chainId": "milkyway",
             "price": 0,
-            "originDenom": "stutia",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/8D4FC51F696E03711B9B37A5787FB89BD2DDBAF788813478B002D552A12F9157",
+            "originChainId": "milkyway"
           },
           "ibc/4795C86F72EC2CB54E885A4A5B401BED9C333E008311ED9C4DE01BF546B44A21": {
             "denom": "ibc/4795C86F72EC2CB54E885A4A5B401BED9C333E008311ED9C4DE01BF546B44A21",
@@ -24390,8 +24390,8 @@
             "networkName": "MilkyWay",
             "chainId": "milkyway",
             "price": 0,
-            "originDenom": "factory/neutron1ut4c6pv4u6vyu97yw48y8g7mle0cat54848v6m97k977022lzxtsaqsgmq/udtia",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/4795C86F72EC2CB54E885A4A5B401BED9C333E008311ED9C4DE01BF546B44A21",
+            "originChainId": "milkyway"
           },
           "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4": {
             "denom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
@@ -24408,8 +24408,8 @@
             "chainId": "milkyway",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/F5FABF52B54E65064B57BF6DBD8E5FAD22CEE9F4B8A57ADBB20CCD0173AA72A4",
+            "originChainId": "milkyway"
           },
           "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN": {
             "denom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
@@ -24976,8 +24976,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+            "originChainId": "neutron-1"
           },
           "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349": {
             "denom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
@@ -24994,8 +24994,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "originChainId": "neutron-1"
           },
           "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7": {
             "denom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
@@ -25012,8 +25012,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "celestia"
+            "originDenom": "ibc/773B4D0A3CD667B2275D5A4A7A2F0909C0BA0F4059C0B9181E680DDF4965DCC7",
+            "originChainId": "neutron-1"
           },
           "ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7": {
             "denom": "ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7",
@@ -25029,8 +25029,8 @@
             "networkName": "Neutron",
             "chainId": "neutron-1",
             "price": 0,
-            "originDenom": "uelys",
-            "originChainId": "elys-1"
+            "originDenom": "ibc/28FC965E05DB1A4C0A6DE6B720F67AFF8CAB571FE262824976DDDFF49A4BAAF7",
+            "originChainId": "neutron-1"
           },
           "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe": {
             "denom": "factory/neutron14henrqx9y328fjrdvz6l6d92r0t7g5hk86q5nd/uastropepe",
@@ -25081,8 +25081,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "dydx-chain",
             "price": 0,
-            "originDenom": "adydx",
-            "originChainId": "dydx-mainnet-1"
+            "originDenom": "ibc/2CB87BCE0937B1D1DFCEE79BE4501AAF3C265E923509AEAC410AD85D27F35130",
+            "originChainId": "neutron-1"
           },
           "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt": {
             "denom": "factory/neutron1p8d89wvxyjcnawmgw72klknr3lg9gwwl6ypxda/newt",
@@ -25152,7 +25152,7 @@
             "chainId": "neutron-1",
             "coinGeckoId": "astroport-fi",
             "price": 0,
-            "originDenom": "cw20:terra1nsuqsk6kh58ulczatwev87ttq2z6r3pusulg9r24mfj2fvtzd4uq3exn26",
+            "originDenom": "ibc/5751B8BCDA688FD0A8EC0B292EEF1CDEAB4B766B63EC632778B196D317C40C3A",
             "originChainId": "neutron-1"
           },
           "factory/neutron1tklm6cvr2wxg8k65t8gh5ewslnzdfd5fsk0w3f/corgi": {
@@ -25272,8 +25272,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "nolus",
             "price": 0,
-            "originDenom": "unls",
-            "originChainId": "pirin-1"
+            "originDenom": "ibc/6C9E6701AC217C0FC7D74B0F7A6265B9B4E3C3CDA6E80AADE5F950A8F52F9972",
+            "originChainId": "neutron-1"
           },
           "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard": {
             "denom": "factory/neutron1t5qrjtyryh8gzt800qr5vylhh2f8cmx4wmz9mc/ugoddard",
@@ -25374,8 +25374,8 @@
             "networkName": "Neutron",
             "chainId": "neutron-1",
             "price": 0,
-            "originDenom": "factory/osmo1pfyxruwvtwk00y8z06dh2lqjdj82ldvy74wzm3/WOSMO",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/7DA39F5140741177846FCF3CFAB14450EE7F57B7794E5A94BEF73825D3741958",
+            "originChainId": "neutron-1"
           },
           "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv": {
             "denom": "neutron1uqvse8fdrd9tam47f2jhy9m6al6xxtqpc83f9pdnz5gdle4swc0spfnctv",
@@ -25408,8 +25408,8 @@
             "networkName": "Neutron",
             "chainId": "neutron-1",
             "price": 0,
-            "originDenom": "factory/osmo10n8rv8npx870l69248hnp6djy6pll2yuzzn9x8/BADKID",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/9F8417FBA11E5E01F7F85DDD48C400EB746E95084C11706041663845B4A700A8",
+            "originChainId": "neutron-1"
           },
           "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel": {
             "denom": "factory/neutron1w0pz4mjw7n96kkragj8etgfgakg5vw9lzg77wq/cartel",
@@ -25460,8 +25460,8 @@
             "chainId": "neutron-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/B559A80D62249C8AA07A380E2A2BEA6E5CA9A6F079C912C3A9E9B494105E4F81",
+            "originChainId": "neutron-1"
           },
           "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD": {
             "denom": "factory/neutron133xakkrfksq39wxy575unve2nyehg5npx75nph/WEIRD",
@@ -26130,8 +26130,8 @@
             "chainId": "cataclysm-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "originChainId": "cataclysm-1"
           },
           "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv": {
             "denom": "tf/nibi1vetfuua65frvf6f458xgtjerf0ra7wwjykrdpuyn0jur5x07awxsfka0ga/axv",
@@ -26454,8 +26454,8 @@
             "chainId": "noble-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/EF48E6B1A1A19F47ECAEA62F5670C37C0580E86A9E88498B7E393EB6F49F33C0",
+            "originChainId": "noble-1"
           },
           "uusdc": {
             "denom": "uusdc",
@@ -27985,8 +27985,8 @@
             "chainId": "omniflixhub-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/A8C2D23A1E6F95DA4E48BA349667E322BD7A6C996D8A4AAE8BA72E190F3D1477",
+            "originChainId": "omniflixhub-1"
           },
           "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B": {
             "denom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
@@ -28003,8 +28003,8 @@
             "chainId": "omniflixhub-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/0471F1C4E7AFD3F07702BEF6DC365268D64570F7C1FDC98EA6098DD6DE59817B",
+            "originChainId": "omniflixhub-1"
           },
           "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274": {
             "denom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
@@ -28021,8 +28021,8 @@
             "chainId": "omniflixhub-1",
             "coinGeckoId": "inter-stable-token",
             "price": 0,
-            "originDenom": "uist",
-            "originChainId": "agoric-3"
+            "originDenom": "ibc/43D3010F4CA111744AC8B68E460BC95E565C32928A267FA2B30609C04C10B274",
+            "originChainId": "omniflixhub-1"
           },
           "ibc/AC4C84DD7D3732CFA95A420247FAD5179BE4F42E5635E2BF0A62C67E2E2FA4A9": {
             "denom": "ibc/AC4C84DD7D3732CFA95A420247FAD5179BE4F42E5635E2BF0A62C67E2E2FA4A9",
@@ -28039,8 +28039,8 @@
             "chainId": "omniflixhub-1",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/AC4C84DD7D3732CFA95A420247FAD5179BE4F42E5635E2BF0A62C67E2E2FA4A9",
+            "originChainId": "omniflixhub-1"
           },
           "ibc/6901B45BC2C5418ED8B3C3C9F9A641A3DAF2D234230AFA9DF32D8F9F9434721C": {
             "denom": "ibc/6901B45BC2C5418ED8B3C3C9F9A641A3DAF2D234230AFA9DF32D8F9F9434721C",
@@ -28057,8 +28057,8 @@
             "chainId": "omniflixhub-1",
             "coinGeckoId": "akash-network",
             "price": 0,
-            "originDenom": "uakt",
-            "originChainId": "akashnet-2"
+            "originDenom": "ibc/6901B45BC2C5418ED8B3C3C9F9A641A3DAF2D234230AFA9DF32D8F9F9434721C",
+            "originChainId": "omniflixhub-1"
           },
           "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630": {
             "denom": "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630",
@@ -28074,8 +28074,8 @@
             "networkName": "OmniFlix",
             "chainId": "omniflixhub-1",
             "price": 0,
-            "originDenom": "factory/chihuahua1x4q2vkrz4dfgd9hcw0p5m2f2nuv2uqmt9xr8k2/achihuahuawifhat",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/9F28238BDB687A86681B30764BA1437E079C3565D04FDD7862055A83F7E5C630",
+            "originChainId": "omniflixhub-1"
           },
           "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata": {
             "denom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
@@ -28109,8 +28109,8 @@
             "networkName": "OmniFlix",
             "chainId": "omniflixhub-1",
             "price": 0,
-            "originDenom": "uccd-core1hnwd78wappjmgygyzr9mwspm7uzytrkcp9pfvv",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/1F8E19CD32FC6B2DBA825E7C3B370004BF5041BAB1099FC1BEBD6054FD5E8D08",
+            "originChainId": "omniflixhub-1"
           }
         }
       },
@@ -28492,8 +28492,8 @@
             "chainId": "Oraichain",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/A2E2EEC9057A4A1C2C0A6A4C78B0239118DF5F278830F50B4A6BDD7A66506B78",
+            "originChainId": "Oraichain"
           },
           "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC": {
             "denom": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
@@ -28510,8 +28510,8 @@
             "chainId": "Oraichain",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/9C4DCD21B48231D0BC2AC3D1B74A864746B37E4292694C93C617324250D002FC",
+            "originChainId": "Oraichain"
           },
           "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E": {
             "denom": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E",
@@ -28528,8 +28528,8 @@
             "chainId": "Oraichain",
             "coinGeckoId": "injective-protocol",
             "price": 0,
-            "originDenom": "inj",
-            "originChainId": "injective-1"
+            "originDenom": "ibc/49D820DFDE9F885D7081725A58202ABA2F465CAEE4AFBC683DFB79A8E013E83E",
+            "originChainId": "Oraichain"
           },
           "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49": {
             "denom": "cw20:orai19rtmkk6sn4tppvjmp5d5zj6gfsdykrl5rw2euu5gwur3luheuuusesqn49",
@@ -30334,8 +30334,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/D189335C6E4A68B513C10AB227BF1C1D38C746766278BA3EEB4FB14124F1D858",
+            "originChainId": "osmosis-1"
           },
           "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5": {
             "denom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
@@ -30352,8 +30352,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "axlweth",
             "price": 0,
-            "originDenom": "weth-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/EA1D43981D5C9A1C4AAEA9C23BB1D4FA126BA9BC7020A25E0AE4AA841EA25DC5",
+            "originChainId": "osmosis-1"
           },
           "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F": {
             "denom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
@@ -30370,8 +30370,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "axlwbtc",
             "price": 0,
-            "originDenom": "wbtc-satoshi",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/D1542AA8762DB13087D8364F3EA6509FD6F009A34F00426AF9E4F9FA85CBBF1F",
+            "originChainId": "osmosis-1"
           },
           "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4": {
             "denom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
@@ -30388,8 +30388,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "axelar-usdt",
             "price": 0,
-            "originDenom": "uusdt",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/8242AD24008032E457D2E12D46588FD39FB54FB29680C6C7663D296B383C37C4",
+            "originChainId": "osmosis-1"
           },
           "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7": {
             "denom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
@@ -30405,8 +30405,8 @@
             "networkName": "Osmosis",
             "chainId": "osmosis-1",
             "price": 0,
-            "originDenom": "dai-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/0CD3A0285E1341859B5E86B6AB7682F023D03E97607CCC1DC95706411D866DF7",
+            "originChainId": "osmosis-1"
           },
           "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D": {
             "denom": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
@@ -30422,8 +30422,8 @@
             "networkName": "Osmosis",
             "chainId": "osmosis-1",
             "price": 0,
-            "originDenom": "busd-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/6329DD8CF31A334DD5BE3F68C846C9FE313281362B37686A62343BAC1EB1546D",
+            "originChainId": "osmosis-1"
           },
           "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2": {
             "denom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
@@ -30440,8 +30440,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "originChainId": "osmosis-1"
           },
           "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1": {
             "denom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
@@ -30458,8 +30458,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "crypto-com-chain",
             "price": 0,
-            "originDenom": "basecro",
-            "originChainId": "crypto-org-chain-mainnet-1"
+            "originDenom": "ibc/E6931F78057F7CC5DA0FD6CEF82FF39373A6E0452BF1FD76910B93292CF356C1",
+            "originChainId": "osmosis-1"
           },
           "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D": {
             "denom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
@@ -30475,8 +30475,8 @@
             "networkName": "Osmosis",
             "chainId": "osmosis-1",
             "price": 0,
-            "originDenom": "wbnb-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/F4A070A6D78496D53127EA85C094A9EC87DFC1F36071B8CCDDBD020F933D213D",
+            "originChainId": "osmosis-1"
           },
           "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB": {
             "denom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
@@ -30492,8 +30492,8 @@
             "networkName": "Osmosis",
             "chainId": "osmosis-1",
             "price": 0,
-            "originDenom": "wmatic-wei",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/AB589511ED0DD5FA56171A39978AFBF1371DB986EC1C3526CE138A16377E39BB",
+            "originChainId": "osmosis-1"
           },
           "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373": {
             "denom": "ibc/6F62F01D913E3FFE472A38C78235B8F021B511BC6596ADFF02615C8F83D3B373",
@@ -32683,8 +32683,8 @@
             "chainId": "osmosis-1",
             "coinGeckoId": "stkatom",
             "price": 0,
-            "originDenom": "stk/uatom",
-            "originChainId": "core-1"
+            "originDenom": "ibc/CAA179E40F0266B0B29FB5EAA288FB9212E628822265D4141EBD1C47C3CBFCBC",
+            "originChainId": "osmosis-1"
           },
           "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D": {
             "denom": "ibc/E27CD305D33F150369AB526AEB6646A76EC3FFB1A6CA58A663B5DE657A89D55D",
@@ -41487,8 +41487,8 @@
             "networkName": "Planq",
             "chainId": "planq_7070-2",
             "price": 0,
-            "originDenom": "cw20:juno1qmlchtmjpvu0cr7u0tad2pq8838h6farrrjzp39eqa9xswg7teussrswlq",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/26B4B4BBF3C8D5DB1ADE993CCD865A7CC608B2BAEF20E0166F18B84E32184F63",
+            "originChainId": "planq_7070-2"
           },
           "erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648": {
             "denom": "erc20/0xF630B96760B91f6FCbE8b3C24f2786AcA3D03648",
@@ -41856,8 +41856,8 @@
             "chainId": "pio-mainnet-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/616E26A85AD20A3DDEAEBDDE7262E3BA9356C557BC15CACEA86768D7D51FA703",
+            "originChainId": "pio-mainnet-1"
           }
         }
       },
@@ -42059,8 +42059,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/27394FB092D2ECCD56123C74F36E4C1F926001CEADA9CA97EA622B25F41E5EB2",
+            "originChainId": "pryzm-1"
           },
           "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255": {
             "denom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
@@ -42077,8 +42077,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "injective-protocol",
             "price": 0,
-            "originDenom": "inj",
-            "originChainId": "injective-1"
+            "originDenom": "ibc/DE63D8AC34B752FB7D4CAA7594145EDE1C9FC256AC6D4043D0F12310EB8FC255",
+            "originChainId": "pryzm-1"
           },
           "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B": {
             "denom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
@@ -42095,8 +42095,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/13B2C536BB057AC79D5616B8EA1B9540EC1F2170718CAFF6F0083C966FFFED0B",
+            "originChainId": "pryzm-1"
           },
           "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676": {
             "denom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
@@ -42113,8 +42113,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "celestia"
+            "originDenom": "ibc/BF28D9C17E0306B194D50F51C3B2590BEAD15E04E03ADD34C3A26E62D85C9676",
+            "originChainId": "pryzm-1"
           },
           "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395": {
             "denom": "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
@@ -42131,8 +42131,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "terra-luna-2",
             "price": 0,
-            "originDenom": "uluna",
-            "originChainId": "phoenix-1"
+            "originDenom": "ibc/B8AF5D92165F35AB31F3FC7C7B444B9D240760FA5D406C49D24862BD0284E395",
+            "originChainId": "pryzm-1"
           },
           "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65": {
             "denom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
@@ -42149,8 +42149,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/BFAAB7870A9AAABF64A7366DAAA0B8E5065EAA1FCE762F45677DC24BE796EF65",
+            "originChainId": "pryzm-1"
           },
           "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B": {
             "denom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
@@ -42167,8 +42167,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "axlusdc",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "axelar-dojo-1"
+            "originDenom": "ibc/B9E4FD154C92D3A23BEA029906C4C5FF2FE74CB7E3A058290B77197A263CF88B",
+            "originChainId": "pryzm-1"
           },
           "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858": {
             "denom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
@@ -42185,8 +42185,8 @@
             "chainId": "pryzm-1",
             "coinGeckoId": "dydx-chain",
             "price": 0,
-            "originDenom": "adydx",
-            "originChainId": "dydx-mainnet-1"
+            "originDenom": "ibc/F8CA5236869F819BC006EEF088E67889A26E4140339757878F0F4E229CDDA858",
+            "originChainId": "pryzm-1"
           },
           "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F": {
             "denom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
@@ -42202,8 +42202,8 @@
             "networkName": "Pryzm",
             "chainId": "pryzm-1",
             "price": 0,
-            "originDenom": "stutia",
-            "originChainId": "stride-1"
+            "originDenom": "ibc/FA78980867B7E87F382CDA00275C55DDC248CABC7DEE27AC6868CCF97DD5E02F",
+            "originChainId": "pryzm-1"
           },
           "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE": {
             "denom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
@@ -42219,8 +42219,8 @@
             "networkName": "Pryzm",
             "chainId": "pryzm-1",
             "price": 0,
-            "originDenom": "stadydx",
-            "originChainId": "stride-1"
+            "originDenom": "ibc/120DC39B61CC121E91525C1D51624E41BBE74C537D7B0BE50BBFF9A00E37B6EE",
+            "originChainId": "pryzm-1"
           },
           "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87": {
             "denom": "ibc/EA6E1E8BA2EB9F681C4BD12C8C81A46530A62934F2BD561B120A00F46946CE87",
@@ -45778,8 +45778,8 @@
             "networkName": "Pundi X Chain",
             "chainId": "PUNDIX",
             "price": 0,
-            "originDenom": "eth0x0FD10b9899882a6f2fcb5c371E17e70FdEe00C38",
-            "originChainId": "fxcore"
+            "originDenom": "ibc/55367B7B6572631B78A93C66EF9FDFCE87CDE372CC4ED7848DA78C1EB1DCDD78",
+            "originChainId": "PUNDIX"
           },
           "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C": {
             "denom": "bsc0x29a63F4B209C29B4DC47f06FFA896F32667DAD2C",
@@ -46552,8 +46552,8 @@
             "chainId": "quicksilver-2",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "dydx-mainnet-1"
+            "originDenom": "ibc/5666A86DCC869C75F69A7938AD6DCFECAC4A09C73522599E7A85B10143E5FBD2",
+            "originChainId": "quicksilver-2"
           },
           "aqarch": {
             "denom": "aqarch",
@@ -49630,8 +49630,8 @@
             "networkName": "Source",
             "chainId": "source-1",
             "price": 0,
-            "originDenom": "erc20/0x091F9A57A3F58d758b6572E9d41675918EAC7F09",
-            "originChainId": "planq_7070-2"
+            "originDenom": "ibc/FC5A7360EEED0713AE3E83E9D55A69AF873056A172AC495890ACE4582FF9685A",
+            "originChainId": "source-1"
           }
         }
       },
@@ -50089,8 +50089,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "mad-scientists",
             "price": 0,
-            "originDenom": "factory/osmo17fel472lgzs87ekt9dvk0zqyh5gl80sqp4sk4n/LAB",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/93B1AE0AD5E88242745B245064A2A51DDA1319C18176A966D5F8F9E02ED5373E",
+            "originChainId": "stargaze-1"
           },
           "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806": {
             "denom": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
@@ -50107,8 +50107,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "collateralized-debt-token",
             "price": 0,
-            "originDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/ucdt",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/B0263C28B6F44651F4596413B41FDB749EA010BD1220816DAC0ABF9947C1E806",
+            "originChainId": "stargaze-1"
           },
           "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854": {
             "denom": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
@@ -50125,8 +50125,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "membrane",
             "price": 0,
-            "originDenom": "factory/osmo1s794h9rxggytja3a4pmwul53u98k06zy2qtrdvjnfuxruh7s8yjs6cyxgd/umbrn",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/E94BB144B818CB8061F43E202BEA1E9273B87D6326C8C6F4E6AE71C62FD37854",
+            "originChainId": "stargaze-1"
           },
           "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F": {
             "denom": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F",
@@ -50143,8 +50143,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "astroport-fi",
             "price": 0,
-            "originDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
-            "originChainId": "neutron-1"
+            "originDenom": "ibc/C9C8D88917374F27F03CBCEAF4F1B85F45A62F9F2316CBAADAAC5FDB3675DD3F",
+            "originChainId": "stargaze-1"
           },
           "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb": {
             "denom": "factory/stars1k7qsxdxh8calmt4txk75e6hdntefslegwddqnlwjjqgjkmcfqy0qa97sn8/pleb",
@@ -50228,8 +50228,8 @@
             "networkName": "Stargaze",
             "chainId": "stargaze-1",
             "price": 0,
-            "originDenom": "factory/osmo1hg0zf0c9can4tvtulh5gmmxe4jpflre3yewxjl/XTRUMP",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/4982C47384F003FCCB02490F92CE2F23DBEC9A7A0C1F440BDB12D24357E6703D",
+            "originChainId": "stargaze-1"
           },
           "factory/stars167y92c2fe690l0lrqyk9tahpqvu97au0cmpayh3j9455r2f6f06s78emw4/wolfshit": {
             "denom": "factory/stars167y92c2fe690l0lrqyk9tahpqvu97au0cmpayh3j9455r2f6f06s78emw4/wolfshit",
@@ -50313,8 +50313,8 @@
             "networkName": "Stargaze",
             "chainId": "stargaze-1",
             "price": 0,
-            "originDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/shitmos",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/8577E98BDDD2758FD5647A53563DAAC89921326F964EBF899B945ED05A66CA5F",
+            "originChainId": "stargaze-1"
           },
           "ibc/2A56F95E2B74AB769816403D384E2199C7BC510BFD2F8352FAC6DF0294B83EBA": {
             "denom": "ibc/2A56F95E2B74AB769816403D384E2199C7BC510BFD2F8352FAC6DF0294B83EBA",
@@ -50331,8 +50331,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "yield-gata",
             "price": 0,
-            "originDenom": "factory/omniflix1fwphj5p6qd8gtkehkzfgac38eur4uqzgz97uwvf6hsc0vjl004gqfj0xnv/ygata",
-            "originChainId": "omniflixhub-1"
+            "originDenom": "ibc/2A56F95E2B74AB769816403D384E2199C7BC510BFD2F8352FAC6DF0294B83EBA",
+            "originChainId": "stargaze-1"
           },
           "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3": {
             "denom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
@@ -50348,8 +50348,8 @@
             "networkName": "Stargaze",
             "chainId": "stargaze-1",
             "price": 0,
-            "originDenom": "erc20/0xfbF4318d24a93753F11d365A6dcF8b830e98Ab0F",
-            "originChainId": "evmos_9001-2"
+            "originDenom": "ibc/D29FF5FFE7B9A5C6CE595FF963F7C93F2B8603586645C39B13E1D336847863C3",
+            "originChainId": "stargaze-1"
           },
           "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764": {
             "denom": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
@@ -50365,8 +50365,8 @@
             "networkName": "Stargaze",
             "chainId": "stargaze-1",
             "price": 0,
-            "originDenom": "factory/osmo1qdvwftqd8ml6t9w6dmj97m03ck5ghqqmd8y7cm/cult",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/1CD4EED1BD74D41C165B9200AAF7A13C92DDB381DB7067EA32EEF8CC1370F764",
+            "originChainId": "stargaze-1"
           },
           "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B": {
             "denom": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
@@ -50383,8 +50383,8 @@
             "chainId": "stargaze-1",
             "coinGeckoId": "mantra-dao",
             "price": 0,
-            "originDenom": "uom",
-            "originChainId": "mantra-1"
+            "originDenom": "ibc/3BD86E80E000B52DA57C474A6A44E37F73D34E38A1FA79EE678E08D119FC555B",
+            "originChainId": "stargaze-1"
           },
           "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood": {
             "denom": "factory/stars1rru5m2wh3fylpheqh8h5g968jwhe7rctkfm7u0gwk7ka4vx3q5tqukjl4z/hood",
@@ -51159,8 +51159,8 @@
             "chainId": "stride-1",
             "coinGeckoId": "celestia",
             "price": 0,
-            "originDenom": "utia",
-            "originChainId": "celestia"
+            "originDenom": "ibc/BF3B4F53F3694B66E13C23107C84B6485BD2B96296BB7EC680EA77BBA75B4801",
+            "originChainId": "stride-1"
           },
           "staISLM": {
             "denom": "staISLM",
@@ -52063,8 +52063,8 @@
             "chainId": "teritori-1",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmosis-1"
+            "originDenom": "ibc/ED07A3391A112B175915CD8FAF43A2DA8E4790EDE12566649D0C2F97716B8518",
+            "originChainId": "teritori-1"
           },
           "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E": {
             "denom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
@@ -52081,8 +52081,8 @@
             "chainId": "teritori-1",
             "coinGeckoId": "cosmos",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/A670D9568B3E399316EEDE40C1181B7AA4BD0695F0B37513CE9B95B977DFC12E",
+            "originChainId": "teritori-1"
           },
           "ibc/1FECA3491D88F4AD24DE0948ED96718CA6D93F6730CEE7708E621B953594BB5E": {
             "denom": "ibc/1FECA3491D88F4AD24DE0948ED96718CA6D93F6730CEE7708E621B953594BB5E",
@@ -52099,8 +52099,8 @@
             "chainId": "teritori-1",
             "coinGeckoId": "kujira",
             "price": 0,
-            "originDenom": "ukuji",
-            "originChainId": "kaiyo-1"
+            "originDenom": "ibc/1FECA3491D88F4AD24DE0948ED96718CA6D93F6730CEE7708E621B953594BB5E",
+            "originChainId": "teritori-1"
           },
           "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9": {
             "denom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
@@ -52117,8 +52117,8 @@
             "chainId": "teritori-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9",
+            "originChainId": "teritori-1"
           },
           "ibc/F3F6BDEE1A79664B169D742651107BF4E03FA67E931452E27380B75F5917B7E9": {
             "denom": "ibc/F3F6BDEE1A79664B169D742651107BF4E03FA67E931452E27380B75F5917B7E9",
@@ -52135,8 +52135,8 @@
             "chainId": "teritori-1",
             "coinGeckoId": "secret",
             "price": 0,
-            "originDenom": "uscrt",
-            "originChainId": "secret-4"
+            "originDenom": "ibc/F3F6BDEE1A79664B169D742651107BF4E03FA67E931452E27380B75F5917B7E9",
+            "originChainId": "teritori-1"
           }
         }
       },
@@ -56067,8 +56067,8 @@
             "networkName": "Terra Classic",
             "chainId": "columbus-5",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/0BB9D8513E8E8E9AE6A9D211D9136E6DA42288DDE6CFAA453A150A4566054DC5",
+            "originChainId": "columbus-5"
           },
           "cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5": {
             "denom": "cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5",
@@ -56318,8 +56318,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "astroport-fi",
             "price": 0,
-            "originDenom": "factory/neutron1ffus553eet978k024lmssw0czsxwr97mggyv85lpcsdkft8v9ufsz3sa07/astro",
-            "originChainId": "neutron-1"
+            "originDenom": "ibc/8D8A7F7253615E5F76CB6252A1E1BD921D5EDB7BBAAF8913FB1C77FF125D9995",
+            "originChainId": "phoenix-1"
           },
           "cw20:terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k": {
             "denom": "cw20:terra1spkm49wd9dqkranhrks4cupecl3rtgeqqljq3qrvrrts2ev2gw6sy5vz3k",
@@ -56762,8 +56762,8 @@
             "networkName": "Terra",
             "chainId": "phoenix-1",
             "price": 0,
-            "originDenom": "factory/neutron1ug740qrkquxzrk2hh29qrlx3sktkfml3je7juusc2te7xmvsscns0n2wry/wstETH",
-            "originChainId": "neutron-1"
+            "originDenom": "ibc/A356EC90DC3AE43D485514DA7260EDC7ABB5CFAA0654CE2524C739392975AD3C",
+            "originChainId": "phoenix-1"
           },
           "cw20:terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l": {
             "denom": "cw20:terra13s5pxw5j2p4ssvzwvxd8l7h30vke8vjgtng75vqgv6p9vddfk3hskfka0l",
@@ -56932,8 +56932,8 @@
             "networkName": "Terra",
             "chainId": "phoenix-1",
             "price": 0,
-            "originDenom": "factory/migaloo1d0uma9qzcts4fzt7ml39xp44aut5k6qyjfzz4asalnecppppr3rsl52vvv/rstk",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/F709DF4969CD26174C1A53AA95F3D98BE643C1A52C9981487766F96A1811F6A4",
+            "originChainId": "phoenix-1"
           },
           "cw20:terra164ssz60yvsxey0ku9mtcaegdeyxwzuwwqyrp238nvflwqve0pvxsra7fa2": {
             "denom": "cw20:terra164ssz60yvsxey0ku9mtcaegdeyxwzuwwqyrp238nvflwqve0pvxsra7fa2",
@@ -56984,8 +56984,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "tether",
             "price": 0,
-            "originDenom": "erc20/tether/usdt",
-            "originChainId": "kava_2222-10"
+            "originDenom": "ibc/9B19062D46CAB50361CE9B0A3E6D0A7A53AC9E7CB361F32A73CC733144A9A9E5",
+            "originChainId": "phoenix-1"
           },
           "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash": {
             "denom": "factory/terra1f5cfm48gcezl3cx25l64ngc4yktnmx7rcpj3kggu6v273742sqqs5yn5ks/luna.ash",
@@ -57019,8 +57019,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/2C962DAB9F57FE0921435426AE75196009FAA1981BF86991203C8411F8980FDB",
+            "originChainId": "phoenix-1"
           },
           "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC": {
             "denom": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
@@ -57037,8 +57037,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "dragon-coin-2",
             "price": 0,
-            "originDenom": "udgn",
-            "originChainId": "dungeon-1"
+            "originDenom": "ibc/B2AA4C3CD19954859C3B537EC0705640AFC01075F52993D9AC5E73F07F0386CC",
+            "originChainId": "phoenix-1"
           },
           "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB": {
             "denom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
@@ -57054,8 +57054,8 @@
             "networkName": "Terra",
             "chainId": "phoenix-1",
             "price": 0,
-            "originDenom": "uwhale",
-            "originChainId": "migaloo-1"
+            "originDenom": "ibc/36A02FFC4E74DF4F64305130C3DFA1B06BEAC775648927AA44467C76A77AB8DB",
+            "originChainId": "phoenix-1"
           },
           "cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490": {
             "denom": "cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
@@ -57157,8 +57157,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "monerium-eur-money",
             "price": 0,
-            "originDenom": "ueure",
-            "originChainId": "noble-1"
+            "originDenom": "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1",
+            "originChainId": "phoenix-1"
           },
           "cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst": {
             "denom": "cw20:terra10aa3zdkrc7jwuf8ekl3zq7e7m42vmzqehcmu74e4egc7xkm5kr2s0muyst",
@@ -57228,8 +57228,8 @@
             "chainId": "phoenix-1",
             "coinGeckoId": "eureka-bridged-pax-gold-terra",
             "price": 0,
-            "originDenom": "transfer/08-wasm-1369/0x45804880de22913dafe09f4980848ece6ecbaf78",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/0EF5630576C66968EF0787868CF09FD866FAD131BC148D24A148358A85F0EB62",
+            "originChainId": "phoenix-1"
           },
           "ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45": {
             "denom": "ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45",
@@ -57245,8 +57245,8 @@
             "networkName": "Terra",
             "chainId": "phoenix-1",
             "price": 0,
-            "originDenom": "transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38",
-            "originChainId": "cosmoshub-4"
+            "originDenom": "ibc/F20FE45BF7122CF10559EDEA032E37956D3314774EA6D8D1D46B87D138290C45",
+            "originChainId": "phoenix-1"
           }
         }
       },
@@ -60764,8 +60764,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/005F5CE5A688F0673C896F32E670F83AB818E8D3A96F987A877CF3A7430C2253",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/074B3B7B88AFD65707CF016455C9E24D1E05226CB733870AA3FD198C173EBE30": {
             "denom": "ibc/074B3B7B88AFD65707CF016455C9E24D1E05226CB733870AA3FD198C173EBE30",
@@ -60781,8 +60781,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/usnoop",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/074B3B7B88AFD65707CF016455C9E24D1E05226CB733870AA3FD198C173EBE30",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/13142566F3D6C9BD33F42962929378F8479710E863AB74C1BB4247053ADFD4A0": {
             "denom": "ibc/13142566F3D6C9BD33F42962929378F8479710E863AB74C1BB4247053ADFD4A0",
@@ -60798,8 +60798,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/utaco",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/13142566F3D6C9BD33F42962929378F8479710E863AB74C1BB4247053ADFD4A0",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/20AB09D9296F97112E44E3E9D5F92E1AFB1B7ED76008FF3E9974473985E12ACA": {
             "denom": "ibc/20AB09D9296F97112E44E3E9D5F92E1AFB1B7ED76008FF3E9974473985E12ACA",
@@ -60815,8 +60815,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udancingpenguin",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/20AB09D9296F97112E44E3E9D5F92E1AFB1B7ED76008FF3E9974473985E12ACA",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/236B1550CAF803837218C0E44EA8055EDF1D634CC171D60791FC598E48D20977": {
             "denom": "ibc/236B1550CAF803837218C0E44EA8055EDF1D634CC171D60791FC598E48D20977",
@@ -60832,8 +60832,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ucute",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/236B1550CAF803837218C0E44EA8055EDF1D634CC171D60791FC598E48D20977",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/2940C9733B3E81E4914A9EE22C9D444AE0039D0C4BCE75F3B9ABACC293E93AF6": {
             "denom": "ibc/2940C9733B3E81E4914A9EE22C9D444AE0039D0C4BCE75F3B9ABACC293E93AF6",
@@ -60849,8 +60849,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uasdasdasd",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/2940C9733B3E81E4914A9EE22C9D444AE0039D0C4BCE75F3B9ABACC293E93AF6",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/3E55458BB86CB338A22C150D917D192BFFBF7BFE37F6AA80EA2EB7B11846C6D1": {
             "denom": "ibc/3E55458BB86CB338A22C150D917D192BFFBF7BFE37F6AA80EA2EB7B11846C6D1",
@@ -60866,8 +60866,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1czvrq3ufn045q5k50tjl4qu8kcmagve9ghty3c/uumega",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/3E55458BB86CB338A22C150D917D192BFFBF7BFE37F6AA80EA2EB7B11846C6D1",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/48FEAC3670B7F5F4064990611BE0BC0BF8E1A270839599D6FFADB29381632B81": {
             "denom": "ibc/48FEAC3670B7F5F4064990611BE0BC0BF8E1A270839599D6FFADB29381632B81",
@@ -60883,8 +60883,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uwmvt",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/48FEAC3670B7F5F4064990611BE0BC0BF8E1A270839599D6FFADB29381632B81",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/5F2BDDD68BD357FC76514CD0E44228899C2ADAF2580886A4ACC38B2BAF8E9F6A": {
             "denom": "ibc/5F2BDDD68BD357FC76514CD0E44228899C2ADAF2580886A4ACC38B2BAF8E9F6A",
@@ -60900,8 +60900,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udrippy",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/5F2BDDD68BD357FC76514CD0E44228899C2ADAF2580886A4ACC38B2BAF8E9F6A",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/5FD9768DA0B68C4B2EE28A57496C2B03F149BF58E0A4DC8DEEFD3F8EDE7634F5": {
             "denom": "ibc/5FD9768DA0B68C4B2EE28A57496C2B03F149BF58E0A4DC8DEEFD3F8EDE7634F5",
@@ -60917,8 +60917,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/5FD9768DA0B68C4B2EE28A57496C2B03F149BF58E0A4DC8DEEFD3F8EDE7634F5",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/6561010EA61B8C9B2984417926379FFC45FFBC5BF9560D84DE4B164B4502AA32": {
             "denom": "ibc/6561010EA61B8C9B2984417926379FFC45FFBC5BF9560D84DE4B164B4502AA32",
@@ -60934,8 +60934,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugozer",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/6561010EA61B8C9B2984417926379FFC45FFBC5BF9560D84DE4B164B4502AA32",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/65E7A9F142C7C5BCD7551AF2311B3137FC5CBFF693DCADC15FCC9AEF12A778F7": {
             "denom": "ibc/65E7A9F142C7C5BCD7551AF2311B3137FC5CBFF693DCADC15FCC9AEF12A778F7",
@@ -60951,8 +60951,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/usimple",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/65E7A9F142C7C5BCD7551AF2311B3137FC5CBFF693DCADC15FCC9AEF12A778F7",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/7902BAE3A32BF67C5713C35A1610127D331008F3C54AF37FA35AC46045E86744": {
             "denom": "ibc/7902BAE3A32BF67C5713C35A1610127D331008F3C54AF37FA35AC46045E86744",
@@ -60968,8 +60968,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqdqe6ks/utimmy",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/7902BAE3A32BF67C5713C35A1610127D331008F3C54AF37FA35AC46045E86744",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/81F5BD52ADAB15EE8E9E0ECA7F7214A51AC4A06F4A2837261F2604F31A1649DA": {
             "denom": "ibc/81F5BD52ADAB15EE8E9E0ECA7F7214A51AC4A06F4A2837261F2604F31A1649DA",
@@ -60985,8 +60985,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/81F5BD52ADAB15EE8E9E0ECA7F7214A51AC4A06F4A2837261F2604F31A1649DA",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C": {
             "denom": "ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C",
@@ -61002,8 +61002,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "umfx",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/FBB845E40F35378F2CDD02E0A8E9A42DECDBE1067F3E5CB08DBCF616B029569C",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/8F0FD15E8A195360783298BF16A64463AB2F1F793946213F475549C637E91C18": {
             "denom": "ibc/8F0FD15E8A195360783298BF16A64463AB2F1F793946213F475549C637E91C18",
@@ -61019,8 +61019,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/ufunzie",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/8F0FD15E8A195360783298BF16A64463AB2F1F793946213F475549C637E91C18",
+            "originChainId": "axelar-testnet-lisbon-3"
           },
           "ibc/CFE74816F2A422812BAEFC344A61536B408C61E7B506CB9D2AD061A459EE48C6": {
             "denom": "ibc/CFE74816F2A422812BAEFC344A61536B408C61E7B506CB9D2AD061A459EE48C6",
@@ -61036,8 +61036,8 @@
             "networkName": "Axelar Testnet",
             "chainId": "axelar-testnet-lisbon-3",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uspoof",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/CFE74816F2A422812BAEFC344A61536B408C61E7B506CB9D2AD061A459EE48C6",
+            "originChainId": "axelar-testnet-lisbon-3"
           }
         }
       },
@@ -61518,8 +61518,8 @@
             "networkName": "BitwayDevnet",
             "chainId": "bitway-devnet-1",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "grand-1"
+            "originDenom": "ibc/F082B65C88E4B6D5EF1DB243CDA1D331D002759E938A0F5CD3FFDC5D53B3E349",
+            "originChainId": "bitway-devnet-1"
           }
         }
       },
@@ -64407,8 +64407,8 @@
             "chainId": "injective-888",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmo-test-5"
+            "originDenom": "ibc/FA130DEB2B506FA0A7258B46A6B72DE12370B25E474E6679F054D95277164186",
+            "originChainId": "injective-888"
           },
           "peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5": {
             "denom": "peggy0x87aB3B4C8661e07D6372361211B96ed4Dc36B1B5",
@@ -66015,8 +66015,8 @@
             "chainId": "manifest-ledger-testnet",
             "coinGeckoId": "osmosis",
             "price": 0,
-            "originDenom": "uosmo",
-            "originChainId": "osmo-test-5"
+            "originDenom": "ibc/D24B4564BCD51D3D02D9987D92571EAC5915676A9BD6D9B0C1D0254CB8A5EA34",
+            "originChainId": "manifest-ledger-testnet"
           },
           "ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151": {
             "denom": "ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151",
@@ -66033,8 +66033,8 @@
             "chainId": "manifest-ledger-testnet",
             "coinGeckoId": "axelar",
             "price": 0,
-            "originDenom": "uaxl",
-            "originChainId": "axelar-testnet-lisbon-3"
+            "originDenom": "ibc/3E35008738AC049C9C1A1E37F785E947A8DAA9811B3EA3B25580664294056151",
+            "originChainId": "manifest-ledger-testnet"
           },
           "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa": {
             "denom": "factory/manifest1afk9zr2hn2jsac63h4hm60vl9z3e5u69gndzf7c99cqge3vzwjzsfmy9qj/uaaa",
@@ -68773,8 +68773,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "uatom",
-            "originChainId": "theta-testnet-001"
+            "originDenom": "ibc/9FF2B7A5F55038A7EE61F4FD6749D9A648B48E89830F2682B67B5DC158E2753C",
+            "originChainId": "osmo-test-5"
           },
           "ibc/2164BDB48DE5501430E71286448D87C6D2240EC0E078CF113CAB85E21A352BB0": {
             "denom": "ibc/2164BDB48DE5501430E71286448D87C6D2240EC0E078CF113CAB85E21A352BB0",
@@ -68790,8 +68790,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "uausdc",
-            "originChainId": "axelar-testnet-lisbon-3"
+            "originDenom": "ibc/2164BDB48DE5501430E71286448D87C6D2240EC0E078CF113CAB85E21A352BB0",
+            "originChainId": "osmo-test-5"
           },
           "ibc/1F42AC9631DBE03009219ECCFE151786F53A038DE9F7A07C709158514F1D5942": {
             "denom": "ibc/1F42AC9631DBE03009219ECCFE151786F53A038DE9F7A07C709158514F1D5942",
@@ -68860,8 +68860,8 @@
             "chainId": "osmo-test-5",
             "coinGeckoId": "usd-coin",
             "price": 0,
-            "originDenom": "uusdc",
-            "originChainId": "grand-1"
+            "originDenom": "ibc/DE6792CF9E521F6AD6E9A4BDF6225C9571A3B74ACC0A529F92BC5122A39D2E58",
+            "originChainId": "osmo-test-5"
           },
           "ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82": {
             "denom": "ibc/AD59D59CFB0E628E73C798415F823AB5B6257C2FE4BF67DBB5D6A677B2686E82",
@@ -68895,8 +68895,8 @@
             "chainId": "osmo-test-5",
             "coinGeckoId": "kyve-network",
             "price": 0,
-            "originDenom": "tkyve",
-            "originChainId": "kaon-1"
+            "originDenom": "ibc/AB8AF05799E299FB5C5C80781DA35887F53E029745D20E5641233DB4E6B28515",
+            "originChainId": "osmo-test-5"
           },
           "ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9": {
             "denom": "ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9",
@@ -68912,8 +68912,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "uqck",
-            "originChainId": "rhye-2"
+            "originDenom": "ibc/F37CF69589DE12342758382F8770C0852CD8D2E4519F55166EBDAF472AD667C9",
+            "originChainId": "osmo-test-5"
           },
           "ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6": {
             "denom": "ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6",
@@ -68930,8 +68930,8 @@
             "chainId": "osmo-test-5",
             "coinGeckoId": "persistence",
             "price": 0,
-            "originDenom": "uxprt",
-            "originChainId": "test-core-2"
+            "originDenom": "ibc/754C8533F8A418B03AD5F2C6AA19D4703CF78BBAB9E2E4DDD6212AAC2E502CA6",
+            "originChainId": "osmo-test-5"
           },
           "ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9": {
             "denom": "ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9",
@@ -68947,8 +68947,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "utsaga",
-            "originChainId": "ssc-testnet-2"
+            "originDenom": "ibc/48384130079A5987378F5776775F8C29A02505273E777BBB99361F2BB5B577C9",
+            "originChainId": "osmo-test-5"
           },
           "ibc/88C815D69587CF0F05E96E5E2731EA56194D73C9A02A500095294D3A5DE68F16": {
             "denom": "ibc/88C815D69587CF0F05E96E5E2731EA56194D73C9A02A500095294D3A5DE68F16",
@@ -68965,8 +68965,8 @@
             "chainId": "osmo-test-5",
             "coinGeckoId": "ixo",
             "price": 0,
-            "originDenom": "uixo",
-            "originChainId": "pandora-8"
+            "originDenom": "ibc/88C815D69587CF0F05E96E5E2731EA56194D73C9A02A500095294D3A5DE68F16",
+            "originChainId": "osmo-test-5"
           },
           "factory/osmo1zlkzu72774ynac53necz46u4ycqtp36wedrar0/willyz": {
             "denom": "factory/osmo1zlkzu72774ynac53necz46u4ycqtp36wedrar0/willyz",
@@ -68999,8 +68999,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1c799jddmlz7segvg6jrw6w2k6svwafganjdznard3tc74n7td7rqdqe6ks/utimmy",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/1675C95A6F253E9FA7AFD2B4549A551F567FCB3FB7FF3978163E400FA0718D29",
+            "originChainId": "osmo-test-5"
           },
           "ibc/1BAC7171193B1FED44024C08E460D4CA59DCDCEF76C56340AF8057C0D8C49634": {
             "denom": "ibc/1BAC7171193B1FED44024C08E460D4CA59DCDCEF76C56340AF8057C0D8C49634",
@@ -69016,8 +69016,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/usimple",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/1BAC7171193B1FED44024C08E460D4CA59DCDCEF76C56340AF8057C0D8C49634",
+            "originChainId": "osmo-test-5"
           },
           "ibc/1DE9DEEEB9EF636EF8F6B54A3F12655911908DA0039921D671E3282BBDF36D23": {
             "denom": "ibc/1DE9DEEEB9EF636EF8F6B54A3F12655911908DA0039921D671E3282BBDF36D23",
@@ -69033,8 +69033,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uaga",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/1DE9DEEEB9EF636EF8F6B54A3F12655911908DA0039921D671E3282BBDF36D23",
+            "originChainId": "osmo-test-5"
           },
           "ibc/3F779F3860A4794972D03865FE273EC81B24CF0CCAE223165776D8442B62A8B2": {
             "denom": "ibc/3F779F3860A4794972D03865FE273EC81B24CF0CCAE223165776D8442B62A8B2",
@@ -69050,8 +69050,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ucute",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/3F779F3860A4794972D03865FE273EC81B24CF0CCAE223165776D8442B62A8B2",
+            "originChainId": "osmo-test-5"
           },
           "ibc/708B876DB3632A7490D6477F365EABF1414E6F60F60CAEC1FB6F06760451ACBE": {
             "denom": "ibc/708B876DB3632A7490D6477F365EABF1414E6F60F60CAEC1FB6F06760451ACBE",
@@ -69067,8 +69067,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/ufunzie",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/708B876DB3632A7490D6477F365EABF1414E6F60F60CAEC1FB6F06760451ACBE",
+            "originChainId": "osmo-test-5"
           },
           "ibc/77DA06A20632C7AB6396B40989FCFB942CD2D56E107F402C595F010455B76BE1": {
             "denom": "ibc/77DA06A20632C7AB6396B40989FCFB942CD2D56E107F402C595F010455B76BE1",
@@ -69084,8 +69084,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugozer",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/77DA06A20632C7AB6396B40989FCFB942CD2D56E107F402C595F010455B76BE1",
+            "originChainId": "osmo-test-5"
           },
           "ibc/7A4DD8299304AA9D4D86B06584C56EE08C26F6F7338F2CADC5D3A8D6895A3859": {
             "denom": "ibc/7A4DD8299304AA9D4D86B06584C56EE08C26F6F7338F2CADC5D3A8D6895A3859",
@@ -69101,8 +69101,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udancingpenguin",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/7A4DD8299304AA9D4D86B06584C56EE08C26F6F7338F2CADC5D3A8D6895A3859",
+            "originChainId": "osmo-test-5"
           },
           "ibc/A9B2FC600298D994291B87D6452663514C88AE078F56228B584862641B0E2D6C": {
             "denom": "ibc/A9B2FC600298D994291B87D6452663514C88AE078F56228B584862641B0E2D6C",
@@ -69118,8 +69118,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uadam",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/A9B2FC600298D994291B87D6452663514C88AE078F56228B584862641B0E2D6C",
+            "originChainId": "osmo-test-5"
           },
           "ibc/AB89909B308854835AD98DEF0DE18D1B324A12A443335398945E485A9B69AE34": {
             "denom": "ibc/AB89909B308854835AD98DEF0DE18D1B324A12A443335398945E485A9B69AE34",
@@ -69135,8 +69135,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/udrippy",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/AB89909B308854835AD98DEF0DE18D1B324A12A443335398945E485A9B69AE34",
+            "originChainId": "osmo-test-5"
           },
           "ibc/AF2EFBAABB4A14F6E50D83D550698FE33CC2565B7DB1CA480CAF07C7557D8277": {
             "denom": "ibc/AF2EFBAABB4A14F6E50D83D550698FE33CC2565B7DB1CA480CAF07C7557D8277",
@@ -69152,8 +69152,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/ugas",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/AF2EFBAABB4A14F6E50D83D550698FE33CC2565B7DB1CA480CAF07C7557D8277",
+            "originChainId": "osmo-test-5"
           },
           "ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14": {
             "denom": "ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14",
@@ -69169,8 +69169,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "umfx",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/71C8E0B309E2F2A4C66F85E7C34C4415A3D26E489DBDF3FFF4EDCBE15B229B14",
+            "originChainId": "osmo-test-5"
           },
           "ibc/D926A833F572447AC30E189FD1629560E679CF73170C180681B9FE29FB3BA2B6": {
             "denom": "ibc/D926A833F572447AC30E189FD1629560E679CF73170C180681B9FE29FB3BA2B6",
@@ -69186,8 +69186,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/utaco",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/D926A833F572447AC30E189FD1629560E679CF73170C180681B9FE29FB3BA2B6",
+            "originChainId": "osmo-test-5"
           },
           "ibc/E09C607844E95C9338079729100E026CA5FA357DD41AFEA17FA5889535299009": {
             "denom": "ibc/E09C607844E95C9338079729100E026CA5FA357DD41AFEA17FA5889535299009",
@@ -69203,8 +69203,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1czvrq3ufn045q5k50tjl4qu8kcmagve9ghty3c/uumega",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/E09C607844E95C9338079729100E026CA5FA357DD41AFEA17FA5889535299009",
+            "originChainId": "osmo-test-5"
           },
           "ibc/E58506AA351C65F86C8DCD019C57682BA7489D2277C978D5977DFA8FE4B808E6": {
             "denom": "ibc/E58506AA351C65F86C8DCD019C57682BA7489D2277C978D5977DFA8FE4B808E6",
@@ -69220,8 +69220,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uwmvt",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/E58506AA351C65F86C8DCD019C57682BA7489D2277C978D5977DFA8FE4B808E6",
+            "originChainId": "osmo-test-5"
           },
           "ibc/E96950EBFD6690785604A4B835C8FCA238927E96C2ABCF6F51725DA872699E33": {
             "denom": "ibc/E96950EBFD6690785604A4B835C8FCA238927E96C2ABCF6F51725DA872699E33",
@@ -69237,8 +69237,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uspoof",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/E96950EBFD6690785604A4B835C8FCA238927E96C2ABCF6F51725DA872699E33",
+            "originChainId": "osmo-test-5"
           },
           "ibc/EAF2ADEA5251B1FC527B407FD36BE64B572ACE19BCC325544604C5E8DE8C605E": {
             "denom": "ibc/EAF2ADEA5251B1FC527B407FD36BE64B572ACE19BCC325544604C5E8DE8C605E",
@@ -69254,8 +69254,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1hj5fveer5cjtn4wd6wstzugjfdxzl0xp8ws9ct/uasdasdasd",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/EAF2ADEA5251B1FC527B407FD36BE64B572ACE19BCC325544604C5E8DE8C605E",
+            "originChainId": "osmo-test-5"
           },
           "ibc/F5C09D41BEA7D1E30AE6CB0D303E9DF5C4D0A16859329973FEAD94A1DA279643": {
             "denom": "ibc/F5C09D41BEA7D1E30AE6CB0D303E9DF5C4D0A16859329973FEAD94A1DA279643",
@@ -69271,8 +69271,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/manifest1rme50egv6kwxq5skm60s0n7hd6ynuf33p5g87e/usnoop",
-            "originChainId": "manifest-ledger-testnet"
+            "originDenom": "ibc/F5C09D41BEA7D1E30AE6CB0D303E9DF5C4D0A16859329973FEAD94A1DA279643",
+            "originChainId": "osmo-test-5"
           },
           "ibc/FCB9537564D517E821D0438AB6CA3BBE03B9E2B2C661B89311181329DFD331C4": {
             "denom": "ibc/FCB9537564D517E821D0438AB6CA3BBE03B9E2B2C661B89311181329DFD331C4",
@@ -69288,8 +69288,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/dogecoin-doge",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/FCB9537564D517E821D0438AB6CA3BBE03B9E2B2C661B89311181329DFD331C4",
+            "originChainId": "osmo-test-5"
           },
           "ibc/68157A7910F47A17C4BA8E06180FA4E5D6E3DF8A8F2B2FD4A74F23597BC1ABBF": {
             "denom": "ibc/68157A7910F47A17C4BA8E06180FA4E5D6E3DF8A8F2B2FD4A74F23597BC1ABBF",
@@ -69305,8 +69305,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-btc",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/68157A7910F47A17C4BA8E06180FA4E5D6E3DF8A8F2B2FD4A74F23597BC1ABBF",
+            "originChainId": "osmo-test-5"
           },
           "ibc/B746CC188C8315EE135101C7F77D361AF6A62A4740EEDBB99A8AC5A80246D719": {
             "denom": "ibc/B746CC188C8315EE135101C7F77D361AF6A62A4740EEDBB99A8AC5A80246D719",
@@ -69322,8 +69322,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/bitcoin-cash-bch",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/B746CC188C8315EE135101C7F77D361AF6A62A4740EEDBB99A8AC5A80246D719",
+            "originChainId": "osmo-test-5"
           },
           "ibc/713D13C42B4EC1327AAD87602393D8870089B59005F552289E46141ABCF79F4C": {
             "denom": "ibc/713D13C42B4EC1327AAD87602393D8870089B59005F552289E46141ABCF79F4C",
@@ -69339,8 +69339,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/litecoin-ltc",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/713D13C42B4EC1327AAD87602393D8870089B59005F552289E46141ABCF79F4C",
+            "originChainId": "osmo-test-5"
           },
           "ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2": {
             "denom": "ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2",
@@ -69356,8 +69356,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/zcash-zec",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/49C1211CF9077E5D504D895A0C374D1D3E9B0EA3D0FFBA0CAB4EF3FEBEDA8DE2",
+            "originChainId": "osmo-test-5"
           },
           "ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3": {
             "denom": "ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3",
@@ -69373,8 +69373,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/ton-ton",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/17993F75F724B0CB68D0C26642007CDD62286010974B843F86507F383E9F19F3",
+            "originChainId": "osmo-test-5"
           },
           "ibc/931C1E953C5312AB6856BDE136EFBD43FAC52398E484CA2C344F623746BAC4BE": {
             "denom": "ibc/931C1E953C5312AB6856BDE136EFBD43FAC52398E484CA2C344F623746BAC4BE",
@@ -69390,8 +69390,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/solana-sol",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/931C1E953C5312AB6856BDE136EFBD43FAC52398E484CA2C344F623746BAC4BE",
+            "originChainId": "osmo-test-5"
           },
           "ibc/9D44B9A113D449A16FAB9F639FF5B074CAB6D33D049056AB6B4DCE6E3891DD55": {
             "denom": "ibc/9D44B9A113D449A16FAB9F639FF5B074CAB6D33D049056AB6B4DCE6E3891DD55",
@@ -69407,8 +69407,8 @@
             "networkName": "Osmosis Testnet",
             "chainId": "osmo-test-5",
             "price": 0,
-            "originDenom": "factory/int31zlefkpe3g0vvm9a4h0jf9000lmqutlh99h7fsd/xrpl-xrp",
-            "originChainId": "int3-test-2"
+            "originDenom": "ibc/9D44B9A113D449A16FAB9F639FF5B074CAB6D33D049056AB6B4DCE6E3891DD55",
+            "originChainId": "osmo-test-5"
           }
         }
       },
