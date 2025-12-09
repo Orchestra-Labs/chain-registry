@@ -1,6 +1,6 @@
 {
-  "sha": "406fb2b68e9bada1bd1f75d403073f75806bcf77",
-  "lastUpdated": "2025-12-07T22:22:28.135Z",
+  "sha": "28ce3f007828bee6762538edab962dd300084d2e",
+  "lastUpdated": "2025-12-09T14:26:26.390Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -1754,6 +1754,10 @@
           {
             "address": "https://atomone.api.pocket.network",
             "provider": "Pocket Network"
+          },
+          {
+            "address": "https://atomone.blocksync.me/rpc",
+            "provider": "BlockSync"
           }
         ],
         "rest_uris": [
@@ -1876,6 +1880,10 @@
           {
             "address": "https://atomone.api.pocket.network",
             "provider": "Pocket Network"
+          },
+          {
+            "address": "https://atomone.blocksync.me/api",
+            "provider": "BlockSync"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
@@ -5465,7 +5473,7 @@
         "pretty_name": "BlueChip",
         "chain_type": "mainnet",
         "chain_id": "bluechip-2",
-        "bech32_prefix": "bluechip",
+        "bech32_prefix": "bcp",
         "fees": [
           {
             "denom": "ubluechip",
@@ -9462,6 +9470,10 @@
         ],
         "rpc_uris": [
           {
+            "address": "https://rpc.cosmoshub-main.ccvalidators.com:443",
+            "provider": "CryptoCrew"
+          },
+          {
             "address": "https://cosmoshub.tendermintrpc.lava.build:443",
             "provider": "Lava"
           },
@@ -9623,6 +9635,10 @@
           }
         ],
         "rest_uris": [
+          {
+            "address": "https://rest.cosmoshub-main.ccvalidators.com:443",
+            "provider": "CryptoCrew"
+          },
           {
             "address": "https://cosmoshub.lava.build:443",
             "provider": "Lava"
@@ -13054,7 +13070,7 @@
         "pretty_name": "fandomChain",
         "chain_type": "mainnet",
         "chain_id": "fandomChain",
-        "bech32_prefix": "cosmos",
+        "bech32_prefix": "fandom",
         "fees": [
           {
             "denom": "ufandomChain",
@@ -22092,6 +22108,10 @@
           {
             "address": "https://rpc-lava.winnode.xyz",
             "provider": "Winnode"
+          },
+          {
+            "address": "https://rpc-lava.vinjan.xyz",
+            "provider": "Vinjan.Inc"
           }
         ],
         "rest_uris": [
@@ -22162,6 +22182,10 @@
           {
             "address": "https://api-lava.winnode.xyz",
             "provider": "Winnode"
+          },
+          {
+            "address": "https://api-lava.vinjan.xyz",
+            "provider": "Vinjan.Inc"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
@@ -28300,9 +28324,9 @@
           {
             "denom": "uOPT",
             "gasPriceStep": {
-              "low": 0.01,
-              "average": 0.025,
-              "high": 0.04
+              "low": 1,
+              "average": 1.5,
+              "high": 2
             }
           }
         ],
@@ -47389,6 +47413,10 @@
         ],
         "rpc_uris": [
           {
+            "address": "https://rpc-saga.keplr.app",
+            "provider": "chainapsis"
+          },
+          {
             "address": "https://saga-mainnet-rpc.autostake.com:443",
             "provider": "AutoStake 🛡️ Slash Protected"
           },
@@ -49029,7 +49057,7 @@
         "pretty_name": "Side Chain",
         "chain_type": "mainnet",
         "chain_id": "sidechain-1",
-        "bech32_prefix": "side",
+        "bech32_prefix": "bc",
         "fees": [
           {
             "denom": "uside",
@@ -72777,6 +72805,61 @@
             "price": 0,
             "originDenom": "factory/titan16gyvmp43st00s220zypex4lgvwqc3ve8l4657rhxj8myeadswmkq75slkc/meow",
             "originChainId": "titan_18889-1"
+          }
+        }
+      },
+      "tstoc": {
+        "chain_name": "tstoctestnet",
+        "status": "live",
+        "website": "https://www.stochain.io/",
+        "network_level": "testnet",
+        "pretty_name": "STO Chain Testnet",
+        "chain_type": "testnet",
+        "chain_id": "tstoc",
+        "bech32_prefix": "stoc",
+        "fees": [
+          {
+            "denom": "utstoc",
+            "gasPriceStep": {
+              "low": 0.01,
+              "average": 0.015,
+              "high": 0.02
+            }
+          }
+        ],
+        "staking_denoms": [
+          "utstoc"
+        ],
+        "rpc_uris": [
+          {
+            "address": "https://rpc-stoc-testnet.stochainscan.io/",
+            "provider": "STO Chain"
+          }
+        ],
+        "rest_uris": [
+          {
+            "address": "https://api-stoc-testnet.stochainscan.io/",
+            "provider": "STO Chain"
+          }
+        ],
+        "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stoc/images/stoc-logo.png",
+        "assets": {
+          "utstoc": {
+            "denom": "utstoc",
+            "amount": "0",
+            "displayAmount": "0",
+            "exchangeRate": "1",
+            "isIbc": false,
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stoc/images/stoc-logo.png",
+            "symbol": "TSTOC",
+            "name": "STO Chain Testnet",
+            "exponent": 6,
+            "isFeeToken": true,
+            "networkName": "STO Chain Testnet",
+            "chainId": "tstoc",
+            "price": 0,
+            "originDenom": "utstoc",
+            "originChainId": "tstoc"
           }
         }
       },
