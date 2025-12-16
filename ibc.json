@@ -4856,6 +4856,18 @@
           "channel_id": "channel-1411"
         }
       },
+      "epix_1916-1,osmosis-1": {
+        "epix_1916-1": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-1",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3641",
+          "connection_id": "connection-10988",
+          "channel_id": "channel-108456"
+        }
+      },
       "evmos_9001-2,wormchain": {
         "evmos_9001-2": {
           "client_id": "07-tendermint-119",
@@ -10392,9 +10404,9 @@
       }
     }
   },
-  "lastUpdated": "2025-12-09T14:26:37.017Z",
+  "lastUpdated": "2025-12-16T19:30:03.641Z",
   "commitHashes": {
-    "mainnetHash": "28ce3f007828bee6762538edab962dd300084d2e",
-    "testnetHash": "28ce3f007828bee6762538edab962dd300084d2e"
+    "mainnetHash": "5da0b92ae99d5dc6f5f091d505de15108bee5394",
+    "testnetHash": "5da0b92ae99d5dc6f5f091d505de15108bee5394"
   }
 }
