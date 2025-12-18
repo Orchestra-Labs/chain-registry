@@ -1,433 +1,223 @@
 {
-  "lastUpdated": "2025-12-16T20:05:33.241Z",
+  "lastUpdated": "2025-12-18T07:16:00.533Z",
   "data": {
-    "pirin-1": {
-      "rpc": {},
-      "rest": {
-        "https://lcd.nolus.network": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 33101
-        },
-        "https://nolus-mainnet-lcd.autostake.com:443": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 32199
-        },
-        "https://rest.lavenderfive.com:443/nolus": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 28599
-        },
-        "https://api-nolus.cosmos-spaces.cloud": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 24100
-        },
-        "https://nolus.api.liveraven.net": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 34500
-        },
-        "https://rest-nolus.architectnodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 33500
-        },
-        "https://nolus.api.kjnodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 22495
-        },
-        "https://nolus-lcd.enigma-validator.com/": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 16500
-        },
-        "https://nolus-api.w3coins.io": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 31399
-        },
-        "https://nolus-rest.publicnode.com": {
-          "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 32699
-        }
-      }
-    },
     "core-1": {
       "rpc": {},
       "rest": {
         "https://rest.core.persistence.one": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 30701
+          "failedQueries": 4,
+          "longestQueryTime": 38400
         },
         "https://api-persistent-ia.cosmosia.notional.ventures/": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 40800
+          "failedQueries": 4,
+          "longestQueryTime": 29400
         },
         "https://persistence.api.m.stavr.tech": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 33699
+          "failedQueries": 4,
+          "longestQueryTime": 19500
         },
         "https://persistence-api.polkachu.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 29301
+          "failedQueries": 4,
+          "longestQueryTime": 45708
         },
         "https://api-persistence.cosmos-spaces.cloud": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 22200
+          "failedQueries": 4,
+          "longestQueryTime": 19900
         },
         "https://persistence-api.kleomedes.network": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 29399
+          "failedQueries": 4,
+          "longestQueryTime": 18494
         },
         "https://rest-persistence.architectnodes.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 33500
+          "failedQueries": 4,
+          "longestQueryTime": 30402
         },
         "https://persistence-mainnet-lcd.autostake.com:443": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 37393
+          "failedQueries": 4,
+          "longestQueryTime": 30400
         },
         "https://persistence-mainnet-rest.cosmonautstakes.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 34200
+          "failedQueries": 4,
+          "longestQueryTime": 35299
         },
         "https://persistence.lcd.quantnode.xyz": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 29699
+          "failedQueries": 4,
+          "longestQueryTime": 35499
         },
         "https://persistence-rest.zenscape.one": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 25900
+          "failedQueries": 4,
+          "longestQueryTime": 34000
         },
         "https://persistence-api.stakeandrelax.net": {
           "successfulQueries": 0,
-          "failedQueries": 10,
-          "longestQueryTime": 43800
+          "failedQueries": 8,
+          "longestQueryTime": 37001
         },
         "https://rest.persistence.posthuman.digital:443": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 30600
+          "failedQueries": 4,
+          "longestQueryTime": 26299
         },
         "https://api-persistence-01.stakeflow.io": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 25000
+          "failedQueries": 4,
+          "longestQueryTime": 30400
         },
         "https://persistence-rest.publicnode.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 35000
+          "failedQueries": 4,
+          "longestQueryTime": 29098
         },
         "https://persistence-api.highstakes.ch": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 27700
+          "failedQueries": 4,
+          "longestQueryTime": 26600
         },
         "https://api.persistence.validatus.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 26501
+          "failedQueries": 4,
+          "longestQueryTime": 37301
         },
         "https://public.stakewolle.com/cosmos/persistence/rest": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 17799
+          "failedQueries": 4,
+          "longestQueryTime": 32904
         },
         "https://xprt-rest.antrixy.org/": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 3800
+          "failedQueries": 4,
+          "longestQueryTime": 8600
         },
         "https://persistence-api.stake-town.com": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 20901
+          "failedQueries": 4,
+          "longestQueryTime": 17300
         },
         "https://persistence.api.pocket.network": {
           "successfulQueries": 0,
-          "failedQueries": 5,
-          "longestQueryTime": 27500
+          "failedQueries": 4,
+          "longestQueryTime": 32999
         }
       }
     },
-    "osmosis-1": {
+    "bbn-1": {
       "rpc": {},
       "rest": {
-        "https://lcd.osmosis.zone/": {
+        "https://babylon.nodes.guru/api": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 28900
+          "failedQueries": 1,
+          "longestQueryTime": 34000
         },
-        "https://rest.osmosis.goldenratiostaking.net": {
+        "https://babylon-archive.nodes.guru/api": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 29500
+          "failedQueries": 1,
+          "longestQueryTime": 30800
         },
-        "https://rest.lavenderfive.com:443/osmosis": {
+        "https://babylon-api.polkachu.com": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 29199
+          "failedQueries": 1,
+          "longestQueryTime": 24700
         },
-        "https://rest-osmosis.ecostake.com": {
+        "https://babylon-archive-api.polkachu.com": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 44500
+          "failedQueries": 1,
+          "longestQueryTime": 35993
         },
-        "https://osmosis-api.polkachu.com": {
+        "https://babylon-rest.publicnode.com": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 23501
+          "failedQueries": 1,
+          "longestQueryTime": 26199
         },
-        "https://osmosis.rest.stakin-nodes.com": {
+        "https://babylon-mainnet-lcd.autostake.com:443": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 30199
-        },
-        "https://osmosis-rest.publicnode.com": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 26800
-        },
-        "https://community.nuxian-node.ch:6797/osmosis/crpc": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 26498
-        },
-        "https://osmosis-api.stake-town.com": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 17500
-        },
-        "https://api.osmosis.validatus.com:443": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
+          "failedQueries": 1,
           "longestQueryTime": 30100
         },
-        "https://public.stakewolle.com/cosmos/osmosis/rest": {
+        "https://community.nuxian-node.ch:6797/babylon/crpc": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 30695
+          "failedQueries": 1,
+          "longestQueryTime": 22700
         },
-        "https://rest.cros-nest.com/osmosis": {
+        "https://babylon-mainnet-api.shazoe.xyz": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 36601
+          "failedQueries": 1,
+          "longestQueryTime": 34200
         },
-        "https://osmosis-api.noders.services": {
+        "https://babylon.api.nodeshub.online": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 35600
+          "failedQueries": 1,
+          "longestQueryTime": 8301
         },
-        "https://osmosis-api.highstakes.ch": {
+        "https://babylon-mainnet-api.shazoes.xyz": {
           "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 28100
-        },
-        "https://api.osmosis.citizenweb3.com/": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 31305
-        },
-        "https://osmosis.api.pocket.network": {
-          "successfulQueries": 0,
-          "failedQueries": 6,
-          "longestQueryTime": 29501
+          "failedQueries": 1,
+          "longestQueryTime": 23300
         }
       }
     },
-    "cosmoshub-4": {
+    "pirin-1": {
       "rpc": {},
       "rest": {
-        "https://rest.cosmoshub-main.ccvalidators.com:443": {
+        "https://lcd.nolus.network": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 26700
+          "failedQueries": 11,
+          "longestQueryTime": 33300
         },
-        "https://cosmoshub.lava.build:443": {
+        "https://nolus-mainnet-lcd.autostake.com:443": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 17903
+          "failedQueries": 11,
+          "longestQueryTime": 75201
         },
-        "https://cosmos-lcd.quickapi.com:443": {
+        "https://rest.lavenderfive.com:443/nolus": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 22901
+          "failedQueries": 11,
+          "longestQueryTime": 37099
         },
-        "https://rest.cosmoshub.goldenratiostaking.net": {
+        "https://api-nolus.cosmos-spaces.cloud": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 29699
+          "failedQueries": 11,
+          "longestQueryTime": 13400
         },
-        "https://rest.lavenderfive.com:443/cosmoshub": {
+        "https://nolus.api.liveraven.net": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 24300
+          "failedQueries": 11,
+          "longestQueryTime": 37799
         },
-        "https://api-cosmoshub.pupmos.network": {
+        "https://rest-nolus.architectnodes.com": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 24401
+          "failedQueries": 11,
+          "longestQueryTime": 32500
         },
-        "https://api-cosmoshub.cosmos-spaces.cloud": {
+        "https://nolus.api.kjnodes.com": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 12507
+          "failedQueries": 11,
+          "longestQueryTime": 61104
         },
-        "https://api-cosmoshub-ia.cosmosia.notional.ventures/": {
+        "https://nolus-lcd.enigma-validator.com/": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 33400
+          "failedQueries": 11,
+          "longestQueryTime": 36699
         },
-        "https://cosmos-rest.staketab.org": {
+        "https://nolus-api.w3coins.io": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 18300
+          "failedQueries": 11,
+          "longestQueryTime": 75501
         },
-        "https://lcd.cosmos.dragonstake.io": {
+        "https://nolus-rest.publicnode.com": {
           "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 26400
-        },
-        "https://cosmoshub.rest.stakin-nodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 27800
-        },
-        "https://rest-cosmoshub.architectnodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 22290
-        },
-        "https://rest-cosmoshub.ecostake.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 33100
-        },
-        "https://lcd-cosmoshub.whispernode.com:443": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 7501
-        },
-        "https://cosmos-lcd.easy2stake.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 38700
-        },
-        "https://api.cosmos.nodestake.org": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 21602
-        },
-        "https://cosmos.api.silknodes.io": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 18001
-        },
-        "https://cosmos-rest.publicnode.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 23701
-        },
-        "https://cosmoshub.api.kjnodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 16800
-        },
-        "https://api-cosmos-hub-01.stakeflow.io": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 17400
-        },
-        "https://cosmos-api.w3coins.io": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 24900
-        },
-        "https://api-cosmoshub.mms.team": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 8999
-        },
-        "https://community.nuxian-node.ch:6797/gaia/crpc": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 31400
-        },
-        "https://cosmos-api.highstakes.ch": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 22500
-        },
-        "https://cosmoshub-api.cosmosrescue.dev": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 38902
-        },
-        "https://cosmos-rest.interstellar-lounge.org": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 40301
-        },
-        "https://public.stakewolle.com/cosmos/cosmoshub/rest": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 42301
-        },
-        "https://rest-cosmos.kewrnode.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 18802
-        },
-        "https://cosmos-api.stakeandrelax.net": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 49310
-        },
-        "https://cosmoshub-mainnet-api.itrocket.net": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 21999
-        },
-        "https://cosmoshub.api.quasarstaking.ai": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 21901
-        },
-        "https://cosmos.ibs.team:443/api": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 23599
-        },
-        "https://api.cosmoshub-4-archive.citizenweb3.com:443": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 34100
-        },
-        "https://api.cosmoshub-4.citizenweb3.com:443": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 46899
-        },
-        "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 15001
+          "failedQueries": 11,
+          "longestQueryTime": 59099
         }
       }
     },
@@ -436,38 +226,158 @@
       "rest": {
         "https://api.xion-mainnet-1.burnt.com": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 23199
+          "failedQueries": 4,
+          "longestQueryTime": 28000
         },
         "https://xion-api.lavenderfive.com": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 26100
+          "failedQueries": 4,
+          "longestQueryTime": 42201
         },
         "https://lcd-burnt.imperator.co": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 19001
+          "failedQueries": 4,
+          "longestQueryTime": 51399
         },
         "https://xion-api.polkachu.com": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 26901
+          "failedQueries": 4,
+          "longestQueryTime": 55900
         },
         "https://xion-mainnet-lcd.autostake.com": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 35699
+          "failedQueries": 4,
+          "longestQueryTime": 28101
         },
         "https://api.xion.nodestake.org": {
           "successfulQueries": 0,
-          "failedQueries": 3,
-          "longestQueryTime": 26901
+          "failedQueries": 4,
+          "longestQueryTime": 28699
         },
         "https://xion-rest.kingnodes.com": {
           "successfulQueries": 0,
+          "failedQueries": 4,
+          "longestQueryTime": 12900
+        }
+      }
+    },
+    "osmosis-1": {
+      "rpc": {},
+      "rest": {
+        "https://lcd.osmosis.zone/": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 14500
+        },
+        "https://rest.osmosis.goldenratiostaking.net": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 16799
+        },
+        "https://rest.lavenderfive.com:443/osmosis": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 17000
+        },
+        "https://rest-osmosis.ecostake.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 19805
+        },
+        "https://osmosis-api.polkachu.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 16198
+        },
+        "https://osmosis.rest.stakin-nodes.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 23200
+        },
+        "https://osmosis-rest.publicnode.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 27901
+        },
+        "https://community.nuxian-node.ch:6797/osmosis/crpc": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 17200
+        },
+        "https://osmosis-api.stake-town.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 3401
+        },
+        "https://api.osmosis.validatus.com:443": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 27799
+        },
+        "https://public.stakewolle.com/cosmos/osmosis/rest": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 19300
+        },
+        "https://rest.cros-nest.com/osmosis": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 16799
+        },
+        "https://osmosis-api.noders.services": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 17800
+        },
+        "https://osmosis-api.highstakes.ch": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 16100
+        },
+        "https://api.osmosis.citizenweb3.com/": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 23499
+        },
+        "https://osmosis.api.pocket.network": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 55900
+        }
+      }
+    },
+    "zigchain-1": {
+      "rpc": {},
+      "rest": {
+        "https://public-zigchain-lcd.numia.xyz/": {
+          "successfulQueries": 0,
+          "failedQueries": 10,
+          "longestQueryTime": 34404
+        },
+        "https://api.zigchain.com": {
+          "successfulQueries": 0,
+          "failedQueries": 10,
+          "longestQueryTime": 30300
+        }
+      }
+    },
+    "mantra-1": {
+      "rpc": {},
+      "rest": {
+        "https://api.mantrachain.io": {
+          "successfulQueries": 0,
           "failedQueries": 3,
-          "longestQueryTime": 13900
+          "longestQueryTime": 28601
+        },
+        "https://mantra-mainnet-api.itrocket.net": {
+          "successfulQueries": 0,
+          "failedQueries": 3,
+          "longestQueryTime": 19400
+        },
+        "https://mantra.api.m.stavr.tech": {
+          "successfulQueries": 0,
+          "failedQueries": 3,
+          "longestQueryTime": 36201
         }
       }
     },
@@ -476,8 +386,8 @@
       "rest": {
         "https://babylon-testnet-api.nodes.guru": {
           "successfulQueries": 0,
-          "failedQueries": 21,
-          "longestQueryTime": 37799
+          "failedQueries": 19,
+          "longestQueryTime": 64399
         }
       }
     },
@@ -487,12 +397,12 @@
         "https://api.dukong.mantrachain.io": {
           "successfulQueries": 0,
           "failedQueries": 8,
-          "longestQueryTime": 28000
+          "longestQueryTime": 27100
         },
         "https://lcd-office.cosmostation.io/mantra-testnet/": {
           "successfulQueries": 0,
           "failedQueries": 8,
-          "longestQueryTime": 46700
+          "longestQueryTime": 72999
         }
       }
     },
@@ -501,13 +411,13 @@
       "rest": {
         "https://lcd.osmotest5.osmosis.zone/": {
           "successfulQueries": 0,
-          "failedQueries": 9,
-          "longestQueryTime": 54201
+          "failedQueries": 8,
+          "longestQueryTime": 44601
         },
         "https://osmosis-testnet-cosmos.reliableninjas.com": {
           "successfulQueries": 0,
-          "failedQueries": 9,
-          "longestQueryTime": 45400
+          "failedQueries": 8,
+          "longestQueryTime": 62700
         }
       }
     },
@@ -517,22 +427,87 @@
         "https://api.xion-testnet-2.burnt.com": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 32599
+          "longestQueryTime": 18100
         },
         "https://testnet-2-api.xion-api.com": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 44701
+          "longestQueryTime": 33600
         },
         "https://xion-testnet-api.polkachu.com": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 29201
+          "longestQueryTime": 40701
         },
         "https://burnt-testnet-api.itrocket.net": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 15600
+          "longestQueryTime": 16802
+        }
+      }
+    },
+    "quasar-1": {
+      "rpc": {},
+      "rest": {
+        "https://rest.lavenderfive.com:443/quasar": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 31607
+        },
+        "https://quasar-api.polkachu.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 13099
+        },
+        "https://api-quasar.cosmos-spaces.cloud": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 15204
+        },
+        "https://quasar-lcd.enigma-validator.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 12700
+        },
+        "https://quasar-mainnet-lcd.autostake.com:443": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 33802
+        },
+        "https://quasar.api.kjnodes.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 10999
+        },
+        "https://lcd-quasar.validavia.me": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 35304
+        },
+        "https://quasar-rest.publicnode.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 31800
+        },
+        "https://quasar-api.stake-town.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 4900
+        },
+        "https://quasar-api.stakeandrelax.net": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 21401
+        },
+        "https://quasar-api.genznodes.dev": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 5601
+        },
+        "https://quasar-api.chainroot.io": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 22901
         }
       }
     },
@@ -541,13 +516,13 @@
       "rest": {
         "https://rest.cronos.org/": {
           "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 21699
+          "failedQueries": 2,
+          "longestQueryTime": 31600
         },
         "https://cronos-rest.publicnode.com": {
           "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 29200
+          "failedQueries": 2,
+          "longestQueryTime": 34999
         }
       }
     },
@@ -557,67 +532,67 @@
         "https://lcd.lumera.io:443": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 22399
+          "longestQueryTime": 13600
         },
         "https://lumera.ibs.team:443/api": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 28701
+          "longestQueryTime": 31800
         },
         "https://lumera-rest.stakerhouse.com": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 32199
+          "longestQueryTime": 33901
         },
         "https://rest.lumera.archive.data.nexus": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 16400
+          "longestQueryTime": 11599
         }
       }
     },
-    "pacific-1": {
+    "sidechain-1": {
       "rpc": {},
       "rest": {
-        "https://rest.sei-apis.com": {
+        "https://rest.side.one": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 20798
+          "longestQueryTime": 5301
         },
-        "https://rest.lavenderfive.com:443/sei": {
+        "https://api.side.nodestake.org": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 37900
+          "longestQueryTime": 3698
         },
-        "https://sei-api.polkachu.com": {
+        "https://side-api.synergynodes.com": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 13899
+          "longestQueryTime": 2900
         },
-        "https://api-sei.stingray.plus": {
+        "https://side-rest.publicnode.com": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 12600
+          "longestQueryTime": 48800
         },
-        "https://lcd-sei.whispernode.com:443": {
+        "https://side.api.kjnodes.com": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 13900
+          "longestQueryTime": 601
         },
-        "https://sei.api.kjnodes.com": {
+        "https://side-mainnet-api.itrocket.net": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 10800
+          "longestQueryTime": 3301
         },
-        "https://sei-rest.publicnode.com": {
+        "https://api.side.bh.rocks": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 18599
+          "longestQueryTime": 28697
         },
-        "https://sei.api.pocket.network": {
+        "https://side.api.m.stavr.tech": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 25599
+          "longestQueryTime": 2600
         }
       }
     },
@@ -627,22 +602,67 @@
         "https://sentry.lcd.routerprotocol.com/": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 1799
+          "longestQueryTime": 4800
         },
         "https://router-mainnet-lcd.autostake.com:443": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 35300
+          "longestQueryTime": 48102
         },
         "https://routerchain_mainnet_api.chain.whenmoonwhenlambo.money": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 13899
+          "longestQueryTime": 10499
         },
         "https://api.router.nodestake.org": {
           "successfulQueries": 0,
           "failedQueries": 1,
-          "longestQueryTime": 12801
+          "longestQueryTime": 10799
+        }
+      }
+    },
+    "pacific-1": {
+      "rpc": {},
+      "rest": {
+        "https://rest.sei-apis.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 17451
+        },
+        "https://rest.lavenderfive.com:443/sei": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 46301
+        },
+        "https://sei-api.polkachu.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 13201
+        },
+        "https://api-sei.stingray.plus": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 28700
+        },
+        "https://lcd-sei.whispernode.com:443": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 17803
+        },
+        "https://sei.api.kjnodes.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 25900
+        },
+        "https://sei-rest.publicnode.com": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 16400
+        },
+        "https://sei.api.pocket.network": {
+          "successfulQueries": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 30299
         }
       }
     },
@@ -652,52 +672,7 @@
         "https://lcd.testnet.lumera.io:443": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 14199
-        }
-      }
-    },
-    "sidechain-1": {
-      "rpc": {},
-      "rest": {
-        "https://rest.side.one": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 15400
-        },
-        "https://api.side.nodestake.org": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 6700
-        },
-        "https://side-api.synergynodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 7400
-        },
-        "https://side-rest.publicnode.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 22500
-        },
-        "https://side.api.kjnodes.com": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 18600
-        },
-        "https://side-mainnet-api.itrocket.net": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 15402
-        },
-        "https://api.side.bh.rocks": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 28098
-        },
-        "https://side.api.m.stavr.tech": {
-          "successfulQueries": 0,
-          "failedQueries": 2,
-          "longestQueryTime": 5201
+          "longestQueryTime": 25399
         }
       }
     },
@@ -707,42 +682,17 @@
         "https://titan-testnet-lcd.titanlab.io:443": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 4100
+          "longestQueryTime": 19500
         },
         "https://titan-testnet-lcd-1.titanlab.io:443": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 15599
+          "longestQueryTime": 44500
         },
         "https://titan-testnet-lcd-2.titanlab.io:443": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 18300
-        }
-      }
-    },
-    "titan_18888-1": {
-      "rpc": {},
-      "rest": {
-        "https://titan-lcd.titanlab.io:443": {
-          "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 2701
-        },
-        "https://titan-lcd-tokyo.titanlab.io:443": {
-          "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 18399
-        },
-        "https://titan-lcd-seoul.titanlab.io:443": {
-          "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 18599
-        },
-        "https://titan-lcd-hongkong.titanlab.io:443": {
-          "successfulQueries": 0,
-          "failedQueries": 1,
-          "longestQueryTime": 5101
+          "longestQueryTime": 20099
         }
       }
     },
@@ -752,7 +702,32 @@
         "https://api.docas.wardenprotocol.org/": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 16598
+          "longestQueryTime": 4999
+        }
+      }
+    },
+    "titan_18888-1": {
+      "rpc": {},
+      "rest": {
+        "https://titan-lcd.titanlab.io:443": {
+          "successfulQueries": 0,
+          "failedQueries": 2,
+          "longestQueryTime": 45700
+        },
+        "https://titan-lcd-tokyo.titanlab.io:443": {
+          "successfulQueries": 0,
+          "failedQueries": 2,
+          "longestQueryTime": 21900
+        },
+        "https://titan-lcd-seoul.titanlab.io:443": {
+          "successfulQueries": 0,
+          "failedQueries": 2,
+          "longestQueryTime": 4101
+        },
+        "https://titan-lcd-hongkong.titanlab.io:443": {
+          "successfulQueries": 0,
+          "failedQueries": 2,
+          "longestQueryTime": 6199
         }
       }
     },
@@ -762,12 +737,12 @@
         "https://testnet-api.zigchain.com": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 20400
+          "longestQueryTime": 26100
         },
         "https://public-zigchain-testnet-lcd.numia.xyz/": {
           "successfulQueries": 0,
           "failedQueries": 4,
-          "longestQueryTime": 11503
+          "longestQueryTime": 22500
         }
       }
     }
@@ -778,10 +753,15 @@
         "https://babylon-testnet-api.nodes.guru"
       ]
     },
+    "pirin-1": {
+      "rest": [
+        "https://rest.lavenderfive.com:443/nolus"
+      ]
+    },
     "zig-test-2": {
       "rest": [
-        "https://public-zigchain-testnet-lcd.numia.xyz/",
-        "https://testnet-api.zigchain.com"
+        "https://testnet-api.zigchain.com",
+        "https://public-zigchain-testnet-lcd.numia.xyz/"
       ]
     }
   }
