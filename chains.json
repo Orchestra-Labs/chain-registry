@@ -1,6 +1,6 @@
 {
-  "sha": "0e682fb4e509e29663865d0de7d82c949cce401e",
-  "lastUpdated": "2025-12-22T07:24:00.134Z",
+  "sha": "35b8ff7c80745dfd8d2ec314388b482e4f523373",
+  "lastUpdated": "2025-12-24T07:34:57.435Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -4813,10 +4813,6 @@
             "provider": "TdrSys"
           },
           {
-            "address": "https://bitsong-rpc.panthea.eu",
-            "provider": "Panthea EU"
-          },
-          {
             "address": "https://rpc.bitsong.mathnodes.com",
             "provider": "MathNodes"
           },
@@ -4857,10 +4853,6 @@
           {
             "address": "https://bitsong.tdrsys.com",
             "provider": "TdrSys"
-          },
-          {
-            "address": "https://bitsong-api.panthea.eu",
-            "provider": "Panthea EU"
           },
           {
             "address": "https://api.bitsong.mathnodes.com",
@@ -7251,7 +7243,7 @@
             "provider": "Kleomedes"
           },
           {
-            "address": "https://cheqd.srvs.vnodesv.net/rest",
+            "address": "https://api.cheqd.srvs.vnodesv.net",
             "provider": "vNodes[V] Ser[V]ices"
           },
           {
@@ -11964,7 +11956,7 @@
             "provider": "Node39"
           },
           {
-            "address": "https://elys.srvs.vnodesv.net/rest",
+            "address": "https://rest.elys.srvs.vnodesv.net",
             "provider": "vNodes[V] Ser[V]ices"
           },
           {
@@ -15522,8 +15514,8 @@
         ],
         "rpc_uris": [
           {
-            "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rpc.newmetric.xyz",
-            "provider": "NewMetric"
+            "address": "https://injective-rpc.highstakes.ch",
+            "provider": "High Stakes 🇨🇭"
           },
           {
             "address": "https://rpc.injective.goldenratiostaking.net",
@@ -15538,18 +15530,6 @@
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
-            "address": "https://rpc-injective-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
-          },
-          {
-            "address": "https://injective-mainnet-rpc.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://rpc-injective.whispernode.com:443",
-            "provider": "WhisperNode 🤐"
-          },
-          {
             "address": "https://rpc-injective-01.stakeflow.io",
             "provider": "Stakeflow"
           },
@@ -15558,34 +15538,14 @@
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://injective-rpc.highstakes.ch",
-            "provider": "High Stakes 🇨🇭"
-          },
-          {
             "address": "https://public.stakewolle.com/cosmos/injective/rpc",
             "provider": "Stakewolle"
-          },
-          {
-            "address": "https://rpc.injective.bronbro.io/",
-            "provider": "Bro_n_Bro"
-          },
-          {
-            "address": "https://injective-rpc.noders.services",
-            "provider": "[NODERS]TEAM"
-          },
-          {
-            "address": "https://rpc-injective.kewrnode.com",
-            "provider": "Kewr Node"
           }
         ],
         "rest_uris": [
           {
-            "address": "https://6d0ff611-9009-4bd1-a7a7-acec7c70d454.injective-1.mesa-rest.newmetric.xyz",
-            "provider": "NewMetric"
-          },
-          {
-            "address": "https://api-injective-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
+            "address": "https://injective-api.highstakes.ch",
+            "provider": "High Stakes 🇨🇭"
           },
           {
             "address": "https://injective-api.polkachu.com",
@@ -15596,44 +15556,12 @@
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
-            "address": "https://lcd-injective.whispernode.com:443",
-            "provider": "WhisperNode 🤐"
-          },
-          {
-            "address": "https://api-injective-01.stakeflow.io",
-            "provider": "Stakeflow"
-          },
-          {
-            "address": "https://rest.injective.goldenratiostaking.net",
-            "provider": "Golden Ratio Staking"
-          },
-          {
             "address": "https://injective-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "injective-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://injective-api.highstakes.ch",
-            "provider": "High Stakes 🇨🇭"
-          },
-          {
             "address": "https://public.stakewolle.com/cosmos/injective/rest",
             "provider": "Stakewolle"
-          },
-          {
-            "address": "https://lcd.injective.bronbro.io/",
-            "provider": "Bro_n_Bro"
-          },
-          {
-            "address": "https://injective-api.noders.services",
-            "provider": "[NODERS]TEAM"
-          },
-          {
-            "address": "https://rest-injective.kewrnode.com",
-            "provider": "Kewr Node"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
@@ -21289,9 +21217,9 @@
           {
             "denom": "ukyve",
             "gasPriceStep": {
-              "low": 2,
-              "average": 3,
-              "high": 6
+              "low": 62.5,
+              "average": 80,
+              "high": 125
             }
           }
         ],
@@ -23871,6 +23799,67 @@
             "price": 0,
             "originDenom": "factory/milk1qg5ega6dykkxc307y25pecuufrjkxkaggkkxh7nad0vhyhtuhw3ssgcye4/umilkBBN",
             "originChainId": "milkyway"
+          }
+        }
+      },
+      "mirage-1": {
+        "chain_name": "mirage",
+        "status": "live",
+        "website": "",
+        "network_level": "mainnet",
+        "pretty_name": "Mirage",
+        "chain_type": "mainnet",
+        "chain_id": "mirage-1",
+        "bech32_prefix": "mirage",
+        "fees": [
+          {
+            "denom": "umirage",
+            "gasPriceStep": {
+              "low": 0.025,
+              "average": 0.05,
+              "high": 0.1
+            }
+          }
+        ],
+        "staking_denoms": [
+          "umirage"
+        ],
+        "rpc_uris": [
+          {
+            "address": "http://mirage.talk:26657",
+            "provider": "Mirage"
+          },
+          {
+            "address": "http://mirage.vote:26657",
+            "provider": "Mirage"
+          },
+          {
+            "address": "http://146.190.108.140:26657",
+            "provider": "Mirage"
+          },
+          {
+            "address": "http://139.59.9.96:26657",
+            "provider": "Mirage"
+          }
+        ],
+        "rest_uris": [],
+        "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png",
+        "assets": {
+          "umirage": {
+            "denom": "umirage",
+            "amount": "0",
+            "displayAmount": "0",
+            "isIbc": false,
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mirage/images/mirage.png",
+            "symbol": "MIRAGE",
+            "name": "Mirage",
+            "exponent": 6,
+            "isFeeToken": true,
+            "networkName": "Mirage",
+            "chainId": "mirage-1",
+            "price": 0,
+            "originDenom": "umirage",
+            "originChainId": "mirage-1"
           }
         }
       },
@@ -54332,20 +54321,12 @@
             "provider": "stakely"
           },
           {
-            "address": "https://phoenix-rpc.terra.dev:443",
-            "provider": "Terraform Labs"
-          },
-          {
             "address": "https://terra-rpc.publicnode.com:443",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://rpc-terra-01.stakeflow.io",
             "provider": "Stakeflow"
-          },
-          {
-            "address": "https://rpc-archive-terra.r93axnodes.cloud:443",
-            "provider": "r93AX Nodes"
           },
           {
             "address": "https://rpc-terra.cosmos-spaces.cloud",
@@ -54356,24 +54337,12 @@
             "provider": "High Stakes 🇨🇭"
           },
           {
-            "address": "https://rpc-terra.wildsage.io",
-            "provider": "🧙 WildSage Labs"
-          },
-          {
-            "address": "https://terra.interstellar-lounge.org",
-            "provider": "Interstellar Lounge 🍸"
-          },
-          {
             "address": "https://terra2.tdrsys.com:2053",
             "provider": "TdrSys"
           },
           {
             "address": "https://terra-rpc.cosmosrescue.dev:8443",
             "provider": "cosmosrescue"
-          },
-          {
-            "address": "https://terra-rpc.chainroot.io",
-            "provider": "Chainroot"
           },
           {
             "address": "https://terra-rpc.node39.top",
@@ -54386,24 +54355,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://lcd-terra.wildsage.io",
-            "provider": "🧙 WildSage Labs"
-          },
-          {
             "address": "https://phoenix-lcd.terra.dev:443",
             "provider": "Terraform Labs"
           },
           {
-            "address": "https://api-terra.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
             "address": "https://terra-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://api-archive-terra.r93axnodes.cloud:443",
-            "provider": "r93AX Nodes"
           },
           {
             "address": "https://api-terra-01.stakeflow.io",
@@ -54412,10 +54369,6 @@
           {
             "address": "https://terra-phoenix-api.highstakes.ch",
             "provider": "High Stakes 🇨🇭"
-          },
-          {
-            "address": "https://terra-rest.interstellar-lounge.org",
-            "provider": "Interstellar Lounge 🍸"
           },
           {
             "address": "https://terra2.tdrsys.com",
@@ -55196,6 +55149,7 @@
             "isFeeToken": false,
             "networkName": "Terra",
             "chainId": "phoenix-1",
+            "coinGeckoId": "eris-arbitrage-luna",
             "price": 0,
             "originDenom": "cw20:terra1se7rvuerys4kd2snt6vqswh9wugu49vhyzls8ymc02wl37g2p2ms5yz490",
             "originChainId": "phoenix-1"
@@ -55363,6 +55317,22 @@
             "price": 0,
             "originDenom": "transfer/08-wasm-1369/0x68749665ff8d2d112fa859aa293f07a622782f38",
             "originChainId": "cosmoshub-4"
+          },
+          "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp": {
+            "denom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp",
+            "amount": "0",
+            "displayAmount": "0",
+            "isIbc": false,
+            "logo": "",
+            "symbol": "LUNA-ampLUNA-ampLP",
+            "name": "Eris Protocol LUNA/ampLUNA ampLP",
+            "exponent": 6,
+            "isFeeToken": false,
+            "networkName": "Terra",
+            "chainId": "phoenix-1",
+            "price": 0,
+            "originDenom": "factory/terra1zly98gvcec54m3caxlqexce7rus6rzgplz7eketsdz7nh750h2rqvu8uzx/32/project/amplp",
+            "originChainId": "phoenix-1"
           }
         }
       },
@@ -63289,9 +63259,9 @@
           {
             "denom": "tkyve",
             "gasPriceStep": {
-              "low": 0.01,
-              "average": 0.025,
-              "high": 0.04
+              "low": 62.5,
+              "average": 80,
+              "high": 125
             }
           }
         ],
