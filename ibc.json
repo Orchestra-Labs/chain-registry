@@ -6992,6 +6992,18 @@
           "channel_id": "channel-89298"
         }
       },
+      "mirage-1,osmosis-1": {
+        "mirage-1": {
+          "client_id": "07-tendermint-1",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3643",
+          "connection_id": "connection-10990",
+          "channel_id": "channel-108600"
+        }
+      },
       "mtgbp-1,osmosis-1": {
         "mtgbp-1": {
           "client_id": "07-tendermint-0",
@@ -10404,9 +10416,9 @@
       }
     }
   },
-  "lastUpdated": "2025-12-26T18:49:36.973Z",
+  "lastUpdated": "2025-12-28T18:45:06.519Z",
   "commitHashes": {
-    "mainnetHash": "35b8ff7c80745dfd8d2ec314388b482e4f523373",
-    "testnetHash": "35b8ff7c80745dfd8d2ec314388b482e4f523373"
+    "mainnetHash": "c0c58cdd2ea69cae140f9727bd1dfc0311cf5da6",
+    "testnetHash": "c0c58cdd2ea69cae140f9727bd1dfc0311cf5da6"
   }
 }

@@ -1,6 +1,6 @@
 {
-  "sha": "35b8ff7c80745dfd8d2ec314388b482e4f523373",
-  "lastUpdated": "2025-12-26T19:45:51.573Z",
+  "sha": "c0c58cdd2ea69cae140f9727bd1dfc0311cf5da6",
+  "lastUpdated": "2025-12-28T19:32:25.474Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -48817,6 +48817,22 @@
             "price": 0,
             "originDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
             "originChainId": "osmosis-1"
+          },
+          "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw": {
+            "denom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw",
+            "amount": "0",
+            "displayAmount": "0",
+            "isIbc": false,
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/clw.png",
+            "symbol": "CLW",
+            "name": "Clown Society",
+            "exponent": 6,
+            "isFeeToken": false,
+            "networkName": "Stargaze",
+            "chainId": "stargaze-1",
+            "price": 0,
+            "originDenom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw",
+            "originChainId": "stargaze-1"
           }
         }
       },
