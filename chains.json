@@ -1,6 +1,6 @@
 {
-  "sha": "2358aa1f0d0bd4169ff33ce01c994d8410c19889",
-  "lastUpdated": "2025-12-30T19:45:02.573Z",
+  "sha": "936ad7f988e55327705a1191374f5f9b3fee3a89",
+  "lastUpdated": "2026-01-01T08:00:53.180Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -18822,6 +18822,60 @@
             "price": 0,
             "originDenom": "cw20:ki1dt3lk455ed360pna38fkhqn0p8y44qndsr77qu73ghyaz2zv4whq83mwdy",
             "originChainId": "kichain-2"
+          }
+        }
+      },
+      "kiichain_1783-1": {
+        "chain_name": "kiichain",
+        "status": "live",
+        "website": "",
+        "network_level": "mainnet",
+        "pretty_name": "KiiChain",
+        "chain_type": "mainnet",
+        "chain_id": "kiichain_1783-1",
+        "bech32_prefix": "kii",
+        "fees": [
+          {
+            "denom": "akii",
+            "gasPriceStep": {
+              "low": 600000000,
+              "average": 750000000,
+              "high": 1000000000
+            }
+          }
+        ],
+        "staking_denoms": [
+          "akii"
+        ],
+        "rpc_uris": [
+          {
+            "address": "https://rpc.kiivalidator.com",
+            "provider": "Kiichain"
+          }
+        ],
+        "rest_uris": [
+          {
+            "address": "https://lcd.kiivalidator.com",
+            "provider": "Kiichain"
+          }
+        ],
+        "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kiichain/images/kii.png",
+        "assets": {
+          "akii": {
+            "denom": "akii",
+            "amount": "0",
+            "displayAmount": "0",
+            "isIbc": false,
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kiichain/images/kii.png",
+            "symbol": "KII",
+            "name": "Kii",
+            "exponent": 18,
+            "isFeeToken": true,
+            "networkName": "KiiChain",
+            "chainId": "kiichain_1783-1",
+            "price": 0,
+            "originDenom": "akii",
+            "originChainId": "kiichain_1783-1"
           }
         }
       },
@@ -39091,8 +39145,8 @@
             "networkName": "Osmosis",
             "chainId": "osmosis-1",
             "price": 0,
-            "originDenom": "aepix",
-            "originChainId": "epix_1916-1"
+            "originDenom": "ibc/776917313EC3252954ED622945D4979651ACD909A18E528283F46D7B166F20BF",
+            "originChainId": "osmosis-1"
           },
           "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/slayer": {
             "denom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/slayer",
@@ -48818,8 +48872,8 @@
             "originDenom": "factory/osmo1q77cw0mmlluxu0wr29fcdd0tdnh78gzhkvhe4n6ulal9qvrtu43qtd0nh8/stlth",
             "originChainId": "osmosis-1"
           },
-          "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw": {
-            "denom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw",
+          "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uCLW": {
+            "denom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uCLW",
             "amount": "0",
             "displayAmount": "0",
             "isIbc": false,
@@ -48831,7 +48885,7 @@
             "networkName": "Stargaze",
             "chainId": "stargaze-1",
             "price": 0,
-            "originDenom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uclw",
+            "originDenom": "factory/stars1khzuhuhv02vaturh9x9lz4jach824x9umcgghl/uCLW",
             "originChainId": "stargaze-1"
           }
         }

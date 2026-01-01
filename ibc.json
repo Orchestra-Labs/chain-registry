@@ -9586,6 +9586,18 @@
           "channel_id": "channel-1"
         }
       },
+      "divine-testnet-1,osmo-test-5": {
+        "divine-testnet-1": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        },
+        "osmo-test-5": {
+          "client_id": "07-tendermint-4998",
+          "connection_id": "connection-4361",
+          "channel_id": "channel-11231"
+        }
+      },
       "osmo-test-5,vota-testnet": {
         "vota-testnet": {
           "client_id": "07-tendermint-2",
@@ -10416,9 +10428,9 @@
       }
     }
   },
-  "lastUpdated": "2025-12-30T18:48:55.174Z",
+  "lastUpdated": "2026-01-01T07:21:01.180Z",
   "commitHashes": {
-    "mainnetHash": "2358aa1f0d0bd4169ff33ce01c994d8410c19889",
-    "testnetHash": "2358aa1f0d0bd4169ff33ce01c994d8410c19889"
+    "mainnetHash": "936ad7f988e55327705a1191374f5f9b3fee3a89",
+    "testnetHash": "936ad7f988e55327705a1191374f5f9b3fee3a89"
   }
 }
