@@ -1,4 +1,20 @@
 {
-  "lastUpdated": "2026-01-04T16:30:55.740Z",
-  "data": {}
+  "lastUpdated": "2026-01-05T04:16:16.711Z",
+  "data": {
+    "cosmoshub-4:channel-141": {
+      "failureCount": 1,
+      "consecutiveInfraFailures": 1,
+      "consecutiveStateFailures": 0,
+      "firstFailure": "2026-01-05T04:16:16.711Z",
+      "lastFailure": "2026-01-05T04:16:16.711Z",
+      "lastChecked": "2026-01-05T04:16:16.711Z",
+      "lastAttemptTimestamp": 1767586576711,
+      "lastState": null,
+      "lastErrorType": "infrastructure",
+      "markedNonOperational": null,
+      "nonOperationalUntil": 0,
+      "nonOperationalCount": 0,
+      "redemptionStartTimestamp": 0
+    }
+  }
 }
