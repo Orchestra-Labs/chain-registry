@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-01-08T03:19:20.371Z",
+  "lastUpdated": "2026-01-09T06:41:24.250Z",
   "data": {
     "cosmoshub-4": {
       "rpc": {},
       "rest": {
         "https://rest.cosmoshub-main.ccvalidators.com:443": {
-          "failedQueries": 16,
-          "longestQueryTime": 78399,
+          "failedQueries": 26,
+          "longestQueryTime": 425303,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1768100600672,
+          "redemptionStartTimestamp": 1767940477051,
           "blacklistedUntil": 1768100600672,
           "blacklistCount": 1
         },
         "https://cosmoshub.lava.build:443": {
-          "failedQueries": 16,
+          "failedQueries": 19,
           "longestQueryTime": 64600,
           "consecutiveInfraFailures": 8,
           "redemptionStartTimestamp": 1768100343976,
@@ -21,7 +21,7 @@
           "blacklistCount": 1
         },
         "https://cosmos-lcd.quickapi.com:443": {
-          "failedQueries": 16,
+          "failedQueries": 19,
           "longestQueryTime": 76799,
           "consecutiveInfraFailures": 8,
           "redemptionStartTimestamp": 1768100466871,
@@ -29,15 +29,15 @@
           "blacklistCount": 1
         },
         "https://rest.cosmoshub.goldenratiostaking.net": {
-          "failedQueries": 16,
-          "longestQueryTime": 60898,
+          "failedQueries": 19,
+          "longestQueryTime": 95701,
           "consecutiveInfraFailures": 8,
           "redemptionStartTimestamp": 1768100522472,
           "blacklistedUntil": 1768100522472,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/cosmoshub": {
-          "failedQueries": 16,
+          "failedQueries": 19,
           "longestQueryTime": 58101,
           "consecutiveInfraFailures": 8,
           "redemptionStartTimestamp": 1768100401471,
@@ -45,63 +45,63 @@
           "blacklistCount": 1
         },
         "https://api-cosmoshub.pupmos.network": {
-          "failedQueries": 28,
-          "longestQueryTime": 10011,
+          "failedQueries": 31,
+          "longestQueryTime": 61507,
           "consecutiveInfraFailures": 14,
           "redemptionStartTimestamp": 1768099273300,
           "blacklistedUntil": 1768099273300,
           "blacklistCount": 1
         },
         "https://api-cosmoshub.cosmos-spaces.cloud": {
-          "failedQueries": 28,
-          "longestQueryTime": 25,
+          "failedQueries": 31,
+          "longestQueryTime": 30600,
           "consecutiveInfraFailures": 14,
           "redemptionStartTimestamp": 1768099273303,
           "blacklistedUntil": 1768099273303,
           "blacklistCount": 1
         },
         "https://api-cosmoshub-ia.cosmosia.notional.ventures/": {
-          "failedQueries": 28,
-          "longestQueryTime": 144,
+          "failedQueries": 31,
+          "longestQueryTime": 68499,
           "consecutiveInfraFailures": 14,
           "redemptionStartTimestamp": 1768099273411,
           "blacklistedUntil": 1768099273411,
           "blacklistCount": 1
         },
         "https://cosmos-rest.staketab.org": {
-          "failedQueries": 28,
-          "longestQueryTime": 11971,
+          "failedQueries": 31,
+          "longestQueryTime": 56401,
           "consecutiveInfraFailures": 14,
           "redemptionStartTimestamp": 1768099283412,
           "blacklistedUntil": 1768099283412,
           "blacklistCount": 1
         },
         "https://lcd.cosmos.dragonstake.io": {
-          "failedQueries": 10,
-          "longestQueryTime": 3100,
+          "failedQueries": 13,
+          "longestQueryTime": 75398,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099296671,
           "blacklistedUntil": 1768099296671,
           "blacklistCount": 1
         },
         "https://cosmoshub.rest.stakin-nodes.com": {
-          "failedQueries": 10,
-          "longestQueryTime": 16201,
+          "failedQueries": 13,
+          "longestQueryTime": 62301,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099312972,
           "blacklistedUntil": 1768099312972,
           "blacklistCount": 1
         },
         "https://rest-cosmoshub.architectnodes.com": {
-          "failedQueries": 10,
-          "longestQueryTime": 12499,
+          "failedQueries": 13,
+          "longestQueryTime": 23301,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099325472,
           "blacklistedUntil": 1768099325472,
           "blacklistCount": 1
         },
         "https://rest-cosmoshub.ecostake.com": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 90798,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099416371,
@@ -109,7 +109,7 @@
           "blacklistCount": 1
         },
         "https://lcd-cosmoshub.whispernode.com:443": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 75900,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099444872,
@@ -117,7 +117,7 @@
           "blacklistCount": 1
         },
         "https://cosmos-lcd.easy2stake.com": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 99001,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099490772,
@@ -125,31 +125,31 @@
           "blacklistCount": 1
         },
         "https://api.cosmos.nodestake.org": {
-          "failedQueries": 10,
-          "longestQueryTime": 65299,
+          "failedQueries": 13,
+          "longestQueryTime": 169600,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099556771,
           "blacklistedUntil": 1768099556771,
           "blacklistCount": 1
         },
         "https://cosmos.api.silknodes.io": {
-          "failedQueries": 10,
-          "longestQueryTime": 65600,
+          "failedQueries": 13,
+          "longestQueryTime": 72600,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099576786,
           "blacklistedUntil": 1768099576786,
           "blacklistCount": 1
         },
         "https://cosmos-rest.publicnode.com": {
-          "failedQueries": 10,
-          "longestQueryTime": 50701,
+          "failedQueries": 13,
+          "longestQueryTime": 54699,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099577184,
           "blacklistedUntil": 1768099577184,
           "blacklistCount": 1
         },
         "https://cosmoshub.api.kjnodes.com": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 102187,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099679372,
@@ -157,7 +157,7 @@
           "blacklistCount": 1
         },
         "https://api-cosmos-hub-01.stakeflow.io": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 103845,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099691272,
@@ -165,15 +165,15 @@
           "blacklistCount": 1
         },
         "https://cosmos-api.w3coins.io": {
-          "failedQueries": 10,
-          "longestQueryTime": 40200,
+          "failedQueries": 13,
+          "longestQueryTime": 54800,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099732172,
           "blacklistedUntil": 1768099732172,
           "blacklistCount": 1
         },
         "https://api-cosmoshub.mms.team": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 37800,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099746872,
@@ -181,7 +181,7 @@
           "blacklistCount": 1
         },
         "https://community.nuxian-node.ch:6797/gaia/crpc": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 69299,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099815073,
@@ -189,7 +189,7 @@
           "blacklistCount": 1
         },
         "https://cosmos-api.highstakes.ch": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 54199,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099869271,
@@ -197,15 +197,15 @@
           "blacklistCount": 1
         },
         "https://cosmoshub-api.cosmosrescue.dev": {
-          "failedQueries": 10,
-          "longestQueryTime": 60500,
+          "failedQueries": 13,
+          "longestQueryTime": 137201,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099925272,
           "blacklistedUntil": 1768099925272,
           "blacklistCount": 1
         },
         "https://cosmos-rest.interstellar-lounge.org": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 64501,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768099986472,
@@ -213,7 +213,7 @@
           "blacklistCount": 1
         },
         "https://public.stakewolle.com/cosmos/cosmoshub/rest": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 47301,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100032472,
@@ -221,7 +221,7 @@
           "blacklistCount": 1
         },
         "https://rest-cosmos.kewrnode.com": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 25800,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100058972,
@@ -229,15 +229,15 @@
           "blacklistCount": 1
         },
         "https://cosmos-api.stakeandrelax.net": {
-          "failedQueries": 10,
-          "longestQueryTime": 38701,
+          "failedQueries": 13,
+          "longestQueryTime": 139601,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100093872,
           "blacklistedUntil": 1768100093872,
           "blacklistCount": 1
         },
         "https://cosmoshub-mainnet-api.itrocket.net": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 52699,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100146872,
@@ -245,15 +245,15 @@
           "blacklistCount": 1
         },
         "https://cosmoshub.api.quasarstaking.ai": {
-          "failedQueries": 10,
-          "longestQueryTime": 40100,
+          "failedQueries": 13,
+          "longestQueryTime": 47601,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100187173,
           "blacklistedUntil": 1768100187173,
           "blacklistCount": 1
         },
         "https://cosmos.ibs.team:443/api": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 58101,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100244372,
@@ -261,19 +261,11 @@
           "blacklistCount": 1
         },
         "https://api.cosmoshub-4-archive.citizenweb3.com:443": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 45401,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100290271,
           "blacklistedUntil": 1768100290271,
-          "blacklistCount": 1
-        },
-        "https://api.cosmoshub-4.citizenweb3.com:443": {
-          "failedQueries": 10,
-          "longestQueryTime": 58700,
-          "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1768100348571,
-          "blacklistedUntil": 1768100348571,
           "blacklistCount": 1
         },
         "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money": {
@@ -283,40 +275,265 @@
           "redemptionStartTimestamp": 1768100407871,
           "blacklistedUntil": 1768100407871,
           "blacklistCount": 1
+        },
+        "https://api.cosmoshub-4.citizenweb3.com:443": {
+          "failedQueries": 11,
+          "longestQueryTime": 308799,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767939280451,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0
         }
       }
     },
     "atomone-1": {
       "rpc": {},
       "rest": {
-        "https://atomone-api.allinbits.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 23499,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839935971
-        },
         "https://atomone-api.cogwheel.zone": {
-          "failedQueries": 6,
-          "longestQueryTime": 31096,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839967171
+          "failedQueries": 12,
+          "longestQueryTime": 71501,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768198960050,
+          "blacklistedUntil": 1768198960050,
+          "blacklistCount": 1
         },
         "https://atomone.api.nodeshub.online": {
-          "failedQueries": 6,
+          "failedQueries": 12,
           "longestQueryTime": 68100,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840035971
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199930350,
+          "blacklistedUntil": 1768199930350,
+          "blacklistCount": 1
         },
         "https://api-atomone.nodeist.net": {
-          "failedQueries": 6,
-          "longestQueryTime": 26944,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840062917
+          "failedQueries": 12,
+          "longestQueryTime": 421501,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768198889450,
+          "blacklistedUntil": 1768198889450,
+          "blacklistCount": 1
         },
         "https://rest-atomone-1.cros-nest.com:443": {
-          "failedQueries": 0,
-          "longestQueryTime": 894,
-          "consecutiveInfraFailures": 0
+          "failedQueries": 6,
+          "longestQueryTime": 262200,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1767936966051
+        },
+        "https://community.nuxian-node.ch:6797/atomone/crpc": {
+          "failedQueries": 12,
+          "longestQueryTime": 42300,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199115151,
+          "blacklistedUntil": 1768199115151,
+          "blacklistCount": 1
+        },
+        "https://atomone-rest.publicnode.com": {
+          "failedQueries": 12,
+          "longestQueryTime": 50700,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199333150,
+          "blacklistedUntil": 1768199333150,
+          "blacklistCount": 1
+        },
+        "https://atomone_mainnet_api.chain.whenmoonwhenlambo.money": {
+          "failedQueries": 6,
+          "longestQueryTime": 91001,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1767937150451
+        },
+        "https://atomone.ibs.team:443/api": {
+          "failedQueries": 12,
+          "longestQueryTime": 47201,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199077752,
+          "blacklistedUntil": 1768199077752,
+          "blacklistCount": 1
+        },
+        "https://atomone-mainnet-lcd.autostake.com:443": {
+          "failedQueries": 12,
+          "longestQueryTime": 150601,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199708652,
+          "blacklistedUntil": 1768199708652,
+          "blacklistCount": 1
+        },
+        "https://api.atomone-1.atomone.aviaone.com": {
+          "failedQueries": 12,
+          "longestQueryTime": 73400,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768200041750,
+          "blacklistedUntil": 1768200041750,
+          "blacklistCount": 1
+        },
+        "https://atomone.api.m.stavr.tech": {
+          "failedQueries": 12,
+          "longestQueryTime": 150201,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199693250,
+          "blacklistedUntil": 1768199693250,
+          "blacklistCount": 1
+        },
+        "https://api.atomone.citizenweb3.com": {
+          "failedQueries": 12,
+          "longestQueryTime": 70200,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199949152,
+          "blacklistedUntil": 1768199949152,
+          "blacklistCount": 1
+        },
+        "https://atomone-mainnet-api.itrocket.net": {
+          "failedQueries": 12,
+          "longestQueryTime": 66300,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199891150,
+          "blacklistedUntil": 1768199891150,
+          "blacklistCount": 1
+        },
+        "https://api-atone.vinjan.xyz": {
+          "failedQueries": 12,
+          "longestQueryTime": 67801,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199911850,
+          "blacklistedUntil": 1768199911850,
+          "blacklistCount": 1
+        },
+        "https://rest-atomone.ecostake.com": {
+          "failedQueries": 9,
+          "longestQueryTime": 78701,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768200081750,
+          "blacklistedUntil": 1768200081750,
+          "blacklistCount": 1
+        },
+        "https://m-atomone.api.utsa.tech/": {
+          "failedQueries": 12,
+          "longestQueryTime": 64000,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199843350,
+          "blacklistedUntil": 1768199843350,
+          "blacklistCount": 1
+        },
+        "https://api.atomone.roomit.xyz": {
+          "failedQueries": 6,
+          "longestQueryTime": 179401,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1767937914753
+        },
+        "https://api.atomone.chaintools.tech": {
+          "failedQueries": 12,
+          "longestQueryTime": 64098,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199866751,
+          "blacklistedUntil": 1768199866751,
+          "blacklistCount": 1
+        },
+        "https://atomone-mainnet-api.bonynode.online": {
+          "failedQueries": 12,
+          "longestQueryTime": 71683,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199973351,
+          "blacklistedUntil": 1768199973351,
+          "blacklistCount": 1
+        },
+        "https://atomone-mainnet-api.shazoes.xyz": {
+          "failedQueries": 12,
+          "longestQueryTime": 121700,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199823350,
+          "blacklistedUntil": 1768199823350,
+          "blacklistCount": 1
+        },
+        "https://rest-atomone.22node.xyz": {
+          "failedQueries": 12,
+          "longestQueryTime": 53699,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199518351,
+          "blacklistedUntil": 1768199518351,
+          "blacklistCount": 1
+        },
+        "https://m-atomone-api.ruangnode.com:443": {
+          "failedQueries": 12,
+          "longestQueryTime": 54301,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199540150,
+          "blacklistedUntil": 1768199540150,
+          "blacklistCount": 1
+        },
+        "https://atomone-api.kynraze.com:443": {
+          "failedQueries": 12,
+          "longestQueryTime": 138301,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199472050,
+          "blacklistedUntil": 1768199472050,
+          "blacklistCount": 1
+        },
+        "https://atomone-rest.stakerhouse.com": {
+          "failedQueries": 12,
+          "longestQueryTime": 52400,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199497450,
+          "blacklistedUntil": 1768199497450,
+          "blacklistCount": 1
+        },
+        "https://mainnet-atomone-api.konsortech.xyz/": {
+          "failedQueries": 6,
+          "longestQueryTime": 147700,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1767938479350
+        },
+        "https://api.atomone-archive.citizenweb3.com": {
+          "failedQueries": 12,
+          "longestQueryTime": 43101,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199257849,
+          "blacklistedUntil": 1768199257849,
+          "blacklistCount": 1
+        },
+        "https://api.atomone.indonode.net": {
+          "failedQueries": 12,
+          "longestQueryTime": 40500,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199030350,
+          "blacklistedUntil": 1768199030350,
+          "blacklistCount": 1
+        },
+        "https://atomone-api.nyan-cat.net": {
+          "failedQueries": 6,
+          "longestQueryTime": 148800,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1767938713550
+        },
+        "https://atomone.api.pocket.network": {
+          "failedQueries": 12,
+          "longestQueryTime": 54400,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199313849,
+          "blacklistedUntil": 1768199313849,
+          "blacklistCount": 1
+        },
+        "https://atomone.blocksync.me/api": {
+          "failedQueries": 12,
+          "longestQueryTime": 119698,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199236550,
+          "blacklistedUntil": 1768199236550,
+          "blacklistCount": 1
+        },
+        "https://atomone-mainnet-api.oshvank.xyz": {
+          "failedQueries": 12,
+          "longestQueryTime": 45601,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768199007150,
+          "blacklistedUntil": 1768199007150,
+          "blacklistCount": 1
+        },
+        "https://atomone-api.allinbits.com": {
+          "failedQueries": 3,
+          "longestQueryTime": 407600,
+          "consecutiveInfraFailures": 0,
+          "redemptionStartTimestamp": 1767939280451,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0
         }
       }
     },
@@ -324,45 +541,228 @@
       "rpc": {},
       "rest": {
         "https://dym-m-api.agoranodes.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 21001,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839939272
+          "failedQueries": 12,
+          "longestQueryTime": 55600,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197689650,
+          "blacklistedUntil": 1768197689650,
+          "blacklistCount": 1
         },
         "https://api.dymension.nodestake.org": {
-          "failedQueries": 6,
+          "failedQueries": 12,
           "longestQueryTime": 35199,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839970772
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197732750,
+          "blacklistedUntil": 1768197732750,
+          "blacklistCount": 1
         },
         "http://dymension.mainnet.api.noders.team:42317": {
-          "failedQueries": 6,
+          "failedQueries": 12,
           "longestQueryTime": 23499,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839993871
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197703250,
+          "blacklistedUntil": 1768197703250,
+          "blacklistCount": 1
         },
         "https://dymension-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 6,
-          "longestQueryTime": 49401,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840043671
+          "failedQueries": 12,
+          "longestQueryTime": 142506,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197772750,
+          "blacklistedUntil": 1768197772750,
+          "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/dymension": {
-          "failedQueries": 6,
-          "longestQueryTime": 19269,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840062941
+          "failedQueries": 12,
+          "longestQueryTime": 137099,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197633049,
+          "blacklistedUntil": 1768197633049,
+          "blacklistCount": 1
         },
         "https://dymension-api.kynraze.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 1652,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840064581
+          "failedQueries": 12,
+          "longestQueryTime": 42400,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197494850,
+          "blacklistedUntil": 1768197494850,
+          "blacklistCount": 1
         },
         "https://m-dymension.api.utsa.tech": {
-          "failedQueries": 0,
-          "longestQueryTime": 1000,
-          "consecutiveInfraFailures": 0
+          "failedQueries": 14,
+          "longestQueryTime": 199600,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199852451,
+          "blacklistedUntil": 1768199852451,
+          "blacklistCount": 1
+        },
+        "https://api-dymension.nodeist.net": {
+          "failedQueries": 10,
+          "longestQueryTime": 424161,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198467349,
+          "blacklistedUntil": 1768198467349,
+          "blacklistCount": 1
+        },
+        "https://dymension.api.m.stavr.tech": {
+          "failedQueries": 11,
+          "longestQueryTime": 59201,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768200076955,
+          "blacklistedUntil": 1768200076955,
+          "blacklistCount": 1
+        },
+        "https://dym.api-archive.m.stavr.tech": {
+          "failedQueries": 10,
+          "longestQueryTime": 38799,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198026052,
+          "blacklistedUntil": 1768198026052,
+          "blacklistCount": 1
+        },
+        "https://lcd.dymension.hexnodes.co": {
+          "failedQueries": 14,
+          "longestQueryTime": 56301,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199962750,
+          "blacklistedUntil": 1768199962750,
+          "blacklistCount": 1
+        },
+        "https://dymension.api.kjnodes.com:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 38800,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198041286,
+          "blacklistedUntil": 1768198041286,
+          "blacklistCount": 1
+        },
+        "https://dymension-api.stakeandrelax.net": {
+          "failedQueries": 14,
+          "longestQueryTime": 69000,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768200030451,
+          "blacklistedUntil": 1768200030451,
+          "blacklistCount": 1
+        },
+        "https://dymension-api.takeshi.team": {
+          "failedQueries": 8,
+          "longestQueryTime": 75399,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937338151
+        },
+        "https://dymension-rest.publicnode.com": {
+          "failedQueries": 8,
+          "longestQueryTime": 120101,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937392752
+        },
+        "https://api.dymension.silentvalidator.com:443": {
+          "failedQueries": 8,
+          "longestQueryTime": 131000,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937465649
+        },
+        "https://api-dymension.whispernode.com:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 22199,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197952350,
+          "blacklistedUntil": 1768197952350,
+          "blacklistCount": 1
+        },
+        "https://community.nuxian-node.ch:6797/dymension/crpc": {
+          "failedQueries": 14,
+          "longestQueryTime": 54801,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199959150,
+          "blacklistedUntil": 1768199959150,
+          "blacklistCount": 1
+        },
+        "https://dymension-lcd.enigma-validator.com": {
+          "failedQueries": 10,
+          "longestQueryTime": 68402,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197898350,
+          "blacklistedUntil": 1768197898350,
+          "blacklistCount": 1
+        },
+        "https://dymension.ibs.team:443/api": {
+          "failedQueries": 14,
+          "longestQueryTime": 52400,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199893950,
+          "blacklistedUntil": 1768199893950,
+          "blacklistCount": 1
+        },
+        "https://dymension.nodejumper.io:1317": {
+          "failedQueries": 10,
+          "longestQueryTime": 33000,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197986351,
+          "blacklistedUntil": 1768197986351,
+          "blacklistCount": 1
+        },
+        "https://lcd-dymension.hoodrun.io": {
+          "failedQueries": 14,
+          "longestQueryTime": 53399,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199916451,
+          "blacklistedUntil": 1768199916451,
+          "blacklistCount": 1
+        },
+        "https://dymension.0xwave.com": {
+          "failedQueries": 8,
+          "longestQueryTime": 168400,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937866056
+        },
+        "https://api.dym.cumulo.com.es": {
+          "failedQueries": 8,
+          "longestQueryTime": 73400,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937939450
+        },
+        "https://rest.dymension.posthuman.digital": {
+          "failedQueries": 8,
+          "longestQueryTime": 73281,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767937992351
+        },
+        "https://api.dymension.node75.org": {
+          "failedQueries": 8,
+          "longestQueryTime": 82201,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767938074950
+        },
+        "https://lcd.dymension.bronbro.io:443": {
+          "failedQueries": 14,
+          "longestQueryTime": 53699,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199943251,
+          "blacklistedUntil": 1768199943251,
+          "blacklistCount": 1
+        },
+        "https://dymension-api.noders.services": {
+          "failedQueries": 14,
+          "longestQueryTime": 50201,
+          "consecutiveInfraFailures": 7,
+          "redemptionStartTimestamp": 1768199870649,
+          "blacklistedUntil": 1768199870649,
+          "blacklistCount": 1
+        },
+        "https://api.archive.dymension.mainnet.dteam.tech:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 37801,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197938150,
+          "blacklistedUntil": 1768197938150,
+          "blacklistCount": 1
+        },
+        "https://api.mainnet.dymension.aviaone.com": {
+          "failedQueries": 8,
+          "longestQueryTime": 414302,
+          "consecutiveInfraFailures": 4,
+          "redemptionStartTimestamp": 1767939682456
         }
       }
     },
@@ -370,39 +770,228 @@
       "rpc": {},
       "rest": {
         "https://gitopia-api.polkachu.com:443": {
-          "failedQueries": 6,
-          "longestQueryTime": 21301,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839946072
+          "failedQueries": 12,
+          "longestQueryTime": 49301,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197397951,
+          "blacklistedUntil": 1768197397951,
+          "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/gitopia": {
-          "failedQueries": 6,
-          "longestQueryTime": 32601,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767839977471
+          "failedQueries": 12,
+          "longestQueryTime": 45000,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197487951,
+          "blacklistedUntil": 1768197487951,
+          "blacklistCount": 1
         },
         "https://gitopia-rest.staketab.org": {
-          "failedQueries": 6,
+          "failedQueries": 12,
           "longestQueryTime": 60000,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840037671
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197540850,
+          "blacklistedUntil": 1768197540850,
+          "blacklistCount": 1
         },
         "https://gitopia-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 6,
-          "longestQueryTime": 25152,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840062924
+          "failedQueries": 12,
+          "longestQueryTime": 147600,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197441251,
+          "blacklistedUntil": 1768197441251,
+          "blacklistCount": 1
         },
         "https://m-gitopia.api.utsa.tech": {
-          "failedQueries": 6,
-          "longestQueryTime": 1087,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840063991
+          "failedQueries": 12,
+          "longestQueryTime": 53299,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768197345550,
+          "blacklistedUntil": 1768197345550,
+          "blacklistCount": 1
         },
         "https://gitopia.api.m.stavr.tech": {
-          "failedQueries": 0,
-          "longestQueryTime": 1395,
-          "consecutiveInfraFailures": 0
+          "failedQueries": 10,
+          "longestQueryTime": 135600,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199309251,
+          "blacklistedUntil": 1768199309251,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.genznodes.dev": {
+          "failedQueries": 10,
+          "longestQueryTime": 20901,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197712053,
+          "blacklistedUntil": 1768197712053,
+          "blacklistCount": 1
+        },
+        "https://gitopia.api.liveraven.net": {
+          "failedQueries": 10,
+          "longestQueryTime": 46001,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197975051,
+          "blacklistedUntil": 1768197975051,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.stake-town.com": {
+          "failedQueries": 10,
+          "longestQueryTime": 51900,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198034150,
+          "blacklistedUntil": 1768198034150,
+          "blacklistCount": 1
+        },
+        "https://api.gitopia.silentvalidator.com": {
+          "failedQueries": 10,
+          "longestQueryTime": 183446,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198234951,
+          "blacklistedUntil": 1768198234951,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.ramuchi.tech": {
+          "failedQueries": 10,
+          "longestQueryTime": 51301,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197696349,
+          "blacklistedUntil": 1768197696349,
+          "blacklistCount": 1
+        },
+        "https://api-gitopia.mzonder.com": {
+          "failedQueries": 10,
+          "longestQueryTime": 424300,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198904250,
+          "blacklistedUntil": 1768198904250,
+          "blacklistCount": 1
+        },
+        "https://gitopia.api.kjnodes.com": {
+          "failedQueries": 10,
+          "longestQueryTime": 75700,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199109051,
+          "blacklistedUntil": 1768199109051,
+          "blacklistCount": 1
+        },
+        "https://api.gitopia.sgtstake.com/": {
+          "failedQueries": 10,
+          "longestQueryTime": 141600,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197900350,
+          "blacklistedUntil": 1768197900350,
+          "blacklistCount": 1
+        },
+        "https://mainnet-gitopia-api.konsortech.xyz": {
+          "failedQueries": 10,
+          "longestQueryTime": 119999,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199230249,
+          "blacklistedUntil": 1768199230249,
+          "blacklistCount": 1
+        },
+        "https://api.gitopia.roomit.xyz": {
+          "failedQueries": 10,
+          "longestQueryTime": 243499,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198479050,
+          "blacklistedUntil": 1768198479050,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.moonbridge.org": {
+          "failedQueries": 10,
+          "longestQueryTime": 42000,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197941152,
+          "blacklistedUntil": 1768197941152,
+          "blacklistCount": 1
+        },
+        "http://gitopia-rpc.stakeangle.com:41317": {
+          "failedQueries": 10,
+          "longestQueryTime": 61200,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198050709,
+          "blacklistedUntil": 1768198050709,
+          "blacklistCount": 1
+        },
+        "https://gitopia.api.m.anode.team": {
+          "failedQueries": 10,
+          "longestQueryTime": 71800,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199013051,
+          "blacklistedUntil": 1768199013051,
+          "blacklistCount": 1
+        },
+        "https://gitopia.api.stakevillage.net": {
+          "failedQueries": 10,
+          "longestQueryTime": 166200,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199328551,
+          "blacklistedUntil": 1768199328551,
+          "blacklistCount": 1
+        },
+        "https://gitopia-lcd.enigma-validator.com/": {
+          "failedQueries": 10,
+          "longestQueryTime": 139801,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197885350,
+          "blacklistedUntil": 1768197885350,
+          "blacklistCount": 1
+        },
+        "https://gitopia.nodejumper.io:1317": {
+          "failedQueries": 10,
+          "longestQueryTime": 68201,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198968050,
+          "blacklistedUntil": 1768198968050,
+          "blacklistCount": 1
+        },
+        "https://api.gitopia.stakeup.tech/": {
+          "failedQueries": 16,
+          "longestQueryTime": 167200,
+          "consecutiveInfraFailures": 8,
+          "redemptionStartTimestamp": 1768199467750,
+          "blacklistedUntil": 1768199467750,
+          "blacklistCount": 1
+        },
+        "https://gitopia-mainnet.api.l0vd.com:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 80700,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199253451,
+          "blacklistedUntil": 1768199253451,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.tothemars.network:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 29597,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197742751,
+          "blacklistedUntil": 1768197742751,
+          "blacklistCount": 1
+        },
+        "https://gitopia.declab.pro:443": {
+          "failedQueries": 10,
+          "longestQueryTime": 50906,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768198022450,
+          "blacklistedUntil": 1768198022450,
+          "blacklistCount": 1
+        },
+        "https://gitopia-api.noders.services": {
+          "failedQueries": 10,
+          "longestQueryTime": 57401,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768197644850,
+          "blacklistedUntil": 1768197644850,
+          "blacklistCount": 1
+        },
+        "https://api-gitopia.blockval.io": {
+          "failedQueries": 10,
+          "longestQueryTime": 72700,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199059955,
+          "blacklistedUntil": 1768199059955,
+          "blacklistCount": 1
         }
       }
     },
@@ -410,31 +999,31 @@
       "rpc": {},
       "rest": {
         "https://public-celestia-lcd.numia.xyz": {
-          "failedQueries": 10,
-          "longestQueryTime": 43701,
+          "failedQueries": 18,
+          "longestQueryTime": 179800,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1768100944171,
+          "redemptionStartTimestamp": 1767939993350,
           "blacklistedUntil": 1768100944171,
           "blacklistCount": 1
         },
         "https://celestia-rest.mesa.newmetric.xyz": {
-          "failedQueries": 10,
-          "longestQueryTime": 9899,
+          "failedQueries": 12,
+          "longestQueryTime": 30599,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100900071,
           "blacklistedUntil": 1768100900071,
           "blacklistCount": 1
         },
         "http://celestia.rpc.nodersteam.com:1617": {
-          "failedQueries": 10,
-          "longestQueryTime": 32200,
+          "failedQueries": 12,
+          "longestQueryTime": 50501,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100986972,
           "blacklistedUntil": 1768100986972,
           "blacklistCount": 1
         },
         "https://api.lunaroasis.net": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 155300,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768101142673,
@@ -442,15 +1031,15 @@
           "blacklistCount": 1
         },
         "https://api.celestia.nodestake.org": {
-          "failedQueries": 10,
-          "longestQueryTime": 28100,
+          "failedQueries": 12,
+          "longestQueryTime": 51099,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768100973172,
           "blacklistedUntil": 1768100973172,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/celestia": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 55700,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768101170372,
@@ -458,15 +1047,15 @@
           "blacklistCount": 1
         },
         "https://api-celestia-01.stakeflow.io": {
-          "failedQueries": 12,
-          "longestQueryTime": 45499,
+          "failedQueries": 14,
+          "longestQueryTime": 47800,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101463172,
           "blacklistedUntil": 1768101463172,
           "blacklistCount": 1
         },
         "https://api-celestia.cosmos-spaces.cloud": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 23201,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101189572,
@@ -474,13 +1063,15 @@
           "blacklistCount": 1
         },
         "https://celestia.rest.interchain.validao.xyz": {
-          "failedQueries": 6,
-          "longestQueryTime": 58900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840084933
+          "failedQueries": 13,
+          "longestQueryTime": 250600,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196460751,
+          "blacklistedUntil": 1768196460751,
+          "blacklistCount": 1
         },
         "https://celestia-rest.publicnode.com": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 69500,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101258772,
@@ -488,15 +1079,15 @@
           "blacklistCount": 1
         },
         "https://celestia.rest.stakin-nodes.com": {
-          "failedQueries": 12,
-          "longestQueryTime": 41399,
+          "failedQueries": 14,
+          "longestQueryTime": 135199,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101349572,
           "blacklistedUntil": 1768101349572,
           "blacklistCount": 1
         },
         "https://celestia.api.kjnodes.com": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 65400,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101324772,
@@ -504,31 +1095,39 @@
           "blacklistCount": 1
         },
         "https://api-celestia.mzonder.com": {
-          "failedQueries": 6,
+          "failedQueries": 14,
           "longestQueryTime": 54900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840085681
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196220951,
+          "blacklistedUntil": 1768196220951,
+          "blacklistCount": 1
         },
         "https://celestia-lcd.enigma-validator.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 63899,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840104272
+          "failedQueries": 13,
+          "longestQueryTime": 70497,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196661649,
+          "blacklistedUntil": 1768196661649,
+          "blacklistCount": 1
         },
         "https://rest-celestia.theamsolutions.info": {
-          "failedQueries": 6,
-          "longestQueryTime": 55796,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840123171
+          "failedQueries": 14,
+          "longestQueryTime": 107502,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196285650,
+          "blacklistedUntil": 1768196285650,
+          "blacklistCount": 1
         },
         "https://api.celestia.validatus.com": {
-          "failedQueries": 6,
+          "failedQueries": 13,
           "longestQueryTime": 84100,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840207872
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196800049,
+          "blacklistedUntil": 1768196800049,
+          "blacklistCount": 1
         },
         "https://celestia-api.sr20de.xyz": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 47299,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101559371,
@@ -536,7 +1135,7 @@
           "blacklistCount": 1
         },
         "https://celestia-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 45700,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101501472,
@@ -544,39 +1143,47 @@
           "blacklistCount": 1
         },
         "https://api-celestia-full.avril14th.org": {
-          "failedQueries": 6,
-          "longestQueryTime": 50200,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840329671
+          "failedQueries": 14,
+          "longestQueryTime": 82700,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196184650,
+          "blacklistedUntil": 1768196184650,
+          "blacklistCount": 1
         },
         "https://celestia.api.cumulo.org.es": {
-          "failedQueries": 12,
-          "longestQueryTime": 42101,
+          "failedQueries": 14,
+          "longestQueryTime": 144800,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101369872,
           "blacklistedUntil": 1768101369872,
           "blacklistCount": 1
         },
         "https://celestia-api.stake-town.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 60001,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840386172
+          "failedQueries": 13,
+          "longestQueryTime": 423201,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196534750,
+          "blacklistedUntil": 1768196534750,
+          "blacklistCount": 1
         },
         "https://lcd.celestia-app.bronbro.io": {
-          "failedQueries": 6,
+          "failedQueries": 13,
           "longestQueryTime": 94779,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840481051
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196881151,
+          "blacklistedUntil": 1768196881151,
+          "blacklistCount": 1
         },
         "https://celestia-api.noders.services": {
-          "failedQueries": 6,
-          "longestQueryTime": 56201,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840486672
+          "failedQueries": 14,
+          "longestQueryTime": 70100,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196356951,
+          "blacklistedUntil": 1768196356951,
+          "blacklistCount": 1
         },
         "https://celestia-mainnet-api.itrocket.net": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 59700,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1768101429172,
@@ -584,22 +1191,28 @@
           "blacklistCount": 1
         },
         "https://api.celestia.mainnet.dteam.tech:443": {
-          "failedQueries": 6,
+          "failedQueries": 13,
           "longestQueryTime": 75900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840565571
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196733549,
+          "blacklistedUntil": 1768196733549,
+          "blacklistCount": 1
         },
         "https://celestia-api.stakeandrelax.net": {
-          "failedQueries": 6,
-          "longestQueryTime": 60500,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840627272
+          "failedQueries": 13,
+          "longestQueryTime": 68508,
+          "consecutiveInfraFailures": 6,
+          "redemptionStartTimestamp": 1768196589551,
+          "blacklistedUntil": 1768196589551,
+          "blacklistCount": 1
         },
         "https://api.celestia.node75.org": {
           "failedQueries": 6,
-          "longestQueryTime": 58399,
+          "longestQueryTime": 185368,
+          "redemptionStartTimestamp": 1767940039050,
           "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1767840673971
+          "blacklistedUntil": 0,
+          "blacklistCount": 0
         }
       }
     },
@@ -765,15 +1378,18 @@
       "rpc": {},
       "rest": {
         "https://osmosis-testnet-cosmos.reliableninjas.com": {
-          "failedQueries": 8,
-          "longestQueryTime": 3148,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1767840073974
+          "failedQueries": 10,
+          "longestQueryTime": 41104,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1768199070752,
+          "blacklistedUntil": 1768199070752,
+          "blacklistCount": 1
         },
         "https://lcd.osmotest5.osmosis.zone/": {
-          "failedQueries": 0,
-          "longestQueryTime": 89,
-          "consecutiveInfraFailures": 0
+          "failedQueries": 4,
+          "longestQueryTime": 105298,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1767939824551
         }
       }
     },
@@ -2142,15 +2758,15 @@
       "rpc": {},
       "rest": {
         "https://rest.8ball.info": {
-          "failedQueries": 2,
+          "failedQueries": 4,
           "longestQueryTime": 40701,
-          "consecutiveInfraFailures": 1,
+          "consecutiveInfraFailures": 2,
           "redemptionStartTimestamp": 1767842238472
         },
         "https://api-8ball.nodine.id/": {
-          "failedQueries": 2,
-          "longestQueryTime": 11201,
-          "consecutiveInfraFailures": 1,
+          "failedQueries": 4,
+          "longestQueryTime": 19701,
+          "consecutiveInfraFailures": 2,
           "redemptionStartTimestamp": 1767842251472
         }
       }
@@ -2159,8 +2775,8 @@
       "rpc": {},
       "rest": {
         "https://devnet.api.agoric.net:443": {
-          "failedQueries": 10,
-          "longestQueryTime": 45700,
+          "failedQueries": 15,
+          "longestQueryTime": 46301,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1768101448272,
           "blacklistedUntil": 1768101448272,

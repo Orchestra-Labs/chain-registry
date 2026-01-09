@@ -3176,6 +3176,18 @@
           "channel_id": "channel-27"
         }
       },
+      "cosmoshub-4,divine-1": {
+        "cosmoshub-4": {
+          "client_id": "07-tendermint-1457",
+          "connection_id": "connection-1199",
+          "channel_id": "channel-1672"
+        },
+        "divine-1": {
+          "client_id": "07-tendermint-6",
+          "connection_id": "connection-6",
+          "channel_id": "channel-1"
+        }
+      },
       "cosmoshub-4,vota-ash": {
         "cosmoshub-4": {
           "client_id": "07-tendermint-1191",
@@ -4266,6 +4278,18 @@
           "client_id": "07-tendermint-1714",
           "connection_id": "connection-1304",
           "channel_id": "channel-128"
+        }
+      },
+      "divine-1,osmosis-1": {
+        "divine-1": {
+          "client_id": "07-tendermint-2",
+          "connection_id": "connection-2",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3647",
+          "connection_id": "connection-10994",
+          "channel_id": "channel-108620"
         }
       },
       "dydx-mainnet-1,vota-ash": {
@@ -9550,6 +9574,18 @@
           "channel_id": "channel-0"
         }
       },
+      "divine-testnet-1,provider": {
+        "provider": {
+          "client_id": "07-tendermint-399",
+          "connection_id": "connection-286",
+          "channel_id": "channel-572"
+        },
+        "divine-testnet-1": {
+          "client_id": "07-tendermint-4",
+          "connection_id": "connection-1",
+          "channel_id": "channel-1"
+        }
+      },
       "mantra-dukong-1,provider": {
         "provider": {
           "client_id": "07-tendermint-159",
@@ -10428,9 +10464,9 @@
       }
     }
   },
-  "lastUpdated": "2026-01-08T02:41:11.034Z",
+  "lastUpdated": "2026-01-09T06:22:07.250Z",
   "commitHashes": {
-    "mainnetHash": "36db27ca72f6e448efb89a4d57de094d05c171db",
-    "testnetHash": "36db27ca72f6e448efb89a4d57de094d05c171db"
+    "mainnetHash": "8e1908e472f548bb05867b1b357fded857a12c9b",
+    "testnetHash": "8e1908e472f548bb05867b1b357fded857a12c9b"
   }
 }
