@@ -1,6 +1,6 @@
 {
   "sha": "9915d1e01f91da9b0429646448edc04cc6019e69",
-  "lastUpdated": "2026-01-13T00:06:10.123Z",
+  "lastUpdated": "2026-01-13T00:12:51.291Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -958,12 +958,12 @@
             "provider": "kjnodes"
           },
           {
-            "address": "https://andromeda.api.nodex.one",
-            "provider": "nodex"
-          },
-          {
             "address": "https://api.andromeda-1.andromeda.aviaone.com/",
             "provider": "AVIAONE"
+          },
+          {
+            "address": "https://andromeda.api.nodex.one",
+            "provider": "nodex"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
@@ -1579,6 +1579,10 @@
         ],
         "rest_uris": [
           {
+            "address": "https://api-assetmantle-ia.cosmosia.notional.ventures",
+            "provider": "Notional"
+          },
+          {
             "address": "https://assetmantle-api.polkachu.com",
             "provider": "Polkachu"
           },
@@ -1597,10 +1601,6 @@
           {
             "address": "https://rest.assetmantle.one",
             "provider": "AssetMantle"
-          },
-          {
-            "address": "https://api-assetmantle-ia.cosmosia.notional.ventures",
-            "provider": "Notional"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
@@ -3437,44 +3437,44 @@
         ],
         "rest_uris": [
           {
-            "address": "https://babylon.nodes.guru/api",
-            "provider": "Nodes.Guru"
-          },
-          {
-            "address": "https://babylon-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://community.nuxian-node.ch:6797/babylon/crpc",
-            "provider": "PRO Delegators"
+            "address": "https://babylon-api.polkachu.com",
+            "provider": "Polkachu"
           },
           {
             "address": "https://babylon.api.nodeshub.online",
             "provider": "NodesHub"
           },
           {
-            "address": "https://babylon-mainnet-api.shazoes.xyz",
-            "provider": "Shazoes"
-          },
-          {
             "address": "https://babylon-mainnet-api.shazoe.xyz",
             "provider": "Shazoe"
-          },
-          {
-            "address": "https://babylon-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://babylon-archive-api.polkachu.com",
             "provider": "Polkachu"
           },
           {
+            "address": "https://babylon-mainnet-api.shazoes.xyz",
+            "provider": "Shazoes"
+          },
+          {
+            "address": "https://babylon-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://babylon.nodes.guru/api",
+            "provider": "Nodes.Guru"
+          },
+          {
             "address": "https://babylon-archive.nodes.guru/api",
             "provider": "Nodes.Guru"
           },
           {
-            "address": "https://babylon-api.polkachu.com",
-            "provider": "Polkachu"
+            "address": "https://community.nuxian-node.ch:6797/babylon/crpc",
+            "provider": "PRO Delegators"
+          },
+          {
+            "address": "https://babylon-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/babylon/images/logo.svg",
@@ -5581,16 +5581,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://lcd.bostrom.cybernode.ai",
-            "provider": "cybercongress"
-          },
-          {
             "address": "https://api-cyber-ia.cosmosia.notional.ventures/",
             "provider": "Notional"
           },
           {
             "address": "https://lcd.cyber.bronbro.io:443",
             "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://lcd.bostrom.cybernode.ai",
+            "provider": "cybercongress"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/bostrom/images/boot.png",
@@ -6672,60 +6672,92 @@
         ],
         "rest_uris": [
           {
-            "address": "https://public-celestia-lcd.numia.xyz",
-            "provider": "Numia"
-          },
-          {
-            "address": "https://celestia-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake | Delegate for StakeDrops"
-          },
-          {
-            "address": "https://rest-celestia.theamsolutions.info",
-            "provider": "AM Solutions"
-          },
-          {
-            "address": "https://api-celestia-full.avril14th.org",
-            "provider": "Avril 14th"
-          },
-          {
-            "address": "https://celestia-api.sr20de.xyz",
-            "provider": "Sr20de"
+            "address": "https://celestia-api.stakeandrelax.net",
+            "provider": "Stake&Relax Validator 🦥"
           },
           {
             "address": "https://api.celestia.node75.org",
             "provider": "Pro-Nodes75"
           },
           {
-            "address": "https://api-celestia.mzonder.com",
-            "provider": "MZONDER"
+            "address": "https://api.lunaroasis.net",
+            "provider": "Lunar Oasis"
+          },
+          {
+            "address": "https://api.celestia.nodestake.org",
+            "provider": "NodeStake"
           },
           {
             "address": "http://celestia.rpc.nodersteam.com:1617",
             "provider": "[NODERS]TEAM"
           },
           {
+            "address": "https://celestia-rest.mesa.newmetric.xyz",
+            "provider": "Newmetric"
+          },
+          {
+            "address": "https://rest.lavenderfive.com:443/celestia",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://celestia.rest.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
+            "address": "https://celestia-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://api-celestia.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://api-celestia-01.stakeflow.io",
+            "provider": "Stakeflow"
+          },
+          {
+            "address": "https://celestia.rest.interchain.validao.xyz",
+            "provider": "ValiDAO"
+          },
+          {
             "address": "https://celestia-api.stake-town.com",
             "provider": "StakeTown"
           },
           {
-            "address": "https://celestia.api.cumulo.org.es",
-            "provider": "Cumulo"
+            "address": "https://api-celestia-full.avril14th.org",
+            "provider": "Avril 14th"
           },
           {
-            "address": "https://celestia-rest.mesa.newmetric.xyz",
-            "provider": "Newmetric"
+            "address": "https://celestia-api.noders.services",
+            "provider": "[NODERS]TEAM"
+          },
+          {
+            "address": "https://celestia-mainnet-api.itrocket.net",
+            "provider": "itrocket"
+          },
+          {
+            "address": "https://celestia-api.sr20de.xyz",
+            "provider": "Sr20de"
           },
           {
             "address": "https://api.celestia.validatus.com",
             "provider": "Validatus"
           },
           {
+            "address": "https://celestia.api.cumulo.org.es",
+            "provider": "Cumulo"
+          },
+          {
             "address": "https://api.celestia.mainnet.dteam.tech:443",
             "provider": "DTEAM"
           },
           {
-            "address": "https://celestia.rest.stakin-nodes.com",
-            "provider": "Stakin"
+            "address": "https://celestia-lcd.enigma-validator.com",
+            "provider": "Enigma"
+          },
+          {
+            "address": "https://api-celestia.mzonder.com",
+            "provider": "MZONDER"
           },
           {
             "address": "https://celestia.api.kjnodes.com",
@@ -6736,48 +6768,16 @@
             "provider": "Bro_n_Bro"
           },
           {
-            "address": "https://celestia-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
+            "address": "https://rest-celestia.theamsolutions.info",
+            "provider": "AM Solutions"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/celestia",
-            "provider": "Lavender.Five Nodes 🐝"
+            "address": "https://public-celestia-lcd.numia.xyz",
+            "provider": "Numia"
           },
           {
-            "address": "https://celestia-mainnet-api.itrocket.net",
-            "provider": "itrocket"
-          },
-          {
-            "address": "https://celestia-lcd.enigma-validator.com",
-            "provider": "Enigma"
-          },
-          {
-            "address": "https://celestia-api.noders.services",
-            "provider": "[NODERS]TEAM"
-          },
-          {
-            "address": "https://api.celestia.nodestake.org",
-            "provider": "NodeStake"
-          },
-          {
-            "address": "https://api.lunaroasis.net",
-            "provider": "Lunar Oasis"
-          },
-          {
-            "address": "https://celestia-api.stakeandrelax.net",
-            "provider": "Stake&Relax Validator 🦥"
-          },
-          {
-            "address": "https://api-celestia.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://celestia.rest.interchain.validao.xyz",
-            "provider": "ValiDAO"
-          },
-          {
-            "address": "https://api-celestia-01.stakeflow.io",
-            "provider": "Stakeflow"
+            "address": "https://celestia-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake | Delegate for StakeDrops"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
@@ -7004,104 +7004,104 @@
             "provider": "AutoStake 🛡️ Slash Protected"
           },
           {
-            "address": "https://c4e-api.kalia.network:443",
-            "provider": "Kalia Network"
+            "address": "https://rest.cros-nest.com/chain4energy",
+            "provider": "Crosnest"
           },
           {
-            "address": "https://c4e-api.genznodes.dev",
-            "provider": "genznodes"
+            "address": "http://209.182.239.169:1417",
+            "provider": "SECARD"
           },
           {
             "address": "https://c4e-rest.antrixy.org/",
             "provider": "Antrix Validators"
           },
           {
-            "address": "https://lcd-m-c4e.apeironnodes.com",
-            "provider": "Apeiron Nodes"
-          },
-          {
-            "address": "http://164.68.125.243:1319",
-            "provider": "Smt Network"
-          },
-          {
-            "address": "https://api.c4e.validatus.com:443",
-            "provider": "Validatus"
-          },
-          {
-            "address": "http://chain4energy-rpc.stakeangle.com:1317",
-            "provider": "StakeAngle"
-          },
-          {
-            "address": "https://c4e-api.stake-town.com",
-            "provider": "StakeTown"
+            "address": "https://c4e-api.genznodes.dev",
+            "provider": "genznodes"
           },
           {
             "address": "https://api-c4e.cryptech.com.ua:443",
             "provider": "CrypTech"
           },
           {
-            "address": "https://api-c4e.theamsolutions.info",
-            "provider": "AM Solutions"
-          },
-          {
-            "address": "http://c4e.api.node75.org:1397",
-            "provider": "Pro-nodes75"
-          },
-          {
             "address": "http://38.242.220.64:11317",
             "provider": "mahof"
+          },
+          {
+            "address": "http://164.68.125.243:1319",
+            "provider": "Smt Network"
           },
           {
             "address": "https://api.c4e.indonode.net",
             "provider": "Indonode"
           },
           {
-            "address": "https://c4e.api.m.anode.team",
-            "provider": "AlxVoy ⚡ ANODE.TEAM"
-          },
-          {
-            "address": "http://api.c4e.stakeup.tech",
-            "provider": "StakeUp"
-          },
-          {
-            "address": "https://rest.polcrypto.pl:443",
-            "provider": "POLCRYPTO.PL"
+            "address": "http://chain4energy-rpc.stakeangle.com:1317",
+            "provider": "StakeAngle"
           },
           {
             "address": "https://api.c4e.silentvalidator.com",
             "provider": "silent"
           },
           {
-            "address": "https://api-c4e.takeshi.team",
-            "provider": "TAKESHI"
+            "address": "https://rest.polcrypto.pl:443",
+            "provider": "POLCRYPTO.PL"
           },
           {
-            "address": "https://api-c4e.mzonder.com",
-            "provider": "MZONDER"
+            "address": "https://api.c4e.validatus.com:443",
+            "provider": "Validatus"
           },
           {
-            "address": "https://c4e.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
+            "address": "http://c4e.api.node75.org:1397",
+            "provider": "Pro-nodes75"
           },
           {
-            "address": "https://c4e.lcd.bccnodes.com",
-            "provider": "BccNodes"
+            "address": "https://c4e.api.m.anode.team",
+            "provider": "AlxVoy ⚡ ANODE.TEAM"
           },
           {
-            "address": "https://rest.cros-nest.com/chain4energy",
-            "provider": "Crosnest"
+            "address": "https://lcd-m-c4e.apeironnodes.com",
+            "provider": "Apeiron Nodes"
+          },
+          {
+            "address": "https://api-c4e.theamsolutions.info",
+            "provider": "AM Solutions"
           },
           {
             "address": "https://chain4energy_mainnet_api.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
           {
-            "address": "https://api.c4e.mainnet.dteam.tech:443",
-            "provider": "DTEAM"
+            "address": "https://c4e-api.stake-town.com",
+            "provider": "StakeTown"
           },
           {
-            "address": "http://209.182.239.169:1417",
-            "provider": "SECARD"
+            "address": "http://api.c4e.stakeup.tech",
+            "provider": "StakeUp"
+          },
+          {
+            "address": "https://c4e-api.kalia.network:443",
+            "provider": "Kalia Network"
+          },
+          {
+            "address": "https://c4e.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api-c4e.takeshi.team",
+            "provider": "TAKESHI"
+          },
+          {
+            "address": "https://c4e.lcd.bccnodes.com",
+            "provider": "BccNodes"
+          },
+          {
+            "address": "https://api-c4e.mzonder.com",
+            "provider": "MZONDER"
+          },
+          {
+            "address": "https://api.c4e.mainnet.dteam.tech:443",
+            "provider": "DTEAM"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png",
@@ -8349,20 +8349,8 @@
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
           {
-            "address": "https://picasso-api.stakeandrelax.net",
-            "provider": "Stake&Relax 🦥"
-          },
-          {
             "address": "https://lcd.centauri.bronbro.io:443",
             "provider": "Bro_n_Bro"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/picasso",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://composable-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
           },
           {
             "address": "https://composable-api.genznodes.dev",
@@ -8373,12 +8361,24 @@
             "provider": "StakeTown"
           },
           {
-            "address": "https://composable.api.stakevillage.net",
-            "provider": "Stake Village"
+            "address": "https://rest.lavenderfive.com:443/picasso",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://picasso-api.stakeandrelax.net",
+            "provider": "Stake&Relax 🦥"
           },
           {
             "address": "https://api-composable-ia.cosmosia.notional.ventures",
             "provider": "Notional"
+          },
+          {
+            "address": "https://composable-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://composable.api.stakevillage.net",
+            "provider": "Stake Village"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg",
@@ -10061,12 +10061,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://coss-rest.coss.ink",
-            "provider": "StellarGuardian"
-          },
-          {
             "address": "https://coss-rest.cias.network",
             "provider": "CelestialPhoenix"
+          },
+          {
+            "address": "https://coss-rest.coss.ink",
+            "provider": "StellarGuardian"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coss/images/coss.png",
@@ -10184,40 +10184,40 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-crescent.pupmos.network",
-            "provider": "PUPMØS"
-          },
-          {
-            "address": "https://crescent-api.polkachu.com",
-            "provider": "Polkachu"
-          },
-          {
-            "address": "https://crescent.rest.stakin-nodes.com",
-            "provider": "Stakin"
-          },
-          {
-            "address": "https://crescent-api.w3coins.io",
-            "provider": "w3coins"
-          },
-          {
-            "address": "https://crescent-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://api-crescent.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
+            "address": "https://api-crescent-01.stakeflow.io",
+            "provider": "Stakeflow"
           },
           {
             "address": "https://lcd.crescent.bronbro.io:443",
             "provider": "Bro_n_Bro"
           },
           {
-            "address": "https://api-crescent-01.stakeflow.io",
-            "provider": "Stakeflow"
+            "address": "https://crescent.rest.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
+            "address": "https://api-crescent.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://api-crescent.pupmos.network",
+            "provider": "PUPMØS"
           },
           {
             "address": "https://mainnet.crescent.network:1317",
             "provider": "crescent"
+          },
+          {
+            "address": "https://crescent-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://crescent-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://crescent-api.w3coins.io",
+            "provider": "w3coins"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/crescent/images/cre.png",
@@ -10509,6 +10509,14 @@
         ],
         "rest_uris": [
           {
+            "address": "https://rest.lavenderfive.com:443/cudos",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://cudos-api.kleomedes.network",
+            "provider": "Kleomedes"
+          },
+          {
             "address": "http://mainnet-full-node-01.hosts.cudos.org:1317",
             "provider": "cudo"
           },
@@ -10517,20 +10525,12 @@
             "provider": "cudo"
           },
           {
-            "address": "https://cudos-api.kleomedes.network",
-            "provider": "Kleomedes"
+            "address": "https://cudos-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://cudos-mainnet-lcd.autostake.com:443",
             "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/cudos",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://cudos-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cudos/images/cudos.png",
@@ -10600,16 +10600,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.mainnet.decentr.xyz",
-            "provider": "decentr"
+            "address": "https://api.decentr.chaintools.tech/",
+            "provider": "ChainTools"
           },
           {
             "address": "https://decentr.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
           {
-            "address": "https://api.decentr.chaintools.tech/",
-            "provider": "ChainTools"
+            "address": "https://rest.mainnet.decentr.xyz",
+            "provider": "decentr"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/decentr/images/dec.png",
@@ -10883,15 +10883,15 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest-mainnet.divineray.ca:443",
-            "provider": "divineRay"
-          },
-          {
             "address": "https://rest-mainnet-node2.divineray.ca:443",
             "provider": "divineRay"
           },
           {
             "address": "https://rest-mainnet-node3.divineray.ca:443",
+            "provider": "divineRay"
+          },
+          {
+            "address": "https://rest-mainnet.divineray.ca:443",
             "provider": "divineRay"
           }
         ],
@@ -11166,12 +11166,8 @@
         ],
         "rest_uris": [
           {
-            "address": "https://community.nuxian-node.ch:6797/dydx/crpc",
-            "provider": "PRO Delegators"
-          },
-          {
-            "address": "https://dydx-dao-api.polkachu.com",
-            "provider": "Polkachu"
+            "address": "https://rest.lavenderfive.com:443/dydx",
+            "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://dydx-mainnet-full-lcd.public.blastapi.io",
@@ -11182,22 +11178,6 @@
             "provider": "Kingnodes 👑"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/dydx",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://dydx-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://api-dydx.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://dydx-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
             "address": "https://rest-dydx.cros-nest.com:443",
             "provider": "Crosnest"
           },
@@ -11206,12 +11186,32 @@
             "provider": "Enigma"
           },
           {
+            "address": "https://dydx-rest.interstellar-lounge.org",
+            "provider": "Interstellar Lounge 🍸"
+          },
+          {
+            "address": "https://api-dydx.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://dydx-dao-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://dydx-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://dydx-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
             "address": "https://dydx-api.noders.services",
             "provider": "[NODERS]TEAM"
           },
           {
-            "address": "https://dydx-rest.interstellar-lounge.org",
-            "provider": "Interstellar Lounge 🍸"
+            "address": "https://community.nuxian-node.ch:6797/dydx/crpc",
+            "provider": "PRO Delegators"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
@@ -11722,12 +11722,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.echjoker.lol",
-            "provider": "⚡ Echelon Joker ⚛ 🃏"
-          },
-          {
             "address": "https://ech01api.mindheartsoul.org",
             "provider": "Mind Heart Soul"
+          },
+          {
+            "address": "https://api.echjoker.lol",
+            "provider": "⚡ Echelon Joker ⚛ 🃏"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png",
@@ -11888,84 +11888,84 @@
             "provider": "Elys Network"
           },
           {
-            "address": "https://elys-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake"
-          },
-          {
-            "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money",
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-          },
-          {
-            "address": "https://elys-api.node39.top:443",
-            "provider": "Node39"
-          },
-          {
-            "address": "https://community.nuxian-node.ch:6797/elys/crpc",
-            "provider": "PRO Delegators"
-          },
-          {
             "address": "https://elys-api.polkachu.com",
             "provider": "Polkachu"
-          },
-          {
-            "address": "https://elys-api.cogwheel.zone:443",
-            "provider": "Cogwheel ⚙️"
-          },
-          {
-            "address": "https://elys-api.highstakes.ch",
-            "provider": "High Stakes"
-          },
-          {
-            "address": "https://elys.api.quasarstaking.ai:443",
-            "provider": "Quasar"
-          },
-          {
-            "address": "https://elys-api.stake-town.com:443",
-            "provider": "StakeTown"
-          },
-          {
-            "address": "https://rest.elys.srvs.vnodesv.net",
-            "provider": "vNodes[V] Ser[V]ices"
-          },
-          {
-            "address": "https://elys.api.liveraven.net",
-            "provider": "LiveRaveN"
-          },
-          {
-            "address": "https://api.elys.nodestake.org",
-            "provider": "NodeStake"
-          },
-          {
-            "address": "https://api.elys.node75.org:443",
-            "provider": "Pro-Nodes75"
-          },
-          {
-            "address": "https://elys.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
           },
           {
             "address": "https://elys-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://elys-api.moonbridge.org",
-            "provider": "Moonbridge"
+            "address": "https://elys-mainnet-api.itrocket.net",
+            "provider": "itrocket"
           },
           {
-            "address": "https://api-elys.ottersync.io:443",
-            "provider": "OtterSync"
+            "address": "https://api.elys.nodestake.org",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://elys.api.liveraven.net",
+            "provider": "LiveRaveN"
+          },
+          {
+            "address": "https://community.nuxian-node.ch:6797/elys/crpc",
+            "provider": "PRO Delegators"
+          },
+          {
+            "address": "https://elys-api.highstakes.ch",
+            "provider": "High Stakes"
+          },
+          {
+            "address": "https://elys-api.stake-town.com:443",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://elys.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
           },
           {
             "address": "https://elys.ibs.team:443/api",
             "provider": "Inter Blockchain Services"
           },
           {
-            "address": "https://elys-mainnet-api.itrocket.net",
-            "provider": "itrocket"
+            "address": "https://elys-api.cogwheel.zone:443",
+            "provider": "Cogwheel ⚙️"
+          },
+          {
+            "address": "https://api-elys.ottersync.io:443",
+            "provider": "OtterSync"
+          },
+          {
+            "address": "https://elys.api.quasarstaking.ai:443",
+            "provider": "Quasar"
+          },
+          {
+            "address": "https://elys-api.moonbridge.org",
+            "provider": "Moonbridge"
+          },
+          {
+            "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          },
+          {
+            "address": "https://elys-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake"
+          },
+          {
+            "address": "https://elys-api.node39.top:443",
+            "provider": "Node39"
+          },
+          {
+            "address": "https://rest.elys.srvs.vnodesv.net",
+            "provider": "vNodes[V] Ser[V]ices"
           },
           {
             "address": "https://elys-api.kleomedes.network/",
             "provider": "Kleomedes"
+          },
+          {
+            "address": "https://api.elys.node75.org:443",
+            "provider": "Pro-Nodes75"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
@@ -12234,16 +12234,16 @@
         ],
         "rest_uris": [
           {
+            "address": "https://api.emoney.bh.rocks",
+            "provider": "BlockHunters 🎯"
+          },
+          {
             "address": "https://emoney.validator.network/api/",
             "provider": "e-Money"
           },
           {
             "address": "https://api-emoney-ia.cosmosia.notional.ventures/",
             "provider": "Notional"
-          },
-          {
-            "address": "https://api.emoney.bh.rocks",
-            "provider": "BlockHunters 🎯"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/emoney/images/ngm.png",
@@ -12426,14 +12426,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://empowerchain-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://empower.api.liveraven.net",
-            "provider": "LiveRaveN"
-          },
-          {
             "address": "https://empw.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -12472,6 +12464,14 @@
           {
             "address": "https://empower-api.moonbridge.org",
             "provider": "Moonbridge"
+          },
+          {
+            "address": "https://empowerchain-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://empower.api.liveraven.net",
+            "provider": "LiveRaveN"
           }
         ],
         "logo_uri": null,
@@ -12712,40 +12712,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://evmos-api.polkachu.com",
-            "provider": "Polkachu"
+            "address": "https://api-evmos-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
           },
           {
-            "address": "https://evmos-mainnet.api.stakevillage.net",
-            "provider": "Stake Village"
+            "address": "https://rest.bd.evmos.org:1317",
+            "provider": "Blockdaemon"
           },
           {
-            "address": "https://api.evmos.validatus.com",
-            "provider": "Validatus"
-          },
-          {
-            "address": "https://lcd.evmos.bronbro.io:443",
-            "provider": "Bro_n_Bro"
-          },
-          {
-            "address": "https://evmos.rest.stakin-nodes.com",
-            "provider": "Stakin"
-          },
-          {
-            "address": "https://evmos-rest.antrixy.org/",
-            "provider": "Antrix Validators"
-          },
-          {
-            "address": "https://evmos-api.w3coins.io",
-            "provider": "w3coins"
-          },
-          {
-            "address": "https://evmos.api.liveraven.net",
-            "provider": "LiveRaveN"
-          },
-          {
-            "address": "https://lcd-evmos.validavia.me",
-            "provider": "Validavia"
+            "address": "https://evmos-api.validatrium.club",
+            "provider": "Validatrium"
           },
           {
             "address": "https://api.evmos.silentvalidator.com/",
@@ -12756,32 +12732,56 @@
             "provider": "Architect Nodes"
           },
           {
-            "address": "https://evmos-api.validatrium.club",
-            "provider": "Validatrium"
+            "address": "https://evmos-api.polkachu.com",
+            "provider": "Polkachu"
           },
           {
             "address": "https://evmos-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://evmos-api.theamsolutions.info",
-            "provider": "AM Solutions"
+            "address": "https://lcd.evmos.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://evmos.api.liveraven.net",
+            "provider": "LiveRaveN"
+          },
+          {
+            "address": "https://evmos-rest.antrixy.org/",
+            "provider": "Antrix Validators"
+          },
+          {
+            "address": "https://evmos-api.w3coins.io",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://lcd-evmos.validavia.me",
+            "provider": "Validavia"
+          },
+          {
+            "address": "https://api.evmos.validatus.com",
+            "provider": "Validatus"
           },
           {
             "address": "https://api-evmos-01.stakeflow.io",
             "provider": "Stakeflow"
           },
           {
+            "address": "https://evmos-mainnet.api.stakevillage.net",
+            "provider": "Stake Village"
+          },
+          {
+            "address": "https://evmos.rest.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
+            "address": "https://evmos-api.theamsolutions.info",
+            "provider": "AM Solutions"
+          },
+          {
             "address": "https://rest.lavenderfive.com:443/evmos",
             "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://rest.bd.evmos.org:1317",
-            "provider": "Blockdaemon"
-          },
-          {
-            "address": "https://api-evmos-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/evmos/images/evmos.png",
@@ -13014,6 +13014,38 @@
         ],
         "rest_uris": [
           {
+            "address": "https://fetch-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://api.fetchhub-4.fetch.aviaone.com/",
+            "provider": "AVIAONE 🟢"
+          },
+          {
+            "address": "https://fetchai-api.bluestake.net",
+            "provider": "BlueStake 🚀"
+          },
+          {
+            "address": "https://fetch-rest.antrixy.org",
+            "provider": "Antrix"
+          },
+          {
+            "address": "https://fetch.ibs.team:443/api",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://rest-fetch.architectnodes.com",
+            "provider": "Architect Nodes"
+          },
+          {
+            "address": "https://fetch-api.cosmosrescue.com",
+            "provider": "cosmosrescue"
+          },
+          {
+            "address": "https://fetchai-api.kleomedes.network",
+            "provider": "Kleomedes"
+          },
+          {
             "address": "https://rest-fetchhub.fetch.ai",
             "provider": "fetch.ai"
           },
@@ -13026,56 +13058,24 @@
             "provider": "Polkachu"
           },
           {
-            "address": "https://fetchai-api.kleomedes.network",
-            "provider": "Kleomedes"
-          },
-          {
-            "address": "https://fetch-rest.antrixy.org",
-            "provider": "Antrix"
-          },
-          {
             "address": "https://fetchhub-mainnet-lcd.autostake.com:443",
             "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://rest-fetch.architectnodes.com",
-            "provider": "Architect Nodes"
-          },
-          {
-            "address": "https://fetch.ibs.team:443/api",
-            "provider": "Inter Blockchain Services"
-          },
-          {
-            "address": "https://fetch-api.cosmosrescue.com",
-            "provider": "cosmosrescue"
-          },
-          {
-            "address": "https://fetch-api.w3coins.io",
-            "provider": "w3coins"
-          },
-          {
-            "address": "https://fetch-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://fetch-api.highstakes.ch",
-            "provider": "High Stakes 🇨🇭"
-          },
-          {
-            "address": "https://public.stakewolle.com/cosmos/fetchhub/rest",
-            "provider": "Stakewolle"
           },
           {
             "address": "https://fetch.api.nodeshub.online:443",
             "provider": "NodesHub"
           },
           {
-            "address": "https://api.fetchhub-4.fetch.aviaone.com/",
-            "provider": "AVIAONE 🟢"
+            "address": "https://fetch-api.highstakes.ch",
+            "provider": "High Stakes 🇨🇭"
           },
           {
-            "address": "https://fetchai-api.bluestake.net",
-            "provider": "BlueStake 🚀"
+            "address": "https://fetch-api.w3coins.io",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://public.stakewolle.com/cosmos/fetchhub/rest",
+            "provider": "Stakewolle"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/fetchhub/images/fet.png",
@@ -13499,12 +13499,12 @@
         ],
         "rest_uris": [
           {
-            "address": "http://wormchain-mainnet-1-full-rest.tm.p2p.org/",
-            "provider": "P2P"
-          },
-          {
             "address": "https://wormchain-lcd.quickapi.com/",
             "provider": "ChainLayer"
+          },
+          {
+            "address": "http://wormchain-mainnet-1-full-rest.tm.p2p.org/",
+            "provider": "P2P"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gateway/images/wormhole_icon.svg",
@@ -14265,10 +14265,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://gonka04.6block.com:8443/chain-api/",
-            "provider": "6block"
-          },
-          {
             "address": "https://gonka03.6block.com:8443/chain-api/",
             "provider": "6block"
           },
@@ -14279,6 +14275,10 @@
           {
             "address": "https://node2.gonka.ai:8443/chain-api/",
             "provider": "PS on Nebius"
+          },
+          {
+            "address": "https://gonka04.6block.com:8443/chain-api/",
+            "provider": "6block"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gonka/images/gonka_logo.png",
@@ -15334,10 +15334,6 @@
             "provider": "sifchain"
           },
           {
-            "address": "https://impacthub.ixo.world/rest/",
-            "provider": "ixoworld"
-          },
-          {
             "address": "https://ixo.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -15346,20 +15342,24 @@
             "provider": "Notional"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/impacthub",
-            "provider": "Lavender.Five Nodes 🐝"
+            "address": "https://impacthub.ixo.world/rest/",
+            "provider": "ixoworld"
           },
           {
             "address": "https://ixo.ibs.team/api",
             "provider": "Inter Blockchain Services"
           },
           {
+            "address": "https://impacthub_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          },
+          {
             "address": "https://ixo-api.bluestake.net",
             "provider": "BlueStake 🚀"
           },
           {
-            "address": "https://impacthub_mainnet_api.chain.whenmoonwhenlambo.money",
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+            "address": "https://rest.lavenderfive.com:443/impacthub",
+            "provider": "Lavender.Five Nodes 🐝"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
@@ -15465,12 +15465,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.initia.xyz",
-            "provider": "Initia Labs"
-          },
-          {
             "address": "https://initia.api.quasarstaking.ai:443",
             "provider": "Quasar"
+          },
+          {
+            "address": "https://rest.initia.xyz",
+            "provider": "Initia Labs"
           },
           {
             "address": "https://initia-mainnet-lcd.autostake.com:443",
@@ -16709,16 +16709,16 @@
         ],
         "rest_uris": [
           {
+            "address": "https://irisnet-api.w3coins.io",
+            "provider": "w3coins"
+          },
+          {
             "address": "https://api-irisnet-ia.cosmosia.notional.ventures/",
             "provider": "Notional"
           },
           {
             "address": "https://api-irisnet-01.stakeflow.io",
             "provider": "Stakeflow"
-          },
-          {
-            "address": "https://irisnet-api.w3coins.io",
-            "provider": "w3coins"
           },
           {
             "address": "https://iris-rest.publicnode.com",
@@ -16983,12 +16983,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://joltify_mainnet_api.chain.whenmoonwhenlambo.money",
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-          },
-          {
             "address": "https://lcd.joltify.io/",
             "provider": "joltify"
+          },
+          {
+            "address": "https://joltify_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           }
         ],
         "logo_uri": null,
@@ -18760,24 +18760,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-mainnet.blockchain.ki",
-            "provider": "kifoundation"
-          },
-          {
-            "address": "https://api-kichain-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
-          },
-          {
             "address": "https://kichain.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
           {
             "address": "https://api.kichain.chaintools.tech/",
             "provider": "ChainTools"
-          },
-          {
-            "address": "https://kichain-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
           },
           {
             "address": "http://ki-chain.api.nodersteam.com:14017",
@@ -18794,6 +18782,18 @@
           {
             "address": "https://api.kichain-2.kichain.aviaone.com",
             "provider": "AVIAONE 🟢"
+          },
+          {
+            "address": "https://api-kichain-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://kichain-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://api-mainnet.blockchain.ki",
+            "provider": "kifoundation"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kichain/images/xki.png",
@@ -18976,12 +18976,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://konstellation-rest.stakerhouse.com",
-            "provider": "StakerHouse"
-          },
-          {
             "address": "https://api-konstellation-ia.cosmosia.notional.ventures/",
             "provider": "Notional"
+          },
+          {
+            "address": "https://konstellation-rest.stakerhouse.com",
+            "provider": "StakerHouse"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/Konstellation-dark.png",
@@ -21459,16 +21459,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.lambda.im",
-            "provider": "Lambda"
+            "address": "https://lambda-api.noders.services",
+            "provider": "[NODERS]TEAM"
           },
           {
             "address": "https://lambda.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
           {
-            "address": "https://lambda-api.noders.services",
-            "provider": "[NODERS]TEAM"
+            "address": "https://rest.lambda.im",
+            "provider": "Lambda"
           },
           {
             "address": "https://lambda_mainnet_api.chain.whenmoonwhenlambo.money",
@@ -21601,8 +21601,32 @@
         ],
         "rest_uris": [
           {
+            "address": "https://api-lava.onenov.xyz",
+            "provider": "OneNov"
+          },
+          {
+            "address": "https://lava-api.finteh.org:443",
+            "provider": "finteh"
+          },
+          {
             "address": "https://lava.rest.lava.build",
             "provider": "Lava Over Lava"
+          },
+          {
+            "address": "https://lava-api.w3coins.io:443",
+            "provider": "w3coins"
+          },
+          {
+            "address": "https://lava-api.ibs.team:443",
+            "provider": "Inter Blockchain Services"
+          },
+          {
+            "address": "https://api.lava-mainnet-1.lava.aviaone.com",
+            "provider": "AVIAONE 🟢"
+          },
+          {
+            "address": "https://api-lava.r93axnodes.cloud:443",
+            "provider": "r93AX Nodes"
           },
           {
             "address": "https://lava-rest.publicnode.com",
@@ -21651,30 +21675,6 @@
           {
             "address": "https://lava-mainnet-api.shazoes.xyz",
             "provider": "Shazoes"
-          },
-          {
-            "address": "https://lava-api.w3coins.io:443",
-            "provider": "w3coins"
-          },
-          {
-            "address": "https://lava-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
-          },
-          {
-            "address": "https://api.lava-mainnet-1.lava.aviaone.com",
-            "provider": "AVIAONE 🟢"
-          },
-          {
-            "address": "https://api-lava.r93axnodes.cloud:443",
-            "provider": "r93AX Nodes"
-          },
-          {
-            "address": "https://api-lava.onenov.xyz",
-            "provider": "OneNov"
-          },
-          {
-            "address": "https://lava-api.finteh.org:443",
-            "provider": "finteh"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
@@ -21798,10 +21798,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://mainnet-node.like.co",
-            "provider": "like.co"
-          },
-          {
             "address": "https://like.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -21812,6 +21808,10 @@
           {
             "address": "https://rest-likecoin-mainnet.pikaser.net",
             "provider": "PikaSer"
+          },
+          {
+            "address": "https://mainnet-node.like.co",
+            "provider": "like.co"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/likecoin/images/like.png",
@@ -22195,16 +22195,16 @@
         ],
         "rest_uris": [
           {
+            "address": "https://api-lumenx.cryptonet.pl/",
+            "provider": "CryptoNet"
+          },
+          {
             "address": "https://api-lumenx.nodine.id/",
             "provider": "Nodine.ID"
           },
           {
             "address": "https://lcd.lumenx.hexnodes.co/",
             "provider": "Hexnodes"
-          },
-          {
-            "address": "https://api-lumenx.cryptonet.pl/",
-            "provider": "CryptoNet"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png",
@@ -22367,14 +22367,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.node0.mainnet.lum.network",
-            "provider": "Lum Foundation"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/lumnetwork",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
             "address": "https://lum.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -22385,6 +22377,14 @@
           {
             "address": "https://lumnetwork_mainnet_api.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+          },
+          {
+            "address": "https://rest.lavenderfive.com:443/lumnetwork",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://rest.node0.mainnet.lum.network",
+            "provider": "Lum Foundation"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png",
@@ -22596,16 +22596,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.mantrachain.io",
-            "provider": "MANTRACHAIN"
-          },
-          {
             "address": "https://mantra-mainnet-api.itrocket.net",
             "provider": "ITRocket"
           },
           {
             "address": "https://mantra.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api.mantrachain.io",
+            "provider": "MANTRACHAIN"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
@@ -22809,40 +22809,40 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.marsprotocol.io:443",
-            "provider": "Delphi Labs"
+            "address": "https://mars-api.stakeandrelax.net",
+            "provider": "Stake&Relax Validator 🦥"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/mars",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://mars-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://mars-api.polkachu.com",
-            "provider": "Polkachu"
-          },
-          {
-            "address": "https://lcd.expedition-mars.com:443",
-            "provider": "Expedition Mars"
+            "address": "https://mars-api.stakeandrelax.net",
+            "provider": "Stake&Relax 🦥"
           },
           {
             "address": "https://mars-api.genznodes.dev:443",
             "provider": "genznodes"
           },
           {
-            "address": "https://mars-api.stakeandrelax.net",
-            "provider": "Stake&Relax Validator 🦥"
+            "address": "https://lcd.expedition-mars.com:443",
+            "provider": "Expedition Mars"
+          },
+          {
+            "address": "https://rest.lavenderfive.com:443/mars",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://mars-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://rest.marsprotocol.io:443",
+            "provider": "Delphi Labs"
           },
           {
             "address": "https://mars-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://mars-api.stakeandrelax.net",
-            "provider": "Stake&Relax 🦥"
+            "address": "https://mars-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
           }
         ],
         "logo_uri": null,
@@ -23030,10 +23030,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-meme-1.meme.sx/",
-            "provider": "MEME Foundation"
-          },
-          {
             "address": "https://meme-api.polkachu.com/",
             "provider": "Polkachu"
           },
@@ -23048,6 +23044,10 @@
           {
             "address": "https://meme.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api-meme-1.meme.sx/",
+            "provider": "MEME Foundation"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/meme/images/meme.png",
@@ -23157,20 +23157,20 @@
         ],
         "rest_uris": [
           {
-            "address": "https://migaloo-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://migaloo-api.kleomedes.network:443",
-            "provider": "Kleomedes"
+            "address": "https://migaloo-api.polkachu.com:443",
+            "provider": "Polkachu"
           },
           {
             "address": "https://api-migaloo.cosmos-spaces.cloud",
             "provider": "Cosmos Spaces"
           },
           {
-            "address": "https://migaloo-api.polkachu.com:443",
-            "provider": "Polkachu"
+            "address": "https://migaloo-api.kleomedes.network:443",
+            "provider": "Kleomedes"
+          },
+          {
+            "address": "https://migaloo-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/migaloo-light.png",
@@ -24394,43 +24394,43 @@
             "provider": "PRO Delegators"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/neutron",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://lcd-neutron.whispernode.com",
-            "provider": "WhisperNode 🤐"
+            "address": "https://rest-voidara.neutron-1.neutron.org",
+            "provider": "Neutron"
           },
           {
             "address": "https://api-neutron.cosmos-spaces.cloud",
             "provider": "Cosmos Spaces"
           },
           {
-            "address": "https://neutron-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
+            "address": "https://lcd-neutron.whispernode.com",
+            "provider": "WhisperNode 🤐"
           },
           {
-            "address": "https://lcd.neutron.bronbro.io:443",
-            "provider": "Bro_n_Bro"
-          },
-          {
-            "address": "https://api.neutron.quokkastake.io",
-            "provider": "🐹 Quokka Stake"
+            "address": "https://rest.lavenderfive.com:443/neutron",
+            "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://api.novel.remedy.tm.p2p.org",
             "provider": "P2P"
           },
           {
-            "address": "https://rest-solara.neutron-1.neutron.org",
-            "provider": "Neutron"
+            "address": "https://api.neutron.quokkastake.io",
+            "provider": "🐹 Quokka Stake"
+          },
+          {
+            "address": "https://lcd.neutron.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://neutron-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://rest-vertexa.neutron-1.neutron.org",
             "provider": "Neutron"
           },
           {
-            "address": "https://rest-voidara.neutron-1.neutron.org",
+            "address": "https://rest-solara.neutron-1.neutron.org",
             "provider": "Neutron"
           },
           {
@@ -26048,28 +26048,24 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.nois.cumulo.org.es",
-            "provider": "Cumulo"
-          },
-          {
-            "address": "https://api.nois.silentvalidator.com",
-            "provider": "silent"
-          },
-          {
-            "address": "https://nois-rest.kingnodes.com",
-            "provider": "kingnodes 👑"
-          },
-          {
             "address": "https://m-nois.api.utsa.tech",
             "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀"
           },
           {
-            "address": "https://nois.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
+            "address": "https://rest.lavenderfive.com:443/nois",
+            "provider": "Lavender.Five Nodes 🐝"
           },
           {
-            "address": "https://nois-api.polkachu.com",
-            "provider": "Polkachu"
+            "address": "https://lcd-nois.ezstaking.dev",
+            "provider": "EZStaking"
+          },
+          {
+            "address": "https://lcd-nois.mib.tech/",
+            "provider": "MadeInBlock"
+          },
+          {
+            "address": "https://nois.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
           },
           {
             "address": "https://api-nois.d-stake.xyz",
@@ -26080,20 +26076,24 @@
             "provider": "SR20DE"
           },
           {
-            "address": "https://lcd-nois.ezstaking.dev",
-            "provider": "EZStaking"
+            "address": "https://nois-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://nois-rest.kingnodes.com",
+            "provider": "kingnodes 👑"
+          },
+          {
+            "address": "https://api.nois.silentvalidator.com",
+            "provider": "silent"
           },
           {
             "address": "https://nois-api.stakeandrelax.net",
             "provider": "Stake&Relax 🦥"
           },
           {
-            "address": "https://rest.lavenderfive.com:443/nois",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://lcd-nois.mib.tech/",
-            "provider": "MadeInBlock"
+            "address": "https://api.nois.cumulo.org.es",
+            "provider": "Cumulo"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nois/images/nois.png",
@@ -27076,16 +27076,16 @@
         ],
         "rest_uris": [
           {
-            "address": "http://34.79.179.216:1317/",
-            "provider": "Odin Protocol"
-          },
-          {
             "address": "https://rest.lavenderfive.com:443/odin",
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://odin-mainnet-lcd.autostake.com:443",
             "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "http://34.79.179.216:1317/",
+            "provider": "Odin Protocol"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
@@ -27582,12 +27582,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://onomy-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
             "address": "https://rest-mainnet.onomy.io",
             "provider": "onomy"
+          },
+          {
+            "address": "https://onomy-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
           }
         ],
         "logo_uri": null,
@@ -39762,84 +39762,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://xprt-rest.antrixy.org/",
-            "provider": "Antrix Validators"
-          },
-          {
-            "address": "https://persistence-api.stake-town.com",
-            "provider": "StakeTown"
-          },
-          {
-            "address": "https://rest.persistence.posthuman.digital:443",
-            "provider": "POSTHUMAN∞DVS"
-          },
-          {
-            "address": "https://persistence-mainnet-rest.cosmonautstakes.com",
-            "provider": "Cosmonaut Stakes"
-          },
-          {
-            "address": "https://persistence-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://persistence.lcd.quantnode.xyz",
-            "provider": "QuantNode"
-          },
-          {
-            "address": "https://api.persistence.validatus.com",
-            "provider": "Validatus"
-          },
-          {
-            "address": "https://rest-persistence.architectnodes.com",
-            "provider": "Architect Nodes"
-          },
-          {
-            "address": "https://public.stakewolle.com/cosmos/persistence/rest",
-            "provider": "Stakewolle"
-          },
-          {
-            "address": "https://persistence-api.highstakes.ch",
-            "provider": "High Stakes 🇨🇭"
-          },
-          {
-            "address": "https://persistence-api.polkachu.com",
-            "provider": "Polkachu"
-          },
-          {
-            "address": "https://persistence-api.kleomedes.network",
-            "provider": "Kleomedes"
-          },
-          {
-            "address": "https://persistence.api.pocket.network",
-            "provider": "Pocket Network"
-          },
-          {
             "address": "https://api-persistent-ia.cosmosia.notional.ventures/",
             "provider": "Notional"
           },
           {
-            "address": "https://api-persistence.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://rest.core.persistence.one",
-            "provider": "Persistence"
-          },
-          {
-            "address": "https://persistence.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
-          },
-          {
-            "address": "https://api-persistence-01.stakeflow.io",
-            "provider": "Stakeflow"
-          },
-          {
-            "address": "https://persistence-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://persistence-rest.zenscape.one",
-            "provider": "Zenscape"
+            "address": "https://persistence-api.stake-town.com",
+            "provider": "StakeTown"
           },
           {
             "address": "https://persistence-api.stakeandrelax.net",
@@ -39848,6 +39776,78 @@
           {
             "address": "https://persistence-api.stakeandrelax.net",
             "provider": "Stake&Relax 🦥"
+          },
+          {
+            "address": "https://public.stakewolle.com/cosmos/persistence/rest",
+            "provider": "Stakewolle"
+          },
+          {
+            "address": "https://api.persistence.validatus.com",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://persistence-api.highstakes.ch",
+            "provider": "High Stakes 🇨🇭"
+          },
+          {
+            "address": "https://rest.persistence.posthuman.digital:443",
+            "provider": "POSTHUMAN∞DVS"
+          },
+          {
+            "address": "https://persistence-rest.zenscape.one",
+            "provider": "Zenscape"
+          },
+          {
+            "address": "https://persistence.api.pocket.network",
+            "provider": "Pocket Network"
+          },
+          {
+            "address": "https://xprt-rest.antrixy.org/",
+            "provider": "Antrix Validators"
+          },
+          {
+            "address": "https://persistence.lcd.quantnode.xyz",
+            "provider": "QuantNode"
+          },
+          {
+            "address": "https://persistence-mainnet-rest.cosmonautstakes.com",
+            "provider": "Cosmonaut Stakes"
+          },
+          {
+            "address": "https://persistence-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://rest-persistence.architectnodes.com",
+            "provider": "Architect Nodes"
+          },
+          {
+            "address": "https://persistence-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://persistence-api.kleomedes.network",
+            "provider": "Kleomedes"
+          },
+          {
+            "address": "https://persistence-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://persistence.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://rest.core.persistence.one",
+            "provider": "Persistence"
+          },
+          {
+            "address": "https://api-persistence.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://api-persistence-01.stakeflow.io",
+            "provider": "Stakeflow"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
@@ -44872,36 +44872,20 @@
             "provider": "Quicksilver"
           },
           {
-            "address": "https://quicksilver-api.lavenderfive.com:443",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://m-quicksilver.api.utsa.tech",
-            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀"
-          },
-          {
-            "address": "https://quick.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
-          },
-          {
-            "address": "https://rest-quicksilver.architectnodes.com",
-            "provider": "Architect Nodes"
-          },
-          {
             "address": "https://quicksilver-rest.staketab.org",
             "provider": "Staketab"
           },
           {
-            "address": "https://quicksilver-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
+            "address": "https://quicksilver-api.lavenderfive.com:443",
+            "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://quicksilver-api.stake-town.com",
             "provider": "StakeTown"
           },
           {
-            "address": "https://mainnet-quicksilver-api.konsortech.xyz",
-            "provider": "KonsorTech"
+            "address": "https://api.quicksilver.citizenweb3.com",
+            "provider": "Citizen Web3"
           },
           {
             "address": "https://quicksilver.tdrsys.com",
@@ -44912,12 +44896,28 @@
             "provider": "Validatus"
           },
           {
+            "address": "https://m-quicksilver.api.utsa.tech",
+            "provider": "𝐥𝐞𝐬𝐧𝐢𝐤 | 𝐔𝐓𝐒𝐀"
+          },
+          {
+            "address": "https://quick.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://quicksilver-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
             "address": "https://quicksilver-api.noders.services",
             "provider": "[NODERS]TEAM"
           },
           {
-            "address": "https://api.quicksilver.citizenweb3.com",
-            "provider": "Citizen Web3"
+            "address": "https://mainnet-quicksilver-api.konsortech.xyz",
+            "provider": "KonsorTech"
+          },
+          {
+            "address": "https://rest-quicksilver.architectnodes.com",
+            "provider": "Architect Nodes"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.png",
@@ -48013,18 +48013,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.source.nodestake.org",
-            "provider": "NodeStake"
-          },
-          {
-            "address": "https://source.lcd.bccnodes.com/",
-            "provider": "BccNodes"
-          },
-          {
-            "address": "https://api-source.nodeist.net",
-            "provider": "Nodeist"
-          },
-          {
             "address": "https://source.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -48087,6 +48075,18 @@
           {
             "address": "https://source-api.bluestake.net",
             "provider": "BlueStake 🚀"
+          },
+          {
+            "address": "https://api.source.nodestake.org",
+            "provider": "NodeStake"
+          },
+          {
+            "address": "https://source.lcd.bccnodes.com/",
+            "provider": "BccNodes"
+          },
+          {
+            "address": "https://api-source.nodeist.net",
+            "provider": "Nodeist"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/source/images/source.png",
@@ -48375,72 +48375,64 @@
             "provider": "Stargaze Foundation"
           },
           {
-            "address": "https://api-stargaze.pupmos.network",
-            "provider": "PUPMØS"
-          },
-          {
-            "address": "https://api-stargaze.ezstaking.dev",
-            "provider": "EZStaking.io"
-          },
-          {
-            "address": "https://api-stargaze-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
-          },
-          {
-            "address": "https://stargaze.c29r3.xyz:443/api/",
-            "provider": "c29r3"
-          },
-          {
-            "address": "https://stargaze-api.polkachu.com",
-            "provider": "Polkachu"
-          },
-          {
-            "address": "https://stargaze.ibs.team:443/api",
-            "provider": "Inter Blockchain Services"
-          },
-          {
-            "address": "https://api-stargaze.d-stake.xyz",
-            "provider": "D-stake"
-          },
-          {
-            "address": "https://api-stargaze.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://api.stargaze.silentvalidator.com/",
-            "provider": "silent"
-          },
-          {
-            "address": "https://stargaze-mainnet-lcd.autostake.com:443",
-            "provider": "AutoStake 🛡️ Slash Protected"
-          },
-          {
-            "address": "https://stargaze-api.ramuchi.tech",
-            "provider": "ramuchi.tech"
-          },
-          {
-            "address": "https://stargaze-rest.staketab.org",
-            "provider": "Staketab"
+            "address": "https://stargaze.api.pocket.network",
+            "provider": "Pocket Network"
           },
           {
             "address": "https://stargaze-api.w3coins.io",
             "provider": "w3coins"
           },
           {
-            "address": "https://stargaze-rest.stakerhouse.com",
-            "provider": "StakerHouse"
+            "address": "https://stargaze-mainnet-lcd.autostake.com:443",
+            "provider": "AutoStake 🛡️ Slash Protected"
+          },
+          {
+            "address": "https://api-stargaze.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://stargaze-api.ramuchi.tech",
+            "provider": "ramuchi.tech"
+          },
+          {
+            "address": "https://stargaze.ibs.team:443/api",
+            "provider": "Inter Blockchain Services"
           },
           {
             "address": "https://stargaze-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://stargaze-api.reece.sh:443",
-            "provider": "Reecepbcups"
+            "address": "https://api.stargaze.silentvalidator.com/",
+            "provider": "silent"
           },
           {
-            "address": "https://lcd.stargaze.bronbro.io:443",
-            "provider": "Bro_n_Bro"
+            "address": "https://stargaze-rest.stakerhouse.com",
+            "provider": "StakerHouse"
+          },
+          {
+            "address": "https://stargaze-api.polkachu.com",
+            "provider": "Polkachu"
+          },
+          {
+            "address": "https://stargaze.c29r3.xyz:443/api/",
+            "provider": "c29r3"
+          },
+          {
+            "address": "https://stargaze-rest.staketab.org",
+            "provider": "Staketab"
+          },
+          {
+            "address": "https://api-stargaze-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://api-stargaze.d-stake.xyz",
+            "provider": "D-stake"
+          },
+          {
+            "address": "https://api-stargaze.ezstaking.dev",
+            "provider": "EZStaking.io"
           },
           {
             "address": "https://stargaze-api.kleomedes.network",
@@ -48451,8 +48443,16 @@
             "provider": "Chainroot"
           },
           {
-            "address": "https://stargaze.api.pocket.network",
-            "provider": "Pocket Network"
+            "address": "https://api-stargaze.pupmos.network",
+            "provider": "PUPMØS"
+          },
+          {
+            "address": "https://lcd.stargaze.bronbro.io:443",
+            "provider": "Bro_n_Bro"
+          },
+          {
+            "address": "https://stargaze-api.reece.sh:443",
+            "provider": "Reecepbcups"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stargaze/images/stars.png",
@@ -49340,18 +49340,6 @@
             "provider": "Polkachu"
           },
           {
-            "address": "https://api-stride.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/stride",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://api.stride.silentvalidator.com/",
-            "provider": "silent"
-          },
-          {
             "address": "https://stride.api.kjnodes.com",
             "provider": "kjnodes"
           },
@@ -49406,6 +49394,18 @@
           {
             "address": "https://api.stride.citizenweb3.com",
             "provider": "Citizen Web3"
+          },
+          {
+            "address": "https://api.stride.silentvalidator.com/",
+            "provider": "silent"
+          },
+          {
+            "address": "https://api-stride.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://rest.lavenderfive.com:443/stride",
+            "provider": "Lavender.Five Nodes 🐝"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/strd.png",
@@ -56039,10 +56039,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-umee-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
-          },
-          {
             "address": "https://umee.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
@@ -56105,6 +56101,10 @@
           {
             "address": "https://ux-api.chainroot.io",
             "provider": "Chainroot"
+          },
+          {
+            "address": "https://api-umee-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
@@ -57229,16 +57229,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.diamond.zenrocklabs.io/",
-            "provider": "zenrock"
-          },
-          {
             "address": "https://api.zenrock.nodestake.org",
             "provider": "NodeStake"
           },
           {
             "address": "https://zenrock.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api.diamond.zenrocklabs.io/",
+            "provider": "zenrock"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zenrock/images/zenrock.png",
@@ -61178,20 +61178,20 @@
         ],
         "rest_uris": [
           {
-            "address": "https://dydx-lcd-testnet.enigma-validator.com",
-            "provider": "Enigma"
-          },
-          {
-            "address": "https://testnet-dydx-api.lavenderfive.com",
-            "provider": "Lavender Five"
-          },
-          {
             "address": "https://dydx-testnet-api.polkachu.com",
             "provider": "Polkachu"
           },
           {
             "address": "https://dydx-testnet-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://testnet-dydx-api.lavenderfive.com",
+            "provider": "Lavender Five"
+          },
+          {
+            "address": "https://dydx-lcd-testnet.enigma-validator.com",
+            "provider": "Enigma"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dydx/images/dydx.png",
@@ -63594,12 +63594,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://lava.api.t.stavr.tech",
-            "provider": "🔥STAVR🔥"
-          },
-          {
             "address": "https://public-rpc-testnet2.lavanet.xyz/rest/",
             "provider": "Lava"
+          },
+          {
+            "address": "https://lava.api.t.stavr.tech",
+            "provider": "🔥STAVR🔥"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png",
@@ -65095,12 +65095,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.dukong.mantrachain.io",
-            "provider": "MANTRACHAIN"
-          },
-          {
             "address": "https://lcd-office.cosmostation.io/mantra-testnet/",
             "provider": "Cosmostation"
+          },
+          {
+            "address": "https://api.dukong.mantrachain.io",
+            "provider": "MANTRACHAIN"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mantrachain/images/OM-Prim-Col.png",
@@ -68689,12 +68689,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.pulsar.scrttestnet.com",
-            "provider": "SCRT Testnet Committee"
-          },
-          {
             "address": "https://lcd.testnet.secretsaturn.net",
             "provider": "𝕊ecret 𝕊aturn"
+          },
+          {
+            "address": "https://api.pulsar.scrttestnet.com",
+            "provider": "SCRT Testnet Committee"
           }
         ],
         "logo_uri": null,
@@ -69374,16 +69374,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-t.soarchain.nodestake.org",
-            "provider": "nodeStake"
-          },
-          {
             "address": "https://api.testnet.soarchain.com/",
             "provider": "soarchain"
           },
           {
             "address": "https://soarchain-testnet-rest.stakerhouse.com",
             "provider": "stakerHouse"
+          },
+          {
+            "address": "https://api-t.soarchain.nodestake.org",
+            "provider": "nodeStake"
           }
         ],
         "logo_uri": null,
@@ -69526,12 +69526,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://stargaze-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
-          },
-          {
             "address": "https://rest.elgafar-1.stargaze-apis.com",
             "provider": "Stargaze Foundation"
+          },
+          {
+            "address": "https://stargaze-testnet-api.ibs.team:443",
+            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -70514,15 +70514,15 @@
         ],
         "rest_uris": [
           {
-            "address": "https://titan-testnet-lcd-2.titanlab.io:443",
-            "provider": "Titanlab.io"
-          },
-          {
             "address": "https://titan-testnet-lcd.titanlab.io:443",
             "provider": "Titanlab.io"
           },
           {
             "address": "https://titan-testnet-lcd-1.titanlab.io:443",
+            "provider": "Titanlab.io"
+          },
+          {
+            "address": "https://titan-testnet-lcd-2.titanlab.io:443",
             "provider": "Titanlab.io"
           }
         ],
