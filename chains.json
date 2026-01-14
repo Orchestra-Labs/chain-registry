@@ -1,6 +1,6 @@
 {
-  "sha": "34af0436ef3eb3f8453f4e5b2cbc79fe7781cc18",
-  "lastUpdated": "2026-01-14T00:51:13.189Z",
+  "sha": "a5413d349769a2c10b81ccfac51ab72841398062",
+  "lastUpdated": "2026-01-14T13:57:02.691Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -162,10 +162,6 @@
         ],
         "rest_uris": [
           {
-            "address": "https://mainnet-api.aaronetwork.xyz",
-            "provider": "Aaron Network Foundation"
-          },
-          {
             "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
@@ -180,6 +176,10 @@
           {
             "address": "https://api.aaronetwork.indonode.net",
             "provider": "Indonode"
+          },
+          {
+            "address": "https://mainnet-api.aaronetwork.xyz",
+            "provider": "Aaron Network Foundation"
           }
         ],
         "logo_uri": null,
@@ -21591,7 +21591,7 @@
             "provider": "Winnode"
           },
           {
-            "address": "https://rpc-lava.vinjan.xyz",
+            "address": "https://rpc-lava.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
           {
@@ -21669,7 +21669,7 @@
             "provider": "Winnode"
           },
           {
-            "address": "https://api-lava.vinjan.xyz",
+            "address": "https://api-lava.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
           {
@@ -50038,7 +50038,7 @@
             "provider": "Cogwheel ⚙️"
           },
           {
-            "address": "https://rpc-main-symphony.vinjan.xyz",
+            "address": "https://rpc-m.symphony.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
           {
@@ -50060,7 +50060,7 @@
             "provider": "Cogwheel ⚙️"
           },
           {
-            "address": "https://api-main-symphony.vinjan.xyz",
+            "address": "https://api-m.symphony.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
           {
@@ -57099,16 +57099,16 @@
             "provider": "🔥STAVR🔥"
           },
           {
-            "address": "https://xpla.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
-          },
-          {
             "address": "https://rest.lavenderfive.com:443/xpla",
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://xpla-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://xpla.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
@@ -57327,6 +57327,10 @@
             "provider": "BlockPI"
           },
           {
+            "address": "https://zetachain-mainnet-archive.allthatnode.com:1317",
+            "provider": "All That Node"
+          },
+          {
             "address": "https://rest.lavenderfive.com:443/zetachain",
             "provider": "Lavender.Five Nodes 🐝"
           },
@@ -57335,24 +57339,20 @@
             "provider": "NodeStake"
           },
           {
-            "address": "https://zetachain-mainnet-archive.allthatnode.com:1317",
-            "provider": "All That Node"
+            "address": "https://zetachain-api.noders.services",
+            "provider": "[NODERS]TEAM"
+          },
+          {
+            "address": "https://zetachain.api.nodeshub.online:443",
+            "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
           },
           {
             "address": "https://zeta.api.m.stavr.tech",
             "provider": "🔥STAVR🔥"
           },
           {
-            "address": "https://zetachain-api.noders.services",
-            "provider": "[NODERS]TEAM"
-          },
-          {
             "address": "https://zetachain-mainnet-cosmos.reliableninjas.com",
             "provider": "Reliable Ninjas"
-          },
-          {
-            "address": "https://zetachain.api.nodeshub.online:443",
-            "provider": "Nodes Hub 🛡️ 100% Slash Protected 🛡️ | Restake ✅"
           }
         ],
         "logo_uri": null,
@@ -57770,6 +57770,10 @@
             "provider": "Nodejumper"
           },
           {
+            "address": "https://t-airchains.api.utsa.tech/",
+            "provider": "UTSA"
+          },
+          {
             "address": "https://airchains.api.t.stavr.tech/",
             "provider": "Stavr Tech"
           },
@@ -57816,10 +57820,6 @@
           {
             "address": "https://airchains-testnet-rest.cosmonautstakes.com/",
             "provider": "Cosmonaut Stakes"
-          },
-          {
-            "address": "https://t-airchains.api.utsa.tech/",
-            "provider": "UTSA"
           }
         ],
         "logo_uri": null,
@@ -58166,16 +58166,16 @@
             "provider": "allora"
           },
           {
-            "address": "https://rpc.ankr.com/http/allora_testnet",
-            "provider": "ankr"
+            "address": "https://allora-testnet-api.polkachu.com",
+            "provider": "polkachu"
           },
           {
             "address": "https://testnet-allora-api.lavenderfive.com",
             "provider": "lavenderfive"
           },
           {
-            "address": "https://allora-testnet-api.polkachu.com",
-            "provider": "polkachu"
+            "address": "https://rpc.ankr.com/http/allora_testnet",
+            "provider": "ankr"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/allora/images/allora.png",
@@ -58319,14 +58319,6 @@
         ],
         "rest_uris": [
           {
-            "address": "http://seed.arkeo.network:1317",
-            "provider": "arkeo"
-          },
-          {
-            "address": "https://arkeo-api.siriusnodes.uk",
-            "provider": "siriusnodes"
-          },
-          {
             "address": "https://arkeonetwork-testnet.nodejumper.io:1317",
             "provider": "NODEJUMPER"
           },
@@ -58337,6 +58329,14 @@
           {
             "address": "https://testnet-arkeo-api.lavenderfive.com",
             "provider": "lavenderfive"
+          },
+          {
+            "address": "https://arkeo-api.siriusnodes.uk",
+            "provider": "siriusnodes"
+          },
+          {
+            "address": "http://seed.arkeo.network:1317",
+            "provider": "arkeo"
           }
         ],
         "logo_uri": null,
@@ -59364,20 +59364,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://bitcanna-testnet.api.kjnodes.com/",
-            "provider": "kjnodes.com"
-          },
-          {
-            "address": "https://bitcanna-testnet.nodejumper.io:1317",
-            "provider": "NODEJUMPER"
-          },
-          {
-            "address": "https://bcna-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
-          },
-          {
             "address": "https://lcd-testnet.bitcanna.io",
             "provider": "bitcanna"
+          },
+          {
+            "address": "https://testnet-bitcanna-api.konsortech.xyz/",
+            "provider": "konsortech.xyz"
           },
           {
             "address": "https://bitcanna.api.dev.stavr.tech",
@@ -59388,8 +59380,16 @@
             "provider": "aviaone.com"
           },
           {
-            "address": "https://testnet-bitcanna-api.konsortech.xyz/",
-            "provider": "konsortech.xyz"
+            "address": "https://bitcanna-testnet.api.kjnodes.com/",
+            "provider": "kjnodes.com"
+          },
+          {
+            "address": "https://bitcanna-testnet.nodejumper.io:1317",
+            "provider": "NODEJUMPER"
+          },
+          {
+            "address": "https://bcna-testnet-api.ibs.team:443",
+            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -59840,24 +59840,24 @@
             "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
-            "address": "https://api.celestia.testnet.dteam.tech:443",
-            "provider": "DTEAM"
-          },
-          {
-            "address": "https://celestia-testnet-api.stakeandrelax.net",
-            "provider": "Stake&Relax Validator 🦥"
-          },
-          {
             "address": "https://api-mocha-full.avril14th.org",
             "provider": "Avril 14th"
+          },
+          {
+            "address": "https://celestia-testnet-api.itrocket.net",
+            "provider": "itrocket"
           },
           {
             "address": "https://api-celestia-testnet.cryptech.com.ua",
             "provider": "CrypTech"
           },
           {
-            "address": "https://celestia-testnet-api.itrocket.net",
-            "provider": "itrocket"
+            "address": "https://api.celestia.testnet.dteam.tech:443",
+            "provider": "DTEAM"
+          },
+          {
+            "address": "https://celestia-testnet-api.stakeandrelax.net",
+            "provider": "Stake&Relax Validator 🦥"
           }
         ],
         "logo_uri": null,
@@ -59910,12 +59910,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://lcd-testnet.c4e.io",
-            "provider": "C4E"
-          },
-          {
             "address": "https://c4e.api.t.stavr.tech",
             "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://lcd-testnet.c4e.io",
+            "provider": "C4E"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/chain4energytestnet/images/c4e.png",
@@ -60081,16 +60081,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api-composable-testnet.sr20de.xyz",
-            "provider": "Sr20de"
-          },
-          {
             "address": "https://api.composable-t.indonode.net",
             "provider": "Indonode"
           },
           {
             "address": "https://composable.api.t4.stavr.tech",
             "provider": "🔥STAVR🔥"
+          },
+          {
+            "address": "https://api-composable-testnet.sr20de.xyz",
+            "provider": "Sr20de"
           }
         ],
         "logo_uri": null,
@@ -61660,16 +61660,16 @@
         ],
         "rest_uris": [
           {
+            "address": "https://evmos.test.api.coldyvalidator.net",
+            "provider": "coldy"
+          },
+          {
             "address": "https://evmos-testnet-api.polkachu.com",
             "provider": "Polkachu"
           },
           {
             "address": "https://evmos-testnet-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://evmos.test.api.coldyvalidator.net",
-            "provider": "coldy"
           }
         ],
         "logo_uri": null,
@@ -62114,12 +62114,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://humans-testnet-rest.cosmonautstakes.com",
-            "provider": "Cosmonaut Stakes"
-          },
-          {
             "address": "https://humans-testnet.nodejumper.io:1317",
             "provider": "NODEJUMPER"
+          },
+          {
+            "address": "https://humans-testnet-rest.cosmonautstakes.com",
+            "provider": "Cosmonaut Stakes"
           }
         ],
         "logo_uri": null,
@@ -63528,16 +63528,16 @@
             "provider": "Lava"
           },
           {
+            "address": "https://lava.api.t.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
             "address": "https://lava-testnet-api.itrocket.net",
             "provider": "ITRocket"
           },
           {
             "address": "https://lava-testnet-api.ibs.team:443",
             "provider": "Inter Blockchain Services"
-          },
-          {
-            "address": "https://lava.api.t.stavr.tech",
-            "provider": "🔥STAVR🔥"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png",
