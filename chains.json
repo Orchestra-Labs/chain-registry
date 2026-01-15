@@ -1,6 +1,6 @@
 {
-  "sha": "a5413d349769a2c10b81ccfac51ab72841398062",
-  "lastUpdated": "2026-01-14T13:57:02.691Z",
+  "sha": "a9007848e6d5cf7746f988565669c61f93369d11",
+  "lastUpdated": "2026-01-15T03:59:19.347Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -162,6 +162,10 @@
         ],
         "rest_uris": [
           {
+            "address": "https://mainnet-api.aaronetwork.xyz",
+            "provider": "Aaron Network Foundation"
+          },
+          {
             "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
@@ -176,10 +180,6 @@
           {
             "address": "https://api.aaronetwork.indonode.net",
             "provider": "Indonode"
-          },
-          {
-            "address": "https://mainnet-api.aaronetwork.xyz",
-            "provider": "Aaron Network Foundation"
           }
         ],
         "logo_uri": null,
@@ -13818,7 +13818,7 @@
       "genesis_29-2": {
         "chain_name": "genesisl1",
         "status": "live",
-        "website": "",
+        "website": "https://GenesisL1.com",
         "network_level": "mainnet",
         "pretty_name": "GenesisL1",
         "chain_type": "mainnet",
@@ -13828,9 +13828,9 @@
           {
             "denom": "el1",
             "gasPriceStep": {
-              "low": 51000000000,
-              "average": 52000000000,
-              "high": 53000000000
+              "low": 57000000000,
+              "average": 58000000000,
+              "high": 59000000000
             }
           }
         ],
@@ -57099,16 +57099,16 @@
             "provider": "🔥STAVR🔥"
           },
           {
+            "address": "https://xpla.api.m.stavr.tech",
+            "provider": "🔥STAVR🔥"
+          },
+          {
             "address": "https://rest.lavenderfive.com:443/xpla",
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
             "address": "https://xpla-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://xpla.api.m.stavr.tech",
-            "provider": "🔥STAVR🔥"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/xpla/images/xpla.png",
