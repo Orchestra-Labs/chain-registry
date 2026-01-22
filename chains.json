@@ -1,6 +1,6 @@
 {
-  "sha": "f83e8ad20ff2eba85d06a54ed8811e24454ae791",
-  "lastUpdated": "2026-01-19T21:54:52.105Z",
+  "sha": "f43ac435839a2a64e412882b30dd3069556a5c05",
+  "lastUpdated": "2026-01-22T21:58:02.805Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -162,24 +162,24 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.aaronetwork.indonode.net",
-            "provider": "Indonode"
+            "address": "https://mainnet-api.aaronetwork.xyz",
+            "provider": "Aaron Network Foundation"
+          },
+          {
+            "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
           {
             "address": "https://api-aaronetwork.sychonix.com/",
             "provider": "sychonix"
           },
           {
-            "address": "https://mainnet-api.aaronetwork.xyz",
-            "provider": "Aaron Network Foundation"
-          },
-          {
             "address": "https://api-aaronetwork.vinjan.xyz",
             "provider": "Vinjan.Inc"
           },
           {
-            "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money",
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+            "address": "https://api.aaronetwork.indonode.net",
+            "provider": "Indonode"
           }
         ],
         "logo_uri": null,
@@ -9463,6 +9463,26 @@
             "provider": "Golden Ratio Staking"
           },
           {
+            "address": "https://rest.lavenderfive.com:443/cosmoshub",
+            "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://api-cosmoshub.pupmos.network",
+            "provider": "PUPMØS"
+          },
+          {
+            "address": "https://api-cosmoshub.cosmos-spaces.cloud",
+            "provider": "Cosmos Spaces"
+          },
+          {
+            "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/",
+            "provider": "Notional"
+          },
+          {
+            "address": "https://cosmos-rest.staketab.org",
+            "provider": "Staketab"
+          },
+          {
             "address": "https://lcd.cosmos.dragonstake.io",
             "provider": "DragonStake"
           },
@@ -9471,20 +9491,84 @@
             "provider": "Stakin"
           },
           {
+            "address": "https://rest-cosmoshub.architectnodes.com",
+            "provider": "Architect Nodes"
+          },
+          {
+            "address": "https://rest-cosmoshub.ecostake.com",
+            "provider": "ecostake"
+          },
+          {
+            "address": "https://lcd-cosmoshub.whispernode.com:443",
+            "provider": "WhisperNode 🤐"
+          },
+          {
+            "address": "https://cosmos-lcd.easy2stake.com",
+            "provider": "Easy 2 Stake"
+          },
+          {
+            "address": "https://api.cosmos.nodestake.org",
+            "provider": "NodeStake"
+          },
+          {
             "address": "https://cosmos.api.silknodes.io",
             "provider": "Silk Nodes"
+          },
+          {
+            "address": "https://cosmos-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://cosmoshub.api.kjnodes.com",
+            "provider": "kjnodes"
+          },
+          {
+            "address": "https://api-cosmos-hub-01.stakeflow.io",
+            "provider": "Stakeflow"
           },
           {
             "address": "https://cosmos-api.w3coins.io",
             "provider": "w3coins"
           },
           {
+            "address": "https://api-cosmoshub.mms.team",
+            "provider": "MMS"
+          },
+          {
+            "address": "https://community.nuxian-node.ch:6797/gaia/crpc",
+            "provider": "PRO Delegators"
+          },
+          {
             "address": "https://cosmos-api.highstakes.ch",
             "provider": "High Stakes 🇨🇭"
           },
           {
+            "address": "https://cosmoshub-api.cosmosrescue.dev",
+            "provider": "cosmosrescue"
+          },
+          {
+            "address": "https://cosmos-rest.interstellar-lounge.org",
+            "provider": "Interstellar Lounge 🍸"
+          },
+          {
+            "address": "https://public.stakewolle.com/cosmos/cosmoshub/rest",
+            "provider": "Stakewolle"
+          },
+          {
             "address": "https://rest-cosmos.kewrnode.com",
             "provider": "Kewr Node"
+          },
+          {
+            "address": "https://cosmos-api.stakeandrelax.net",
+            "provider": "Stake&Relax 🦥"
+          },
+          {
+            "address": "https://cosmoshub-mainnet-api.itrocket.net",
+            "provider": "ITRocket"
+          },
+          {
+            "address": "https://cosmoshub.api.quasarstaking.ai",
+            "provider": "Quasar"
           },
           {
             "address": "https://cosmos.ibs.team:443/api",
@@ -9501,90 +9585,6 @@
           {
             "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-          },
-          {
-            "address": "https://cosmos-api.stakeandrelax.net",
-            "provider": "Stake&Relax 🦥"
-          },
-          {
-            "address": "https://cosmoshub-api.cosmosrescue.dev",
-            "provider": "cosmosrescue"
-          },
-          {
-            "address": "https://cosmos-rest.interstellar-lounge.org",
-            "provider": "Interstellar Lounge 🍸"
-          },
-          {
-            "address": "https://public.stakewolle.com/cosmos/cosmoshub/rest",
-            "provider": "Stakewolle"
-          },
-          {
-            "address": "https://cosmoshub-mainnet-api.itrocket.net",
-            "provider": "ITRocket"
-          },
-          {
-            "address": "https://cosmoshub.api.quasarstaking.ai",
-            "provider": "Quasar"
-          },
-          {
-            "address": "https://api-cosmoshub.mms.team",
-            "provider": "MMS"
-          },
-          {
-            "address": "https://rest-cosmoshub.architectnodes.com",
-            "provider": "Architect Nodes"
-          },
-          {
-            "address": "https://api.cosmos.nodestake.org",
-            "provider": "NodeStake"
-          },
-          {
-            "address": "https://rest-cosmoshub.ecostake.com",
-            "provider": "ecostake"
-          },
-          {
-            "address": "https://cosmos-lcd.easy2stake.com",
-            "provider": "Easy 2 Stake"
-          },
-          {
-            "address": "https://cosmoshub.api.kjnodes.com",
-            "provider": "kjnodes"
-          },
-          {
-            "address": "https://cosmos-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://api-cosmos-hub-01.stakeflow.io",
-            "provider": "Stakeflow"
-          },
-          {
-            "address": "https://lcd-cosmoshub.whispernode.com:443",
-            "provider": "WhisperNode 🤐"
-          },
-          {
-            "address": "https://api-cosmoshub.cosmos-spaces.cloud",
-            "provider": "Cosmos Spaces"
-          },
-          {
-            "address": "https://api-cosmoshub.pupmos.network",
-            "provider": "PUPMØS"
-          },
-          {
-            "address": "https://cosmos-rest.staketab.org",
-            "provider": "Staketab"
-          },
-          {
-            "address": "https://api-cosmoshub-ia.cosmosia.notional.ventures/",
-            "provider": "Notional"
-          },
-          {
-            "address": "https://rest.lavenderfive.com:443/cosmoshub",
-            "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://community.nuxian-node.ch:6797/gaia/crpc",
-            "provider": "PRO Delegators"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
@@ -12524,6 +12524,10 @@
           {
             "address": "https://rpc-m.epix.vinjan-inc.com",
             "provider": "Vinjan.Inc"
+          },
+          {
+            "address": "https://rpc-epix.dnsarz.net:443",
+            "provider": "dnsarz"
           }
         ],
         "rest_uris": [
@@ -12534,6 +12538,10 @@
           {
             "address": "https://api-m.epix.vinjan-inc.com",
             "provider": "Vinjan.Inc"
+          },
+          {
+            "address": "https://api-epix.dnsarz.net",
+            "provider": "dnsarz"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png",
@@ -29597,48 +29605,20 @@
         ],
         "rest_uris": [
           {
-            "address": "https://osmosis-api.stake-town.com",
-            "provider": "StakeTown"
-          },
-          {
-            "address": "https://osmosis-api.noders.services",
-            "provider": "[NODERS]TEAM"
-          },
-          {
-            "address": "https://public.stakewolle.com/cosmos/osmosis/rest",
-            "provider": "Stakewolle"
-          },
-          {
-            "address": "https://osmosis.api.pocket.network",
-            "provider": "Pocket Network"
-          },
-          {
             "address": "https://lcd.osmosis.zone/",
             "provider": "Osmosis Foundation"
-          },
-          {
-            "address": "https://rest-osmosis.ecostake.com",
-            "provider": "ecostake"
           },
           {
             "address": "https://rest.osmosis.goldenratiostaking.net",
             "provider": "Golden Ratio Staking"
           },
           {
-            "address": "https://api.osmosis.validatus.com:443",
-            "provider": "Validatus"
-          },
-          {
             "address": "https://rest.lavenderfive.com:443/osmosis",
             "provider": "Lavender.Five Nodes 🐝"
           },
           {
-            "address": "https://osmosis-api.highstakes.ch",
-            "provider": "High Stakes 🇨🇭"
-          },
-          {
-            "address": "https://rest.cros-nest.com/osmosis",
-            "provider": "Crosnest"
+            "address": "https://rest-osmosis.ecostake.com",
+            "provider": "ecostake"
           },
           {
             "address": "https://osmosis-api.polkachu.com",
@@ -29657,8 +29637,36 @@
             "provider": "PRO Delegators"
           },
           {
+            "address": "https://osmosis-api.stake-town.com",
+            "provider": "StakeTown"
+          },
+          {
+            "address": "https://api.osmosis.validatus.com:443",
+            "provider": "Validatus"
+          },
+          {
+            "address": "https://public.stakewolle.com/cosmos/osmosis/rest",
+            "provider": "Stakewolle"
+          },
+          {
+            "address": "https://rest.cros-nest.com/osmosis",
+            "provider": "Crosnest"
+          },
+          {
+            "address": "https://osmosis-api.noders.services",
+            "provider": "[NODERS]TEAM"
+          },
+          {
+            "address": "https://osmosis-api.highstakes.ch",
+            "provider": "High Stakes 🇨🇭"
+          },
+          {
             "address": "https://api.osmosis.citizenweb3.com/",
             "provider": "Citizen Web3"
+          },
+          {
+            "address": "https://osmosis.api.pocket.network",
+            "provider": "Pocket Network"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/osmosis/images/osmo.png",
@@ -50077,6 +50085,14 @@
         ],
         "rest_uris": [
           {
+            "address": "https://symphony.api.nodeshub.online/",
+            "provider": "Nodes Hub"
+          },
+          {
+            "address": "https://symphony-api.cogwheel.zone/",
+            "provider": "Cogwheel ⚙️"
+          },
+          {
             "address": "https://api-m.symphony.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
@@ -50087,14 +50103,6 @@
           {
             "address": "https://api.symphony.citizenweb3.com",
             "provider": "Citizen Web3"
-          },
-          {
-            "address": "https://symphony.api.nodeshub.online/",
-            "provider": "Nodes Hub"
-          },
-          {
-            "address": "https://symphony-api.cogwheel.zone/",
-            "provider": "Cogwheel ⚙️"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png",
