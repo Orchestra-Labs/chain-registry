@@ -1,6 +1,6 @@
 {
-  "sha": "f43ac435839a2a64e412882b30dd3069556a5c05",
-  "lastUpdated": "2026-01-22T21:58:02.805Z",
+  "sha": "b2dcfe1b0f98d7c46047fa17d22535662e61e0fc",
+  "lastUpdated": "2026-01-24T10:28:46.391Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -33,12 +33,12 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.8ball.info",
-            "provider": "8ball"
-          },
-          {
             "address": "https://api-8ball.nodine.id/",
             "provider": "Nodine.ID"
+          },
+          {
+            "address": "https://rest.8ball.info",
+            "provider": "8ball"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
@@ -12522,6 +12522,10 @@
             "provider": "Epix"
           },
           {
+            "address": "https://rpc-epix.onenov.xyz",
+            "provider": "OneNov"
+          },
+          {
             "address": "https://rpc-m.epix.vinjan-inc.com",
             "provider": "Vinjan.Inc"
           },
@@ -12534,6 +12538,10 @@
           {
             "address": "https://api.epix.zone",
             "provider": "Epix"
+          },
+          {
+            "address": "https://api-epix.onenov.xyz",
+            "provider": "OneNov"
           },
           {
             "address": "https://api-m.epix.vinjan-inc.com",
@@ -21535,10 +21543,6 @@
         ],
         "rpc_uris": [
           {
-            "address": "https://rpc-lava.onenov.xyz",
-            "provider": "OneNov"
-          },
-          {
             "address": "https://lava.tendermintrpc.lava.build",
             "provider": "Lava Over Lava"
           },
@@ -21620,10 +21624,6 @@
           }
         ],
         "rest_uris": [
-          {
-            "address": "https://api-lava.onenov.xyz",
-            "provider": "OneNov"
-          },
           {
             "address": "https://lava-api.finteh.org:443",
             "provider": "finteh"
@@ -47347,10 +47347,6 @@
             "provider": "Shazoes"
           },
           {
-            "address": "https://rpc-shentu.onenov.xyz",
-            "provider": "OneNov"
-          },
-          {
             "address": "https://shentu.api.pocket.network",
             "provider": "Pocket Network"
           }
@@ -47403,10 +47399,6 @@
           {
             "address": "https://shentu-mainnet-api.shazoes.xyz",
             "provider": "Shazoes"
-          },
-          {
-            "address": "https://api-shentu.onenov.xyz",
-            "provider": "OneNov"
           },
           {
             "address": "https://shentu.api.pocket.network",
@@ -58482,10 +58474,6 @@
             "provider": "Nodeist"
           },
           {
-            "address": "https://atomone-testnet-rpc.ibs.team",
-            "provider": "Inter Blockchain Services"
-          },
-          {
             "address": "https://rpc-test.atomone.vinjan.xyz",
             "provider": "Vinjan"
           },
@@ -58506,10 +58494,6 @@
           {
             "address": "https://api-testnet-atomone.nodeist.net",
             "provider": "Nodeist"
-          },
-          {
-            "address": "https://atomone-testnet-api.ibs.team",
-            "provider": "Inter Blockchain Services"
           },
           {
             "address": "https://api-test.atomone.vinjan.xyz",
@@ -59389,10 +59373,6 @@
           {
             "address": "https://bitcanna-testnet.nodejumper.io:443",
             "provider": "NODEJUMPER"
-          },
-          {
-            "address": "https://bcna-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -59419,10 +59399,6 @@
           {
             "address": "https://bitcanna-testnet.nodejumper.io:1317",
             "provider": "NODEJUMPER"
-          },
-          {
-            "address": "https://bcna-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -60230,20 +60206,12 @@
           {
             "address": "https://full-node-eris.testnet-1.coreum.dev:26657",
             "provider": "Coreum Foundation"
-          },
-          {
-            "address": "https://coreum-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
           {
             "address": "https://full-node.testnet-1.coreum.dev:1317",
             "provider": "Coreum"
-          },
-          {
-            "address": "https://coreum-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/coreum/images/coreum.png",
@@ -61336,10 +61304,6 @@
           {
             "address": "https://elys-testnet-rpc.publicnode.com:443",
             "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://elys-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -61354,10 +61318,6 @@
           {
             "address": "https://elys-testnet-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://elys-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -61914,20 +61874,12 @@
           {
             "address": "https://rpc.galactica.test.pfc.zone/",
             "provider": "PFC"
-          },
-          {
-            "address": "https://galactica-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
           {
             "address": "https://api.galactica.test.pfc.zone/",
             "provider": "PFC"
-          },
-          {
-            "address": "https://galactica-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/galactica/images/galactica.png",
@@ -63478,20 +63430,12 @@
           {
             "address": "https://rpc.kaon.kyve.network",
             "provider": "kyve"
-          },
-          {
-            "address": "https://kyve-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
           {
             "address": "https://api.kaon.kyve.network",
             "provider": "kyve"
-          },
-          {
-            "address": "https://kyve-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -63549,10 +63493,6 @@
           {
             "address": "https://lava-testnet-rpc.itrocket.net:443",
             "provider": "ITRocket"
-          },
-          {
-            "address": "https://lava-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -63567,10 +63507,6 @@
           {
             "address": "https://lava-testnet-api.itrocket.net",
             "provider": "ITRocket"
-          },
-          {
-            "address": "https://lava-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/lavatestnet/images/lava-icon.png",
@@ -65566,10 +65502,6 @@
           {
             "address": "https://neutron-testnet-rpc.polkachu.com/",
             "provider": "Polkachu"
-          },
-          {
-            "address": "https://neutron-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -65584,10 +65516,6 @@
           {
             "address": "https://rest.baryon-sentry-01.rs-testnet.polypore.xyz",
             "provider": "Hypha"
-          },
-          {
-            "address": "https://neutron-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/neutron-raw.png",
@@ -67554,10 +67482,6 @@
           {
             "address": "https://rpc-t.pell.nodestake.org",
             "provider": "NodeStake"
-          },
-          {
-            "address": "https://pell-testnet-rpc.ibs.team",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -67572,10 +67496,6 @@
           {
             "address": "https://api-t.pell.nodestake.org",
             "provider": "NodeStake"
-          },
-          {
-            "address": "https://pell-testnet-api.ibs.team",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
@@ -68416,10 +68336,6 @@
           {
             "address": "https://quicksilver-testnet-rpc.polkachu.com/",
             "provider": "polkachu"
-          },
-          {
-            "address": "https://quicksilver-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -68430,10 +68346,6 @@
           {
             "address": "https://quicksilver-testnet-api.polkachu.com/",
             "provider": "polkachu"
-          },
-          {
-            "address": "https://quicksilver-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
@@ -68486,10 +68398,6 @@
           {
             "address": "https://quicksilver-testnet-rpc.polkachu.com/",
             "provider": "polkachu"
-          },
-          {
-            "address": "https://quicksilver-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
@@ -68500,10 +68408,6 @@
           {
             "address": "https://quicksilver-testnet-api.polkachu.com/",
             "provider": "polkachu"
-          },
-          {
-            "address": "https://quicksilver-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quicksilver/images/qck.svg",
@@ -69551,20 +69455,12 @@
           {
             "address": "https://rpc.elgafar-1.stargaze-apis.com",
             "provider": "Stargaze Foundation"
-          },
-          {
-            "address": "https://stargaze-testnet-rpc.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "rest_uris": [
           {
             "address": "https://rest.elgafar-1.stargaze-apis.com",
             "provider": "Stargaze Foundation"
-          },
-          {
-            "address": "https://stargaze-testnet-api.ibs.team:443",
-            "provider": "Inter Blockchain Services"
           }
         ],
         "logo_uri": null,
