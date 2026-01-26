@@ -1,6 +1,6 @@
 {
   "sha": "63db83b846cf9644d1926ea5bc1c99d8d1c42d5d",
-  "lastUpdated": "2026-01-26T10:56:28.391Z",
+  "lastUpdated": "2026-01-26T23:29:50.774Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -162,24 +162,24 @@
         ],
         "rest_uris": [
           {
-            "address": "https://api.aaronetwork.indonode.net",
-            "provider": "Indonode"
-          },
-          {
-            "address": "https://api-aaronetwork.vinjan.xyz",
-            "provider": "Vinjan.Inc"
-          },
-          {
-            "address": "https://api-aaronetwork.sychonix.com/",
-            "provider": "sychonix"
+            "address": "https://mainnet-api.aaronetwork.xyz",
+            "provider": "Aaron Network Foundation"
           },
           {
             "address": "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money",
             "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           },
           {
-            "address": "https://mainnet-api.aaronetwork.xyz",
-            "provider": "Aaron Network Foundation"
+            "address": "https://api-aaronetwork.sychonix.com/",
+            "provider": "sychonix"
+          },
+          {
+            "address": "https://api-aaronetwork.vinjan.xyz",
+            "provider": "Vinjan.Inc"
+          },
+          {
+            "address": "https://api.aaronetwork.indonode.net",
+            "provider": "Indonode"
           }
         ],
         "logo_uri": null,
@@ -1794,8 +1794,16 @@
             "provider": "Nodeist"
           },
           {
+            "address": "https://rest-atomone-1.cros-nest.com:443",
+            "provider": "crosnest"
+          },
+          {
             "address": "https://community.nuxian-node.ch:6797/atomone/crpc",
             "provider": "PRO Delegators"
+          },
+          {
+            "address": "https://atomone-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://atomone_mainnet_api.chain.whenmoonwhenlambo.money",
@@ -1896,14 +1904,6 @@
           {
             "address": "https://atomone-mainnet-api.oshvank.xyz",
             "provider": "🏆OshVanK🏆"
-          },
-          {
-            "address": "https://atomone-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
-            "address": "https://rest-atomone-1.cros-nest.com:443",
-            "provider": "crosnest"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
@@ -6676,6 +6676,10 @@
             "provider": "[NODERS]TEAM"
           },
           {
+            "address": "https://api.lunaroasis.net",
+            "provider": "Lunar Oasis"
+          },
+          {
             "address": "https://api.celestia.nodestake.org",
             "provider": "NodeStake"
           },
@@ -6752,6 +6756,10 @@
             "provider": "[NODERS]TEAM"
           },
           {
+            "address": "https://celestia-mainnet-api.itrocket.net",
+            "provider": "itrocket"
+          },
+          {
             "address": "https://api.celestia.mainnet.dteam.tech:443",
             "provider": "DTEAM"
           },
@@ -6762,14 +6770,6 @@
           {
             "address": "https://api.celestia.node75.org",
             "provider": "Pro-Nodes75"
-          },
-          {
-            "address": "https://celestia-mainnet-api.itrocket.net",
-            "provider": "itrocket"
-          },
-          {
-            "address": "https://api.lunaroasis.net",
-            "provider": "Lunar Oasis"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
@@ -9451,6 +9451,10 @@
             "provider": "Chainlayer"
           },
           {
+            "address": "https://rest.cosmoshub.goldenratiostaking.net",
+            "provider": "Golden Ratio Staking"
+          },
+          {
             "address": "https://rest.lavenderfive.com:443/cosmoshub",
             "provider": "Lavender.Five Nodes 🐝"
           },
@@ -9475,6 +9479,10 @@
             "provider": "DragonStake"
           },
           {
+            "address": "https://cosmoshub.rest.stakin-nodes.com",
+            "provider": "Stakin"
+          },
+          {
             "address": "https://rest-cosmoshub.architectnodes.com",
             "provider": "Architect Nodes"
           },
@@ -9491,12 +9499,20 @@
             "provider": "Easy 2 Stake"
           },
           {
+            "address": "https://api.cosmos.nodestake.org",
+            "provider": "NodeStake"
+          },
+          {
             "address": "https://cosmos.api.silknodes.io",
             "provider": "Silk Nodes"
           },
           {
             "address": "https://cosmos-rest.publicnode.com",
             "provider": "Allnodes ⚡️ Nodes & Staking"
+          },
+          {
+            "address": "https://cosmoshub.api.kjnodes.com",
+            "provider": "kjnodes"
           },
           {
             "address": "https://api-cosmos-hub-01.stakeflow.io",
@@ -9531,6 +9547,10 @@
             "provider": "Stakewolle"
           },
           {
+            "address": "https://rest-cosmos.kewrnode.com",
+            "provider": "Kewr Node"
+          },
+          {
             "address": "https://cosmos-api.stakeandrelax.net",
             "provider": "Stake&Relax 🦥"
           },
@@ -9551,32 +9571,12 @@
             "provider": "Citizen Web3"
           },
           {
-            "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money",
-            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-          },
-          {
-            "address": "https://cosmoshub.api.kjnodes.com",
-            "provider": "kjnodes"
-          },
-          {
-            "address": "https://rest.cosmoshub.goldenratiostaking.net",
-            "provider": "Golden Ratio Staking"
-          },
-          {
-            "address": "https://api.cosmos.nodestake.org",
-            "provider": "NodeStake"
-          },
-          {
             "address": "https://api.cosmoshub-4.citizenweb3.com:443",
             "provider": "Citizen Web3"
           },
           {
-            "address": "https://cosmoshub.rest.stakin-nodes.com",
-            "provider": "Stakin"
-          },
-          {
-            "address": "https://rest-cosmos.kewrnode.com",
-            "provider": "Kewr Node"
+            "address": "https://cosmoshub-mainnet.chain.whenmoonwhenlambo.money",
+            "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
@@ -11438,12 +11438,20 @@
             "provider": "Hexnodes"
           },
           {
+            "address": "https://dymension.api.kjnodes.com:443",
+            "provider": "kjnodes.com 🦄"
+          },
+          {
             "address": "https://dymension-api.stakeandrelax.net",
             "provider": "Stake&Relax 🦥"
           },
           {
             "address": "https://dymension-api.takeshi.team",
             "provider": "TAKESHI"
+          },
+          {
+            "address": "https://dymension-rest.publicnode.com",
+            "provider": "Allnodes ⚡️ Nodes & Staking"
           },
           {
             "address": "https://api.dymension.silentvalidator.com:443",
@@ -11498,20 +11506,12 @@
             "provider": "[NODERS]TEAM"
           },
           {
-            "address": "https://api.archive.dymension.mainnet.dteam.tech:443",
-            "provider": "DTEAM"
-          },
-          {
-            "address": "https://dymension.api.kjnodes.com:443",
-            "provider": "kjnodes.com 🦄"
-          },
-          {
-            "address": "https://dymension-rest.publicnode.com",
-            "provider": "Allnodes ⚡️ Nodes & Staking"
-          },
-          {
             "address": "https://api.mainnet.dymension.aviaone.com",
             "provider": "AVIAONE 🟢"
+          },
+          {
+            "address": "https://api.archive.dymension.mainnet.dteam.tech:443",
+            "provider": "DTEAM"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
@@ -14182,8 +14182,16 @@
             "provider": "AlxVoy ⚡ ANODE.TEAM"
           },
           {
+            "address": "https://gitopia.api.stakevillage.net",
+            "provider": "Stake Village"
+          },
+          {
             "address": "https://gitopia-lcd.enigma-validator.com/",
             "provider": "Enigma"
+          },
+          {
+            "address": "https://gitopia.nodejumper.io:1317",
+            "provider": "NODEJUMPER"
           },
           {
             "address": "https://api.gitopia.stakeup.tech/",
@@ -14204,14 +14212,6 @@
           {
             "address": "https://gitopia-api.noders.services",
             "provider": "[NODERS]TEAM"
-          },
-          {
-            "address": "https://gitopia.nodejumper.io:1317",
-            "provider": "NODEJUMPER"
-          },
-          {
-            "address": "https://gitopia.api.stakevillage.net",
-            "provider": "Stake Village"
           },
           {
             "address": "https://api-gitopia.blockval.io",
@@ -25854,16 +25854,16 @@
         ],
         "rest_uris": [
           {
+            "address": "https://noble-rest.owallet.io",
+            "provider": "OWALLET"
+          },
+          {
             "address": "https://noble-api.polkachu.com",
             "provider": "polkachu"
           },
           {
             "address": "https://rest.lavenderfive.com:443/noble",
             "provider": "Lavender.Five Nodes 🐝"
-          },
-          {
-            "address": "https://noble-rest.owallet.io",
-            "provider": "OWALLET"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
@@ -58488,12 +58488,12 @@
             "provider": "Nodeist"
           },
           {
-            "address": "https://atomone-testnet-api.cogwheel.zone",
-            "provider": "Cogwheel ⚙️"
-          },
-          {
             "address": "https://api-test.atomone.vinjan.xyz",
             "provider": "Vinjan"
+          },
+          {
+            "address": "https://atomone-testnet-api.cogwheel.zone",
+            "provider": "Cogwheel ⚙️"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
