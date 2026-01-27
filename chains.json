@@ -1,6 +1,6 @@
 {
   "sha": "63db83b846cf9644d1926ea5bc1c99d8d1c42d5d",
-  "lastUpdated": "2026-01-26T23:29:50.774Z",
+  "lastUpdated": "2026-01-27T17:33:19.345Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -25854,16 +25854,16 @@
         ],
         "rest_uris": [
           {
-            "address": "https://noble-rest.owallet.io",
-            "provider": "OWALLET"
-          },
-          {
             "address": "https://noble-api.polkachu.com",
             "provider": "polkachu"
           },
           {
             "address": "https://rest.lavenderfive.com:443/noble",
             "provider": "Lavender.Five Nodes 🐝"
+          },
+          {
+            "address": "https://noble-rest.owallet.io",
+            "provider": "OWALLET"
           }
         ],
         "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/noble/images/stake.png",
