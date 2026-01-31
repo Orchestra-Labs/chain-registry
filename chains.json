@@ -1,6 +1,6 @@
 {
-  "sha": "63db83b846cf9644d1926ea5bc1c99d8d1c42d5d",
-  "lastUpdated": "2026-01-27T17:33:19.345Z",
+  "sha": "d498ac8488ee3d987c24691830fe5b79952e0468",
+  "lastUpdated": "2026-01-31T16:34:36.551Z",
   "data": {
     "mainnet": {
       "eightball-1": {
@@ -50652,7 +50652,7 @@
       "columbus-5": {
         "chain_name": "terra",
         "status": "live",
-        "website": "https://www.terra-Classic.money/",
+        "website": "https://www.terra-classic.io/",
         "network_level": "mainnet",
         "pretty_name": "Terra Classic",
         "chain_type": "mainnet",
@@ -60353,19 +60353,19 @@
         ],
         "rpc_uris": [
           {
-            "address": "https://rpc.provider-sentry-01.ics-testnet.polypore.xyz",
+            "address": "https://rpc.provider-sentry-01.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rpc.provider-sentry-02.ics-testnet.polypore.xyz",
+            "address": "https://rpc.provider-sentry-02.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rpc.provider-state-sync-01.ics-testnet.polypore.xyz",
+            "address": "https://rpc.provider-state-sync-01.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rpc.provider-state-sync-02.ics-testnet.polypore.xyz",
+            "address": "https://rpc.provider-state-sync-02.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
@@ -60379,19 +60379,19 @@
         ],
         "rest_uris": [
           {
-            "address": "https://rest.provider-sentry-01.ics-testnet.polypore.xyz",
+            "address": "https://rest.provider-sentry-01.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rest.provider-sentry-02.ics-testnet.polypore.xyz",
+            "address": "https://rest.provider-sentry-02.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rest.provider-state-sync-01.ics-testnet.polypore.xyz",
+            "address": "https://rest.provider-state-sync-01.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
-            "address": "https://rest.provider-state-sync-02.ics-testnet.polypore.xyz",
+            "address": "https://rest.provider-state-sync-02.hub-testnet.polypore.xyz",
             "provider": "Hypha"
           },
           {
@@ -68476,6 +68476,60 @@
           }
         }
       },
+      "raitestnet_77701-1": {
+        "chain_name": "raitestnet",
+        "status": "live",
+        "website": "https://republicai.io",
+        "network_level": "testnet",
+        "pretty_name": "Republic AI Testnet",
+        "chain_type": "testnet",
+        "chain_id": "raitestnet_77701-1",
+        "bech32_prefix": "rai",
+        "fees": [
+          {
+            "denom": "arai",
+            "gasPriceStep": {
+              "low": 10000000000,
+              "average": 25000000000,
+              "high": 40000000000
+            }
+          }
+        ],
+        "staking_denoms": [
+          "arai"
+        ],
+        "rpc_uris": [
+          {
+            "address": "https://rpc.republicai.io",
+            "provider": "Republic AI"
+          }
+        ],
+        "rest_uris": [
+          {
+            "address": "https://rest.republicai.io",
+            "provider": "Republic AI"
+          }
+        ],
+        "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/raitestnet/images/rai.png",
+        "assets": {
+          "arai": {
+            "denom": "arai",
+            "amount": "0",
+            "displayAmount": "0",
+            "isIbc": false,
+            "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/testnets/raitestnet/images/rai.png",
+            "symbol": "RAI",
+            "name": "Republic AI Testnet",
+            "exponent": 18,
+            "isFeeToken": true,
+            "networkName": "Republic AI Testnet",
+            "chainId": "raitestnet_77701-1",
+            "price": 0,
+            "originDenom": "arai",
+            "originChainId": "raitestnet_77701-1"
+          }
+        }
+      },
       "safro-testnet-1": {
         "chain_name": "safrochaintestnet",
         "status": "live",
@@ -70154,7 +70208,7 @@
         "pretty_name": "Terra 2.0",
         "chain_type": "testnet",
         "chain_id": "pisco-1",
-        "bech32_prefix": "terra",
+        "bech32_prefix": "pisco",
         "fees": [
           {
             "denom": "uluna",
