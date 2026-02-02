@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-01T00:50:26.421Z",
+  "lastUpdated": "2026-02-02T02:55:29.426Z",
   "data": {
     "cosmoshub-4": {
       "rpc": {},
@@ -1374,17 +1374,16 @@
     "osmo-test-5": {
       "rpc": {},
       "rest": {
-        "https://lcd.osmotest5.osmosis.zone/": {
-          "failedQueries": 5,
-          "longestQueryTime": 20101,
-          "redemptionStartTimestamp": 1769901152177,
-          "consecutiveInfraFailures": 1
-        },
         "https://osmosis-testnet-cosmos.reliableninjas.com": {
           "failedQueries": 8,
           "longestQueryTime": 24900,
           "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1769901161046
+        },
+        "https://lcd.osmotest5.osmosis.zone/": {
+          "failedQueries": 0,
+          "longestQueryTime": 655,
+          "consecutiveInfraFailures": 0
         }
       }
     },
@@ -1528,12 +1527,279 @@
       "rpc": {},
       "rest": {
         "https://devnet.api.agoric.net:443": {
-          "failedQueries": 9,
-          "longestQueryTime": 27299,
-          "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1770166224721,
-          "blacklistedUntil": 1770166224721,
-          "blacklistCount": 1
+          "failedQueries": 0,
+          "longestQueryTime": 597,
+          "consecutiveInfraFailures": 0
+        }
+      }
+    },
+    "sgenet-1": {
+      "rpc": {},
+      "rest": {
+        "https://rest.lavenderfive.com:443/sge": {
+          "failedQueries": 2,
+          "longestQueryTime": 132,
+          "redemptionStartTimestamp": 1770000652396
+        },
+        "https://sge-api.polkachu.com/": {
+          "failedQueries": 4,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000654900
+        },
+        "https://api.sge.nodestake.org": {
+          "failedQueries": 4,
+          "longestQueryTime": 10007,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000688232
+        },
+        "https://api-sge.nodeist.net/": {
+          "failedQueries": 4,
+          "longestQueryTime": 68,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000691824
+        },
+        "https://sge.api.m.stavr.tech": {
+          "failedQueries": 4,
+          "longestQueryTime": 398,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000696124
+        },
+        "https://sge-api.ramuchi.tech/": {
+          "failedQueries": 4,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000699557
+        },
+        "https://sge-rest.stakerhouse.com": {
+          "failedQueries": 4,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000702859
+        },
+        "https://rest.sge.tcnetwork.io": {
+          "failedQueries": 4,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000706319
+        },
+        "https://sge-api.sr20de.xyz": {
+          "failedQueries": 4,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000710059
+        },
+        "https://mainnet-sge-api.konsortech.xyz": {
+          "failedQueries": 4,
+          "longestQueryTime": 135,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000713888
+        },
+        "https://sge-api.genznodes.dev": {
+          "failedQueries": 4,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000717349
+        },
+        "https://api.sge.roomit.xyz/": {
+          "failedQueries": 2,
+          "longestQueryTime": 171,
+          "redemptionStartTimestamp": 1770000722738
+        },
+        "https://sge_mainnet_api.chain.whenmoonwhenlambo.money": {
+          "failedQueries": 2,
+          "longestQueryTime": 881,
+          "redemptionStartTimestamp": 1770000722738
+        }
+      }
+    },
+    "teritori-1": {
+      "rpc": {},
+      "rest": {
+        "https://teritori-api.polkachu.com": {
+          "failedQueries": 4,
+          "longestQueryTime": 476,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000726613
+        },
+        "https://teritori.api.m.stavr.tech": {
+          "failedQueries": 4,
+          "longestQueryTime": 335,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000732360
+        },
+        "https://teritori.api.kjnodes.com": {
+          "failedQueries": 3,
+          "longestQueryTime": 3665,
+          "redemptionStartTimestamp": 1770000761263
+        },
+        "https://api.tori.bh.rocks": {
+          "failedQueries": 6,
+          "longestQueryTime": 4,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000764533
+        },
+        "https://teritori-api.kleomedes.network": {
+          "failedQueries": 2,
+          "longestQueryTime": 890,
+          "consecutiveInfraFailures": 1,
+          "redemptionStartTimestamp": 1770000770261
+        },
+        "https://m-teritori.api.utsa.tech": {
+          "failedQueries": 4,
+          "longestQueryTime": 274,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000774659
+        },
+        "https://api-teritori.pupmos.network": {
+          "failedQueries": 2,
+          "longestQueryTime": 10014,
+          "consecutiveInfraFailures": 1,
+          "redemptionStartTimestamp": 1770000808235
+        },
+        "https://teritori-mainnet-lcd.autostake.com:443": {
+          "failedQueries": 3,
+          "longestQueryTime": 596,
+          "redemptionStartTimestamp": 1770000809243
+        },
+        "https://teritori-rest.publicnode.com": {
+          "failedQueries": 4,
+          "longestQueryTime": 136,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000812896
+        },
+        "https://teritori-api.bluestake.net": {
+          "failedQueries": 4,
+          "longestQueryTime": 164,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000817186
+        },
+        "https://teritori_mainnet_api.chain.whenmoonwhenlambo.money": {
+          "failedQueries": 4,
+          "longestQueryTime": 336,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000822460
+        },
+        "https://teritori-api.chainroot.io": {
+          "failedQueries": 6,
+          "longestQueryTime": 113,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000826203
+        },
+        "https://api.teritori.silentvalidator.com/": {
+          "failedQueries": 2,
+          "longestQueryTime": 511,
+          "consecutiveInfraFailures": 1,
+          "redemptionStartTimestamp": 1770000853328
+        }
+      }
+    },
+    "agoric-3": {
+      "rpc": {},
+      "rest": {
+        "https://main.api.agoric.net:443": {
+          "failedQueries": 0,
+          "longestQueryTime": 395,
+          "consecutiveInfraFailures": 0
+        }
+      }
+    },
+    "dydx-mainnet-1": {
+      "rpc": {},
+      "rest": {
+        "https://community.nuxian-node.ch:6797/dydx/crpc": {
+          "failedQueries": 5,
+          "longestQueryTime": 645,
+          "redemptionStartTimestamp": 1770000724113
+        },
+        "https://dydx-dao-api.polkachu.com": {
+          "failedQueries": 4,
+          "longestQueryTime": 150,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000727642
+        },
+        "https://dydx-mainnet-full-lcd.public.blastapi.io": {
+          "failedQueries": 6,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000731390
+        },
+        "https://dydx-rest.kingnodes.com:443": {
+          "failedQueries": 4,
+          "longestQueryTime": 165,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000736495
+        },
+        "https://rest.lavenderfive.com:443/dydx": {
+          "failedQueries": 4,
+          "longestQueryTime": 308,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000741395
+        },
+        "https://dydx-mainnet-lcd.autostake.com:443": {
+          "failedQueries": 4,
+          "longestQueryTime": 146,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000745814
+        },
+        "https://api-dydx.cosmos-spaces.cloud": {
+          "failedQueries": 6,
+          "longestQueryTime": 35,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000749275
+        },
+        "https://rest-dydx.cros-nest.com:443": {
+          "failedQueries": 6,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000756331
+        },
+        "https://dydx-lcd.enigma-validator.com": {
+          "failedQueries": 4,
+          "longestQueryTime": 10015,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1770000789620
+        },
+        "https://dydx-api.noders.services": {
+          "failedQueries": 3,
+          "longestQueryTime": 451,
+          "redemptionStartTimestamp": 1770000790631
+        },
+        "https://dydx-rest.interstellar-lounge.org": {
+          "failedQueries": 6,
+          "longestQueryTime": 828,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1770000797123
+        },
+        "https://dydx-rest.publicnode.com": {
+          "failedQueries": 0,
+          "longestQueryTime": 183,
+          "consecutiveInfraFailures": 0
+        }
+      }
+    },
+    "gravity-bridge-3": {
+      "rpc": {},
+      "rest": {
+        "https://gravitychain.io:1317": {
+          "failedQueries": 0,
+          "longestQueryTime": 829,
+          "consecutiveInfraFailures": 0
+        }
+      }
+    },
+    "empowerchain-1": {
+      "rpc": {},
+      "rest": {
+        "https://empowerchain-mainnet-lcd.autostake.com:443": {
+          "failedQueries": 6,
+          "longestQueryTime": 964,
+          "redemptionStartTimestamp": 1770000724113
+        },
+        "https://empower.api.liveraven.net": {
+          "failedQueries": 0,
+          "longestQueryTime": 394,
+          "consecutiveInfraFailures": 0
         }
       }
     }
