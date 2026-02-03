@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T11:04:39.739Z",
+  "lastUpdated": "2026-02-03T11:05:37.441Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -29,20 +29,20 @@
           "redemptionStartTimestamp": 1770116679739
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 1,
-          "longestQueryTime": 1700,
+          "failedQueries": 2,
+          "longestQueryTime": 54399,
           "consecutiveInfraFailures": 1,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1770110761441
+          "redemptionStartTimestamp": 1770116734240
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 1,
-          "longestQueryTime": 2018,
-          "consecutiveInfraFailures": 1,
+          "failedQueries": 2,
+          "longestQueryTime": 3300,
+          "consecutiveInfraFailures": 2,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1770110824439
+          "redemptionStartTimestamp": 1770116737440
         }
       }
     }
