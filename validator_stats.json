@@ -1,316 +1,50 @@
 {
-  "lastUpdated": "2026-02-07T01:54:04.515Z",
+  "lastUpdated": "2026-02-07T04:37:36.828Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
-        "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 9,
-          "longestQueryTime": 31500,
-          "consecutiveInfraFailures": 0,
+        "https://api.symphony.citizenweb3.com": {
+          "failedQueries": 1,
+          "longestQueryTime": 5701,
+          "consecutiveInfraFailures": 1,
           "blacklistedUntil": 0,
-          "blacklistCount": 2,
-          "redemptionStartTimestamp": 1770428956735
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1770439013478
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 9,
-          "longestQueryTime": 14800,
-          "consecutiveInfraFailures": 0,
+          "failedQueries": 1,
+          "longestQueryTime": 8802,
+          "consecutiveInfraFailures": 1,
           "blacklistedUntil": 0,
-          "blacklistCount": 4,
-          "redemptionStartTimestamp": 1770428956735
-        },
-        "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 9,
-          "longestQueryTime": 22100,
-          "consecutiveInfraFailures": 0,
-          "blacklistedUntil": 0,
-          "blacklistCount": 4,
-          "redemptionStartTimestamp": 1770428956735
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1770439023527
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 9,
-          "longestQueryTime": 18800,
+          "failedQueries": 1,
+          "longestQueryTime": 7498,
+          "consecutiveInfraFailures": 1,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1770439031327
+        },
+        "https://api-symphony.sr20de.xyz": {
+          "failedQueries": 1,
+          "longestQueryTime": 11200,
+          "consecutiveInfraFailures": 1,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1770439041626
+        },
+        "https://symphony.api.nodeshub.online/": {
+          "failedQueries": 1,
+          "longestQueryTime": 14700,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
-          "blacklistCount": 4,
-          "redemptionStartTimestamp": 1770428956735
-        },
-        "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 0,
-          "longestQueryTime": 27,
-          "consecutiveInfraFailures": 0
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1770439056127
         }
       }
-    },
-    "cosmoshub-4": {
-      "rpc": {},
-      "rest": {
-        "https://rest.cosmoshub-main.ccvalidators.com:443": {
-          "failedQueries": 6,
-          "longestQueryTime": 24300,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429130334
-        },
-        "https://cosmoshub.lava.build:443": {
-          "failedQueries": 3,
-          "longestQueryTime": 539,
-          "redemptionStartTimestamp": 1770429231853
-        },
-        "https://cosmos-lcd.quickapi.com:443": {
-          "failedQueries": 3,
-          "longestQueryTime": 403,
-          "redemptionStartTimestamp": 1770429231853
-        },
-        "https://rest.cosmoshub.goldenratiostaking.net": {
-          "failedQueries": 4,
-          "longestQueryTime": 5556,
-          "consecutiveInfraFailures": 2,
-          "redemptionStartTimestamp": 1770429241499
-        },
-        "https://rest.lavenderfive.com:443/cosmoshub": {
-          "failedQueries": 0,
-          "longestQueryTime": 384,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "atomone-1": {
-      "rpc": {},
-      "rest": {
-        "https://atomone-api.allinbits.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 23900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429132634
-        },
-        "https://atomone-api.cogwheel.zone": {
-          "failedQueries": 0,
-          "longestQueryTime": 901,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "dymension_1100-1": {
-      "rpc": {},
-      "rest": {
-        "https://dym-m-api.agoranodes.com": {
-          "failedQueries": 6,
-          "longestQueryTime": 30000,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429134734
-        },
-        "http://dymension.mainnet.api.noders.team:42317": {
-          "failedQueries": 4,
-          "longestQueryTime": 5,
-          "consecutiveInfraFailures": 2,
-          "redemptionStartTimestamp": 1770429234584
-        },
-        "https://dymension-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 2,
-          "longestQueryTime": 335,
-          "redemptionStartTimestamp": 1770429235178
-        },
-        "https://api.dymension.nodestake.org": {
-          "failedQueries": 0,
-          "longestQueryTime": 954,
-          "consecutiveInfraFailures": 0
-        },
-        "https://rest.lavenderfive.com:443/dymension": {
-          "failedQueries": 0,
-          "longestQueryTime": 899,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "gitopia": {
-      "rpc": {},
-      "rest": {
-        "https://gitopia-api.polkachu.com:443": {
-          "failedQueries": 6,
-          "longestQueryTime": 23900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429149335
-        },
-        "https://rest.lavenderfive.com:443/gitopia": {
-          "failedQueries": 3,
-          "longestQueryTime": 116,
-          "redemptionStartTimestamp": 1770429233857
-        }
-      }
-    },
-    "celestia": {
-      "rpc": {},
-      "rest": {
-        "https://public-celestia-lcd.numia.xyz": {
-          "failedQueries": 6,
-          "longestQueryTime": 25900,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429151835
-        },
-        "https://celestia-rest.mesa.newmetric.xyz": {
-          "failedQueries": 6,
-          "longestQueryTime": 18711,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429213934
-        },
-        "http://celestia.rpc.nodersteam.com:1617": {
-          "failedQueries": 6,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1770429234056
-        },
-        "https://api.lunaroasis.net": {
-          "failedQueries": 2,
-          "longestQueryTime": 304,
-          "consecutiveInfraFailures": 1,
-          "redemptionStartTimestamp": 1770429243805
-        }
-      }
-    },
-    "archway-1": {
-      "rpc": {},
-      "rest": {
-        "https://api.mainnet.archway.io": {
-          "failedQueries": 0,
-          "longestQueryTime": 465,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "perun-1": {
-      "rpc": {},
-      "rest": {
-        "https://lcd.c4e.io/": {
-          "failedQueries": 2,
-          "longestQueryTime": 8412,
-          "consecutiveInfraFailures": 1,
-          "redemptionStartTimestamp": 1770429234942
-        }
-      }
-    },
-    "bitcanna-1": {
-      "rpc": {},
-      "rest": {
-        "https://lcd.bitcanna.io": {
-          "failedQueries": 0,
-          "longestQueryTime": 757,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "bitcoin-signet": {
-      "rpc": {},
-      "rest": {
-        "https://mempool.space/signet/api": {
-          "failedQueries": 8,
-          "longestQueryTime": 620,
-          "redemptionStartTimestamp": 1770429231853
-        }
-      }
-    },
-    "bitcoin-testnet": {
-      "rpc": {},
-      "rest": {
-        "https://mempool.space/testnet/api": {
-          "failedQueries": 8,
-          "longestQueryTime": 659,
-          "redemptionStartTimestamp": 1770429231853
-        },
-        "https://blockstream.info/testnet/api": {
-          "failedQueries": 8,
-          "longestQueryTime": 780,
-          "redemptionStartTimestamp": 1770429232855
-        }
-      }
-    },
-    "core-1": {
-      "rpc": {},
-      "rest": {
-        "https://rest.core.persistence.one": {
-          "failedQueries": 0,
-          "longestQueryTime": 644,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "sunrise-1": {
-      "rpc": {},
-      "rest": {
-        "https://a.consensus.sunrise-1.sunriselayer.io:1318": {
-          "failedQueries": 0,
-          "longestQueryTime": 5138,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "dungeon-1": {
-      "rpc": {},
-      "rest": {
-        "https://dungeon-wallet.api.quasarstaking.ai": {
-          "failedQueries": 0,
-          "longestQueryTime": 114,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "noble-1": {
-      "rpc": {},
-      "rest": {
-        "https://noble-api.polkachu.com": {
-          "failedQueries": 2,
-          "longestQueryTime": 441,
-          "consecutiveInfraFailures": 1,
-          "redemptionStartTimestamp": 1770429241903
-        },
-        "https://rest.lavenderfive.com:443/noble": {
-          "failedQueries": 0,
-          "longestQueryTime": 726,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "osmosis-1": {
-      "rpc": {},
-      "rest": {
-        "https://lcd.osmosis.zone/": {
-          "failedQueries": 0,
-          "longestQueryTime": 306,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "symphony-testnet-4": {
-      "rpc": {},
-      "rest": {
-        "https://symphony.test.api.nodeshub.online/": {
-          "failedQueries": 10,
-          "longestQueryTime": 8,
-          "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1770688434425,
-          "blacklistedUntil": 1770688434425,
-          "blacklistCount": 1
-        },
-        "https://symphony-testnet-api.cogwheel.zone/": {
-          "failedQueries": 0,
-          "longestQueryTime": 212,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "osmo-test-5": {
-      "rpc": {},
-      "rest": {
-        "https://lcd.osmotest5.osmosis.zone/": {
-          "failedQueries": 0,
-          "longestQueryTime": 113,
-          "consecutiveInfraFailures": 0
-        }
-      }
-    },
-    "agoricdev-25": {
-      "rpc": {},
-      "rest": {}
     }
   }
 }
