@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-09T04:34:18.327Z",
+  "lastUpdated": "2026-02-09T08:56:46.472Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -37,12 +37,12 @@
           "redemptionStartTimestamp": 1770611614327
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 29,
+          "failedQueries": 30,
           "longestQueryTime": 237801,
-          "consecutiveInfraFailures": 4,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1770611658327
+          "consecutiveInfraFailures": 5,
+          "blacklistedUntil": 1770631006471,
+          "blacklistCount": 1,
+          "redemptionStartTimestamp": 1770631006471
         }
       }
     }
