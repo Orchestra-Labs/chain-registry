@@ -181041,7 +181041,7 @@
           "bech32_prefix": "",
           "fees": [
             {
-              "denom": "eth",
+              "denom": "wei",
               "gasPriceStep": {
                 "low": 0.01,
                 "average": 0.025,
@@ -181060,8 +181060,8 @@
           ],
           "rest_uris": [],
           "assets": {
-            "eth": {
-              "denom": "eth",
+            "wei": {
+              "denom": "wei",
               "amount": "0",
               "displayAmount": "0",
               "isIbc": false,
@@ -181073,7 +181073,7 @@
               "networkName": "Ethereum Hoodi",
               "chainId": "560048",
               "price": 0,
-              "originDenom": "eth",
+              "originDenom": "wei",
               "originChainId": "560048"
             }
           }
