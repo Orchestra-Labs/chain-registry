@@ -118820,54 +118820,6 @@
             }
           }
         },
-        "560048": {
-          "chain_name": "hoe",
-          "status": "live",
-          "website": "https://hoodi.ethpandaops.io",
-          "network_level": "mainnet",
-          "pretty_name": "Ethereum Hoodi",
-          "chain_type": "eip155",
-          "chain_id": "560048",
-          "bech32_prefix": "",
-          "fees": [
-            {
-              "denom": "eth",
-              "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
-              }
-            }
-          ],
-          "staking_denoms": [
-            "eth"
-          ],
-          "rpc_uris": [
-            {
-              "address": "https://rpc.hoodi.ethpandaops.io",
-              "provider": "ethpandaops"
-            }
-          ],
-          "rest_uris": [],
-          "assets": {
-            "eth": {
-              "denom": "eth",
-              "amount": "0",
-              "displayAmount": "0",
-              "isIbc": false,
-              "logo": "",
-              "symbol": "ETH",
-              "name": "Hoodi Ether",
-              "exponent": 18,
-              "isFeeToken": true,
-              "networkName": "Ethereum Hoodi",
-              "chainId": "560048",
-              "price": 0,
-              "originDenom": "eth",
-              "originChainId": "560048"
-            }
-          }
-        },
         "622277": {
           "chain_name": "hyp",
           "status": "live",
@@ -181075,6 +181027,54 @@
               "price": 0,
               "originDenom": "eth",
               "originChainId": "555777"
+            }
+          }
+        },
+        "560048": {
+          "chain_name": "hoe",
+          "status": "live",
+          "website": "https://hoodi.ethpandaops.io",
+          "network_level": "testnet",
+          "pretty_name": "Ethereum Hoodi",
+          "chain_type": "eip155",
+          "chain_id": "560048",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "eth",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "eth"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.hoodi.ethpandaops.io",
+              "provider": "ethpandaops"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "eth": {
+              "denom": "eth",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "ETH",
+              "name": "Hoodi Ether",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Ethereum Hoodi",
+              "chainId": "560048",
+              "price": 0,
+              "originDenom": "eth",
+              "originChainId": "560048"
             }
           }
         },
