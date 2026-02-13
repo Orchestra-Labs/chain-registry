@@ -1189,8 +1189,8 @@
           "channel_id": "channel-448"
         }
       },
-      "6322,axelar-dojo-1": {
-        "6322": {
+      "aura_6322-2,axelar-dojo-1": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-17",
           "connection_id": "connection-11",
           "channel_id": "channel-4"
@@ -1201,8 +1201,8 @@
           "channel_id": "channel-104"
         }
       },
-      "6322,cosmoshub-4": {
-        "6322": {
+      "aura_6322-2,cosmoshub-4": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-24",
           "connection_id": "connection-14",
           "channel_id": "channel-6"
@@ -1213,20 +1213,20 @@
           "channel_id": "channel-646"
         }
       },
-      "2222,6322": {
+      "2222,aura_6322-2": {
         "2222": {
           "client_id": "07-tendermint-133",
           "connection_id": "connection-168",
           "channel_id": "channel-124"
         },
-        "6322": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-26",
           "connection_id": "connection-15",
           "channel_id": "channel-7"
         }
       },
-      "6322,noble-1": {
-        "6322": {
+      "aura_6322-2,noble-1": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-43",
           "connection_id": "connection-27",
           "channel_id": "channel-9"
@@ -1237,8 +1237,8 @@
           "channel_id": "channel-41"
         }
       },
-      "6322,nois-1": {
-        "6322": {
+      "aura_6322-2,nois-1": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-13",
           "connection_id": "connection-10",
           "channel_id": "channel-3"
@@ -1249,8 +1249,8 @@
           "channel_id": "channel-16"
         }
       },
-      "6322,osmosis-1": {
-        "6322": {
+      "aura_6322-2,osmosis-1": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-47",
           "connection_id": "connection-33",
           "channel_id": "channel-10"
@@ -1261,8 +1261,8 @@
           "channel_id": "channel-11304"
         }
       },
-      "6322,stargaze-1": {
-        "6322": {
+      "aura_6322-2,stargaze-1": {
+        "aura_6322-2": {
           "client_id": "07-tendermint-48",
           "connection_id": "connection-47",
           "channel_id": "channel-23"
@@ -1525,16 +1525,16 @@
           "channel_id": "channel-0"
         }
       },
-      "5888,axelar-dojo-1": {
-        "5888": {
-          "client_id": "07-tendermint-6",
-          "connection_id": "connection-6",
-          "channel_id": "channel-6"
-        },
+      "axelar-dojo-1,mantra-1": {
         "axelar-dojo-1": {
           "client_id": "07-tendermint-237",
           "connection_id": "connection-227",
           "channel_id": "channel-170"
+        },
+        "mantra-1": {
+          "client_id": "07-tendermint-6",
+          "connection_id": "connection-6",
+          "channel_id": "channel-6"
         }
       },
       "axelar-dojo-1,migaloo-1": {
@@ -3488,16 +3488,16 @@
           "channel_id": "channel-12"
         }
       },
-      "5888,cosmoshub-4": {
-        "5888": {
-          "client_id": "07-tendermint-3",
-          "connection_id": "connection-3",
-          "channel_id": "channel-3"
-        },
+      "cosmoshub-4,mantra-1": {
         "cosmoshub-4": {
           "client_id": "07-tendermint-1331",
           "connection_id": "connection-1062",
           "channel_id": "channel-1252"
+        },
+        "mantra-1": {
+          "client_id": "07-tendermint-3",
+          "connection_id": "connection-3",
+          "channel_id": "channel-3"
         }
       },
       "cosmoshub-4,neutron-1": {
@@ -3968,16 +3968,16 @@
           "channel_id": "channel-67"
         }
       },
-      "110110,crescent-1": {
-        "110110": {
-          "client_id": "07-tendermint-14",
-          "connection_id": "connection-9",
-          "channel_id": "channel-5"
-        },
+      "crescent-1,mars-1": {
         "crescent-1": {
           "client_id": "07-tendermint-53",
           "connection_id": "connection-52",
           "channel_id": "channel-35"
+        },
+        "mars-1": {
+          "client_id": "07-tendermint-14",
+          "connection_id": "connection-9",
+          "channel_id": "channel-5"
         }
       },
       "crescent-1,noble-1": {
@@ -5276,6 +5276,18 @@
           "channel_id": "channel-781"
         }
       },
+      "gnodi,osmosis-1": {
+        "gnodi": {
+          "client_id": "07-tendermint-1",
+          "connection_id": "connection-5",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3665",
+          "connection_id": "connection-11024",
+          "channel_id": "channel-108866"
+        }
+      },
       "gravity-bridge-3,haqq_11235-1": {
         "gravity-bridge-3": {
           "client_id": "07-tendermint-192",
@@ -5576,13 +5588,13 @@
           "channel_id": "channel-2"
         }
       },
-      "1776,5888": {
+      "1776,mantra-1": {
         "1776": {
           "client_id": "07-tendermint-275",
           "connection_id": "connection-277",
           "channel_id": "channel-363"
         },
-        "5888": {
+        "mantra-1": {
           "client_id": "07-tendermint-2",
           "connection_id": "connection-2",
           "channel_id": "channel-2"
@@ -6020,16 +6032,16 @@
           "channel_id": "channel-1"
         }
       },
-      "110110,juno-1": {
-        "110110": {
-          "client_id": "07-tendermint-11",
-          "connection_id": "connection-7",
-          "channel_id": "channel-3"
-        },
+      "juno-1,mars-1": {
         "juno-1": {
           "client_id": "07-tendermint-300",
           "connection_id": "connection-270",
           "channel_id": "channel-209"
+        },
+        "mars-1": {
+          "client_id": "07-tendermint-11",
+          "connection_id": "connection-7",
+          "channel_id": "channel-3"
         }
       },
       "juno-1,migaloo-1": {
@@ -6416,16 +6428,16 @@
           "channel_id": "channel-586"
         }
       },
-      "110110,kaiyo-1": {
-        "110110": {
-          "client_id": "07-tendermint-3",
-          "connection_id": "connection-2",
-          "channel_id": "channel-0"
-        },
+      "kaiyo-1,mars-1": {
         "kaiyo-1": {
           "client_id": "07-tendermint-78",
           "connection_id": "connection-54",
           "channel_id": "channel-55"
+        },
+        "mars-1": {
+          "client_id": "07-tendermint-3",
+          "connection_id": "connection-2",
+          "channel_id": "channel-0"
         }
       },
       "kaiyo-1,migaloo-1": {
@@ -6680,8 +6692,8 @@
           "channel_id": "channel-5"
         }
       },
-      "56026,osmosis-1": {
-        "56026": {
+      "lambda_92000-1,osmosis-1": {
+        "lambda_92000-1": {
           "client_id": "07-tendermint-6",
           "connection_id": "connection-5",
           "channel_id": "channel-2"
@@ -6800,8 +6812,8 @@
           "channel_id": "channel-100418"
         }
       },
-      "5888,neutron-1": {
-        "5888": {
+      "mantra-1,neutron-1": {
+        "mantra-1": {
           "client_id": "07-tendermint-7",
           "connection_id": "connection-7",
           "channel_id": "channel-7"
@@ -6812,8 +6824,8 @@
           "channel_id": "channel-6964"
         }
       },
-      "5888,noble-1": {
-        "5888": {
+      "mantra-1,noble-1": {
+        "mantra-1": {
           "client_id": "07-tendermint-1",
           "connection_id": "connection-1",
           "channel_id": "channel-1"
@@ -6824,8 +6836,8 @@
           "channel_id": "channel-101"
         }
       },
-      "5888,osmosis-1": {
-        "5888": {
+      "mantra-1,osmosis-1": {
+        "mantra-1": {
           "client_id": "07-tendermint-0",
           "connection_id": "connection-0",
           "channel_id": "channel-0"
@@ -6836,8 +6848,8 @@
           "channel_id": "channel-85077"
         }
       },
-      "5888,stargaze-1": {
-        "5888": {
+      "mantra-1,stargaze-1": {
+        "mantra-1": {
           "client_id": "07-tendermint-4",
           "connection_id": "connection-4",
           "channel_id": "channel-4"
@@ -6848,8 +6860,8 @@
           "channel_id": "channel-406"
         }
       },
-      "110110,neutron-1": {
-        "110110": {
+      "mars-1,neutron-1": {
+        "mars-1": {
           "client_id": "07-tendermint-64",
           "connection_id": "connection-50",
           "channel_id": "channel-37"
@@ -6860,8 +6872,8 @@
           "channel_id": "channel-16"
         }
       },
-      "110110,osmosis-1": {
-        "110110": {
+      "mars-1,osmosis-1": {
+        "mars-1": {
           "client_id": "07-tendermint-4",
           "connection_id": "connection-3",
           "channel_id": "channel-1"
@@ -6872,8 +6884,8 @@
           "channel_id": "channel-557"
         }
       },
-      "110110,phoenix-1": {
-        "110110": {
+      "mars-1,phoenix-1": {
+        "mars-1": {
           "client_id": "07-tendermint-10",
           "connection_id": "connection-6",
           "channel_id": "channel-2"
@@ -9634,16 +9646,16 @@
           "channel_id": "channel-5"
         }
       },
-      "1449000,provider": {
-        "1449000": {
-          "client_id": "07-tendermint-9",
-          "connection_id": "connection-1",
-          "channel_id": "channel-1"
-        },
+      "provider,xrplevm_1449000-1": {
         "provider": {
           "client_id": "07-tendermint-290",
           "connection_id": "connection-208",
           "channel_id": "channel-374"
+        },
+        "xrplevm_1449000-1": {
+          "client_id": "07-tendermint-9",
+          "connection_id": "connection-1",
+          "channel_id": "channel-1"
         }
       },
       "divine-testnet-1,osmo-test-5": {
@@ -9706,16 +9718,16 @@
           "channel_id": "channel-9"
         }
       },
-      "1449000,elysicstestnet-1": {
-        "1449000": {
-          "client_id": "07-tendermint-15",
-          "connection_id": "connection-3",
-          "channel_id": "channel-3"
-        },
+      "elysicstestnet-1,xrplevm_1449000-1": {
         "elysicstestnet-1": {
           "client_id": "07-tendermint-13",
           "connection_id": "connection-9",
           "channel_id": "channel-10"
+        },
+        "xrplevm_1449000-1": {
+          "client_id": "07-tendermint-15",
+          "connection_id": "connection-3",
+          "channel_id": "channel-3"
         }
       },
       "circulus-1,osmo-test-5": {
@@ -9814,16 +9826,16 @@
           "channel_id": "channel-487"
         }
       },
-      "1449000,injective-888": {
-        "1449000": {
-          "client_id": "07-tendermint-24",
-          "connection_id": "connection-4",
-          "channel_id": "channel-4"
-        },
+      "injective-888,xrplevm_1449000-1": {
         "injective-888": {
           "client_id": "07-tendermint-321",
           "connection_id": "connection-281",
           "channel_id": "channel-77038"
+        },
+        "xrplevm_1449000-1": {
+          "client_id": "07-tendermint-24",
+          "connection_id": "connection-4",
+          "channel_id": "channel-4"
         }
       },
       "grand-1,int3-test-2": {
@@ -10414,16 +10426,16 @@
           "channel_id": "channel-2"
         }
       },
-      "1449000,osmo-test-5": {
-        "1449000": {
-          "client_id": "07-tendermint-10",
-          "connection_id": "connection-2",
-          "channel_id": "channel-2"
-        },
+      "osmo-test-5,xrplevm_1449000-1": {
         "osmo-test-5": {
           "client_id": "07-tendermint-4629",
           "connection_id": "connection-3984",
           "channel_id": "channel-10361"
+        },
+        "xrplevm_1449000-1": {
+          "client_id": "07-tendermint-10",
+          "connection_id": "connection-2",
+          "channel_id": "channel-2"
         }
       },
       "osmo-test-4,prysm-devnet-1": {
@@ -10488,9 +10500,9 @@
       }
     }
   },
-  "lastUpdated": "2026-02-07T01:54:01.504Z",
+  "lastUpdated": "2026-02-13T00:19:53.753Z",
   "commitHashes": {
-    "mainnetHash": "504549a54d7f4150f5cc9774ee8dd1124a0ee3ff",
-    "testnetHash": "504549a54d7f4150f5cc9774ee8dd1124a0ee3ff"
+    "mainnetHash": "2366ee374a6d9bbf9dd3403a567c6f57f7875223",
+    "testnetHash": "2366ee374a6d9bbf9dd3403a567c6f57f7875223"
   }
 }
