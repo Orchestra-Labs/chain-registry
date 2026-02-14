@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-14T00:08:24.083Z",
+  "lastUpdated": "2026-02-14T00:08:54.983Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -29,20 +29,20 @@
           "redemptionStartTimestamp": 1771027704083
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 10,
-          "longestQueryTime": 18800,
+          "failedQueries": 11,
+          "longestQueryTime": 40690,
           "consecutiveInfraFailures": 3,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1771008081883
+          "redemptionStartTimestamp": 1771027714083
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 10,
+          "failedQueries": 11,
           "longestQueryTime": 20200,
           "consecutiveInfraFailures": 3,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1771008101483
+          "redemptionStartTimestamp": 1771027734983
         }
       }
     }
