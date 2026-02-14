@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-02-13T18:41:41.483Z",
+  "lastUpdated": "2026-02-14T00:08:24.083Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 10,
-          "longestQueryTime": 10000,
+          "failedQueries": 11,
+          "longestQueryTime": 21200,
           "consecutiveInfraFailures": 10,
           "blacklistedUntil": 1771036861593,
           "blacklistCount": 4,
-          "redemptionStartTimestamp": 1771036861593
+          "redemptionStartTimestamp": 1771027640083
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 10,
-          "longestQueryTime": 4099,
+          "failedQueries": 11,
+          "longestQueryTime": 18800,
           "consecutiveInfraFailures": 10,
           "blacklistedUntil": 1771036865085,
           "blacklistCount": 4,
-          "redemptionStartTimestamp": 1771036865085
+          "redemptionStartTimestamp": 1771027661683
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 10,
-          "longestQueryTime": 6000,
+          "failedQueries": 11,
+          "longestQueryTime": 12016,
           "consecutiveInfraFailures": 10,
           "blacklistedUntil": 1771036869884,
           "blacklistCount": 4,
-          "redemptionStartTimestamp": 1771036869884
+          "redemptionStartTimestamp": 1771027704083
         },
         "https://symphony-api.cogwheel.zone/": {
           "failedQueries": 10,
