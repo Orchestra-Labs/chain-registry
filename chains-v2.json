@@ -1,6 +1,6 @@
 {
-  "sha": "2366ee374a6d9bbf9dd3403a567c6f57f7875223",
-  "lastUpdated": "2026-02-13T01:16:19.957Z",
+  "sha": "5805ad6fede523921ecdab24005fb10a229477fd",
+  "lastUpdated": "2026-02-15T01:29:15.457Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -38,16 +38,16 @@
           ],
           "rest_uris": [
             {
+              "address": "https://api-8ball.nodine.id/",
+              "provider": "Nodine.ID"
+            },
+            {
               "address": "https://rest.cosmos.directory/8ball",
               "provider": "cosmos.directory"
             },
             {
               "address": "https://rest.8ball.info",
               "provider": "8ball"
-            },
-            {
-              "address": "https://api-8ball.nodine.id/",
-              "provider": "Nodine.ID"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
@@ -14751,6 +14751,10 @@
             {
               "address": "https://rpc-gitopia.blockval.io/",
               "provider": "Blockval"
+            },
+            {
+              "address": "https://rpc-gitopia.onenov.xyz",
+              "provider": "OneNov"
             }
           ],
           "rest_uris": [
@@ -14869,6 +14873,10 @@
             {
               "address": "https://api-gitopia.blockval.io",
               "provider": "Blockval"
+            },
+            {
+              "address": "https://api-gitopia.onenov.xyz",
+              "provider": "OneNov"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/gitopia.png",
