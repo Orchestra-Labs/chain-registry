@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T18:58:22.448Z",
+  "lastUpdated": "2026-02-19T21:58:20.533Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -21,36 +21,36 @@
           "redemptionStartTimestamp": 1771527474333
         },
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 15,
+          "failedQueries": 16,
           "longestQueryTime": 32597,
-          "consecutiveInfraFailures": 10,
-          "blacklistedUntil": 1771528392233,
-          "blacklistCount": 2,
-          "redemptionStartTimestamp": 1771527476032
+          "consecutiveInfraFailures": 11,
+          "blacklistedUntil": 1771552687732,
+          "blacklistCount": 3,
+          "redemptionStartTimestamp": 1771552687732
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 15,
+          "failedQueries": 16,
           "longestQueryTime": 24400,
-          "consecutiveInfraFailures": 9,
-          "blacklistedUntil": 1771528404333,
-          "blacklistCount": 2,
-          "redemptionStartTimestamp": 1771527478833
+          "consecutiveInfraFailures": 10,
+          "blacklistedUntil": 1771552672534,
+          "blacklistCount": 3,
+          "redemptionStartTimestamp": 1771552672534
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 15,
+          "failedQueries": 16,
           "longestQueryTime": 30600,
           "consecutiveInfraFailures": 3,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1771527487533
+          "redemptionStartTimestamp": 1771538283434
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 15,
+          "failedQueries": 16,
           "longestQueryTime": 47200,
           "consecutiveInfraFailures": 1,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1771527502448
+          "redemptionStartTimestamp": 1771538300533
         }
       }
     }
