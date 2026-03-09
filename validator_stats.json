@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T03:17:57.275Z",
+  "lastUpdated": "2026-03-09T03:18:36.375Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -37,20 +37,20 @@
           "redemptionStartTimestamp": 1773026277275
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 1,
-          "longestQueryTime": 13002,
+          "failedQueries": 2,
+          "longestQueryTime": 16301,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1773023602875
+          "redemptionStartTimestamp": 1773026291274
         },
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 1,
+          "failedQueries": 2,
           "longestQueryTime": 20301,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1773023623376
+          "redemptionStartTimestamp": 1773026316375
         }
       }
     }
