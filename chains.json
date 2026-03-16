@@ -1,6 +1,6 @@
 {
-  "sha": "b1912688d4e9f1f3806077cbb07e5e89cc9a7526",
-  "lastUpdated": "2026-03-14T14:21:51.909Z",
+  "sha": "4b29d091b17864c2c790ec07431d7f8826d267a9",
+  "lastUpdated": "2026-03-16T10:48:08.438Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -38,16 +38,16 @@
           ],
           "rest_uris": [
             {
-              "address": "https://rest.cosmos.directory/8ball",
-              "provider": "cosmos.directory"
+              "address": "https://api-8ball.nodine.id/",
+              "provider": "Nodine.ID"
             },
             {
               "address": "https://rest.8ball.info",
               "provider": "8ball"
             },
             {
-              "address": "https://api-8ball.nodine.id/",
-              "provider": "Nodine.ID"
+              "address": "https://rest.cosmos.directory/8ball",
+              "provider": "cosmos.directory"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
@@ -6669,7 +6669,6 @@
               "isFeeToken": true,
               "networkName": "Carbon",
               "chainId": "carbon-1",
-              "coinGeckoId": "kujira",
               "price": 0,
               "originDenom": "ukuji",
               "originChainId": "kaiyo-1",
@@ -11215,7 +11214,6 @@
               "isFeeToken": true,
               "networkName": "Decentr",
               "chainId": "mainnet-3",
-              "coinGeckoId": "decentr",
               "price": 0,
               "originDenom": "udec",
               "originChainId": "mainnet-3"
@@ -20933,7 +20931,6 @@
               "isFeeToken": true,
               "networkName": "Kujira",
               "chainId": "kaiyo-1",
-              "coinGeckoId": "kujira",
               "price": 0,
               "originDenom": "ukuji",
               "originChainId": "kaiyo-1"
@@ -32584,7 +32581,6 @@
               "isFeeToken": true,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
-              "coinGeckoId": "decentr",
               "price": 0,
               "originDenom": "udec",
               "originChainId": "mainnet-3",
@@ -33256,7 +33252,6 @@
               "isFeeToken": true,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
-              "coinGeckoId": "kujira",
               "price": 0,
               "originDenom": "ukuji",
               "originChainId": "kaiyo-1",
@@ -36984,7 +36979,6 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
-              "coinGeckoId": "doki",
               "price": 0,
               "originDenom": "udoki",
               "originChainId": "odin-mainnet-freya",
@@ -53821,7 +53815,6 @@
               "isFeeToken": false,
               "networkName": "Teritori",
               "chainId": "teritori-1",
-              "coinGeckoId": "kujira",
               "price": 0,
               "originDenom": "ukuji",
               "originChainId": "kaiyo-1",
