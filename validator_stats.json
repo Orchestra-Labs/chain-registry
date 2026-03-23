@@ -1,56 +1,24 @@
 {
-  "lastUpdated": "2026-03-23T15:44:07.961Z",
+  "lastUpdated": "2026-03-23T17:20:57.996Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
-        "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 18,
-          "longestQueryTime": 10800,
-          "consecutiveInfraFailures": 17,
-          "blacklistedUntil": 1774318992460,
-          "blacklistCount": 6,
-          "redemptionStartTimestamp": 1774280609860
-        },
-        "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 11,
-          "longestQueryTime": 8232,
-          "consecutiveInfraFailures": 11,
-          "blacklistedUntil": 1774511007260,
-          "blacklistCount": 7,
-          "redemptionStartTimestamp": 1774511007260
-        },
-        "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 18,
-          "longestQueryTime": 26100,
-          "consecutiveInfraFailures": 15,
-          "blacklistedUntil": 1774319017660,
-          "blacklistCount": 6,
-          "redemptionStartTimestamp": 1774280647760
-        },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 18,
-          "longestQueryTime": 13101,
-          "consecutiveInfraFailures": 14,
-          "blacklistedUntil": 1774261403960,
-          "blacklistCount": 5,
-          "redemptionStartTimestamp": 1774280622260
-        },
-        "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 18,
-          "longestQueryTime": 11585,
-          "consecutiveInfraFailures": 17,
-          "blacklistedUntil": 1774318993961,
-          "blacklistCount": 6,
-          "redemptionStartTimestamp": 1774280611360
+          "failedQueries": 1,
+          "longestQueryTime": 10501,
+          "consecutiveInfraFailures": 0,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1774286447897
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 18,
-          "longestQueryTime": 18402,
-          "consecutiveInfraFailures": 7,
-          "blacklistedUntil": 1774248210060,
-          "blacklistCount": 3,
-          "redemptionStartTimestamp": 1774280638560
+          "failedQueries": 1,
+          "longestQueryTime": 11699,
+          "consecutiveInfraFailures": 1,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1774286457995
         }
       }
     }
