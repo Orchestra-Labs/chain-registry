@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T05:57:20.202Z",
+  "lastUpdated": "2026-04-11T11:22:43.401Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -13,20 +13,20 @@
           "redemptionStartTimestamp": 1775936202002
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 15,
-          "longestQueryTime": 10400,
+          "failedQueries": 16,
+          "longestQueryTime": 14299,
           "consecutiveInfraFailures": 14,
           "blacklistedUntil": 1776002210803,
           "blacklistCount": 6,
-          "redemptionStartTimestamp": 1776002210803
+          "redemptionStartTimestamp": 1775906520302
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 15,
-          "longestQueryTime": 11604,
+          "failedQueries": 16,
+          "longestQueryTime": 13200,
           "consecutiveInfraFailures": 12,
           "blacklistedUntil": 1776002219302,
           "blacklistCount": 6,
-          "redemptionStartTimestamp": 1776002219302
+          "redemptionStartTimestamp": 1775906521402
         },
         "https://rest.cosmos.directory/symphony": {
           "failedQueries": 15,
@@ -37,20 +37,20 @@
           "redemptionStartTimestamp": 1776002239703
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 15,
-          "longestQueryTime": 14101,
+          "failedQueries": 16,
+          "longestQueryTime": 33400,
           "consecutiveInfraFailures": 12,
           "blacklistedUntil": 1776002229102,
           "blacklistCount": 6,
-          "redemptionStartTimestamp": 1776002229102
+          "redemptionStartTimestamp": 1775906563401
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 16,
+          "failedQueries": 17,
           "longestQueryTime": 7801,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1775887003103
+          "redemptionStartTimestamp": 1775906494902
         }
       }
     }
