@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-04-11T14:47:21.802Z",
+  "lastUpdated": "2026-04-12T08:16:43.502Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 14,
+          "failedQueries": 15,
           "longestQueryTime": 8200,
-          "consecutiveInfraFailures": 14,
-          "blacklistedUntil": 1775936202002,
-          "blacklistCount": 6,
-          "redemptionStartTimestamp": 1775936202002
+          "consecutiveInfraFailures": 15,
+          "blacklistedUntil": 1776212203502,
+          "blacklistCount": 7,
+          "redemptionStartTimestamp": 1776212203502
         },
         "https://symphony.api.nodeshub.online/": {
           "failedQueries": 17,
@@ -45,12 +45,12 @@
           "redemptionStartTimestamp": 1775918826901
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 18,
+          "failedQueries": 19,
           "longestQueryTime": 7801,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1775918797502
+          "redemptionStartTimestamp": 1775981803502
         }
       }
     }
