@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T06:33:31.788Z",
+  "lastUpdated": "2026-04-19T17:23:32.788Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -21,12 +21,12 @@
           "redemptionStartTimestamp": 1776771208487
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 29,
+          "failedQueries": 30,
           "longestQueryTime": 15099,
-          "consecutiveInfraFailures": 23,
+          "consecutiveInfraFailures": 24,
           "blacklistedUntil": 1776810811788,
           "blacklistCount": 7,
-          "redemptionStartTimestamp": 1776810811788
+          "redemptionStartTimestamp": 1776619412788
         },
         "https://api-m.symphony.vinjan-inc.com": {
           "failedQueries": 14,
@@ -45,12 +45,12 @@
           "redemptionStartTimestamp": 1776771220187
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 31,
+          "failedQueries": 32,
           "longestQueryTime": 10501,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1776580408287
+          "redemptionStartTimestamp": 1776619408087
         }
       }
     }
