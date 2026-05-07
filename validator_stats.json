@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T08:27:55.978Z",
+  "lastUpdated": "2026-05-07T08:28:12.078Z",
   "data": {
     "symphony-1": {
       "rpc": {},
@@ -37,20 +37,20 @@
           "redemptionStartTimestamp": 1778142475978
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 5,
-          "longestQueryTime": 10100,
+          "failedQueries": 6,
+          "longestQueryTime": 11900,
           "consecutiveInfraFailures": 5,
           "blacklistedUntil": 1778145467778,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1778145467778
+          "redemptionStartTimestamp": 1778142489378
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 5,
-          "longestQueryTime": 2600,
+          "failedQueries": 6,
+          "longestQueryTime": 3401,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1778141867778
+          "redemptionStartTimestamp": 1778142492078
         }
       }
     }
