@@ -1,40 +1,40 @@
 {
-  "lastUpdated": "2026-05-07T08:17:47.778Z",
+  "lastUpdated": "2026-05-07T08:27:55.978Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 5,
+          "failedQueries": 6,
           "longestQueryTime": 2199,
-          "consecutiveInfraFailures": 5,
+          "consecutiveInfraFailures": 6,
           "blacklistedUntil": 1778145453380,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1778145453380
+          "redemptionStartTimestamp": 1778142452258
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 5,
+          "failedQueries": 6,
           "longestQueryTime": 3714,
-          "consecutiveInfraFailures": 5,
+          "consecutiveInfraFailures": 6,
           "blacklistedUntil": 1778145457478,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1778145457478
+          "redemptionStartTimestamp": 1778142455078
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 5,
-          "longestQueryTime": 1994,
-          "consecutiveInfraFailures": 5,
+          "failedQueries": 6,
+          "longestQueryTime": 11400,
+          "consecutiveInfraFailures": 6,
           "blacklistedUntil": 1778145457578,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1778145457578
+          "redemptionStartTimestamp": 1778142472079
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 5,
-          "longestQueryTime": 6891,
-          "consecutiveInfraFailures": 5,
+          "failedQueries": 6,
+          "longestQueryTime": 8600,
+          "consecutiveInfraFailures": 6,
           "blacklistedUntil": 1778145463978,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1778145463978
+          "redemptionStartTimestamp": 1778142475978
         },
         "https://symphony-api.cogwheel.zone/": {
           "failedQueries": 5,
