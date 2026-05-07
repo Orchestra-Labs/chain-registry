@@ -1969,6 +1969,18 @@
           "channel_id": "channel-142"
         }
       },
+      "beezee-1,lumen": {
+        "beezee-1": {
+          "client_id": "07-tendermint-38",
+          "connection_id": "connection-10",
+          "channel_id": "channel-10"
+        },
+        "lumen": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        }
+      },
       "beezee-1,noble-1": {
         "beezee-1": {
           "client_id": "07-tendermint-9",
@@ -6764,6 +6776,18 @@
           "channel_id": "channel-79840"
         }
       },
+      "lumen,osmosis-1": {
+        "lumen": {
+          "client_id": "07-tendermint-1",
+          "connection_id": "connection-1",
+          "channel_id": "channel-1"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3676",
+          "connection_id": "connection-11040",
+          "channel_id": "channel-109674"
+        }
+      },
       "LumenX,osmosis-1": {
         "LumenX": {
           "client_id": "07-tendermint-0",
@@ -10500,9 +10524,9 @@
       }
     }
   },
-  "lastUpdated": "2026-03-16T11:22:55.407Z",
+  "lastUpdated": "2026-05-07T00:53:08.684Z",
   "commitHashes": {
-    "mainnetHash": "4b29d091b17864c2c790ec07431d7f8826d267a9",
-    "testnetHash": "4b29d091b17864c2c790ec07431d7f8826d267a9"
+    "mainnetHash": "891796f8832bf1d5045a5aa5332c36d8019ba147",
+    "testnetHash": "891796f8832bf1d5045a5aa5332c36d8019ba147"
   }
 }
