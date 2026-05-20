@@ -1,24 +1,24 @@
 {
-  "lastUpdated": "2026-05-20T18:10:43.653Z",
+  "lastUpdated": "2026-05-20T18:25:45.179Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 73,
+          "failedQueries": 74,
           "longestQueryTime": 8400,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1779300643653
+          "redemptionStartTimestamp": 1779301545179
         },
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 39,
+          "failedQueries": 40,
           "longestQueryTime": 15600,
-          "consecutiveInfraFailures": 36,
+          "consecutiveInfraFailures": 37,
           "blacklistedUntil": 1779722447252,
           "blacklistCount": 8,
-          "redemptionStartTimestamp": 1779300640554
+          "redemptionStartTimestamp": 1779301543752
         },
         "https://symphony.api.nodeshub.online/": {
           "failedQueries": 43,
@@ -29,20 +29,20 @@
           "redemptionStartTimestamp": 1779165938202
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 39,
+          "failedQueries": 40,
           "longestQueryTime": 11300,
-          "consecutiveInfraFailures": 38,
+          "consecutiveInfraFailures": 39,
           "blacklistedUntil": 1779722443687,
           "blacklistCount": 8,
-          "redemptionStartTimestamp": 1779300638868
+          "redemptionStartTimestamp": 1779301542566
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 39,
+          "failedQueries": 40,
           "longestQueryTime": 16000,
-          "consecutiveInfraFailures": 37,
+          "consecutiveInfraFailures": 38,
           "blacklistedUntil": 1779722451653,
           "blacklistCount": 8,
-          "redemptionStartTimestamp": 1779300643653
+          "redemptionStartTimestamp": 1779301545179
         },
         "https://symphony-api.cogwheel.zone/": {
           "failedQueries": 50,
