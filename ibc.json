@@ -661,6 +661,18 @@
           "channel_id": "channel-1"
         }
       },
+      "amitis-network,osmosis-1": {
+        "amitis-network": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-0",
+          "channel_id": "channel-1"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3701",
+          "connection_id": "connection-11055",
+          "channel_id": "channel-110089"
+        }
+      },
       "1088,archway-1": {
         "1088": {
           "client_id": "07-tendermint-9",
@@ -2557,6 +2569,18 @@
           "channel_id": "channel-300"
         }
       },
+      "celestia,thejaynetwork": {
+        "celestia": {
+          "client_id": "07-tendermint-149",
+          "connection_id": "connection-102",
+          "channel_id": "channel-277"
+        },
+        "thejaynetwork": {
+          "client_id": "07-tendermint-9",
+          "connection_id": "connection-1",
+          "channel_id": "channel-2"
+        }
+      },
       "celestia,umee-1": {
         "celestia": {
           "client_id": "07-tendermint-58",
@@ -3834,6 +3858,18 @@
           "client_id": "07-tendermint-0",
           "connection_id": "connection-1",
           "channel_id": "channel-0"
+        }
+      },
+      "cosmoshub-4,thejaynetwork": {
+        "cosmoshub-4": {
+          "client_id": "07-tendermint-1476",
+          "connection_id": "connection-1265",
+          "channel_id": "channel-1871"
+        },
+        "thejaynetwork": {
+          "client_id": "07-tendermint-8",
+          "connection_id": "connection-0",
+          "channel_id": "channel-1"
         }
       },
       "cosmoshub-4,umee-1": {
@@ -5288,8 +5324,8 @@
           "channel_id": "channel-781"
         }
       },
-      "gnodi,osmosis-1": {
-        "gnodi": {
+      "46634,osmosis-1": {
+        "46634": {
           "client_id": "07-tendermint-1",
           "connection_id": "connection-5",
           "channel_id": "channel-0"
@@ -5442,6 +5478,18 @@
           "client_id": "07-tendermint-143",
           "connection_id": "connection-143",
           "channel_id": "channel-240"
+        }
+      },
+      "hazinachain-1,osmosis-1": {
+        "hazinachain-1": {
+          "client_id": "07-tendermint-3",
+          "connection_id": "connection-1",
+          "channel_id": "channel-1"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3702",
+          "connection_id": "connection-11056",
+          "channel_id": "channel-110100"
         }
       },
       "hippo-protocol-1,osmosis-1": {
@@ -5790,6 +5838,18 @@
           "client_id": "07-tendermint-369",
           "connection_id": "connection-311",
           "channel_id": "channel-255"
+        }
+      },
+      "1776,thejaynetwork": {
+        "1776": {
+          "client_id": "07-tendermint-322",
+          "connection_id": "connection-328",
+          "channel_id": "channel-450"
+        },
+        "thejaynetwork": {
+          "client_id": "07-tendermint-10",
+          "connection_id": "connection-2",
+          "channel_id": "channel-3"
         }
       },
       "1776,umee-1": {
@@ -7974,6 +8034,18 @@
           "client_id": "07-tendermint-0",
           "connection_id": "connection-0",
           "channel_id": "channel-0"
+        }
+      },
+      "5656,osmosis-1": {
+        "5656": {
+          "client_id": "07-tendermint-2",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3681",
+          "connection_id": "connection-11041",
+          "channel_id": "channel-109956"
         }
       },
       "osmosis-1,quasar-1": {
@@ -10524,9 +10596,9 @@
       }
     }
   },
-  "lastUpdated": "2026-05-07T00:53:08.684Z",
+  "lastUpdated": "2026-05-22T01:55:51.647Z",
   "commitHashes": {
-    "mainnetHash": "891796f8832bf1d5045a5aa5332c36d8019ba147",
-    "testnetHash": "891796f8832bf1d5045a5aa5332c36d8019ba147"
+    "mainnetHash": "b2eb35fac933986effe21201dd92f5043eea04c2",
+    "testnetHash": "b2eb35fac933986effe21201dd92f5043eea04c2"
   }
 }
