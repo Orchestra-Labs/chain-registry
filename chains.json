@@ -1,6 +1,6 @@
 {
-  "sha": "b2eb35fac933986effe21201dd92f5043eea04c2",
-  "lastUpdated": "2026-05-24T02:16:46.689Z",
+  "sha": "680119aeaf8a926bc6b6a6b3cc2e112892c1c2de",
+  "lastUpdated": "2026-06-02T03:28:16.568Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -1539,7 +1539,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Archway",
@@ -1773,6 +1773,10 @@
             {
               "address": "https://assetmantle-rpc.publicnode.com:443",
               "provider": "Allnodes ⚡️ Nodes & Staking"
+            },
+            {
+              "address": "https://mantle-rpc.dungeon.games",
+              "provider": "Dungeon"
             }
           ],
           "rest_uris": [
@@ -1799,6 +1803,10 @@
             {
               "address": "https://assetmantle-rest.publicnode.com",
               "provider": "Allnodes ⚡️ Nodes & Staking"
+            },
+            {
+              "address": "https://mantle-lcd.dungeon.games",
+              "provider": "Dungeon"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/assetmantle/images/mntl.png",
@@ -2173,7 +2181,10 @@
               "originChainId": "dungeon-1",
               "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "aura_6322-2": {
           "chain_name": "aura",
@@ -3900,6 +3911,7 @@
               "isFeeToken": false,
               "networkName": "Babylon Genesis",
               "chainId": "bbn-1",
+              "coinGeckoId": "lombard-staked-btc",
               "price": 0,
               "originDenom": "ibc/DBD9E339E1B093A052D76BECFFDE8435EAC114CF2133346B4D691F3F2068C957",
               "originChainId": "cosmoshub-4",
@@ -4296,7 +4308,10 @@
               "originChainId": "milkyway",
               "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "laozi-mainnet": {
           "chain_name": "bandchain",
@@ -4729,6 +4744,7 @@
               "isFeeToken": false,
               "networkName": "BeeZee",
               "chainId": "beezee-1",
+              "coinGeckoId": "atomone",
               "price": 0,
               "originDenom": "uatone",
               "originChainId": "atomone-1",
@@ -8127,7 +8143,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Chihuahua",
@@ -9062,6 +9078,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "dai",
               "price": 0,
               "originDenom": "0x6b175474e89094c44da98b954eedeac495271d0f",
               "originChainId": "1",
@@ -9079,6 +9096,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "frax-share",
               "price": 0,
               "originDenom": "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0",
               "originChainId": "1",
@@ -9096,6 +9114,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "frax",
               "price": 0,
               "originDenom": "0x853d955acef822db058eb8505911ed77f175b99e",
               "originChainId": "1",
@@ -9113,6 +9132,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "frax-ether",
               "price": 0,
               "originDenom": "0x5e8422345238f34275888049021821e8e08caa1f",
               "originChainId": "1",
@@ -9130,6 +9150,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "staked-frax-ether",
               "price": 0,
               "originDenom": "0xac3e018457b222d93114458476f3e3416abbe38f",
               "originChainId": "1",
@@ -9164,6 +9185,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "tether",
               "price": 0,
               "originDenom": "0xdac17f958d2ee523a2206206994597c13d831ec7",
               "originChainId": "1",
@@ -9181,6 +9203,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "curve-dao-token",
               "price": 0,
               "originDenom": "0xd533a949740bb3306d119cc777fa900ba034cd52",
               "originChainId": "1",
@@ -9198,6 +9221,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "wrapped-bitcoin",
               "price": 0,
               "originDenom": "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599",
               "originChainId": "1",
@@ -9232,6 +9256,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "rocket-pool-eth",
               "price": 0,
               "originDenom": "0xae78736cd615f374d3085123a210448e74fc6393",
               "originChainId": "1",
@@ -9249,6 +9274,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "crvusd",
               "price": 0,
               "originDenom": "0xf939e0a03fb07f59a73314e73794be0e57ac1b4e",
               "originChainId": "1",
@@ -9266,6 +9292,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "dinero-staked-eth",
               "price": 0,
               "originDenom": "0x04c154b66cb340f3ae24111cc767e0184ed00cc6",
               "originChainId": "1",
@@ -9283,6 +9310,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "ether-fi-staked-eth",
               "price": 0,
               "originDenom": "0x35fa164735182de50811e8e2e824cfb9b6118ac2",
               "originChainId": "1",
@@ -9300,6 +9328,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "ethena",
               "price": 0,
               "originDenom": "0x57e114b691db790c35207b2e685d4a43181e6061",
               "originChainId": "1",
@@ -9317,6 +9346,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "ethena-usde",
               "price": 0,
               "originDenom": "0x4c9edd5852cd905f086c759e8383e09bff1e68b3",
               "originChainId": "1",
@@ -9334,6 +9364,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "renzo-restaked-eth",
               "price": 0,
               "originDenom": "0xbf5495efe5db9ce00f80364c8b423567e58d2110",
               "originChainId": "1",
@@ -9368,6 +9399,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "wrapped-solana",
               "price": 0,
               "originDenom": "So11111111111111111111111111111111111111112",
               "originChainId": "solana-mainnet",
@@ -9385,6 +9417,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "msol",
               "price": 0,
               "originDenom": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So",
               "originChainId": "solana-mainnet",
@@ -9402,6 +9435,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "jito-staked-sol",
               "price": 0,
               "originDenom": "J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn",
               "originChainId": "solana-mainnet",
@@ -9419,6 +9453,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "blazestake-staked-sol",
               "price": 0,
               "originDenom": "bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1",
               "originChainId": "solana-mainnet",
@@ -9436,6 +9471,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "liquid-staking-token",
               "price": 0,
               "originDenom": "LSTxxxnJzKDFSLr4dUkPcmCf5VyryEqzPLz5j4bpxFp",
               "originChainId": "solana-mainnet",
@@ -9453,6 +9489,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "edgevana-staked-sol",
               "price": 0,
               "originDenom": "edge86g9cVz87xcpKpy3J77vbp4wYd9idEV562CCntt",
               "originChainId": "solana-mainnet",
@@ -9470,6 +9507,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "helius-staked-sol",
               "price": 0,
               "originDenom": "he1iusmfkpAdwvxLNGV8Y1iSbj4rUy6yMhEA3fotn9A",
               "originChainId": "solana-mainnet",
@@ -9487,6 +9525,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "jupiter-staked-sol",
               "price": 0,
               "originDenom": "jupSoLaHXQiZZTSfEWMTRRgpnyFm8f6sZdosWBjx93v",
               "originChainId": "solana-mainnet",
@@ -9504,6 +9543,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "dogwifcoin",
               "price": 0,
               "originDenom": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
               "originChainId": "solana-mainnet",
@@ -9521,6 +9561,7 @@
               "isFeeToken": false,
               "networkName": "Picasso",
               "chainId": "centauri-1",
+              "coinGeckoId": "tether",
               "price": 0,
               "originDenom": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
               "originChainId": "solana-mainnet",
@@ -10745,7 +10786,10 @@
               "originChainId": "cosmoshub-4",
               "tokenType": "factory"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "coss-1": {
           "chain_name": "coss",
@@ -12676,14 +12720,6 @@
               "provider": "itrocket"
             },
             {
-              "address": "https://rpc.elys.nodestake.org:443",
-              "provider": "NodeStake"
-            },
-            {
-              "address": "https://elys.rpc.liveraven.net:443",
-              "provider": "LiveRaveN"
-            },
-            {
               "address": "https://community.nuxian-node.ch:6797/elys/trpc",
               "provider": "PRO Delegators"
             },
@@ -12692,28 +12728,8 @@
               "provider": "StakeTown"
             },
             {
-              "address": "https://elys.rpc.m.stavr.tech:443",
-              "provider": "🔥STAVR🔥"
-            },
-            {
               "address": "https://elys.ibs.team:443/rpc",
               "provider": "Inter Blockchain Services"
-            },
-            {
-              "address": "https://elys-rpc.cogwheel.zone:443",
-              "provider": "Cogwheel ⚙️"
-            },
-            {
-              "address": "https://rpc-elys.ottersync.io:443",
-              "provider": "OtterSync"
-            },
-            {
-              "address": "https://elys.rpc.quasarstaking.ai:443",
-              "provider": "Quasar"
-            },
-            {
-              "address": "https://elys-rpc.moonbridge.org:443",
-              "provider": "Moonbridge"
             },
             {
               "address": "https://elys_mainnet_rpc.chain.whenmoonwhenlambo.money",
@@ -12724,20 +12740,8 @@
               "provider": "AutoStake"
             },
             {
-              "address": "https://elys-rpc.node39.top:443",
-              "provider": "Node39"
-            },
-            {
               "address": "https://elys.srvs.vnodesv.net/rpc",
               "provider": "vNodes[V] Ser[V]ices"
-            },
-            {
-              "address": "https://elys-rpc.kleomedes.network/",
-              "provider": "Kleomedes"
-            },
-            {
-              "address": "https://rpc.elys.node75.org:443",
-              "provider": "Pro-Nodes75"
             }
           ],
           "rest_uris": [
@@ -12762,14 +12766,6 @@
               "provider": "itrocket"
             },
             {
-              "address": "https://api.elys.nodestake.org",
-              "provider": "NodeStake"
-            },
-            {
-              "address": "https://elys.api.liveraven.net",
-              "provider": "LiveRaveN"
-            },
-            {
               "address": "https://community.nuxian-node.ch:6797/elys/crpc",
               "provider": "PRO Delegators"
             },
@@ -12778,28 +12774,8 @@
               "provider": "StakeTown"
             },
             {
-              "address": "https://elys.api.m.stavr.tech",
-              "provider": "🔥STAVR🔥"
-            },
-            {
               "address": "https://elys.ibs.team:443/api",
               "provider": "Inter Blockchain Services"
-            },
-            {
-              "address": "https://elys-api.cogwheel.zone:443",
-              "provider": "Cogwheel ⚙️"
-            },
-            {
-              "address": "https://api-elys.ottersync.io:443",
-              "provider": "OtterSync"
-            },
-            {
-              "address": "https://elys.api.quasarstaking.ai:443",
-              "provider": "Quasar"
-            },
-            {
-              "address": "https://elys-api.moonbridge.org",
-              "provider": "Moonbridge"
             },
             {
               "address": "https://elys_mainnet_api.chain.whenmoonwhenlambo.money",
@@ -12810,20 +12786,8 @@
               "provider": "AutoStake"
             },
             {
-              "address": "https://elys-api.node39.top:443",
-              "provider": "Node39"
-            },
-            {
               "address": "https://rest.elys.srvs.vnodesv.net",
               "provider": "vNodes[V] Ser[V]ices"
-            },
-            {
-              "address": "https://elys-api.kleomedes.network/",
-              "provider": "Kleomedes"
-            },
-            {
-              "address": "https://api.elys.node75.org:443",
-              "provider": "Pro-Nodes75"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/elys/images/elys.png",
@@ -12937,7 +12901,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
               "symbol": "AKT",
-              "name": "Akash",
+              "name": "Akash Network",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Elys Network",
@@ -14060,7 +14024,10 @@
               "originDenom": "nanomobx",
               "originChainId": "fetchhub-4"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "finschia-2": {
           "chain_name": "finschia",
@@ -17435,7 +17402,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Injective",
@@ -18003,11 +17970,12 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
               "symbol": "ATOM",
-              "name": "Cosmos Hub",
+              "name": "Cosmos Hub Atom",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Intento",
               "chainId": "intento-1",
+              "coinGeckoId": "cosmos",
               "price": 0,
               "originDenom": "uatom",
               "originChainId": "cosmoshub-4",
@@ -18025,6 +17993,7 @@
               "isFeeToken": true,
               "networkName": "Intento",
               "chainId": "intento-1",
+              "coinGeckoId": "osmosis",
               "price": 0,
               "originDenom": "uosmo",
               "originChainId": "osmosis-1",
@@ -18412,7 +18381,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
               "symbol": "ATOM",
-              "name": "Cosmos Hub",
+              "name": "Cosmos Hub Atom",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Joltify",
@@ -18479,10 +18448,6 @@
               "provider": "cosmos.directory"
             },
             {
-              "address": "https://rpc-juno.itastakers.com",
-              "provider": "itastakers"
-            },
-            {
               "address": "https://juno.rpc.m.stavr.tech",
               "provider": "🔥STAVR🔥"
             },
@@ -18503,10 +18468,6 @@
               "provider": "Stake&Relax Validator 🦥"
             },
             {
-              "address": "https://rpc-juno-01.stakeflow.io",
-              "provider": "Stakeflow"
-            },
-            {
               "address": "https://juno-rpc.publicnode.com:443",
               "provider": "Allnodes ⚡️ Nodes & Staking"
             },
@@ -18521,14 +18482,6 @@
             {
               "address": "https://juno-rpc.cogwheel.zone",
               "provider": "Cogwheel"
-            },
-            {
-              "address": "https://juno.declab.pro:26610",
-              "provider": "Decloud Nodes Lab"
-            },
-            {
-              "address": "https://juno-rpc.chainroot.io",
-              "provider": "Chainroot"
             },
             {
               "address": "https://juno.api.pocket.network",
@@ -18561,10 +18514,6 @@
               "provider": "Stake&Relax Validator 🦥"
             },
             {
-              "address": "https://api-juno-01.stakeflow.io",
-              "provider": "Stakeflow"
-            },
-            {
               "address": "https://juno-rest.publicnode.com",
               "provider": "Allnodes ⚡️ Nodes & Staking"
             },
@@ -18579,14 +18528,6 @@
             {
               "address": "https://juno-api.cogwheel.zone",
               "provider": "Cogwheel"
-            },
-            {
-              "address": "https://juno.declab.pro:443",
-              "provider": "Decloud Nodes Lab"
-            },
-            {
-              "address": "https://juno-api.chainroot.io",
-              "provider": "Chainroot"
             },
             {
               "address": "https://juno.api.pocket.network",
@@ -19880,7 +19821,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Juno",
@@ -23294,7 +23235,11 @@
               "originDenom": "ulava",
               "originChainId": "lava-mainnet-1"
             }
-          }
+          },
+          "features": [
+            "packet-forward-middleware",
+            "interchain-accounts"
+          ]
         },
         "lefeef-mainnet": {
           "chain_name": "lefeef",
@@ -24096,6 +24041,10 @@
             {
               "address": "https://lumera-rpc.linknode.org",
               "provider": "AstroStake"
+            },
+            {
+              "address": "https://lumera-rpc.dungeon.games",
+              "provider": "Dungeon"
             }
           ],
           "rest_uris": [
@@ -24122,6 +24071,10 @@
             {
               "address": "https://lumera-api.linknode.org",
               "provider": "AstroStake"
+            },
+            {
+              "address": "https://lumera-lcd.dungeon.games",
+              "provider": "Dungeon"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png",
@@ -24154,6 +24107,7 @@
               "isFeeToken": false,
               "networkName": "Lumera",
               "chainId": "lumera-mainnet-1",
+              "coinGeckoId": "osmosis",
               "price": 0,
               "originDenom": "uosmo",
               "originChainId": "osmosis-1",
@@ -24664,7 +24618,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
               "symbol": "ATOM",
-              "name": "Cosmos Hub",
+              "name": "Cosmos Hub Atom",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "MANTRA",
@@ -25454,6 +25408,7 @@
               "isFeeToken": false,
               "networkName": "Migaloo",
               "chainId": "migaloo-1",
+              "coinGeckoId": "juris-protocol",
               "price": 0,
               "originDenom": "cw20:terra1vhgq25vwuhdhn9xjll0rhl2s67jzw78a4g2t78y5kz89q9lsdskq2pxcj2",
               "originChainId": "columbus-5",
@@ -26129,6 +26084,7 @@
               "isFeeToken": true,
               "networkName": "MilkyWay",
               "chainId": "moo-1",
+              "coinGeckoId": "initia",
               "price": 0,
               "originDenom": "uinit",
               "originChainId": "interwoven-1",
@@ -27543,6 +27499,7 @@
               "isFeeToken": false,
               "networkName": "Neutron",
               "chainId": "neutron-1",
+              "coinGeckoId": "bitcoin",
               "price": 0,
               "originDenom": "sat",
               "originChainId": "bitcoin-mainnet",
@@ -28679,7 +28636,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stride/images/stosmo.png",
               "symbol": "stOSMO",
-              "name": "Osmosis",
+              "name": "Stride Staked OSMO",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Nolus",
@@ -29077,6 +29034,7 @@
               "isFeeToken": false,
               "networkName": "Nolus",
               "chainId": "pirin-1",
+              "coinGeckoId": "babylon",
               "price": 0,
               "originDenom": "ibc/EC3A4ACBA1CFBEE698472D3563B70985AEA5A7144C319B61B3EBDFB57B5E1535",
               "originChainId": "osmosis-1",
@@ -29094,6 +29052,7 @@
               "isFeeToken": false,
               "networkName": "Nolus",
               "chainId": "pirin-1",
+              "coinGeckoId": "drop-staked-ntrn",
               "price": 0,
               "originDenom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
               "originChainId": "neutron-1",
@@ -29855,7 +29814,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
               "symbol": "AKT",
-              "name": "Akash",
+              "name": "Akash Network",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "OmniFlix",
@@ -32261,7 +32220,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
               "symbol": "ATOM",
-              "name": "Cosmos Hub",
+              "name": "Cosmos Hub Atom",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32279,7 +32238,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cronos/images/cro.svg",
               "symbol": "CRO",
-              "name": "Cronos POS Chain",
+              "name": "Cronos",
               "exponent": 8,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32348,7 +32307,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra/images/luna.png",
               "symbol": "LUNC",
-              "name": "Terra Classic",
+              "name": "Luna Classic",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32544,7 +32503,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
               "symbol": "AKT",
-              "name": "Akash",
+              "name": "Akash Network",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32562,7 +32521,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/regen/images/regen.png",
               "symbol": "REGEN",
-              "name": "Regen",
+              "name": "Regen Network",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32685,7 +32644,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/impacthub/images/ixo.png",
               "symbol": "IXO",
-              "name": "Impact Hub",
+              "name": "IXO",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32827,7 +32786,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumnetwork/images/lum.png",
               "symbol": "LUM",
-              "name": "Lum Network",
+              "name": "Lum",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32933,7 +32892,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/konstellation/images/darc.png",
               "symbol": "DARC",
-              "name": "Konstellation",
+              "name": "DARC",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32950,7 +32909,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/umee/images/umee.png",
               "symbol": "UMEE",
-              "name": "UX Chain",
+              "name": "Umee",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -32967,7 +32926,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gravitybridge/images/grav.png",
               "symbol": "GRAV",
-              "name": "Gravity Bridge",
+              "name": "Graviton",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -33347,7 +33306,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/provenance/images/prov.png",
               "symbol": "HASH",
-              "name": "Provenance",
+              "name": "Hash",
               "exponent": 9,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -33467,7 +33426,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/terra2/images/luna.png",
               "symbol": "LUNA",
-              "name": "Terra",
+              "name": "Luna",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -33485,7 +33444,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/rizon/images/atolo.png",
               "symbol": "ATOLO",
-              "name": "Rizon",
+              "name": "Rizon Chain",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -33707,7 +33666,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/odin/images/odin.png",
               "symbol": "ODIN",
-              "name": "Odin Protocol",
+              "name": "ODIN",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -33843,7 +33802,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumenx/images/lumen.png",
               "symbol": "LUMEN",
-              "name": "LumenX",
+              "name": "LUMEN",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -34211,7 +34170,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/unification/images/fund.png",
               "symbol": "FUND",
-              "name": "Unification",
+              "name": "Unification Network",
               "exponent": 9,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -34368,7 +34327,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/acrechain/images/acre.png",
               "symbol": "ACRE",
-              "name": "Acrechain",
+              "name": "Acre",
               "exponent": 18,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -34420,7 +34379,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/medasdigital/images/medas.png",
               "symbol": "MEDAS",
-              "name": "Medas Digital Network",
+              "name": "Medas Digital",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -34472,7 +34431,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/onomy/images/nom.png",
               "symbol": "NOM",
-              "name": "Onomy",
+              "name": "Nom",
               "exponent": 18,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -34507,7 +34466,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dyson/images/dys.png",
               "symbol": "DYS",
-              "name": "Dyson Protocol",
+              "name": "Dys",
               "exponent": 0,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -34866,7 +34825,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/arkh/images/arkh.png",
               "symbol": "ARKH",
-              "name": "Arkhadian",
+              "name": "Arkh",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -34917,7 +34876,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -35139,7 +35098,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/omniflixhub/images/flix.png",
               "symbol": "FLIX",
-              "name": "OmniFlix",
+              "name": "Flix",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -35466,7 +35425,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/gitopia/images/lore.png",
               "symbol": "LORE",
-              "name": "Gitopia",
+              "name": "LORE",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -35623,7 +35582,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/composable/images/pica.svg",
               "symbol": "PICA",
-              "name": "Picasso",
+              "name": "Pica",
               "exponent": 12,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -35674,7 +35633,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/quasar/images/quasar.png",
               "symbol": "QSR.legacy",
-              "name": "Quasar",
+              "name": "Quasar (legacy)",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -35709,7 +35668,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/empowerchain/images/mpwr.svg",
               "symbol": "MPWR",
-              "name": "EmpowerChain",
+              "name": "MPWR",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -36177,7 +36136,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/stafihub/images/fis.svg",
               "symbol": "FIS",
-              "name": "StaFi Hub",
+              "name": "FIS",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -36453,7 +36412,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qwoyn/images/qwoyn.png",
               "symbol": "QWOYN",
-              "name": "Qwoyn",
+              "name": "Qwoyn Network",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -36710,7 +36669,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/haqq/images/islm.png",
               "symbol": "ISLM",
-              "name": "Haqq Network",
+              "name": "Islamic Coin",
               "exponent": 18,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -36814,7 +36773,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nyx/images/nyx.png",
               "symbol": "NYX",
-              "name": "Nym",
+              "name": "NYX",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -37244,7 +37203,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/scorum/images/scr.png",
               "symbol": "SCR",
-              "name": "Scorum Network",
+              "name": "Scorum",
               "exponent": 9,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -37261,7 +37220,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/chain4energy/images/c4e.png",
               "symbol": "C4E",
-              "name": "C4E",
+              "name": "Chain4Energy",
               "exponent": 6,
               "isFeeToken": true,
               "networkName": "Osmosis",
@@ -37502,7 +37461,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/conscious/images/cvn.png",
               "symbol": "CVN",
-              "name": "ConsciousDAO",
+              "name": "Cvn",
               "exponent": 18,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -37638,7 +37597,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dhealth/images/dhp.png",
               "symbol": "DHP",
-              "name": "dHealth",
+              "name": "Digital Health Point",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -37901,6 +37860,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "dai",
               "price": 0,
               "originDenom": "ibc/A342F6F8D1CDE1D934C50E8EAFF91E813D971E1BFEED7E557F1674E01004A533",
               "originChainId": "centauri-1",
@@ -37918,6 +37878,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "frax-share",
               "price": 0,
               "originDenom": "ibc/5F9BE030FC355733EC79307409FA98398BBFC747C9430B326C144A74F6808B29",
               "originChainId": "centauri-1",
@@ -37935,6 +37896,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "frax",
               "price": 0,
               "originDenom": "ibc/4F20D68B51ED559F99C3CD658383E91F45486D884BF546E7B25337A058562CDB",
               "originChainId": "centauri-1",
@@ -37952,6 +37914,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "tether",
               "price": 0,
               "originDenom": "ibc/37CC704EA53E96AB09A9C31D79142DE7DB252420F3AB18015F9870AE219947BD",
               "originChainId": "centauri-1",
@@ -37986,6 +37949,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "frax-ether",
               "price": 0,
               "originDenom": "ibc/458032E654E41DB91EF98F13E2CE4F9E0FE86BA3E0CDBEC074A854E9F5229A90",
               "originChainId": "centauri-1",
@@ -38003,6 +37967,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "staked-frax-ether",
               "price": 0,
               "originDenom": "ibc/4E0ECE7819D77B0F2B49F5C34B5E594A02D2BA8B1B0F103208F847B53EBFB69A",
               "originChainId": "centauri-1",
@@ -38293,6 +38258,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "curve-dao-token",
               "price": 0,
               "originDenom": "ibc/52C8C6197989684F891076F228F20CD1659AB6E1776E3B85E65CBBEC67DA5DED",
               "originChainId": "centauri-1",
@@ -38310,6 +38276,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "renzo-restaked-eth",
               "price": 0,
               "originDenom": "ibc/E317539F148285AAC77E7614101CBE94E20EDF169B233A5E0C867112972F9041",
               "originChainId": "centauri-1",
@@ -38327,6 +38294,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "ethena-usde",
               "price": 0,
               "originDenom": "ibc/FFD9EB71B4480ED4D73F7370A2AEBDB48447A0AAE27265F8060A957F0FF71983",
               "originChainId": "centauri-1",
@@ -38344,6 +38312,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "ethena",
               "price": 0,
               "originDenom": "ibc/B089810D5A6316AD5E9C7808733DC4AB11C7BA3033221D28711FC7206BACB929",
               "originChainId": "centauri-1",
@@ -38361,6 +38330,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "ether-fi-staked-eth",
               "price": 0,
               "originDenom": "ibc/34C23BA6BAA2EAE0199D85AD1E2E214F76B0BFAD42BF75542D15F71264EEB05B",
               "originChainId": "centauri-1",
@@ -38378,6 +38348,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "dinero-staked-eth",
               "price": 0,
               "originDenom": "ibc/36EF1EA47A09689C81D848B08E5240FA9FF13B17DB7DCF48B77D4D0D9B152821",
               "originChainId": "centauri-1",
@@ -38395,6 +38366,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "crvusd",
               "price": 0,
               "originDenom": "ibc/C9D79BE8E3E75CA2DFDC722C77D7B179C39A4802D59019C790A825FDE34B724A",
               "originChainId": "centauri-1",
@@ -38463,6 +38435,7 @@
               "isFeeToken": true,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "tether",
               "price": 0,
               "originDenom": "ibc/D105950618E47CA2AEC314282BC401625025F80A4F812808DEEBB1941C685575",
               "originChainId": "centauri-1",
@@ -38480,6 +38453,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "edgevana-staked-sol",
               "price": 0,
               "originDenom": "ibc/BADB5950C4A81AC201696EBCB33CD295137FA86F0AA620CDDE946D3700E0208C",
               "originChainId": "centauri-1",
@@ -38497,6 +38471,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "liquid-staking-token",
               "price": 0,
               "originDenom": "ibc/55F5B582483FEFA5422794292B079B4D49A5BAB9881E7C801F9F271F1D234F1D",
               "originChainId": "centauri-1",
@@ -38514,6 +38489,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "jito-staked-sol",
               "price": 0,
               "originDenom": "ibc/91A2FE07F8BDFC0552B1C9972FCCBF2CFD067DDE5F496D81E5132CE57762B0F2",
               "originChainId": "centauri-1",
@@ -38531,6 +38507,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "wrapped-solana",
               "price": 0,
               "originDenom": "ibc/2CC39C8141F257EBBA250F65B9D0F31DC8D153C225E51EC192DE6E3F65D43F0C",
               "originChainId": "centauri-1",
@@ -38991,7 +38968,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/routerchain/images/router.png",
               "symbol": "ROUTE",
-              "name": "Router Protocol",
+              "name": "Router Chain",
               "exponent": 18,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -39435,7 +39412,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/andromeda/images/andromeda-logo.png",
               "symbol": "ANDR",
-              "name": "Andromeda",
+              "name": "Andr",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -39589,11 +39566,12 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kimanetwork/images/kima.png",
               "symbol": "KIMA",
-              "name": "Kima Network",
+              "name": "KIMA",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "kima",
               "price": 0,
               "originDenom": "uKIMA",
               "originChainId": "kima_network",
@@ -39675,7 +39653,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/int3face/images/int3.png",
               "symbol": "INT3",
-              "name": "Int3face",
+              "name": "Int3face Token",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -39983,7 +39961,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
               "symbol": "ATONE",
-              "name": "AtomOne",
+              "name": "Atone",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -40448,7 +40426,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kopi/images/kopi.svg",
               "symbol": "XKP",
-              "name": "Kopi",
+              "name": "XKP",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -40966,6 +40944,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "drop-staked-ntrn",
               "price": 0,
               "originDenom": "factory/neutron1frc0p5czd9uaaymdkug2njz7dc7j65jxukp9apmt9260a8egujkspms2t2/udntrn",
               "originChainId": "neutron-1",
@@ -41030,7 +41009,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/milkyway/images/milk.png",
               "symbol": "MILK",
-              "name": "MilkyWay",
+              "name": "Milk",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -41307,6 +41286,7 @@
               "isFeeToken": false,
               "networkName": "Osmosis",
               "chainId": "osmosis-1",
+              "coinGeckoId": "photon-2",
               "price": 0,
               "originDenom": "uphoton",
               "originChainId": "atomone-1",
@@ -41558,7 +41538,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/taketitan/images/taketitan.png",
               "symbol": "TITAN",
-              "name": "TakeTitan",
+              "name": "Titan",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -41627,7 +41607,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hippoprotocol/images/logo.svg",
               "symbol": "HP",
-              "name": "Hippo Protocol",
+              "name": "Hippo",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -41679,7 +41659,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/qfs/images/qfs.png",
               "symbol": "QFS",
-              "name": "Quantum Financial Systems",
+              "name": "qfs",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -41713,7 +41693,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/mld.png",
               "symbol": "MLD",
-              "name": "Symphony",
+              "name": "Melody",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -42070,7 +42050,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/manifest/images/manifest.png",
               "symbol": "MFX",
-              "name": "Manifest",
+              "name": "Manifest Token",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -42155,7 +42135,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lumera/images/lumera.png",
               "symbol": "LUME",
-              "name": "Lumera",
+              "name": "lume",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis",
@@ -42301,8 +42281,28 @@
               "originDenom": "factory/cosmos1wdja2gcsesyl07raq9jm3rcvu0sse5zkev0h8m/Nether",
               "originChainId": "cosmoshub-4",
               "tokenType": "ibc"
+            },
+            "ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D": {
+              "denom": "ibc/D09120C7085DFA412DF77608DAD3A4797F5F097A038DA0C2E1D1426FC9CD836D",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png",
+              "symbol": "WOLO",
+              "name": "WOLO",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "Osmosis",
+              "chainId": "osmosis-1",
+              "price": 0,
+              "originDenom": "uwolo",
+              "originChainId": "wolo-1",
+              "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "tumbler": {
           "chain_name": "paloma",
@@ -42742,6 +42742,7 @@
               "isFeeToken": false,
               "networkName": "Paxi",
               "chainId": "paxi-mainnet",
+              "coinGeckoId": "usd-coin",
               "price": 0,
               "originDenom": "uusdc",
               "originChainId": "noble-1",
@@ -42754,11 +42755,12 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
               "symbol": "ATOM",
-              "name": "Cosmos Hub",
+              "name": "Cosmos Hub Atom",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Paxi",
               "chainId": "paxi-mainnet",
+              "coinGeckoId": "cosmos",
               "price": 0,
               "originDenom": "uatom",
               "originChainId": "cosmoshub-4",
@@ -42776,6 +42778,7 @@
               "isFeeToken": false,
               "networkName": "Paxi",
               "chainId": "paxi-mainnet",
+              "coinGeckoId": "osmosis",
               "price": 0,
               "originDenom": "uosmo",
               "originChainId": "osmosis-1",
@@ -43867,7 +43870,10 @@
               "originChainId": "noble-1",
               "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "pryzm-1": {
           "chain_name": "pryzm",
@@ -49310,6 +49316,7 @@
               "isFeeToken": false,
               "networkName": "Router Protocol",
               "chainId": "router_9600-1",
+              "coinGeckoId": "usd-coin",
               "price": 0,
               "originDenom": "uusdc",
               "originChainId": "noble-1",
@@ -49985,7 +49992,10 @@
               "originDenom": "aseda",
               "originChainId": "seda-1"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "pacific-1": {
           "chain_name": "sei",
@@ -50923,7 +50933,10 @@
               "originDenom": "uctk",
               "originChainId": "shentu-2.2"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "shido_9008-1": {
           "chain_name": "shido",
@@ -51695,7 +51708,10 @@
               "originChainId": "7070",
               "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "stafihub-1": {
           "chain_name": "stafihub",
@@ -58052,6 +58068,7 @@
               "isFeeToken": false,
               "networkName": "Terra Classic",
               "chainId": "columbus-5",
+              "coinGeckoId": "usd-coin",
               "price": 0,
               "originDenom": "uusdc",
               "originChainId": "noble-1",
@@ -58981,7 +58998,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/migaloo/images/white-whale.png",
               "symbol": "WHALE",
-              "name": "Migaloo",
+              "name": "Whale",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Terra",
@@ -60695,6 +60712,68 @@
               "price": 0,
               "originDenom": "award",
               "originChainId": "warden_8765-1"
+            }
+          }
+        },
+        "wolo-1": {
+          "chain_name": "wolochain",
+          "status": "live",
+          "website": "https://aoe2war.com",
+          "network_level": "mainnet",
+          "pretty_name": "WoloChain",
+          "chain_type": "cosmos",
+          "chain_id": "wolo-1",
+          "bech32_prefix": "wolo",
+          "fees": [
+            {
+              "denom": "uwolo",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "uwolo"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.cosmos.directory/wolochain",
+              "provider": "cosmos.directory"
+            },
+            {
+              "address": "https://aoe2war.com/rpc-mainnet",
+              "provider": "AoE2WAR"
+            }
+          ],
+          "rest_uris": [
+            {
+              "address": "https://rest.cosmos.directory/wolochain",
+              "provider": "cosmos.directory"
+            },
+            {
+              "address": "https://aoe2war.com/rest-mainnet",
+              "provider": "AoE2WAR"
+            }
+          ],
+          "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png",
+          "assets": {
+            "uwolo": {
+              "denom": "uwolo",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wolochain/images/wolo.png",
+              "symbol": "WOLO",
+              "name": "WOLO",
+              "exponent": 6,
+              "isFeeToken": true,
+              "networkName": "WoloChain",
+              "chainId": "wolo-1",
+              "price": 0,
+              "originDenom": "uwolo",
+              "originChainId": "wolo-1"
             }
           }
         },
@@ -74194,10 +74273,6 @@
           ],
           "rpc_uris": [
             {
-              "address": "https://www.shibrpc.com",
-              "provider": "shibrpc"
-            },
-            {
               "address": "https://rpc.shibrpc.com",
               "provider": "shibrpc"
             },
@@ -82451,9 +82526,9 @@
         "343": {
           "chain_name": "bourse",
           "status": "live",
-          "website": "https://www.capitalexchange.markets",
+          "website": "https://www.capitalexchange.com",
           "network_level": "mainnet",
-          "pretty_name": "Capital Exchange SE",
+          "pretty_name": "Capital Exchange",
           "chain_type": "eip155",
           "chain_id": "343",
           "bech32_prefix": "",
@@ -82477,6 +82552,7 @@
             }
           ],
           "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_bourse.jpg",
           "assets": {
             "wei": {
               "denom": "wei",
@@ -82488,7 +82564,7 @@
               "name": "Bourse",
               "exponent": 18,
               "isFeeToken": true,
-              "networkName": "Capital Exchange SE",
+              "networkName": "Capital Exchange",
               "chainId": "343",
               "price": 0,
               "originDenom": "wei",
@@ -90528,6 +90604,64 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "1012",
+              "tokenType": "native"
+            }
+          }
+        },
+        "1019": {
+          "chain_name": "mai",
+          "status": "live",
+          "website": "",
+          "network_level": "mainnet",
+          "pretty_name": "MAI Chain Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "1019",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://mainnet-node-0.maichain.org",
+              "provider": "maichain"
+            },
+            {
+              "address": "https://mainnet-node-1.maichain.org",
+              "provider": "maichain"
+            },
+            {
+              "address": "https://mainnet-node-2.maichain.org",
+              "provider": "maichain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_mai.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MAI",
+              "name": "MAI Chain Native Token",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "MAI Chain Mainnet",
+              "chainId": "1019",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "1019",
               "tokenType": "native"
             }
           }
@@ -125718,6 +125852,56 @@
             }
           }
         },
+        "13113": {
+          "chain_name": "rntx",
+          "status": "live",
+          "website": "https://rannta.com",
+          "network_level": "mainnet",
+          "pretty_name": "RANNTA X-Chain",
+          "chain_type": "eip155",
+          "chain_id": "13113",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.rannta.com",
+              "provider": "rannta"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_rannta.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "RNTX",
+              "name": "RANNTA Core X",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "RANNTA X-Chain",
+              "chainId": "13113",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "13113",
+              "tokenType": "native"
+            }
+          }
+        },
         "13308": {
           "chain_name": "Credit",
           "status": "live",
@@ -149673,6 +149857,56 @@
             }
           }
         },
+        "127001": {
+          "chain_name": "grav",
+          "status": "live",
+          "website": "https://gravity.xyz",
+          "network_level": "mainnet",
+          "pretty_name": "Gravity",
+          "chain_type": "eip155",
+          "chain_id": "127001",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://mainnet-rpc.gravity.xyz",
+              "provider": "gravity"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_gravity.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "G",
+              "name": "Gravity",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Gravity",
+              "chainId": "127001",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "127001",
+              "tokenType": "native"
+            }
+          }
+        },
         "127823": {
           "chain_name": "etlst",
           "status": "live",
@@ -153784,6 +154018,55 @@
             }
           }
         },
+        "262144": {
+          "chain_name": "mpcq",
+          "status": "live",
+          "website": "https://moneypoolscash.com",
+          "network_level": "mainnet",
+          "pretty_name": "MPCQ Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "262144",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.moneypoolscash.com",
+              "provider": "moneypoolscash"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MPCQ",
+              "name": "MPCQ",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "MPCQ Mainnet",
+              "chainId": "262144",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "262144",
+              "tokenType": "native"
+            }
+          }
+        },
         "262371": {
           "chain_name": "tECLAT",
           "status": "live",
@@ -155244,6 +155527,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "404040",
+              "tokenType": "native"
+            }
+          }
+        },
+        "411994": {
+          "chain_name": "pln",
+          "status": "live",
+          "website": "https://oneagent.uk",
+          "network_level": "mainnet",
+          "pretty_name": "PLN Network",
+          "chain_type": "eip155",
+          "chain_id": "411994",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://oneagent.uk/rpc",
+              "provider": "oneagent"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pln.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "PLN",
+              "name": "PLN",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "PLN Network",
+              "chainId": "411994",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "411994",
               "tokenType": "native"
             }
           }
@@ -162747,7 +163080,7 @@
           "status": "live",
           "website": "https://vyochain.com",
           "network_level": "mainnet",
-          "pretty_name": "VALYGO Smart Contract",
+          "pretty_name": "VALYGO Smartchain",
           "chain_type": "eip155",
           "chain_id": "7771777",
           "bech32_prefix": "",
@@ -162768,6 +163101,10 @@
             {
               "address": "https://rpc-gw-1.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
               "provider": "vyoscan"
+            },
+            {
+              "address": "https://rpc-gw-2.vyoscan.com/ext/bc/2t51dXsuxUvd9teY9TKEJmgxmxMk3CRF88UYTA4HQgjeYZqzSX/rpc",
+              "provider": "vyoscan"
             }
           ],
           "rest_uris": [],
@@ -162783,7 +163120,7 @@
               "name": "VYO",
               "exponent": 18,
               "isFeeToken": true,
-              "networkName": "VALYGO Smart Contract",
+              "networkName": "VALYGO Smartchain",
               "chainId": "7771777",
               "price": 0,
               "originDenom": "wei",
@@ -162817,6 +163154,10 @@
           "rpc_uris": [
             {
               "address": "https://rpc-gw-1.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc",
+              "provider": "vyoscan"
+            },
+            {
+              "address": "https://rpc-gw-2.vyoscan.com/ext/bc/2RyzsmGypNQZPby1miwMMV8spTvhgd9qd2peNRzU1mErUQqSSw/rpc",
               "provider": "vyoscan"
             }
           ],
@@ -164534,6 +164875,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "18289463",
+              "tokenType": "native"
+            }
+          }
+        },
+        "18896214": {
+          "chain_name": "crynux-base",
+          "status": "live",
+          "website": "https://crynux.io",
+          "network_level": "mainnet",
+          "pretty_name": "Crynux on Base",
+          "chain_type": "eip155",
+          "chain_id": "18896214",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://json-rpc.base.crynux.io",
+              "provider": "crynux"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_crynux.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CNX",
+              "name": "Crynux",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Crynux on Base",
+              "chainId": "18896214",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "18896214",
               "tokenType": "native"
             }
           }
@@ -166946,6 +167337,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "168587773",
+              "tokenType": "native"
+            }
+          }
+        },
+        "188962142": {
+          "chain_name": "crynux-base-sepolia",
+          "status": "live",
+          "website": "https://crynux.io",
+          "network_level": "mainnet",
+          "pretty_name": "Crynux on Base Sepolia",
+          "chain_type": "eip155",
+          "chain_id": "188962142",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://json-rpc.base-sepolia.crynux.io",
+              "provider": "crynux"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_crynux.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CNX",
+              "name": "Sepolia Crynux",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Crynux on Base Sepolia",
+              "chainId": "188962142",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "188962142",
               "tokenType": "native"
             }
           }
@@ -420089,12 +420530,12 @@
           ],
           "rest_uris": [
             {
-              "address": "https://rest.cosmos.directory/agoricdevnet",
-              "provider": "cosmos.directory"
-            },
-            {
               "address": "https://devnet.api.agoric.net:443",
               "provider": "Unknown"
+            },
+            {
+              "address": "https://rest.cosmos.directory/agoricdevnet",
+              "provider": "cosmos.directory"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/agoric/images/Agoric-logo-color.png",
@@ -420314,7 +420755,10 @@
               "originDenom": "amf",
               "originChainId": "junction"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "varanasi-1": {
           "chain_name": "airchainsvaranasitestnet",
@@ -422156,6 +422600,7 @@
               "isFeeToken": false,
               "networkName": "BitwayDevnet",
               "chainId": "bitway-devnet-1",
+              "coinGeckoId": "usd-coin",
               "price": 0,
               "originDenom": "uusdc",
               "originChainId": "grand-1",
@@ -426923,6 +427368,7 @@
               "isFeeToken": false,
               "networkName": "Lumera",
               "chainId": "lumera-testnet-2",
+              "coinGeckoId": "osmosis",
               "price": 0,
               "originDenom": "uosmo",
               "originChainId": "osmo-test-5",
@@ -428358,6 +428804,7 @@
               "isFeeToken": false,
               "networkName": "MANTRA Dukong Testnet",
               "chainId": "mantra-dukong-1",
+              "coinGeckoId": "usd-coin",
               "price": 0,
               "originDenom": "uusdc",
               "originChainId": "grand-1",
@@ -428392,6 +428839,7 @@
               "isFeeToken": false,
               "networkName": "MANTRA Dukong Testnet",
               "chainId": "mantra-dukong-1",
+              "coinGeckoId": "osmosis",
               "price": 0,
               "originDenom": "uosmo",
               "originChainId": "osmo-test-5",
@@ -430215,7 +430663,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/neutron/images/mars-token.png",
               "symbol": "MARS",
-              "name": "Mars Hub Testnet",
+              "name": "Mars",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis Testnet",
@@ -430250,7 +430698,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/akash/images/akt.png",
               "symbol": "AKT",
-              "name": "Sandbox",
+              "name": "Akash Network",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis Testnet",
@@ -430267,7 +430715,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/kyve/images/kyve-token.png",
               "symbol": "KYVE",
-              "name": "KYVE Kaon",
+              "name": "KYVE",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis Testnet",
@@ -430302,7 +430750,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/persistence/images/xprt.png",
               "symbol": "XPRT",
-              "name": "Persistence Testnet",
+              "name": "Persistence",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis Testnet",
@@ -430320,7 +430768,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/saga/images/saga.png",
               "symbol": "TSAGA",
-              "name": "Saga Testnet",
+              "name": "Saga",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "Osmosis Testnet",
@@ -449990,71 +450438,6 @@
             }
           }
         },
-        "7777": {
-          "chain_name": "RiseOfTheWarbotsTestnet",
-          "status": "live",
-          "website": "https://riseofthewarbots.com/",
-          "network_level": "testnet",
-          "pretty_name": "Rise of the Warbots Testnet",
-          "chain_type": "eip155",
-          "chain_id": "7777",
-          "bech32_prefix": "",
-          "fees": [
-            {
-              "denom": "wei",
-              "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
-              }
-            }
-          ],
-          "staking_denoms": [
-            "wei"
-          ],
-          "rpc_uris": [
-            {
-              "address": "https://testnet1.riseofthewarbots.com",
-              "provider": "riseofthewarbots"
-            },
-            {
-              "address": "https://testnet2.riseofthewarbots.com",
-              "provider": "riseofthewarbots"
-            },
-            {
-              "address": "https://testnet3.riseofthewarbots.com",
-              "provider": "riseofthewarbots"
-            },
-            {
-              "address": "https://testnet4.riseofthewarbots.com",
-              "provider": "riseofthewarbots"
-            },
-            {
-              "address": "https://testnet5.riseofthewarbots.com",
-              "provider": "riseofthewarbots"
-            }
-          ],
-          "rest_uris": [],
-          "assets": {
-            "wei": {
-              "denom": "wei",
-              "amount": "0",
-              "displayAmount": "0",
-              "isIbc": false,
-              "logo": "",
-              "symbol": "NMAC",
-              "name": "Nano Machines",
-              "exponent": 18,
-              "isFeeToken": true,
-              "networkName": "Rise of the Warbots Testnet",
-              "chainId": "7777",
-              "price": 0,
-              "originDenom": "wei",
-              "originChainId": "7777",
-              "tokenType": "native"
-            }
-          }
-        },
         "7778": {
           "chain_name": "ore",
           "status": "live",
@@ -455494,6 +455877,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "49797",
+              "tokenType": "native"
+            }
+          }
+        },
+        "50002": {
+          "chain_name": "mnt-hoodi",
+          "status": "live",
+          "website": "https://mantle.xyz",
+          "network_level": "testnet",
+          "pretty_name": "Mantle Hoodi Testnet",
+          "chain_type": "eip155",
+          "chain_id": "50002",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.hoodi.mantle.xyz",
+              "provider": "mantle"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MNT",
+              "name": "Hoodi Mantle",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Mantle Hoodi Testnet",
+              "chainId": "50002",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "50002",
               "tokenType": "native"
             }
           }

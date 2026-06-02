@@ -8516,6 +8516,18 @@
           "channel_id": "channel-0"
         }
       },
+      "osmosis-1,wolo-1": {
+        "osmosis-1": {
+          "client_id": "07-tendermint-3705",
+          "connection_id": "connection-11058",
+          "channel_id": "channel-110224"
+        },
+        "wolo-1": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        }
+      },
       "osmosis-1,xion-mainnet-1": {
         "osmosis-1": {
           "client_id": "07-tendermint-3366",
@@ -10596,9 +10608,9 @@
       }
     }
   },
-  "lastUpdated": "2026-05-24T02:26:51.152Z",
+  "lastUpdated": "2026-06-02T00:01:10.468Z",
   "commitHashes": {
-    "mainnetHash": "b2eb35fac933986effe21201dd92f5043eea04c2",
-    "testnetHash": "b2eb35fac933986effe21201dd92f5043eea04c2"
+    "mainnetHash": "680119aeaf8a926bc6b6a6b3cc2e112892c1c2de",
+    "testnetHash": "680119aeaf8a926bc6b6a6b3cc2e112892c1c2de"
   }
 }
