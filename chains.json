@@ -1,6 +1,6 @@
 {
-  "sha": "680119aeaf8a926bc6b6a6b3cc2e112892c1c2de",
-  "lastUpdated": "2026-06-02T03:28:16.568Z",
+  "sha": "dc97e7124de1f90f6fd98b4ee6cc6194245f5ef0",
+  "lastUpdated": "2026-06-03T23:16:09.868Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -104,12 +104,12 @@
               "provider": "cosmos.directory"
             },
             {
-              "address": "https://rest.8ball.info",
-              "provider": "8ball"
-            },
-            {
               "address": "https://api-8ball.nodine.id/",
               "provider": "Nodine.ID"
+            },
+            {
+              "address": "https://rest.8ball.info",
+              "provider": "8ball"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/8ball/images/8ball.png",
@@ -2181,10 +2181,7 @@
               "originChainId": "dungeon-1",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "aura_6322-2": {
           "chain_name": "aura",
@@ -4308,10 +4305,7 @@
               "originChainId": "milkyway",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "laozi-mainnet": {
           "chain_name": "bandchain",
@@ -10786,10 +10780,7 @@
               "originChainId": "cosmoshub-4",
               "tokenType": "factory"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "coss-1": {
           "chain_name": "coss",
@@ -13488,7 +13479,7 @@
         },
         "evmos_9001-2": {
           "chain_name": "evmos",
-          "status": "live",
+          "status": "killed",
           "website": "https://evmos.org/",
           "network_level": "mainnet",
           "pretty_name": "Evmos",
@@ -14024,10 +14015,7 @@
               "originDenom": "nanomobx",
               "originChainId": "fetchhub-4"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "finschia-2": {
           "chain_name": "finschia",
@@ -23235,11 +23223,7 @@
               "originDenom": "ulava",
               "originChainId": "lava-mainnet-1"
             }
-          },
-          "features": [
-            "packet-forward-middleware",
-            "interchain-accounts"
-          ]
+          }
         },
         "lefeef-mainnet": {
           "chain_name": "lefeef",
@@ -26504,6 +26488,14 @@
               "provider": "cosmos.directory"
             },
             {
+              "address": "https://rpc.neutron.solva.solutions:443",
+              "provider": "solva.solutions"
+            },
+            {
+              "address": "https://rpc-archive.neutron.solva.solutions:443",
+              "provider": "solva.solutions"
+            },
+            {
               "address": "https://rpc-lb.neutron.org",
               "provider": "Neutron"
             },
@@ -26556,6 +26548,14 @@
             {
               "address": "https://rest.cosmos.directory/neutron",
               "provider": "cosmos.directory"
+            },
+            {
+              "address": "https://rest.neutron.solva.solutions:443",
+              "provider": "solva.solutions"
+            },
+            {
+              "address": "https://rest-archive.neutron.solva.solutions:443",
+              "provider": "solva.solutions"
             },
             {
               "address": "https://rest-lb.neutron.org",
@@ -42299,10 +42299,7 @@
               "originChainId": "wolo-1",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "tumbler": {
           "chain_name": "paloma",
@@ -43870,10 +43867,7 @@
               "originChainId": "noble-1",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "pryzm-1": {
           "chain_name": "pryzm",
@@ -49816,6 +49810,22 @@
               "price": 0,
               "originDenom": "cw20:secret197dvnt9yjxwn8sjdlx05f7zuk27lsdxtfnwxse",
               "originChainId": "secret-4"
+            },
+            "cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7": {
+              "denom": "cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/secretnetwork/images/snvr.png",
+              "symbol": "SNVR",
+              "name": "SNVR",
+              "exponent": 9,
+              "isFeeToken": false,
+              "networkName": "Secret Network",
+              "chainId": "secret-4",
+              "price": 0,
+              "originDenom": "cw20:secret1d6qvapy96q94etwlnc7j33dlzmenz4j70w3ew7",
+              "originChainId": "secret-4"
             }
           }
         },
@@ -49992,10 +50002,7 @@
               "originDenom": "aseda",
               "originChainId": "seda-1"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "pacific-1": {
           "chain_name": "sei",
@@ -50933,10 +50940,7 @@
               "originDenom": "uctk",
               "originChainId": "shentu-2.2"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "shido_9008-1": {
           "chain_name": "shido",
@@ -51708,10 +51712,7 @@
               "originChainId": "7070",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "stafihub-1": {
           "chain_name": "stafihub",
@@ -59368,6 +59369,59 @@
               "price": 0,
               "originDenom": "ujay",
               "originChainId": "thejaynetwork"
+            },
+            "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9": {
+              "denom": "ibc/C4CFF46FD6DE35CA4CF4CE031E643C8FDC9BA4B99AE598E9B0ED98FE3A2319F9",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+              "symbol": "ATOM",
+              "name": "Cosmos Hub Atom",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "The Jay Network",
+              "chainId": "thejaynetwork",
+              "coinGeckoId": "cosmos",
+              "price": 0,
+              "originDenom": "uatom",
+              "originChainId": "cosmoshub-4",
+              "tokenType": "ibc"
+            },
+            "ibc/101B0938079BD4E8E89BD547635F86CCE4406C634E1427FE5226358F4BAD41F4": {
+              "denom": "ibc/101B0938079BD4E8E89BD547635F86CCE4406C634E1427FE5226358F4BAD41F4",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
+              "symbol": "TIA",
+              "name": "Celestia",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "The Jay Network",
+              "chainId": "thejaynetwork",
+              "coinGeckoId": "celestia",
+              "price": 0,
+              "originDenom": "utia",
+              "originChainId": "celestia",
+              "tokenType": "ibc"
+            },
+            "ibc/1C2D8505A29823310B4484E4C63CFDCB08C0D3B57537A615A45F4E5D42CDC789": {
+              "denom": "ibc/1C2D8505A29823310B4484E4C63CFDCB08C0D3B57537A615A45F4E5D42CDC789",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+              "symbol": "INJ",
+              "name": "Injective",
+              "exponent": 18,
+              "isFeeToken": false,
+              "networkName": "The Jay Network",
+              "chainId": "thejaynetwork",
+              "price": 0,
+              "originDenom": "inj",
+              "originChainId": "1776",
+              "tokenType": "ibc"
             }
           }
         },
@@ -82547,6 +82601,10 @@
           ],
           "rpc_uris": [
             {
+              "address": "https://rpc.capitalexchange.com",
+              "provider": "capitalexchange"
+            },
+            {
               "address": "https://rpc.capitalexchange.digital",
               "provider": "capitalexchange"
             }
@@ -85307,6 +85365,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "579",
+              "tokenType": "native"
+            }
+          }
+        },
+        "589": {
+          "chain_name": "lady",
+          "status": "live",
+          "website": "https://ladyswap.us",
+          "network_level": "mainnet",
+          "pretty_name": "LadyChain",
+          "chain_type": "eip155",
+          "chain_id": "589",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://ladyrpc.us/rpc",
+              "provider": "ladyrpc"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_lady.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "LADY",
+              "name": "Lady",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "LadyChain",
+              "chainId": "589",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "589",
               "tokenType": "native"
             }
           }
@@ -104850,7 +104958,7 @@
           "status": "live",
           "website": "https://candychain.io",
           "network_level": "mainnet",
-          "pretty_name": "Candy Chain",
+          "pretty_name": "CandyChain",
           "chain_type": "eip155",
           "chain_id": "2828",
           "bech32_prefix": "",
@@ -104885,7 +104993,7 @@
               "name": "CANDY",
               "exponent": 18,
               "isFeeToken": true,
-              "networkName": "Candy Chain",
+              "networkName": "CandyChain",
               "chainId": "2828",
               "price": 0,
               "originDenom": "wei",
@@ -118568,6 +118676,10 @@
             {
               "address": "https://rpcfree.com/base-rpc",
               "provider": "rpcfree"
+            },
+            {
+              "address": "https://rpc.baseazul.dev",
+              "provider": "baseazul"
             }
           ],
           "rest_uris": [],
@@ -134861,6 +134973,59 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "40000",
+              "tokenType": "native"
+            }
+          }
+        },
+        "40204": {
+          "chain_name": "citrate",
+          "status": "live",
+          "website": "https://citrate.ai",
+          "network_level": "mainnet",
+          "pretty_name": "Citrate",
+          "chain_type": "eip155",
+          "chain_id": "40204",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.citrate.ai",
+              "provider": "citrate"
+            },
+            {
+              "address": "wss://rpc.citrate.ai",
+              "provider": "citrate"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "SALT",
+              "name": "SALT",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Citrate",
+              "chainId": "40204",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "40204",
               "tokenType": "native"
             }
           }
@@ -153709,6 +153874,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "240515",
+              "tokenType": "native"
+            }
+          }
+        },
+        "240884": {
+          "chain_name": "hipcf",
+          "status": "live",
+          "website": "https://hipercapitalfinance.com",
+          "network_level": "mainnet",
+          "pretty_name": "HIPERCAPITAL FINANCE Chain",
+          "chain_type": "eip155",
+          "chain_id": "240884",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.hipercapitalfinance.com",
+              "provider": "hipercapitalfinance"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "HIP",
+              "name": "HIPERCAPITAL FINANCE Token",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "HIPERCAPITAL FINANCE Chain",
+              "chainId": "240884",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "240884",
               "tokenType": "native"
             }
           }
@@ -420755,10 +420969,7 @@
               "originDenom": "amf",
               "originChainId": "junction"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "varanasi-1": {
           "chain_name": "airchainsvaranasitestnet",
@@ -449659,11 +449870,11 @@
           }
         },
         "5888": {
-          "chain_name": "mantrachain",
+          "chain_name": "mantra",
           "status": "live",
           "website": "https://mantrachain.io",
           "network_level": "testnet",
-          "pretty_name": "MANTRACHAIN Mainnet",
+          "pretty_name": "MANTRA Chain",
           "chain_type": "eip155",
           "chain_id": "5888",
           "bech32_prefix": "",
@@ -449699,11 +449910,11 @@
               "displayAmount": "0",
               "isIbc": false,
               "logo": "",
-              "symbol": "OM",
-              "name": "OM",
+              "symbol": "MANTRA",
+              "name": "MANTRA",
               "exponent": 18,
               "isFeeToken": true,
-              "networkName": "MANTRACHAIN Mainnet",
+              "networkName": "MANTRA Chain",
               "chainId": "5888",
               "price": 0,
               "originDenom": "wei",
