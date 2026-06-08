@@ -1,16 +1,16 @@
 {
-  "lastUpdated": "2026-06-08T19:58:23.466Z",
+  "lastUpdated": "2026-06-08T20:18:06.112Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 69,
+          "failedQueries": 70,
           "longestQueryTime": 47900,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1780948703466
+          "redemptionStartTimestamp": 1780949886112
         },
         "https://api-m.symphony.vinjan-inc.com": {
           "failedQueries": 53,
@@ -45,12 +45,12 @@
           "redemptionStartTimestamp": 1781135588868
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 69,
+          "failedQueries": 70,
           "longestQueryTime": 32800,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1780948703466
+          "redemptionStartTimestamp": 1780949886112
         }
       }
     }
