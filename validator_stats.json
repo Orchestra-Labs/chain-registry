@@ -1,32 +1,32 @@
 {
-  "lastUpdated": "2026-07-09T00:14:26.117Z",
+  "lastUpdated": "2026-07-09T00:24:19.216Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 5,
+          "failedQueries": 6,
           "longestQueryTime": 4574,
-          "consecutiveInfraFailures": 5,
+          "consecutiveInfraFailures": 6,
           "blacklistedUntil": 1783559664816,
           "blacklistCount": 1,
-          "redemptionStartTimestamp": 1783559664816
+          "redemptionStartTimestamp": 1783556657916
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 5,
+          "failedQueries": 6,
           "longestQueryTime": 701,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1783556064816
+          "redemptionStartTimestamp": 1783556657916
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 5,
+          "failedQueries": 6,
           "longestQueryTime": 1400,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1783556066117
+          "redemptionStartTimestamp": 1783556659216
         }
       }
     }
