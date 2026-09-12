@@ -1,56 +1,56 @@
 {
-  "lastUpdated": "2026-09-12T11:00:24.929Z",
+  "lastUpdated": "2026-09-12T12:25:57.470Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
-        "https://rest.cosmos.directory/symphony": {
+        "https://api.symphony.citizenweb3.com": {
           "failedQueries": 1,
-          "longestQueryTime": 12000,
+          "longestQueryTime": 4700,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199141027
+          "redemptionStartTimestamp": 1789215915369
         },
         "https://symphony.api.nodeshub.online/": {
           "failedQueries": 1,
-          "longestQueryTime": 1701,
+          "longestQueryTime": 2200,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199142928
-        },
-        "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 1,
-          "longestQueryTime": 10301,
-          "consecutiveInfraFailures": 0,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199153728
-        },
-        "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 1,
-          "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 0,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199167728
+          "redemptionStartTimestamp": 1789215918369
         },
         "https://api-symphony.sr20de.xyz": {
           "failedQueries": 1,
-          "longestQueryTime": 4199,
+          "longestQueryTime": 1100,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199167729
+          "redemptionStartTimestamp": 1789215918369
         },
-        "https://api.symphony.citizenweb3.com": {
+        "https://api-m.symphony.vinjan-inc.com": {
           "failedQueries": 1,
-          "longestQueryTime": 1301,
+          "longestQueryTime": 4600,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1789199169037
+          "redemptionStartTimestamp": 1789215926469
+        },
+        "https://symphony-api.cogwheel.zone/": {
+          "failedQueries": 1,
+          "longestQueryTime": 18395,
+          "consecutiveInfraFailures": 0,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 1789215943770
+        },
+        "https://rest.cosmos.directory/symphony": {
+          "failedQueries": 0,
+          "longestQueryTime": 8799,
+          "consecutiveInfraFailures": 0,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0,
+          "redemptionStartTimestamp": 0
         }
       }
     }
