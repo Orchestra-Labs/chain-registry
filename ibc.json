@@ -673,16 +673,28 @@
           "channel_id": "channel-1"
         }
       },
+      "amitis-network,noble-1": {
+        "amitis-network": {
+          "client_id": "07-tendermint-4",
+          "connection_id": "connection-3",
+          "channel_id": "channel-4"
+        },
+        "noble-1": {
+          "client_id": "07-tendermint-233",
+          "connection_id": "connection-216",
+          "channel_id": "channel-635"
+        }
+      },
       "amitis-network,osmosis-1": {
         "amitis-network": {
-          "client_id": "07-tendermint-0",
-          "connection_id": "connection-0",
-          "channel_id": "channel-1"
+          "client_id": "07-tendermint-3",
+          "connection_id": "connection-2",
+          "channel_id": "channel-3"
         },
         "osmosis-1": {
-          "client_id": "07-tendermint-3701",
-          "connection_id": "connection-11055",
-          "channel_id": "channel-110089"
+          "client_id": "07-tendermint-3751",
+          "connection_id": "connection-11095",
+          "channel_id": "channel-111069"
         }
       },
       "1088,archway-1": {
@@ -4508,6 +4520,18 @@
           "channel_id": "channel-394"
         }
       },
+      "1776,dungeon-1": {
+        "1776": {
+          "client_id": "07-tendermint-350",
+          "connection_id": "connection-349",
+          "channel_id": "channel-490"
+        },
+        "dungeon-1": {
+          "client_id": "07-tendermint-40",
+          "connection_id": "connection-8641",
+          "channel_id": "channel-5320"
+        }
+      },
       "dungeon-1,neutron-1": {
         "dungeon-1": {
           "client_id": "07-tendermint-8",
@@ -5886,6 +5910,18 @@
           "client_id": "07-tendermint-105",
           "connection_id": "connection-68",
           "channel_id": "channel-234"
+        }
+      },
+      "1776,safrochain-1": {
+        "1776": {
+          "client_id": "07-tendermint-354",
+          "connection_id": "connection-354",
+          "channel_id": "channel-495"
+        },
+        "safrochain-1": {
+          "client_id": "07-tendermint-2",
+          "connection_id": "connection-2",
+          "channel_id": "channel-2"
         }
       },
       "1776,secret-4": {
@@ -10848,9 +10884,9 @@
       }
     }
   },
-  "lastUpdated": "2026-09-07T08:03:51.474Z",
+  "lastUpdated": "2026-09-18T03:32:06.800Z",
   "commitHashes": {
-    "mainnetHash": "5255ca7b32f5a7d6bed1817e4e4cbffca739b5fb",
-    "testnetHash": "5255ca7b32f5a7d6bed1817e4e4cbffca739b5fb"
+    "mainnetHash": "4b5051f6e61b98723e1177774877be3da88ee3bc",
+    "testnetHash": "4b5051f6e61b98723e1177774877be3da88ee3bc"
   }
 }
