@@ -1,6 +1,6 @@
 {
-  "sha": "4b5051f6e61b98723e1177774877be3da88ee3bc",
-  "lastUpdated": "2026-09-18T02:59:24.400Z",
+  "sha": "9bb28d941491f7f8b6617949fc7ef4d2c828f570",
+  "lastUpdated": "2026-10-02T07:23:43.948Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -500,6 +500,24 @@
               "price": 0,
               "originDenom": "uist",
               "originChainId": "agoric-3"
+            },
+            "ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8": {
+              "denom": "ibc/A7BE5E1F50DE0393383EC287BDD0FDAA9B546736F7511F8E494ECB05533DAAE8",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+              "symbol": "USDC.inj",
+              "name": "Injective USDC",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "Agoric",
+              "chainId": "agoric-3",
+              "coinGeckoId": "usd-coin",
+              "price": 0,
+              "originDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+              "originChainId": "1776",
+              "tokenType": "ibc"
             }
           }
         },
@@ -855,10 +873,7 @@
               "originDenom": "uallo",
               "originChainId": "allora-mainnet-1"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "althea_258432-1": {
           "chain_name": "althea",
@@ -968,10 +983,7 @@
               "originDenom": "aalthea",
               "originChainId": "althea_258432-1"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "amitis-network": {
           "chain_name": "amitis",
@@ -2025,6 +2037,10 @@
             {
               "address": "https://atomone-rpc.kleomedes.network",
               "provider": "Kleomedes"
+            },
+            {
+              "address": "https://atomone-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -2159,6 +2175,10 @@
             {
               "address": "https://atomone-api.kleomedes.network",
               "provider": "Kleomedes"
+            },
+            {
+              "address": "https://atomone-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/atomone/images/atomone.png",
@@ -2215,10 +2235,7 @@
               "originChainId": "dungeon-1",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "aura_6322-2": {
           "chain_name": "aura",
@@ -4721,7 +4738,7 @@
               "isIbc": true,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
               "symbol": "USDC.n",
-              "name": "USDC",
+              "name": "Noble USDC",
               "exponent": 6,
               "isFeeToken": false,
               "networkName": "BeeZee",
@@ -4886,6 +4903,78 @@
               "price": 0,
               "originDenom": "uphoton",
               "originChainId": "atomone-1",
+              "tokenType": "ibc"
+            },
+            "ibc/81DA528F4C5546208D1D50F84C2D0B388B45D37AA36FCA622A3CB2D8EF014838": {
+              "denom": "ibc/81DA528F4C5546208D1D50F84C2D0B388B45D37AA36FCA622A3CB2D8EF014838",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+              "symbol": "USDC.inj",
+              "name": "Injective USDC",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "BeeZee",
+              "chainId": "beezee-1",
+              "coinGeckoId": "usd-coin",
+              "price": 0,
+              "originDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+              "originChainId": "1776",
+              "tokenType": "ibc"
+            },
+            "ibc/9D0AC973BAFA293781F9A86B2911069DF9D8ECE86CDD884F0DE4889AF666B28A": {
+              "denom": "ibc/9D0AC973BAFA293781F9A86B2911069DF9D8ECE86CDD884F0DE4889AF666B28A",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/inj.png",
+              "symbol": "INJ",
+              "name": "Injective",
+              "exponent": 18,
+              "isFeeToken": false,
+              "networkName": "BeeZee",
+              "chainId": "beezee-1",
+              "coinGeckoId": "injective-protocol",
+              "price": 0,
+              "originDenom": "inj",
+              "originChainId": "1776",
+              "tokenType": "ibc"
+            },
+            "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49": {
+              "denom": "ibc/5FEB332D2B121921C792F1A0DBF7C3163FF205337B4AFE6E14F69E8E49545F49",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
+              "symbol": "ATOM",
+              "name": "Cosmos Hub",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "BeeZee",
+              "chainId": "beezee-1",
+              "coinGeckoId": "cosmos",
+              "price": 0,
+              "originDenom": "uatom",
+              "originChainId": "cosmoshub-4",
+              "tokenType": "ibc"
+            },
+            "ibc/062CA1F72787DB36CE8FEA8EC733293215A5554646650A9B92BFA498802A11AA": {
+              "denom": "ibc/062CA1F72787DB36CE8FEA8EC733293215A5554646650A9B92BFA498802A11AA",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dungeon/images/DGN.png",
+              "symbol": "DGN",
+              "name": "Dragon Coin",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "BeeZee",
+              "chainId": "beezee-1",
+              "coinGeckoId": "dragon-coin-2",
+              "price": 0,
+              "originDenom": "udgn",
+              "originChainId": "dungeon-1",
               "tokenType": "ibc"
             }
           }
@@ -7257,6 +7346,10 @@
             {
               "address": "https://celestia-rpc.cogwheel.zone",
               "provider": "Cogwheel ⚙️"
+            },
+            {
+              "address": "https://celestia-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -7359,6 +7452,10 @@
             {
               "address": "https://celestia-api.cogwheel.zone",
               "provider": "Cogwheel ⚙️"
+            },
+            {
+              "address": "https://celestia-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/celestia/images/celestia.png",
@@ -7805,6 +7902,10 @@
             {
               "address": "https://cheqd-rpc.polkachu.com:443",
               "provider": "Polkachu"
+            },
+            {
+              "address": "https://cheqd-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -7859,6 +7960,10 @@
             {
               "address": "https://cheqd-api.polkachu.com",
               "provider": "Polkachu"
+            },
+            {
+              "address": "https://cheqd-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cheqd/images/cheq.png",
@@ -10848,6 +10953,23 @@
               "originDenom": "ibc/1568B2266E9CF742A068567F052D6057366121943C61F62D82518AEEC4C07C7F",
               "originChainId": "cosmoshub-4",
               "tokenType": "ibc"
+            },
+            "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn": {
+              "denom": "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/cinn.png",
+              "symbol": "CINN",
+              "name": "Mr. Cinnamon",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "Cosmos Hub",
+              "chainId": "cosmoshub-4",
+              "price": 0,
+              "originDenom": "factory/cosmos1czdq25vuxw64gcj3lwvl3z93l76d92y7nys9u2/cinn",
+              "originChainId": "cosmoshub-4",
+              "tokenType": "factory"
             }
           }
         },
@@ -13506,6 +13628,14 @@
             {
               "address": "https://rpc.nodesafe-app.xyz/epix/",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://epix.rpc.m.anode.team",
+              "provider": "AlxVoy ⚡ ANODE.TEAM"
+            },
+            {
+              "address": "https://epix-rpc.tintonode.win",
+              "provider": "TinTo"
             }
           ],
           "rest_uris": [
@@ -13540,6 +13670,14 @@
             {
               "address": "https://api.nodesafe-app.xyz/epix/",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://epix.api.m.anode.team",
+              "provider": "AlxVoy ⚡ ANODE.TEAM"
+            },
+            {
+              "address": "https://epix-api.tintonode.win",
+              "provider": "TinTo"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/epix/images/epix.png",
@@ -14147,10 +14285,7 @@
               "originDenom": "nanomobx",
               "originChainId": "fetchhub-4"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "finschia-2": {
           "chain_name": "finschia",
@@ -16686,6 +16821,68 @@
             }
           }
         },
+        "hyve_7847-1": {
+          "chain_name": "hyve",
+          "status": "live",
+          "website": "https://hyvechain.com",
+          "network_level": "mainnet",
+          "pretty_name": "HyveChain",
+          "chain_type": "cosmos",
+          "chain_id": "hyve_7847-1",
+          "bech32_prefix": "hyve",
+          "fees": [
+            {
+              "denom": "ahyve",
+              "gasPriceStep": {
+                "low": 10000000000,
+                "average": 15000000000,
+                "high": 20000000000
+              }
+            }
+          ],
+          "staking_denoms": [
+            "ahyve"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.cosmos.directory/hyve",
+              "provider": "cosmos.directory"
+            },
+            {
+              "address": "https://tendermint.hyvechain.com",
+              "provider": "HyveChain"
+            }
+          ],
+          "rest_uris": [
+            {
+              "address": "https://rest.cosmos.directory/hyve",
+              "provider": "cosmos.directory"
+            },
+            {
+              "address": "https://api.hyvechain.com",
+              "provider": "HyveChain"
+            }
+          ],
+          "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png",
+          "assets": {
+            "ahyve": {
+              "denom": "ahyve",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/hyve/images/hyve.png",
+              "symbol": "HYVE",
+              "name": "Hyve",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "HyveChain",
+              "chainId": "hyve_7847-1",
+              "price": 0,
+              "originDenom": "ahyve",
+              "originChainId": "hyve_7847-1"
+            }
+          }
+        },
         "Antora": {
           "chain_name": "idep",
           "status": "live",
@@ -17908,6 +18105,23 @@
               "coinGeckoId": "motion-6",
               "price": 0,
               "originDenom": "factory/inj13j2rpnlwl30c02d4pzukykwfeyyhelvry9cqte/shroom_0_3b4d31d5571b97db",
+              "originChainId": "injective-1",
+              "tokenType": "factory"
+            },
+            "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42": {
+              "denom": "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/injective/images/t42.png",
+              "symbol": "T42",
+              "name": "TeaForTwo",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "Injective",
+              "chainId": "injective-1",
+              "price": 0,
+              "originDenom": "factory/inj1dg3nxn4z36p2sqem4cy2jsdjf4ytk8cn256jjx/T42",
               "originChainId": "injective-1",
               "tokenType": "factory"
             }
@@ -20094,10 +20308,7 @@
               "originChainId": "juno-1",
               "tokenType": "factory"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "kava_2222-10": {
           "chain_name": "kava",
@@ -24079,6 +24290,10 @@
             {
               "address": "https://m-lumen.rpc.utsa.tech/",
               "provider": "UTSA"
+            },
+            {
+              "address": "https://rpc.nodesafe-app.xyz/lumen/",
+              "provider": "NodeSafe"
             }
           ],
           "rest_uris": [
@@ -24105,6 +24320,10 @@
             {
               "address": "https://m-lumen.api.utsa.tech/",
               "provider": "UTSA"
+            },
+            {
+              "address": "https://api.nodesafe-app.xyz/lumen",
+              "provider": "NodeSafe"
             }
           ],
           "assets": {
@@ -26427,6 +26646,10 @@
             {
               "address": "https://rpc.mucoin.org",
               "provider": "MuCoin"
+            },
+            {
+              "address": "https://rpc.nodesafe-app.xyz/mucoin/",
+              "provider": "NodeSafe"
             }
           ],
           "rest_uris": [
@@ -26437,6 +26660,10 @@
             {
               "address": "https://rest.mucoin.org",
               "provider": "MuCoin"
+            },
+            {
+              "address": "https://api.nodesafe-app.xyz/mucoin",
+              "provider": "NodeSafe"
             }
           ],
           "assets": {
@@ -58804,6 +59031,24 @@
               "originChainId": "noble-1",
               "tokenType": "ibc"
             },
+            "ibc/F52112392095A6D6D1B17EF1FE19BE0B39B2A79B8A2B2F55CD721FC7DBF5081F": {
+              "denom": "ibc/F52112392095A6D6D1B17EF1FE19BE0B39B2A79B8A2B2F55CD721FC7DBF5081F",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": true,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+              "symbol": "USDC.inj",
+              "name": "Injective USDC",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "Terra Classic",
+              "chainId": "columbus-5",
+              "coinGeckoId": "usd-coin",
+              "price": 0,
+              "originDenom": "erc20:0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+              "originChainId": "1776",
+              "tokenType": "ibc"
+            },
             "cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5": {
               "denom": "cw20:terra17hnu4prwa3varxrws0sy9hffkmqv8tfmfpldg4e9fq58flrmuz2qlhymr5",
               "amount": "0",
@@ -60065,7 +60310,7 @@
               "provider": "cosmos.directory"
             },
             {
-              "address": "https://thejaynetwork.com/rpc",
+              "address": "https://thejaynetwork.com/rpc/",
               "provider": "The Jay Network"
             },
             {
@@ -60079,6 +60324,10 @@
             {
               "address": "https://rpc-jaynetwork.vinjan-inc.com",
               "provider": "Vinjan.Inc"
+            },
+            {
+              "address": "https://rpc.nodesafe-app.xyz/jayn/",
+              "provider": "NodeSafe"
             }
           ],
           "rest_uris": [
@@ -60101,6 +60350,10 @@
             {
               "address": "https://api-jaynetwork.vinjan-inc.com",
               "provider": "Vinjan.Inc"
+            },
+            {
+              "address": "https://api.nodesafe-app.xyz/jayn",
+              "provider": "NodeSafe"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/thejaynetwork/images/jay.png",
@@ -60172,10 +60425,7 @@
               "originChainId": "1776",
               "tokenType": "ibc"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "thorchain-1": {
           "chain_name": "thorchain",
@@ -61294,10 +61544,7 @@
               "originDenom": "auptick",
               "originChainId": "uptick_117-1"
             }
-          },
-          "features": [
-            "interchain-accounts"
-          ]
+          }
         },
         "vector-1": {
           "chain_name": "vector",
@@ -62452,16 +62699,16 @@
           "bech32_prefix": "zig",
           "fees": [
             {
-              "denom": "uzig",
+              "denom": "azig",
               "gasPriceStep": {
-                "low": 0.0025,
-                "average": 0.025,
-                "high": 0.05
+                "low": 2500000000,
+                "average": 25000000000,
+                "high": 50000000000
               }
             }
           ],
           "staking_denoms": [
-            "uzig"
+            "azig"
           ],
           "rpc_uris": [
             {
@@ -62517,19 +62764,35 @@
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
           "assets": {
-            "uzig": {
-              "denom": "uzig",
+            "azig": {
+              "denom": "azig",
               "amount": "0",
               "displayAmount": "0",
               "isIbc": false,
               "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
               "symbol": "ZIG",
               "name": "ZIG",
-              "exponent": 6,
+              "exponent": 18,
               "isFeeToken": true,
               "networkName": "ZIGChain",
               "chainId": "zigchain-1",
               "coinGeckoId": "zignaly",
+              "price": 0,
+              "originDenom": "azig",
+              "originChainId": "zigchain-1"
+            },
+            "uzig": {
+              "denom": "uzig",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/zigchain/images/zigchain.png",
+              "symbol": "ZIG.legacy",
+              "name": "ZIG",
+              "exponent": 6,
+              "isFeeToken": false,
+              "networkName": "ZIGChain",
+              "chainId": "zigchain-1",
               "price": 0,
               "originDenom": "uzig",
               "originChainId": "zigchain-1"
@@ -76877,6 +77140,14 @@
             {
               "address": "wss://sonic-rpc.publicnode.com",
               "provider": "publicnode"
+            },
+            {
+              "address": "https://sonic.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://sonic.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
@@ -96727,6 +96998,55 @@
             }
           }
         },
+        "1404": {
+          "chain_name": "bdag",
+          "status": "live",
+          "website": "https://bdagexplorer.com",
+          "network_level": "mainnet",
+          "pretty_name": "BlockDAG",
+          "chain_type": "eip155",
+          "chain_id": "1404",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.bdagexplorer.com/",
+              "provider": "bdagexplorer"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "BDAG",
+              "name": "BlockDAG",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "BlockDAG",
+              "chainId": "1404",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "1404",
+              "tokenType": "native"
+            }
+          }
+        },
         "1424": {
           "chain_name": "perennial",
           "status": "live",
@@ -97089,6 +97409,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "1455",
+              "tokenType": "native"
+            }
+          }
+        },
+        "1475": {
+          "chain_name": "cmxr",
+          "status": "live",
+          "website": "https://cmxofficial.com",
+          "network_level": "mainnet",
+          "pretty_name": "CRYMAD Chain",
+          "chain_type": "eip155",
+          "chain_id": "1475",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.cmxofficial.com",
+              "provider": "cmxofficial"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_cmxr.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CMX-R",
+              "name": "CryMadX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "CRYMAD Chain",
+              "chainId": "1475",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "1475",
               "tokenType": "native"
             }
           }
@@ -104527,6 +104897,56 @@
             }
           }
         },
+        "2288": {
+          "chain_name": "moca",
+          "status": "live",
+          "website": "https://mocachain.org",
+          "network_level": "mainnet",
+          "pretty_name": "Moca Chain Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "2288",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.mocachain.org",
+              "provider": "mocachain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_moca.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MOCA",
+              "name": "MOCA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Moca Chain Mainnet",
+              "chainId": "2288",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "2288",
+              "tokenType": "native"
+            }
+          }
+        },
         "2300": {
           "chain_name": "bomb",
           "status": "live",
@@ -107995,6 +108415,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "3110",
+              "tokenType": "native"
+            }
+          }
+        },
+        "3210": {
+          "chain_name": "avi-os",
+          "status": "live",
+          "website": "https://os.avicoin.org",
+          "network_level": "mainnet",
+          "pretty_name": "AVI OS",
+          "chain_type": "eip155",
+          "chain_id": "3210",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc-os.avicoin.org",
+              "provider": "avicoin"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "AVI",
+              "name": "AVI",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "AVI OS",
+              "chainId": "3210",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "3210",
               "tokenType": "native"
             }
           }
@@ -112320,6 +112789,14 @@
             {
               "address": "wss://rpc.ordofi.network",
               "provider": "ordofi"
+            },
+            {
+              "address": "https://robinhood.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://robinhood.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
@@ -113034,6 +113511,22 @@
             {
               "address": "https://rpc.quicknode.mainnet.arc.io",
               "provider": "arc"
+            },
+            {
+              "address": "https://rpc.beamrpc.com",
+              "provider": "beamrpc"
+            },
+            {
+              "address": "wss://rpc.beamrpc.com",
+              "provider": "beamrpc"
+            },
+            {
+              "address": "https://arc.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://arc.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
@@ -113810,56 +114303,6 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "5124",
-              "tokenType": "native"
-            }
-          }
-        },
-        "5151": {
-          "chain_name": "MOCA",
-          "status": "live",
-          "website": "https://mechain.tech",
-          "network_level": "mainnet",
-          "pretty_name": "Moca Chain Testnet",
-          "chain_type": "eip155",
-          "chain_id": "5151",
-          "bech32_prefix": "",
-          "fees": [
-            {
-              "denom": "wei",
-              "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
-              }
-            }
-          ],
-          "staking_denoms": [
-            "wei"
-          ],
-          "rpc_uris": [
-            {
-              "address": "https://testnet-rpc.mechain.tech",
-              "provider": "mechain"
-            }
-          ],
-          "rest_uris": [],
-          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_moca.jpg",
-          "assets": {
-            "wei": {
-              "denom": "wei",
-              "amount": "0",
-              "displayAmount": "0",
-              "isIbc": false,
-              "logo": "",
-              "symbol": "MOCA",
-              "name": "MOCA",
-              "exponent": 18,
-              "isFeeToken": true,
-              "networkName": "Moca Chain Testnet",
-              "chainId": "5151",
-              "price": 0,
-              "originDenom": "wei",
-              "originChainId": "5151",
               "tokenType": "native"
             }
           }
@@ -118672,6 +119115,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "7368",
+              "tokenType": "native"
+            }
+          }
+        },
+        "7373": {
+          "chain_name": "cmxr-l2",
+          "status": "live",
+          "website": "https://cmxofficial.com",
+          "network_level": "mainnet",
+          "pretty_name": "CRYMAD Chain L2",
+          "chain_type": "eip155",
+          "chain_id": "7373",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpcl2.cmxofficial.com",
+              "provider": "cmxofficial"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_cmxr.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CMX-R",
+              "name": "CryMadX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "CRYMAD Chain L2",
+              "chainId": "7373",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "7373",
               "tokenType": "native"
             }
           }
@@ -123489,6 +123982,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "9001",
+              "tokenType": "native"
+            }
+          }
+        },
+        "9002": {
+          "chain_name": "kortana",
+          "status": "live",
+          "website": "https://kortana.network",
+          "network_level": "mainnet",
+          "pretty_name": "Kortana",
+          "chain_type": "eip155",
+          "chain_id": "9002",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://zeus-rpc.mainnet.kortana.xyz",
+              "provider": "kortana"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "DNR",
+              "name": "Dinar",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Kortana",
+              "chainId": "9002",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "9002",
               "tokenType": "native"
             }
           }
@@ -136691,6 +137233,59 @@
             }
           }
         },
+        "32026": {
+          "chain_name": "numn",
+          "status": "live",
+          "website": "https://numen-network.org",
+          "network_level": "mainnet",
+          "pretty_name": "Numen Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "32026",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.numen-network.org",
+              "provider": "numen-network"
+            },
+            {
+              "address": "wss://rpc.numen-network.org",
+              "provider": "numen-network"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "NUMN",
+              "name": "Numen",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Numen Mainnet",
+              "chainId": "32026",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "32026",
+              "tokenType": "native"
+            }
+          }
+        },
         "32323": {
           "chain_name": "basedai",
           "status": "live",
@@ -145455,6 +146050,55 @@
             }
           }
         },
+        "62124": {
+          "chain_name": "frac",
+          "status": "live",
+          "website": "https://fractalai.net.co",
+          "network_level": "mainnet",
+          "pretty_name": "FractalAI",
+          "chain_type": "eip155",
+          "chain_id": "62124",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://api.fractalai.net.co",
+              "provider": "net"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "FRAC",
+              "name": "Fractal",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "FractalAI",
+              "chainId": "62124",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "62124",
+              "tokenType": "native"
+            }
+          }
+        },
         "62298": {
           "chain_name": "citrea-devnet",
           "status": "live",
@@ -147490,7 +148134,7 @@
         "73571": {
           "chain_name": "seleman",
           "status": "live",
-          "website": "https://seleman.monarcaproject.com/seleman-chain",
+          "website": "https://explorer.primevertexlabs.com.mx/seleman-chain",
           "network_level": "mainnet",
           "pretty_name": "SELEMAN Chain",
           "chain_type": "eip155",
@@ -147511,16 +148155,16 @@
           ],
           "rpc_uris": [
             {
-              "address": "https://seleman.monarcaproject.com/rpc",
-              "provider": "monarcaproject"
+              "address": "https://explorer.primevertexlabs.com.mx/rpc",
+              "provider": "com"
             },
             {
               "address": "https://seleman-edge.mineriafjs.workers.dev/rpc",
               "provider": "workers"
             },
             {
-              "address": "wss://seleman-ws.monarcaproject.com",
-              "provider": "monarcaproject"
+              "address": "wss://explorer-ws.primevertexlabs.com.mx",
+              "provider": "com"
             }
           ],
           "rest_uris": [],
@@ -149617,6 +150261,59 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "88118",
+              "tokenType": "native"
+            }
+          }
+        },
+        "88188": {
+          "chain_name": "atmain",
+          "status": "live",
+          "website": "https://explorer.atoshinetwork.xyz",
+          "network_level": "mainnet",
+          "pretty_name": "Atoshi Original Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "88188",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.atoshinetwork.xyz",
+              "provider": "atoshinetwork"
+            },
+            {
+              "address": "https://explorer.atoshinetwork.xyz/rpc",
+              "provider": "atoshinetwork"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "ATOS",
+              "name": "Atoshi",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Atoshi Original Mainnet",
+              "chainId": "88188",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "88188",
               "tokenType": "native"
             }
           }
@@ -161626,6 +162323,55 @@
             }
           }
         },
+        "563321": {
+          "chain_name": "pctest",
+          "status": "live",
+          "website": "https://peercash.io",
+          "network_level": "mainnet",
+          "pretty_name": "PeerCash Testnet",
+          "chain_type": "eip155",
+          "chain_id": "563321",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://testrpc.peercash.io",
+              "provider": "peercash"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "PEER",
+              "name": "PeerCash",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "PeerCash Testnet",
+              "chainId": "563321",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "563321",
+              "tokenType": "native"
+            }
+          }
+        },
         "612055": {
           "chain_name": "one",
           "status": "live",
@@ -170318,6 +171064,56 @@
             }
           }
         },
+        "18896215": {
+          "chain_name": "crynux-rh",
+          "status": "live",
+          "website": "https://crynux.io",
+          "network_level": "mainnet",
+          "pretty_name": "Crynux on RH",
+          "chain_type": "eip155",
+          "chain_id": "18896215",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://json-rpc.rh.crynux.io",
+              "provider": "crynux"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_crynux.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CNX",
+              "name": "Crynux",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Crynux on RH",
+              "chainId": "18896215",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "18896215",
+              "tokenType": "native"
+            }
+          }
+        },
         "20180430": {
           "chain_name": "spectrum",
           "status": "live",
@@ -172879,6 +173675,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "188962142",
+              "tokenType": "native"
+            }
+          }
+        },
+        "188962150": {
+          "chain_name": "crynux-rh-testnet",
+          "status": "live",
+          "website": "https://crynux.io",
+          "network_level": "mainnet",
+          "pretty_name": "Crynux on RH Testnet",
+          "chain_type": "eip155",
+          "chain_id": "188962150",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://json-rpc.rh-testnet.crynux.io",
+              "provider": "crynux"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_crynux.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CNX",
+              "name": "Testnet Crynux",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Crynux on RH Testnet",
+              "chainId": "188962150",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "188962150",
               "tokenType": "native"
             }
           }
@@ -190389,14 +191235,7 @@
               "originDenom": "uprysm",
               "originChainId": "prysm-devnet-1"
             }
-          },
-          "features": [
-            "packet-forward-middleware",
-            "ibc-hooks",
-            "ibc-callbacks",
-            "interchain-accounts",
-            "cosmwasm"
-          ]
+          }
         },
         "indigo-1": {
           "chain_name": "pryzmtestnet",
@@ -197420,8 +198259,8 @@
           ],
           "rpc_uris": [
             {
-              "address": "https://vinufoundation-rpc.com",
-              "provider": "vinufoundation-rpc"
+              "address": "https://testnet-rpc.vinuchain.org",
+              "provider": "vinuchain"
             }
           ],
           "rest_uris": [],
@@ -207459,6 +208298,56 @@
             }
           }
         },
+        "5151": {
+          "chain_name": "moca-devnet",
+          "status": "live",
+          "website": "https://mocachain.org",
+          "network_level": "testnet",
+          "pretty_name": "Moca Chain Devnet",
+          "chain_type": "eip155",
+          "chain_id": "5151",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.devnet-2.mocachain.dev",
+              "provider": "mocachain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_moca.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MOCA",
+              "name": "MOCA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Moca Chain Devnet",
+              "chainId": "5151",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "5151",
+              "tokenType": "native"
+            }
+          }
+        },
         "5330": {
           "chain_name": "sseed",
           "status": "live",
@@ -214340,6 +215229,14 @@
             {
               "address": "wss://robinhood-sepolia-rpc.publicnode.com",
               "provider": "publicnode"
+            },
+            {
+              "address": "https://robinhood-testnet.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://robinhood-testnet.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
@@ -215848,6 +216745,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "63002",
+              "tokenType": "native"
+            }
+          }
+        },
+        "64327": {
+          "chain_name": "midas-testnet",
+          "status": "live",
+          "website": "https://onmidas.xyz",
+          "network_level": "testnet",
+          "pretty_name": "Midas Testnet",
+          "chain_type": "eip155",
+          "chain_id": "64327",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.testnet.onmidas.xyz",
+              "provider": "onmidas"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MIDS",
+              "name": "Midas",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Midas Testnet",
+              "chainId": "64327",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "64327",
               "tokenType": "native"
             }
           }
@@ -217970,6 +218916,59 @@
             }
           }
         },
+        "131071": {
+          "chain_name": "mrsnt",
+          "status": "live",
+          "website": "https://mersennet.com",
+          "network_level": "testnet",
+          "pretty_name": "Mersennet Testnet",
+          "chain_type": "eip155",
+          "chain_id": "131071",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.mersennet.com",
+              "provider": "mersennet"
+            },
+            {
+              "address": "wss://rpc.mersennet.com",
+              "provider": "mersennet"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MRSN",
+              "name": "Mersennet",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Mersennet Testnet",
+              "chainId": "131071",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "131071",
+              "tokenType": "native"
+            }
+          }
+        },
         "139420": {
           "chain_name": "midxt",
           "status": "live",
@@ -218617,6 +219616,56 @@
             }
           }
         },
+        "222888": {
+          "chain_name": "moca-testnet",
+          "status": "live",
+          "website": "https://mocachain.org",
+          "network_level": "testnet",
+          "pretty_name": "Moca Chain Testnet",
+          "chain_type": "eip155",
+          "chain_id": "222888",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://testnet-rpc.mocachain.org",
+              "provider": "mocachain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_moca.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MOCA",
+              "name": "MOCA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Moca Chain Testnet",
+              "chainId": "222888",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "222888",
+              "tokenType": "native"
+            }
+          }
+        },
         "224422": {
           "chain_name": "conet-sebolia",
           "status": "live",
@@ -219234,6 +220283,59 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "314159",
+              "tokenType": "native"
+            }
+          }
+        },
+        "320261": {
+          "chain_name": "tnumn",
+          "status": "live",
+          "website": "https://numen-network.org",
+          "network_level": "testnet",
+          "pretty_name": "Numen Testnet",
+          "chain_type": "eip155",
+          "chain_id": "320261",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://testnet.rpc.numen-network.org",
+              "provider": "numen-network"
+            },
+            {
+              "address": "wss://testnet.rpc.numen-network.org",
+              "provider": "numen-network"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "tNUMN",
+              "name": "Testnet Numen",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Numen Testnet",
+              "chainId": "320261",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "320261",
               "tokenType": "native"
             }
           }
@@ -220777,6 +221879,55 @@
             }
           }
         },
+        "797290": {
+          "chain_name": "syrax-testnet",
+          "status": "live",
+          "website": "https://www.syrax.global",
+          "network_level": "testnet",
+          "pretty_name": "Syrax Chain Testnet",
+          "chain_type": "eip155",
+          "chain_id": "797290",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.syrax.global",
+              "provider": "syrax"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "SRX",
+              "name": "Syrax Token",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Syrax Chain Testnet",
+              "chainId": "797290",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "797290",
+              "tokenType": "native"
+            }
+          }
+        },
         "808080": {
           "chain_name": "bizt-testnet",
           "status": "live",
@@ -221748,6 +222899,14 @@
             {
               "address": "https://rpc.blockdaemon.testnet.arc.network",
               "provider": "arc"
+            },
+            {
+              "address": "https://arc-testnet.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://arc-testnet.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
