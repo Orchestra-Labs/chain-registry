@@ -2257,6 +2257,18 @@
           "channel_id": "channel-172"
         }
       },
+      "BLG24,osmosis-1": {
+        "BLG24": {
+          "client_id": "07-tendermint-12",
+          "connection_id": "connection-3",
+          "channel_id": "channel-1"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3758",
+          "connection_id": "connection-11098",
+          "channel_id": "channel-111099"
+        }
+      },
       "bluzelle-9,osmosis-1": {
         "bluzelle-9": {
           "client_id": "07-tendermint-0",
@@ -10968,9 +10980,9 @@
       }
     }
   },
-  "lastUpdated": "2026-10-02T07:50:53.647Z",
+  "lastUpdated": "2026-10-07T12:47:31.231Z",
   "commitHashes": {
-    "mainnetHash": "9bb28d941491f7f8b6617949fc7ef4d2c828f570",
-    "testnetHash": "9bb28d941491f7f8b6617949fc7ef4d2c828f570"
+    "mainnetHash": "c9d65b60bc0229c06d49ded805ba528f316bd9c7",
+    "testnetHash": "c9d65b60bc0229c06d49ded805ba528f316bd9c7"
   }
 }

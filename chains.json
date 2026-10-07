@@ -1,6 +1,6 @@
 {
-  "sha": "9bb28d941491f7f8b6617949fc7ef4d2c828f570",
-  "lastUpdated": "2026-10-02T07:23:43.948Z",
+  "sha": "c9d65b60bc0229c06d49ded805ba528f316bd9c7",
+  "lastUpdated": "2026-10-07T12:47:24.389Z",
   "data": {
     "mainnet": {
       "cosmos": {
@@ -2235,7 +2235,10 @@
               "originChainId": "dungeon-1",
               "tokenType": "ibc"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "aura_6322-2": {
           "chain_name": "aura",
@@ -7477,7 +7480,10 @@
               "originDenom": "utia",
               "originChainId": "celestia"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "cerberus-chain-1": {
           "chain_name": "cerberus",
@@ -10223,6 +10229,10 @@
             {
               "address": "https://cosmos-rpc.polkachu.com:443",
               "provider": "Polkachu"
+            },
+            {
+              "address": "https://cosmos-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -10349,6 +10359,10 @@
             {
               "address": "https://cosmoshub-rest.stakerhouse.com",
               "provider": "StakerHouse"
+            },
+            {
+              "address": "https://cosmos-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/cosmoshub/images/atom.png",
@@ -10971,7 +10985,10 @@
               "originChainId": "cosmoshub-4",
               "tokenType": "factory"
             }
-          }
+          },
+          "features": [
+            "interchain-accounts"
+          ]
         },
         "coss-1": {
           "chain_name": "coss",
@@ -12529,6 +12546,10 @@
             {
               "address": "https://rollapp.rpc.cumulo.com.es",
               "provider": "Cumulo"
+            },
+            {
+              "address": "https://dymension-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -12647,6 +12668,10 @@
             {
               "address": "https://rollapp.rest.cumulo.com.es",
               "provider": "Cumulo"
+            },
+            {
+              "address": "https://dymension-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dymension/images/dymension-logo.png",
@@ -12706,7 +12731,7 @@
         },
         "dyson-mainnet-01": {
           "chain_name": "dyson",
-          "status": "live",
+          "status": "killed",
           "website": "https://dysonprotocol.com/",
           "network_level": "mainnet",
           "pretty_name": "Dyson Protocol",
@@ -23548,6 +23573,10 @@
             {
               "address": "https://lava-rpc.polkachu.com:443",
               "provider": "Polkachu"
+            },
+            {
+              "address": "https://lava-mainnet-rpc.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "rest_uris": [
@@ -23634,6 +23663,10 @@
             {
               "address": "https://lava-api.polkachu.com",
               "provider": "Polkachu"
+            },
+            {
+              "address": "https://lava-mainnet-api.crouton.digital",
+              "provider": "Crouton Digital"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lava/images/lava.png",
@@ -24294,6 +24327,10 @@
             {
               "address": "https://rpc.nodesafe-app.xyz/lumen/",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://lumen-rpc.tintonode.win",
+              "provider": "TinTo"
             }
           ],
           "rest_uris": [
@@ -24324,6 +24361,10 @@
             {
               "address": "https://api.nodesafe-app.xyz/lumen",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://lumen-api.tintonode.win",
+              "provider": "TinTo"
             }
           ],
           "assets": {
@@ -26650,6 +26691,10 @@
             {
               "address": "https://rpc.nodesafe-app.xyz/mucoin/",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://rpc-mucoin.onenov.xyz",
+              "provider": "OneNov"
             }
           ],
           "rest_uris": [
@@ -26664,6 +26709,10 @@
             {
               "address": "https://api.nodesafe-app.xyz/mucoin",
               "provider": "NodeSafe"
+            },
+            {
+              "address": "https://api-mucoin.onenov.xyz",
+              "provider": "OneNov"
             }
           ],
           "assets": {
@@ -50109,6 +50158,10 @@
             {
               "address": "https://rpc2.safrochain.network",
               "provider": "Safrochain Foundation"
+            },
+            {
+              "address": "https://rpc.nodesafe-app.xyz/safro/",
+              "provider": "NodeSafe"
             }
           ],
           "rest_uris": [
@@ -50127,6 +50180,10 @@
             {
               "address": "https://api2.safrochain.network",
               "provider": "Safrochain Foundation"
+            },
+            {
+              "address": "https://api.nodesafe-app.xyz/safro",
+              "provider": "NodeSafe"
             }
           ],
           "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/safrochain/images/saf.png",
@@ -71115,10 +71172,6 @@
               "provider": "dcdao"
             },
             {
-              "address": "https://darwinia-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://darwinia.rpc.subquery.network/public",
               "provider": "subquery"
             }
@@ -75013,10 +75066,6 @@
               "provider": "ankr"
             },
             {
-              "address": "https://gnosischain-rpc.gateway.pokt.network",
-              "provider": "pokt"
-            },
-            {
               "address": "https://gnosis-mainnet.public.blastapi.io",
               "provider": "blastapi"
             },
@@ -75039,6 +75088,10 @@
             {
               "address": "wss://rpc.gnosischain.com/wss",
               "provider": "gnosischain"
+            },
+            {
+              "address": "https://gnosis-rpc.publicnode.com",
+              "provider": "publicnode"
             }
           ],
           "rest_uris": [],
@@ -82368,10 +82421,6 @@
               "provider": "boba"
             },
             {
-              "address": "https://replica.boba.network",
-              "provider": "boba"
-            },
-            {
               "address": "https://boba-ethereum.gateway.tenderly.co",
               "provider": "tenderly"
             },
@@ -83648,10 +83697,6 @@
               "provider": "onfinality"
             },
             {
-              "address": "https://shiden-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://shiden.public.blastapi.io",
               "provider": "blastapi"
             },
@@ -83662,10 +83707,6 @@
             {
               "address": "wss://shiden.public.blastapi.io",
               "provider": "blastapi"
-            },
-            {
-              "address": "wss://shiden-rpc.dwellir.com",
-              "provider": "dwellir"
             }
           ],
           "rest_uris": [],
@@ -83943,6 +83984,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "361",
+              "tokenType": "native"
+            }
+          }
+        },
+        "362": {
+          "chain_name": "dnc",
+          "status": "live",
+          "website": "https://dancore.io",
+          "network_level": "mainnet",
+          "pretty_name": "Dancore",
+          "chain_type": "eip155",
+          "chain_id": "362",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.dancorescan.com",
+              "provider": "dancorescan"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_dancore.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "DNC",
+              "name": "Dancore",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Dancore",
+              "chainId": "362",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "362",
               "tokenType": "native"
             }
           }
@@ -88637,6 +88728,55 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "777",
+              "tokenType": "native"
+            }
+          }
+        },
+        "784": {
+          "chain_name": "pxa",
+          "status": "live",
+          "website": "https://pxachain.com",
+          "network_level": "mainnet",
+          "pretty_name": "PXA Chain",
+          "chain_type": "eip155",
+          "chain_id": "784",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.pxachain.com",
+              "provider": "pxachain"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "PXA",
+              "name": "PXA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "PXA Chain",
+              "chainId": "784",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "784",
               "tokenType": "native"
             }
           }
@@ -95298,14 +95438,6 @@
               "provider": "blastapi"
             },
             {
-              "address": "https://moonbeam-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
-              "address": "wss://moonbeam-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://moonbeam.api.onfinality.io/public",
               "provider": "onfinality"
             },
@@ -95320,6 +95452,14 @@
             {
               "address": "wss://moonbeam.unitedbloc.com",
               "provider": "unitedbloc"
+            },
+            {
+              "address": "https://moonbeam-rpc.publicnode.com",
+              "provider": "publicnode"
+            },
+            {
+              "address": "wss://moonbeam-rpc.publicnode.com",
+              "provider": "publicnode"
             }
           ],
           "rest_uris": [],
@@ -95493,14 +95633,6 @@
               "provider": "blastapi"
             },
             {
-              "address": "https://moonriver-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
-              "address": "wss://moonriver-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://moonriver.api.onfinality.io/public",
               "provider": "onfinality"
             },
@@ -95515,6 +95647,14 @@
             {
               "address": "wss://moonriver.unitedbloc.com",
               "provider": "unitedbloc"
+            },
+            {
+              "address": "https://moonriver-rpc.publicnode.com",
+              "provider": "publicnode"
+            },
+            {
+              "address": "wss://moonriver-rpc.publicnode.com",
+              "provider": "publicnode"
             }
           ],
           "rest_uris": [],
@@ -102764,14 +102904,6 @@
               "provider": "onfinality"
             },
             {
-              "address": "https://centrifuge-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
-              "address": "wss://centrifuge-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://rpc-centrifuge.luckyfriday.io",
               "provider": "luckyfriday"
             },
@@ -103465,6 +103597,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "2089",
+              "tokenType": "native"
+            }
+          }
+        },
+        "2099": {
+          "chain_name": "pikochain",
+          "status": "live",
+          "website": "https://pikochain.serveousercontent.com",
+          "network_level": "mainnet",
+          "pretty_name": "PikoChain",
+          "chain_type": "eip155",
+          "chain_id": "2099",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://pikochain.serveousercontent.com",
+              "provider": "serveousercontent"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pikochain.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "PIKO",
+              "name": "PIKO",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "PikoChain",
+              "chainId": "2099",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "2099",
               "tokenType": "native"
             }
           }
@@ -104686,10 +104868,6 @@
               "provider": "kava"
             },
             {
-              "address": "https://kava-rpc.gateway.pokt.network",
-              "provider": "pokt"
-            },
-            {
               "address": "https://kava-evm.rpc.thirdweb.com",
               "provider": "thirdweb"
             },
@@ -104719,6 +104897,10 @@
             },
             {
               "address": "https://kava.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://kava.drpc.org",
               "provider": "drpc"
             }
           ],
@@ -105515,6 +105697,106 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "2370",
+              "tokenType": "native"
+            }
+          }
+        },
+        "2382": {
+          "chain_name": "aeva-testnet",
+          "status": "live",
+          "website": "https://aevachain.com",
+          "network_level": "mainnet",
+          "pretty_name": "Aeva Testnet",
+          "chain_type": "eip155",
+          "chain_id": "2382",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://evm.aevachain.com",
+              "provider": "aevachain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_aeva.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "AEVA",
+              "name": "AEVA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Aeva Testnet",
+              "chainId": "2382",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "2382",
+              "tokenType": "native"
+            }
+          }
+        },
+        "2383": {
+          "chain_name": "aeva",
+          "status": "live",
+          "website": "https://aevachain.org",
+          "network_level": "mainnet",
+          "pretty_name": "Aeva Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "2383",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://evm.aevachain.app",
+              "provider": "aevachain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_aeva.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "AEVA",
+              "name": "AEVA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Aeva Mainnet",
+              "chainId": "2383",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "2383",
               "tokenType": "native"
             }
           }
@@ -111580,6 +111862,55 @@
             }
           }
         },
+        "4221": {
+          "chain_name": "genlayer-testnet",
+          "status": "live",
+          "website": "https://genlayer.com",
+          "network_level": "mainnet",
+          "pretty_name": "GenLayer Testnet",
+          "chain_type": "eip155",
+          "chain_id": "4221",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.testnet-chain.genlayer.com",
+              "provider": "genlayer"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "GEN",
+              "name": "GEN Token",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "GenLayer Testnet",
+              "chainId": "4221",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "4221",
+              "tokenType": "native"
+            }
+          }
+        },
         "4242": {
           "chain_name": "nexi",
           "status": "live",
@@ -115651,6 +115982,56 @@
             }
           }
         },
+        "5680": {
+          "chain_name": "scdo0",
+          "status": "live",
+          "website": "https://scdoscan.io",
+          "network_level": "mainnet",
+          "pretty_name": "SCDO Shard0",
+          "chain_type": "eip155",
+          "chain_id": "5680",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://scdoscan.io/rpc/0",
+              "provider": "scdoscan"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_scdo.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "SCDO",
+              "name": "SCDO",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "SCDO Shard0",
+              "chainId": "5680",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "5680",
+              "tokenType": "native"
+            }
+          }
+        },
         "5729": {
           "chain_name": "hik",
           "status": "live",
@@ -116597,6 +116978,7 @@
             }
           ],
           "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_mizuhiki.jpg",
           "assets": {
             "wei": {
               "denom": "wei",
@@ -116613,6 +116995,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "6497",
+              "tokenType": "native"
+            }
+          }
+        },
+        "6498": {
+          "chain_name": "MIZUHIKI",
+          "status": "live",
+          "website": "https://mizuhiki.io/",
+          "network_level": "mainnet",
+          "pretty_name": "MIZUHIKI Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "6498",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.mizuhiki.io",
+              "provider": "mizuhiki"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_mizuhiki.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MIZU",
+              "name": "MIZU",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "MIZUHIKI Mainnet",
+              "chainId": "6498",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "6498",
               "tokenType": "native"
             }
           }
@@ -156642,7 +157074,7 @@
         },
         "177155": {
           "chain_name": "mfenx",
-          "status": "live",
+          "status": "killed",
           "website": "https://mfenx.com/power-house",
           "network_level": "mainnet",
           "pretty_name": "mfenx",
@@ -158144,14 +158576,6 @@
             {
               "address": "wss://rpc.heima-parachain.heima.network",
               "provider": "heima"
-            },
-            {
-              "address": "https://litentry-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
-              "address": "wss://litentry-rpc.dwellir.com",
-              "provider": "dwellir"
             }
           ],
           "rest_uris": [],
@@ -159698,6 +160122,68 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "281123",
+              "tokenType": "native"
+            }
+          }
+        },
+        "290290": {
+          "chain_name": "pmt",
+          "status": "live",
+          "website": "https://publicmasterpiece.com",
+          "network_level": "mainnet",
+          "pretty_name": "PMT Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "290290",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://node1.pmtchain.com",
+              "provider": "pmtchain"
+            },
+            {
+              "address": "https://node2.pmtchain.com",
+              "provider": "pmtchain"
+            },
+            {
+              "address": "https://node3.pmtchain.com",
+              "provider": "pmtchain"
+            },
+            {
+              "address": "https://node4.pmtchain.com",
+              "provider": "pmtchain"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pmt.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "PMT",
+              "name": "PMT",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "PMT Mainnet",
+              "chainId": "290290",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "290290",
               "tokenType": "native"
             }
           }
@@ -161505,6 +161991,60 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "474142",
+              "tokenType": "native"
+            }
+          }
+        },
+        "482120": {
+          "chain_name": "btcwchain",
+          "status": "live",
+          "website": "https://btcw.tech",
+          "network_level": "mainnet",
+          "pretty_name": "Bitcoin Swap",
+          "chain_type": "eip155",
+          "chain_id": "482120",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.btcw.tech",
+              "provider": "btcw"
+            },
+            {
+              "address": "wss://rpc.btcw.tech/ws",
+              "provider": "btcw"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_bitcoinswap.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "BTCw",
+              "name": "Bitcoin Swap",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Bitcoin Swap",
+              "chainId": "482120",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "482120",
               "tokenType": "native"
             }
           }
@@ -167279,6 +167819,56 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "1637450",
+              "tokenType": "native"
+            }
+          }
+        },
+        "1658000": {
+          "chain_name": "bana",
+          "status": "live",
+          "website": "https://banascan.com",
+          "network_level": "mainnet",
+          "pretty_name": "Bana Mainnet",
+          "chain_type": "eip155",
+          "chain_id": "1658000",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.banascan.com",
+              "provider": "banascan"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_bana.jpg",
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "BWA",
+              "name": "BWA",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Bana Mainnet",
+              "chainId": "1658000",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "1658000",
               "tokenType": "native"
             }
           }
@@ -202488,14 +203078,6 @@
               "provider": "blastapi"
             },
             {
-              "address": "https://moonbase-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
-              "address": "wss://moonbase-rpc.dwellir.com",
-              "provider": "dwellir"
-            },
-            {
               "address": "https://moonbeam-alpha.api.onfinality.io/public",
               "provider": "onfinality"
             },
@@ -202510,6 +203092,14 @@
             {
               "address": "wss://moonbase.unitedbloc.com",
               "provider": "unitedbloc"
+            },
+            {
+              "address": "https://moonbase-alpha.drpc.org",
+              "provider": "drpc"
+            },
+            {
+              "address": "wss://moonbase-alpha.drpc.org",
+              "provider": "drpc"
             }
           ],
           "rest_uris": [],
@@ -213650,6 +214240,59 @@
             }
           }
         },
+        "19480": {
+          "chain_name": "qmstest",
+          "status": "live",
+          "website": "https://qms.finance",
+          "network_level": "testnet",
+          "pretty_name": "QMS Testnet",
+          "chain_type": "eip155",
+          "chain_id": "19480",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.testnet.qms.finance",
+              "provider": "qms"
+            },
+            {
+              "address": "wss://rpc.testnet.qms.finance",
+              "provider": "qms"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "QMS",
+              "name": "QMS",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "QMS Testnet",
+              "chainId": "19480",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "19480",
+              "tokenType": "native"
+            }
+          }
+        },
         "19777": {
           "chain_name": "astra-sepolia",
           "status": "live",
@@ -216798,6 +217441,59 @@
             }
           }
         },
+        "64460": {
+          "chain_name": "migo-test",
+          "status": "live",
+          "website": "https://github.com/MigoChain/MigoChain-Core",
+          "network_level": "testnet",
+          "pretty_name": "MigoChain Testnet",
+          "chain_type": "eip155",
+          "chain_id": "64460",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.testnet.migochain.org",
+              "provider": "migochain"
+            },
+            {
+              "address": "wss://rpc.testnet.migochain.org/ws",
+              "provider": "migochain"
+            }
+          ],
+          "rest_uris": [],
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "MIGO",
+              "name": "MigoCoin",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "MigoChain Testnet",
+              "chainId": "64460",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "64460",
+              "tokenType": "native"
+            }
+          }
+        },
         "66988": {
           "chain_name": "janusnetwork-testnet",
           "status": "live",
@@ -217584,10 +218280,6 @@
             "wei"
           ],
           "rpc_uris": [
-            {
-              "address": "https://rpc-amoy.polygon.technology",
-              "provider": "polygon"
-            },
             {
               "address": "https://polygon-amoy-bor-rpc.publicnode.com",
               "provider": "publicnode"
