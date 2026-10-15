@@ -5708,6 +5708,18 @@
           "channel_id": "channel-110655"
         }
       },
+      "1776,ixo-5": {
+        "1776": {
+          "client_id": "07-tendermint-361",
+          "connection_id": "connection-382",
+          "channel_id": "channel-502"
+        },
+        "ixo-5": {
+          "client_id": "07-tendermint-65",
+          "connection_id": "connection-48",
+          "channel_id": "channel-31"
+        }
+      },
       "ixo-5,noble-1": {
         "ixo-5": {
           "client_id": "07-tendermint-59",
@@ -10980,9 +10992,9 @@
       }
     }
   },
-  "lastUpdated": "2026-10-07T12:47:31.231Z",
+  "lastUpdated": "2026-10-15T01:39:55.035Z",
   "commitHashes": {
-    "mainnetHash": "c9d65b60bc0229c06d49ded805ba528f316bd9c7",
-    "testnetHash": "c9d65b60bc0229c06d49ded805ba528f316bd9c7"
+    "mainnetHash": "854c6cf74beb51b5a964413d584661b17a314e19",
+    "testnetHash": "854c6cf74beb51b5a964413d584661b17a314e19"
   }
 }
