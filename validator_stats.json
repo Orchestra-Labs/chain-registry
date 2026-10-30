@@ -1,56 +1,56 @@
 {
-  "lastUpdated": "2026-10-30T07:10:26.642Z",
+  "lastUpdated": "2026-10-30T07:15:28.343Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 2108,
-          "consecutiveInfraFailures": 35,
+          "consecutiveInfraFailures": 36,
           "blacklistedUntil": 1793346322443,
           "blacklistCount": 2,
-          "redemptionStartTimestamp": 1793344224142
+          "redemptionStartTimestamp": 1793344524054
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 3600,
-          "consecutiveInfraFailures": 35,
+          "consecutiveInfraFailures": 36,
           "blacklistedUntil": 1793346324844,
           "blacklistCount": 2,
-          "redemptionStartTimestamp": 1793344225542
+          "redemptionStartTimestamp": 1793344526542
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 2000,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793344225542
+          "redemptionStartTimestamp": 1793344526542
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 1900,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793344225542
+          "redemptionStartTimestamp": 1793344526542
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 5899,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793344226642
+          "redemptionStartTimestamp": 1793344528343
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 35,
+          "failedQueries": 36,
           "longestQueryTime": 4699,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793344226642
+          "redemptionStartTimestamp": 1793344528343
         }
       }
     }
