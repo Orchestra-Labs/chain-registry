@@ -1,48 +1,48 @@
 {
-  "lastUpdated": "2026-11-02T10:51:14.993Z",
+  "lastUpdated": "2026-11-02T10:56:13.294Z",
   "data": {
     "symphony-1": {
       "rpc": {},
       "rest": {
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 59,
+          "failedQueries": 60,
           "longestQueryTime": 1265,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793616673893
+          "redemptionStartTimestamp": 1793616972293
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 59,
+          "failedQueries": 60,
           "longestQueryTime": 1000,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793616673893
+          "redemptionStartTimestamp": 1793616972293
         },
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 59,
+          "failedQueries": 60,
           "longestQueryTime": 1200,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793616674993
+          "redemptionStartTimestamp": 1793616973294
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 59,
+          "failedQueries": 60,
           "longestQueryTime": 1500,
           "consecutiveInfraFailures": 0,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793616674993
+          "redemptionStartTimestamp": 1793616973294
         },
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 1,
+          "failedQueries": 2,
           "longestQueryTime": 2360,
-          "consecutiveInfraFailures": 1,
+          "consecutiveInfraFailures": 2,
           "blacklistedUntil": 0,
           "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793616673893
+          "redemptionStartTimestamp": 1793616972293
         }
       }
     }
