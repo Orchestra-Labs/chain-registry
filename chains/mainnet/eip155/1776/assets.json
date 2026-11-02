@@ -1,0 +1,27 @@
+{
+  "wei": {
+    "symbol": "INJ",
+    "name": "Injective",
+    "exponent": 18,
+    "isFeeToken": true
+  },
+  "0xa00C59fF5a080D2b954d0c75e46E22a0c371235a": {
+    "symbol": "USDC",
+    "name": "USDC",
+    "exponent": 6,
+    "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/ethereum/images/usdc.png",
+    "coinGeckoId": "usd-coin",
+    "contractAddress": "0xa00C59fF5a080D2b954d0c75e46E22a0c371235a",
+    "tokenType": "erc20"
+  },
+  "_sources": {
+    "0xa00C59fF5a080D2b954d0c75e46E22a0c371235a": {
+      "reason": "Circle-issued native USDC on Injective EVM (chain 1776); not in upstream ethereum-lists or cosmos/chain-registry _non-cosmos.",
+      "evidence": [
+        "https://developers.circle.com/stablecoins/usdc-contract-addresses (Mainnet table, Injective: 0xa00C59fF5a080D2b954d0c75e46E22a0c371235a)",
+        "eth_call via https://sentry.evm-rpc.injective.network (eth_chainId 1776): symbol() = USDC, name() = USDC, decimals() = 6, contract code present"
+      ],
+      "checked": "2026-11-01"
+    }
+  }
+}

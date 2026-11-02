@@ -1,0 +1,45 @@
+{
+  "chain_name": "wardenprotocol",
+  "status": "live",
+  "pretty_name": "Warden",
+  "chain_type": "cosmos",
+  "chain_id": "warden_8765-1",
+  "bech32_prefix": "warden",
+  "slip44": 60,
+  "website": "https://wardenprotocol.org/",
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
+  "fees": [
+    {
+      "denom": "award",
+      "gasPriceStep": {
+        "low": 196000000000,
+        "average": 225400000000,
+        "high": 254800000000
+      }
+    }
+  ],
+  "staking_denoms": [
+    "award"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://rpc.wardenprotocol.org",
+      "provider": "Warden Labs"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://api.wardenprotocol.org",
+      "provider": "Warden Labs"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has key_algos [\"ethsecp256k1\"] but slip44 118, contradicting the chain's coin type.",
+    "evidence": [
+      "https://github.com/warden-protocol/wardenprotocol/blob/bbb3d8ef4d6041827184a7b5a4d0de7ab6976e18/cmd/wardend/config/config.go (SetCoinType(types.Bip44CoinType) from github.com/cosmos/evm/types)",
+      "https://github.com/cosmos/evm/blob/bb6162e10da6/types/hdpath.go (Bip44CoinType = 60); https://github.com/cosmos/evm/blob/bb6162e10da6/crypto/keyring/options.go (SupportedAlgorithms = {hd.EthSecp256k1})"
+    ],
+    "version": "v0.7.0 (upstream recommended_version)",
+    "checked": "2026-11-01"
+  }
+}

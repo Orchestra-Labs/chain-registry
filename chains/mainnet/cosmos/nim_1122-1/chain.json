@@ -1,0 +1,50 @@
+{
+  "chain_name": "nim",
+  "status": "live",
+  "pretty_name": "Nim Network",
+  "chain_type": "cosmos",
+  "chain_id": "nim_1122-1",
+  "bech32_prefix": "nim",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "website": "https://nim.network",
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
+  "fees": [
+    {
+      "denom": "anim",
+      "gasPriceStep": {
+        "low": 20000000000,
+        "average": 20000000000,
+        "high": 20000000000
+      }
+    }
+  ],
+  "staking_denoms": [
+    "anim"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://rpc.mainnet.nimnet.tech",
+      "provider": "NIM Foundation"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://rest.mainnet.nimnet.tech",
+      "provider": "NIM Foundation"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos. Nim's own repo is deleted; its recommended_version v2.1.3-rc02 is a dymensionxyz/rollapp-evm tag (Nim is a Dymension rollapp).",
+    "evidence": [
+      "https://github.com/dymensionxyz/rollapp-evm/blob/6c745ac8ace927f41b163d662d0c60f5797cde96/cmd/rollappd/cmd/root.go (WithKeyringOptions(hd.EthSecp256k1Option()), utils.SetBip44CoinType)",
+      "https://github.com/dymensionxyz/rollapp-evm/blob/6c745ac8ace927f41b163d662d0c60f5797cde96/utils/cmd_utils.go (SetCoinType(ethermint.Bip44CoinType))",
+      "https://github.com/dymensionxyz/evmos/blob/acbc0d2c4f384aeff485357911aa2e656c6193d7/types/hdpath.go (Bip44CoinType = 60)",
+      "https://github.com/dymensionxyz/evmos/blob/acbc0d2c4f384aeff485357911aa2e656c6193d7/client/keys.go (new keys default to eth_secp256k1)",
+      "https://github.com/chainapsis/keplr-chain-registry/blob/9eddd8d77453973dd2f6e03fe7a098ba8b83e5b6/cosmos/nim_1122.json (coinType 60; features eth-address-gen, eth-key-sign)"
+    ],
+    "version": "v2.1.3-rc02 (upstream recommended_version) = rollapp-evm 6c745ac",
+    "checked": "2026-11-02"
+  }
+}

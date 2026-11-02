@@ -1,0 +1,34 @@
+{
+  "chain_name": "buycex",
+  "status": "live",
+  "pretty_name": "BuyCex Infinity Chain",
+  "chain_type": "cosmos",
+  "chain_id": "bcx_323-1",
+  "bech32_prefix": "bcx",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "website": "https://infinity.buycex.com",
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/buycex/images/bcx.png",
+  "rpc_uris": [
+    {
+      "address": "https://endpoint.buycex.net",
+      "provider": "buycex"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://api.buycex.net",
+      "provider": "buycex"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos. BuyCex's node source is not public (upstream git_repo github.com/cosvmlabs/buycex-chain returns 404); this rests on Keplr's registry.",
+    "evidence": [
+      "https://github.com/chainapsis/keplr-chain-registry/blob/9eddd8d77453973dd2f6e03fe7a098ba8b83e5b6/cosmos/bcx_323.json (coinType 60; features eth-address-gen, eth-key-sign)",
+      "https://github.com/cosvmlabs/BuyCex-Explorer/tree/311d359564943260ae0485fd7059a873841f7e41/ (Blockscout EVM explorer fork: the chain runs an EVM)"
+    ],
+    "version": "upstream recommended_version; node source unavailable",
+    "checked": "2026-11-02"
+  }
+}

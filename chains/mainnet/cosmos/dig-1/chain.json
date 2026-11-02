@@ -1,0 +1,55 @@
+{
+  "chain_name": "dig",
+  "status": "killed",
+  "pretty_name": "Dig Chain",
+  "chain_type": "cosmos",
+  "chain_id": "dig-1",
+  "bech32_prefix": "dig",
+  "key_algos": [
+    "secp256k1"
+  ],
+  "website": "https://digchain.org/",
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png",
+  "fees": [
+    {
+      "denom": "udig",
+      "gasPriceStep": {
+        "low": 0.025,
+        "average": 0.03,
+        "high": 0.035
+      }
+    }
+  ],
+  "staking_denoms": [
+    "udig"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://rpc-1-dig.notional.ventures",
+      "provider": "Unknown"
+    },
+    {
+      "address": "https://rpc-dig-ia.cosmosia.notional.ventures/",
+      "provider": "Notional"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://api-1-dig.notional.ventures",
+      "provider": "Unknown"
+    },
+    {
+      "address": "https://api-dig-ia.cosmosia.notional.ventures/",
+      "provider": "Notional"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry lists key_algos [\"secp256k1\", \"ethsecp256k1\"], but the chain has no Ethermint key support.",
+    "evidence": [
+      "https://github.com/notional-labs/dig/blob/efe9eaf4508e9ba5c02b1943fbaaf36b5d1f4dfa/go.mod (no ethermint dependency; plain cosmos-sdk v0.44.5 fork) and no custom keyring options or coin type in cmd/ (SDK defaults: secp256k1, coin type 118); v3.6.0 go.mod also has no ethermint",
+      "https://github.com/notional-labs/dig/tree/5cd230ab834b8d5d2e57856bedfe2cddb52ac56d/networks/mainnets/dig-1/gentx (8 of 8 sampled gentxs sign with /cosmos.crypto.secp256k1.PubKey)"
+    ],
+    "version": "v1.0.0 (upstream recommended_version); chain status killed",
+    "checked": "2026-11-01"
+  }
+}

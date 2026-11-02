@@ -1,0 +1,41 @@
+{
+  "chain_name": "okexchain",
+  "status": "live",
+  "pretty_name": "OKExChain",
+  "chain_type": "cosmos",
+  "chain_id": "exchain-66",
+  "bech32_prefix": "ex",
+  "slip44": 996,
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png",
+  "fees": [
+    {
+      "denom": "wei",
+      "gasPriceStep": {
+        "low": 200000000,
+        "average": 250000000,
+        "high": 400000000
+      }
+    }
+  ],
+  "staking_denoms": [
+    "wei"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://exchaintmrpc.okex.org",
+      "provider": "okx chain"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has slip44 60 and omits key_algos; the chain's own source sets coin type 996 and defaults keys to eth_secp256k1.",
+    "evidence": [
+      "https://github.com/okex/exchain/blob/a0a25945fe0366f89e08b67746950116ba79cbc2/app/types/config.go (Bip44CoinType = 996, BIP44HDPathOKExChain = m/44'/996'/0'/0/0; applied by SetBip44CoinType in cmd/exchaind/main.go)",
+      "https://github.com/okex/exchain/blob/a0a25945fe0366f89e08b67746950116ba79cbc2/cmd/client/keys.go (keys add default algo set to eth_secp256k1; keyring built with hd.EthSecp256k1Options())"
+    ],
+    "version": "v1.6.1.1 (upstream recommended_version)",
+    "checked": "2026-11-01"
+  }
+}

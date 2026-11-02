@@ -1,0 +1,75 @@
+{
+  "chain_name": "canto",
+  "status": "live",
+  "pretty_name": "Canto",
+  "chain_type": "cosmos",
+  "chain_id": "canto_7700-1",
+  "bech32_prefix": "canto",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "website": "https://canto.io/",
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/canto/images/canto.png",
+  "fees": [
+    {
+      "denom": "acanto",
+      "gasPriceStep": {
+        "low": 1000000000000,
+        "average": 2000000000000,
+        "high": 3000000000000
+      }
+    }
+  ],
+  "staking_denoms": [
+    "acanto"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://canto-rpc.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://rpc.canto.silentvalidator.com/",
+      "provider": "silent"
+    },
+    {
+      "address": "https://canto.gravitychain.io:26657",
+      "provider": "Althea"
+    },
+    {
+      "address": "https://canto-mainnet-rpc.autostake.com:443",
+      "provider": "AutoStake 🛡️ Slash Protected"
+    },
+    {
+      "address": "https://rpc-canto.kewrnode.com",
+      "provider": "Kewr Node"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://canto-api.polkachu.com",
+      "provider": "Polkachu"
+    },
+    {
+      "address": "https://api.canto.silentvalidator.com/",
+      "provider": "silent"
+    },
+    {
+      "address": "https://canto-mainnet-lcd.autostake.com:443",
+      "provider": "AutoStake 🛡️ Slash Protected"
+    },
+    {
+      "address": "https://rest-canto.kewrnode.com",
+      "provider": "Kewr Node"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos.",
+    "evidence": [
+      "https://github.com/Canto-Network/Canto/blob/da939e2935d0661eb68449bfd64122efce6f6871/crypto/keyring/options.go (SupportedAlgorithms = {hd.EthSecp256k1}; wired via WithKeyringOptions in cmd/cantod/root.go)",
+      "https://github.com/Canto-Network/Canto/blob/da939e2935d0661eb68449bfd64122efce6f6871/cmd/config/config.go (SetCoinType(ethermint.Bip44CoinType)); github.com/evmos/ethermint v0.19.3 types/hdpath.go: Bip44CoinType = 60"
+    ],
+    "version": "v7.0.0 (upstream recommended_version)",
+    "checked": "2026-11-01"
+  }
+}

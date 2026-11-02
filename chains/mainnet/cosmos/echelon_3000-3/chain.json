@@ -1,0 +1,54 @@
+{
+  "chain_name": "echelon",
+  "status": "live",
+  "pretty_name": "Echelon",
+  "chain_type": "cosmos",
+  "chain_id": "echelon_3000-3",
+  "bech32_prefix": "echelon",
+  "key_algos": [
+    "ethsecp256k1"
+  ],
+  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png",
+  "fees": [
+    {
+      "denom": "aechelon",
+      "gasPriceStep": {
+        "low": 10000000000,
+        "average": 25000000000,
+        "high": 40000000000
+      }
+    }
+  ],
+  "staking_denoms": [
+    "aechelon"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://ech01trpc.mindheartsoul.org",
+      "provider": "Mind Heart Soul"
+    },
+    {
+      "address": "https://rpc.echjoker.lol",
+      "provider": "⚡ Echelon Joker ⚛ 🃏"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://ech01api.mindheartsoul.org",
+      "provider": "Mind Heart Soul"
+    },
+    {
+      "address": "https://api.echjoker.lol",
+      "provider": "⚡ Echelon Joker ⚛ 🃏"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos.",
+    "evidence": [
+      "https://github.com/echelonfoundation/echelon/blob/cf6137cdde3090acf17aa72cb55ececa4599a6aa/crypto/keyring/options.go (SupportedAlgorithms = {hd.EthSecp256k1}; wired via WithKeyringOptions in cmd/echelond/root.go)",
+      "https://github.com/echelonfoundation/echelon/blob/cf6137cdde3090acf17aa72cb55ececa4599a6aa/cmd/config/config.go (SetCoinType(ethermint.Bip44CoinType)); github.com/tharsis/ethermint v0.14.1 types/hdpath.go: Bip44CoinType = 60"
+    ],
+    "version": "v1.1.4 (upstream recommended_version)",
+    "checked": "2026-11-01"
+  }
+}

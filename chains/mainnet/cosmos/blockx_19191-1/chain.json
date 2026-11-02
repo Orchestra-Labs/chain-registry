@@ -1,0 +1,42 @@
+{
+  "chain_name": "blockx",
+  "status": "live",
+  "pretty_name": "BlockX",
+  "chain_type": "cosmos",
+  "chain_id": "blockx_19191-1",
+  "bech32_prefix": "blockx",
+  "slip44": 60,
+  "website": "https://www.blockxnet.com/",
+  "staking_denoms": [
+    "abcx"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://rpc-blockx.nodeist.net",
+      "provider": "Nodeist"
+    },
+    {
+      "address": "https://blockx_mainnet_rpc.chain.whenmoonwhenlambo.money",
+      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+    }
+  ],
+  "rest_uris": [
+    {
+      "address": "https://api-blockx.nodeist.net",
+      "provider": "Nodeist"
+    },
+    {
+      "address": "https://blockx_mainnet_api.chain.whenmoonwhenlambo.money",
+      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
+    }
+  ],
+  "_key_type_source": {
+    "reason": "Upstream cosmos/chain-registry has key_algos [\"ethsecp256k1\"] but slip44 118, contradicting the chain's coin type.",
+    "evidence": [
+      "https://github.com/BlockXLabs/BlockX-Node/blob/adce8ab63bac6a7527ce78856dd0bd15a8d75535/cmd/config/config.go (SetCoinType(ethermint.Bip44CoinType)); github.com/evmos/ethermint v0.19.0 types/hdpath.go: Bip44CoinType = 60",
+      "https://github.com/BlockXLabs/BlockX-Node/blob/adce8ab63bac6a7527ce78856dd0bd15a8d75535/crypto/keyring/options.go (SupportedAlgorithms = {hd.EthSecp256k1})"
+    ],
+    "version": "BlockX-Node default branch adce8ab (2023-12-05); upstream chain.json lists no codebase, and the repo's go.mod module path is bcx-testnet-7",
+    "checked": "2026-11-01"
+  }
+}
