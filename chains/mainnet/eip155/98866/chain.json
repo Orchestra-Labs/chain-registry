@@ -1,0 +1,11 @@
+{
+  "network_level": "mainnet",
+  "_network_level_source": {
+    "reason": "Plume (98866) is a mainnet. ethereum-lists gives it slip44 1, so evmChainFetcher files it as testnet; this moves the upstream record to mainnet.",
+    "evidence": [
+      "https://docs.plume.org/plume/developers/network-information (Mainnet chain ID 98866, RPC https://rpc.plume.org, token PLUME; testnet 98867)",
+      "eth_chainId via https://rpc.plume.org on 2026-11-02T23:38Z: 0x18232 (98866); eth_blockNumber 0x628e0cb"
+    ],
+    "checked": "2026-11-02"
+  }
+}

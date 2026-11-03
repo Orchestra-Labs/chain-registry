@@ -1,0 +1,20 @@
+{
+  "wei": {
+    "symbol": "HYPE",
+    "name": "Hyperliquid",
+    "exponent": 18,
+    "logo": "https://icons.llamao.fi/icons/chains/rsz_hyperliquid.jpg",
+    "coinGeckoId": "hyperliquid",
+    "isFeeToken": true,
+    "tokenType": "native"
+  },
+  "_sources": {
+    "wei": {
+      "reason": "HyperEVM native gas token.",
+      "evidence": [
+        "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm (HYPE, 18 decimals on HyperEVM)"
+      ],
+      "checked": "2026-11-02"
+    }
+  }
+}

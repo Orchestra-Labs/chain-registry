@@ -1,0 +1,11 @@
+{
+  "network_level": "mainnet",
+  "_network_level_source": {
+    "reason": "World Chain (480) is a mainnet. ethereum-lists gives it slip44 1, so evmChainFetcher files it as testnet; this moves the upstream record to mainnet.",
+    "evidence": [
+      "https://docs.world.org/world-chain/quick-start/info (World Chain Mainnet: ID 480 (0x1e0), RPC worldchain-mainnet.g.alchemy.com/public; World Chain Sepolia is 4801)",
+      "eth_chainId via https://worldchain-mainnet.g.alchemy.com/public on 2026-11-02T23:38Z: 0x1e0 (480); eth_blockNumber 0x23711ff"
+    ],
+    "checked": "2026-11-02"
+  }
+}

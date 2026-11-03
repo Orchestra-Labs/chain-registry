@@ -1,0 +1,41 @@
+{
+  "chain_name": "hyperevm",
+  "status": "live",
+  "website": "https://hyperfoundation.org",
+  "network_level": "mainnet",
+  "pretty_name": "HyperEVM",
+  "chain_type": "eip155",
+  "chain_id": "999",
+  "bech32_prefix": "",
+  "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_hyperliquid.jpg",
+  "fees": [
+    {
+      "denom": "wei",
+      "gasPriceStep": {
+        "low": 0.01,
+        "average": 0.025,
+        "high": 0.04
+      }
+    }
+  ],
+  "staking_denoms": [
+    "wei"
+  ],
+  "rpc_uris": [
+    {
+      "address": "https://rpc.hyperliquid.xyz/evm",
+      "provider": "Hyperliquid"
+    }
+  ],
+  "rest_uris": [],
+  "_chain_source": {
+    "reason": "HyperEVM mainnet uses chain ID 999, which ethereum-lists assigns to Wanchain Testnet (filed under testnet/eip155/999, left there). Upstream has no HyperEVM record, so this override adds it under mainnet. Both chains answer eth_chainId 0x3e7: the ID collides.",
+    "evidence": [
+      "https://hyperliquid.gitbook.io/hyperliquid-docs/for-developers/hyperevm (mainnet chain ID 999, RPC https://rpc.hyperliquid.xyz/evm; testnet 998; \"HYPE is the native gas token on the HyperEVM\", 18 decimals)",
+      "eth_chainId via https://rpc.hyperliquid.xyz/evm on 2026-11-02T23:38Z: 0x3e7 (999); eth_blockNumber 0x2fe704c",
+      "eth_chainId via https://gwan-ssl.wandevs.org:46891/ (ethereum-lists Wanchain Testnet RPC) on 2026-11-02T23:38Z: also 0x3e7",
+      "https://api.coingecko.com/api/v3/coins/hyperliquid (id hyperliquid, symbol hype)"
+    ],
+    "checked": "2026-11-02"
+  }
+}

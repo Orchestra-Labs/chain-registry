@@ -1,0 +1,11 @@
+{
+  "network_level": "mainnet",
+  "_network_level_source": {
+    "reason": "Morph (2818) is a mainnet. ethereum-lists gives it slip44 1, so evmChainFetcher files it as testnet; this moves the upstream record to mainnet.",
+    "evidence": [
+      "https://docs.morph.network/docs/build-on-morph/developer-resources/contracts (Morph Mainnet: chain ID 2818, RPC https://rpc-bgw.morph.network)",
+      "eth_chainId via https://rpc.morph.network on 2026-11-02T23:38Z: 0xb02 (2818); eth_blockNumber 0x1bdcd4d"
+    ],
+    "checked": "2026-11-02"
+  }
+}
