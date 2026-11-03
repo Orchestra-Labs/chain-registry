@@ -1,0 +1,15 @@
+{
+  "0x55d398326f99059fF775485246999027B3197955": {
+    "exponent": 18
+  },
+  "_sources": {
+    "0x55d398326f99059fF775485246999027B3197955": {
+      "reason": "Binance-Peg BSC-USD (USDT) has 18 decimals on chain; cosmos/chain-registry _non-cosmos/binancesmartchain lists it with exponent 6. Trust Wallet's list gave the same contract in lowercase with 18, so the registry published two assets 10^12 apart and routing quoted them so (routing-service TESTING_ROADMAP section 9 timing run).",
+      "evidence": [
+        "eth_call via https://bsc-rpc.publicnode.com (eth_chainId 56): decimals() = 18",
+        "Relay /chains (api.relay.link) and NEAR Intents 1Click /v0/tokens both list 0x55d398326f99059ff775485246999027b3197955 on BSC with 18 decimals"
+      ],
+      "checked": "2026-11-02"
+    }
+  }
+}
