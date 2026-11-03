@@ -1,26 +1,6 @@
 {
-  "chain_name": "buycex",
-  "status": "live",
-  "pretty_name": "BuyCex Infinity Chain",
-  "chain_type": "cosmos",
-  "chain_id": "bcx_323-1",
-  "bech32_prefix": "bcx",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "website": "https://infinity.buycex.com",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/buycex/images/bcx.png",
-  "rpc_uris": [
-    {
-      "address": "https://endpoint.buycex.net",
-      "provider": "buycex"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://api.buycex.net",
-      "provider": "buycex"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos. BuyCex's node source is not public (upstream git_repo github.com/cosvmlabs/buycex-chain returns 404); this rests on Keplr's registry.",

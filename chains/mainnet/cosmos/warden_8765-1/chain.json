@@ -1,38 +1,5 @@
 {
-  "chain_name": "wardenprotocol",
-  "status": "live",
-  "pretty_name": "Warden",
-  "chain_type": "cosmos",
-  "chain_id": "warden_8765-1",
-  "bech32_prefix": "warden",
   "slip44": 60,
-  "website": "https://wardenprotocol.org/",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/wardenprotocol/images/ward.png",
-  "fees": [
-    {
-      "denom": "award",
-      "gasPriceStep": {
-        "low": 196000000000,
-        "average": 225400000000,
-        "high": 254800000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "award"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc.wardenprotocol.org",
-      "provider": "Warden Labs"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://api.wardenprotocol.org",
-      "provider": "Warden Labs"
-    }
-  ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has key_algos [\"ethsecp256k1\"] but slip44 118, contradicting the chain's coin type.",
     "evidence": [

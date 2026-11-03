@@ -1,47 +1,6 @@
 {
-  "chain_name": "dig",
-  "status": "killed",
-  "pretty_name": "Dig Chain",
-  "chain_type": "cosmos",
-  "chain_id": "dig-1",
-  "bech32_prefix": "dig",
   "key_algos": [
     "secp256k1"
-  ],
-  "website": "https://digchain.org/",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/dig/images/dig.png",
-  "fees": [
-    {
-      "denom": "udig",
-      "gasPriceStep": {
-        "low": 0.025,
-        "average": 0.03,
-        "high": 0.035
-      }
-    }
-  ],
-  "staking_denoms": [
-    "udig"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc-1-dig.notional.ventures",
-      "provider": "Unknown"
-    },
-    {
-      "address": "https://rpc-dig-ia.cosmosia.notional.ventures/",
-      "provider": "Notional"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://api-1-dig.notional.ventures",
-      "provider": "Unknown"
-    },
-    {
-      "address": "https://api-dig-ia.cosmosia.notional.ventures/",
-      "provider": "Notional"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry lists key_algos [\"secp256k1\", \"ethsecp256k1\"], but the chain has no Ethermint key support.",

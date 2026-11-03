@@ -1,35 +1,5 @@
 {
-  "chain_name": "blockx",
-  "status": "live",
-  "pretty_name": "BlockX",
-  "chain_type": "cosmos",
-  "chain_id": "blockx_19191-1",
-  "bech32_prefix": "blockx",
   "slip44": 60,
-  "website": "https://www.blockxnet.com/",
-  "staking_denoms": [
-    "abcx"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc-blockx.nodeist.net",
-      "provider": "Nodeist"
-    },
-    {
-      "address": "https://blockx_mainnet_rpc.chain.whenmoonwhenlambo.money",
-      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://api-blockx.nodeist.net",
-      "provider": "Nodeist"
-    },
-    {
-      "address": "https://blockx_mainnet_api.chain.whenmoonwhenlambo.money",
-      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-    }
-  ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has key_algos [\"ethsecp256k1\"] but slip44 118, contradicting the chain's coin type.",
     "evidence": [

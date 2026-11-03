@@ -1,62 +1,6 @@
 {
-  "chain_name": "lambda",
-  "status": "live",
-  "pretty_name": "Lambda",
-  "chain_type": "cosmos",
-  "chain_id": "lambda_92000-1",
-  "bech32_prefix": "lamb",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/lambda/images/lambda.png",
-  "fees": [
-    {
-      "denom": "ulamb",
-      "gasPriceStep": {
-        "low": 10000000000,
-        "average": 25000000000,
-        "high": 40000000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "ulamb"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc.lambda.im",
-      "provider": "Lambda"
-    },
-    {
-      "address": "http://lambda.rpc.m.stavr.tech:31327",
-      "provider": "🔥STAVR🔥"
-    },
-    {
-      "address": "https://lambda-rpc.noders.services",
-      "provider": "[NODERS]TEAM"
-    },
-    {
-      "address": "https://lambda_mainnet_rpc.chain.whenmoonwhenlambo.money",
-      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://rest.lambda.im",
-      "provider": "Lambda"
-    },
-    {
-      "address": "https://lambda.api.m.stavr.tech",
-      "provider": "🔥STAVR🔥"
-    },
-    {
-      "address": "https://lambda-api.noders.services",
-      "provider": "[NODERS]TEAM"
-    },
-    {
-      "address": "https://lambda_mainnet_api.chain.whenmoonwhenlambo.money",
-      "provider": "🚀 WHEN MOON 🌕 WHEN LAMBO 🔥"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos.",

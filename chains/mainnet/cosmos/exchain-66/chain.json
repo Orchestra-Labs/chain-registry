@@ -1,33 +1,7 @@
 {
-  "chain_name": "okexchain",
-  "status": "live",
-  "pretty_name": "OKExChain",
-  "chain_type": "cosmos",
-  "chain_id": "exchain-66",
-  "bech32_prefix": "ex",
   "slip44": 996,
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/okexchain/images/okc.png",
-  "fees": [
-    {
-      "denom": "wei",
-      "gasPriceStep": {
-        "low": 200000000,
-        "average": 250000000,
-        "high": 400000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "wei"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://exchaintmrpc.okex.org",
-      "provider": "okx chain"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 and omits key_algos; the chain's own source sets coin type 996 and defaults keys to eth_secp256k1.",

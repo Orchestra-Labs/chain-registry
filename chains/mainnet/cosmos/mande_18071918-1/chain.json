@@ -1,39 +1,6 @@
 {
-  "chain_name": "mande",
-  "status": "live",
-  "pretty_name": "Mande Network",
-  "chain_type": "cosmos",
-  "chain_id": "mande_18071918-1",
-  "bech32_prefix": "mande",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "website": "https://mande.network",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/mande/images/mande.png",
-  "fees": [
-    {
-      "denom": "amand",
-      "gasPriceStep": {
-        "low": 20000000000,
-        "average": 20000000000,
-        "high": 20000000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "amand"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://mande-mainnet-tendermint.public.blastapi.io",
-      "provider": "BlastAPI"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://mande-mainnet-rest.public.blastapi.io",
-      "provider": "BlastAPI"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos. The public mande-chain repo (v1.2.2, no Ethermint) is not what mainnet runs (v2.2.0); the mainnet genesis shows Ethereum keys.",

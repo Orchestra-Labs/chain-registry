@@ -1,62 +1,6 @@
 {
-  "chain_name": "point",
-  "status": "live",
-  "pretty_name": "Point Network",
-  "chain_type": "cosmos",
-  "chain_id": "point_10687-1",
-  "bech32_prefix": "point",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/point/images/point-logo.png",
-  "fees": [
-    {
-      "denom": "apoint",
-      "gasPriceStep": {
-        "low": 5000000000,
-        "average": 25000000000,
-        "high": 40000000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "apoint"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc-mainnet-1.point.space:26657",
-      "provider": "Point Network"
-    },
-    {
-      "address": "https://rpc.point.nodestake.org",
-      "provider": "NodeStake"
-    },
-    {
-      "address": "https://point.rpc.m.stavr.tech:443",
-      "provider": "🔥STAVR🔥"
-    },
-    {
-      "address": "https://rpc.point.indonode.net",
-      "provider": "Indonode"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://rpc-mainnet-1.point.space:1317",
-      "provider": "Point Network"
-    },
-    {
-      "address": "https://point.api.m.stavr.tech",
-      "provider": "🔥STAVR🔥"
-    },
-    {
-      "address": "https://api.point.nodestake.org",
-      "provider": "NodeStake"
-    },
-    {
-      "address": "https://api.point.indonode.net",
-      "provider": "Indonode"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos.",

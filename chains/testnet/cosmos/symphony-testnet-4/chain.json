@@ -1,52 +1,5 @@
 {
-  "chain_name": "symphonytestnet",
   "status": "killed",
-  "pretty_name": "Symphony Testnet",
-  "chain_type": "cosmos",
-  "chain_id": "symphony-testnet-4",
-  "bech32_prefix": "symphony",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/symphony/images/symphony_logo.png",
-  "fees": [
-    {
-      "denom": "note",
-      "gasPriceStep": {
-        "low": 0.0025,
-        "average": 0.025,
-        "high": 0.04
-      }
-    }
-  ],
-  "staking_denoms": [
-    "note"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://symphony.test.rpc.nodeshub.online/",
-      "provider": "Nodes Hub"
-    },
-    {
-      "address": "https://symphony-testnet-rpc.cogwheel.zone/",
-      "provider": "Cogwheel ⚙️"
-    },
-    {
-      "address": "https://rpc-symphonyd.vinjan.xyz",
-      "provider": "Vinjan.Inc"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://symphony.test.api.nodeshub.online/",
-      "provider": "Nodes Hub"
-    },
-    {
-      "address": "https://symphony-testnet-api.cogwheel.zone/",
-      "provider": "Cogwheel ⚙️"
-    },
-    {
-      "address": "https://api-symphonyd.vinjan.xyz",
-      "provider": "Vinjan.Inc"
-    }
-  ],
   "_status_source": {
     "reason": "Symphony is down, deprecated and unsupported. Route nothing through it: no market-module swaps, no IBC exits, no MLD/HUSD/note routes. Upstream cosmos/chain-registry lists it as live (checked at ef06dbf34b09e75de83ab73e390b5d44d44a547e, 2026-05-01, the local clone).",
     "decided_by": "David Blackstone",

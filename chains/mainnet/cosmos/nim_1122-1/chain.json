@@ -1,39 +1,6 @@
 {
-  "chain_name": "nim",
-  "status": "live",
-  "pretty_name": "Nim Network",
-  "chain_type": "cosmos",
-  "chain_id": "nim_1122-1",
-  "bech32_prefix": "nim",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "website": "https://nim.network",
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/nim/images/nim.png",
-  "fees": [
-    {
-      "denom": "anim",
-      "gasPriceStep": {
-        "low": 20000000000,
-        "average": 20000000000,
-        "high": 20000000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "anim"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://rpc.mainnet.nimnet.tech",
-      "provider": "NIM Foundation"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://rest.mainnet.nimnet.tech",
-      "provider": "NIM Foundation"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos. Nim's own repo is deleted; its recommended_version v2.1.3-rc02 is a dymensionxyz/rollapp-evm tag (Nim is a Dymension rollapp).",

@@ -1,46 +1,6 @@
 {
-  "chain_name": "echelon",
-  "status": "live",
-  "pretty_name": "Echelon",
-  "chain_type": "cosmos",
-  "chain_id": "echelon_3000-3",
-  "bech32_prefix": "echelon",
   "key_algos": [
     "ethsecp256k1"
-  ],
-  "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/echelon/images/ech.png",
-  "fees": [
-    {
-      "denom": "aechelon",
-      "gasPriceStep": {
-        "low": 10000000000,
-        "average": 25000000000,
-        "high": 40000000000
-      }
-    }
-  ],
-  "staking_denoms": [
-    "aechelon"
-  ],
-  "rpc_uris": [
-    {
-      "address": "https://ech01trpc.mindheartsoul.org",
-      "provider": "Mind Heart Soul"
-    },
-    {
-      "address": "https://rpc.echjoker.lol",
-      "provider": "⚡ Echelon Joker ⚛ 🃏"
-    }
-  ],
-  "rest_uris": [
-    {
-      "address": "https://ech01api.mindheartsoul.org",
-      "provider": "Mind Heart Soul"
-    },
-    {
-      "address": "https://api.echjoker.lol",
-      "provider": "⚡ Echelon Joker ⚛ 🃏"
-    }
   ],
   "_key_type_source": {
     "reason": "Upstream cosmos/chain-registry has slip44 60 but omits key_algos.",
