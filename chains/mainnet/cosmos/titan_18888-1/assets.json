@@ -1,15 +1,22 @@
 {
   "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc": {
-    "coinGeckoId": null
+    "originChainId": "bitcoin-mainnet",
+    "originDenom": "sat",
+    "bridge": {
+      "provider": "bitgo-titanlab-io",
+      "viaChainId": "titan_18888-1"
+    }
   },
   "_sources": {
     "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc": {
-      "reason": "Titan's bridged BTC (a tokenfactory IOU from the Titan bridge) is not bitcoin; cosmos/chain-registry gives it coingecko_id bitcoin, so it grouped and priced with native BTC. No CoinGecko coin lists it: unpriced beats wrong.",
+      "reason": "Titan's BTC is the Titan bridge's claim on bitcoin, not bitcoin: priced, grouped separately (David, 2026-11-03). It keeps upstream's coingecko_id bitcoin, its origin is bitcoin-mainnet/sat, and the bridge mark keeps it out of BTC's group. The mark is set here because registry-service records trace hops only for ibc/ denoms, so its factory denom is never marked; this is the mark the code gives neutron BTC.int3.",
       "evidence": [
-        "cosmos/chain-registry titan/assetlist.json (2af5aa3, 2026-11-03): description 'Wrapped Bitcoin (BTC) is BTC token bridged from Bitcoin to titan chain through Titan bridge https://titanearn.com/bridge', traces [bridge from bitcoin/sat, provider 'BitGo, Titanlab.io']",
-        "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): bitcoin has no platforms; no coin lists this denom"
+        "cosmos/chain-registry titan/assetlist.json (last changed 6771716, fetched 2026-11-04): coingecko_id bitcoin, traces [{type bridge, counterparty bitcoin/sat, provider 'BitGo, Titanlab.io'}]",
+        "registry-service bridgedAssets.ts: provider is bridgeProviderSlug('BitGo, Titanlab.io') = 'bitgo-titanlab-io'; viaChainId is the asset's own chain when the bridge hop is its last trace",
+        "published chains.json (788de1c): neutron-1 BTC.int3 has originChainId bitcoin-mainnet, originDenom sat, coinGeckoId bitcoin, bridge {provider int3face, viaChainId int3face-1}",
+        "Replaces e08a8b4's coinGeckoId null, which left it unpriced"
       ],
-      "checked": "2026-11-03"
+      "checked": "2026-11-04"
     }
   }
 }
