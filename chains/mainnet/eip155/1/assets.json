@@ -1,0 +1,15 @@
+{
+  "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383": {
+    "coinGeckoId": null
+  },
+  "_sources": {
+    "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383": {
+      "reason": "This is Kinza Babylon Staked BTC; cosmos/chain-registry _non-cosmos/ethereum gives it kintsugi-btc (Kintsugi BTC, a Kusama-ecosystem token). No CoinGecko coin lists the contract: unpriced beats wrong.",
+      "evidence": [
+        "eth_call via https://ethereum-rpc.publicnode.com (eth_chainId 0x1): symbol() = kBTC, name() = 'Kinza Babylon Staked BTC'",
+        "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): kintsugi-btc = 'Kintsugi BTC' with no platforms; no coin lists 0x9356f6d95b8e109f4b7ce3e49d672967d3b48383; no coin named Kinza"
+      ],
+      "checked": "2026-11-03"
+    }
+  }
+}

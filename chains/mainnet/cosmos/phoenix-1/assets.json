@@ -1,0 +1,14 @@
+{
+  "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1": {
+    "coinGeckoId": "monerium-eur-money-2"
+  },
+  "_sources": {
+    "ibc/8D52B251B447B7160421ACFBD50F6B0ABE5F98D2C404B03701130F12044439A1": {
+      "reason": "Noble EURe on Terra; upstream lists it with the [OLD] coin monerium-eur-money. See chains/mainnet/cosmos/noble-1/assets.json.",
+      "evidence": [
+        "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): monerium-eur-money-2 lists this exact denom as its terra-2 platform"
+      ],
+      "checked": "2026-11-03"
+    }
+  }
+}

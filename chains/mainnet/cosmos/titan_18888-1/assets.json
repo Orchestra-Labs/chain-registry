@@ -1,0 +1,15 @@
+{
+  "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc": {
+    "coinGeckoId": null
+  },
+  "_sources": {
+    "factory/titan1eyfccmjm6732k7wp4p6gdjwhxjwsvje44j0hfx8nkgrm8fs7vqfsalaj2e/wbtc": {
+      "reason": "Titan's bridged BTC (a tokenfactory IOU from the Titan bridge) is not bitcoin; cosmos/chain-registry gives it coingecko_id bitcoin, so it grouped and priced with native BTC. No CoinGecko coin lists it: unpriced beats wrong.",
+      "evidence": [
+        "cosmos/chain-registry titan/assetlist.json (2af5aa3, 2026-11-03): description 'Wrapped Bitcoin (BTC) is BTC token bridged from Bitcoin to titan chain through Titan bridge https://titanearn.com/bridge', traces [bridge from bitcoin/sat, provider 'BitGo, Titanlab.io']",
+        "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): bitcoin has no platforms; no coin lists this denom"
+      ],
+      "checked": "2026-11-03"
+    }
+  }
+}

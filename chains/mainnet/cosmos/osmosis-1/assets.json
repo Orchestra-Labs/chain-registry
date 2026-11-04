@@ -1,0 +1,14 @@
+{
+  "ibc/92AE2F53284505223A1BB80D132F859A00E190C6A738772F0B3EF65E20BA484F": {
+    "coinGeckoId": "monerium-eur-money-2"
+  },
+  "_sources": {
+    "ibc/92AE2F53284505223A1BB80D132F859A00E190C6A738772F0B3EF65E20BA484F": {
+      "reason": "Noble EURe on Osmosis; upstream lists it with the [OLD] coin monerium-eur-money. See chains/mainnet/cosmos/noble-1/assets.json.",
+      "evidence": [
+        "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): monerium-eur-money-2 lists this exact denom as its osmosis platform"
+      ],
+      "checked": "2026-11-03"
+    }
+  }
+}
