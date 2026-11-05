@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T03:40:49.870Z",
+  "lastUpdated": "2026-11-05T07:12:37.065Z",
   "data": {
     "1919": {
       "rpc": {},
@@ -12,7 +12,7 @@
         },
         "https://api.turkscan.com": {
           "failedQueries": 0,
-          "longestQueryTime": 276,
+          "longestQueryTime": 185,
           "consecutiveInfraFailures": 0
         }
       }
@@ -21,48 +21,52 @@
       "rpc": {},
       "rest": {
         "https://api.symphony.citizenweb3.com": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 15,
-          "consecutiveInfraFailures": 4,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793636458723
+          "consecutiveInfraFailures": 5,
+          "blacklistedUntil": 1794121202361,
+          "blacklistCount": 1,
+          "redemptionStartTimestamp": 1794121202361
         },
         "https://api-m.symphony.vinjan-inc.com": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 175,
-          "consecutiveInfraFailures": 4,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793636458723
+          "consecutiveInfraFailures": 5,
+          "blacklistedUntil": 1794121209210,
+          "blacklistCount": 1,
+          "redemptionStartTimestamp": 1794121209210
         },
         "https://api-symphony.sr20de.xyz": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 340,
-          "consecutiveInfraFailures": 4,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793636458723
+          "consecutiveInfraFailures": 5,
+          "blacklistedUntil": 1794121212889,
+          "blacklistCount": 1,
+          "redemptionStartTimestamp": 1794121212889
         },
         "https://symphony.api.nodeshub.online/": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 16,
-          "consecutiveInfraFailures": 4,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0,
-          "redemptionStartTimestamp": 1793636458723
+          "consecutiveInfraFailures": 5,
+          "blacklistedUntil": 1794121205916,
+          "blacklistCount": 1,
+          "redemptionStartTimestamp": 1794121205916
         },
         "https://rest.cosmos.directory/symphony": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 37,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652049422
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121195013,
+          "blacklistedUntil": 1794121195013,
+          "blacklistCount": 1
         },
         "https://symphony-api.cogwheel.zone/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 363,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652053870
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121199122,
+          "blacklistedUntil": 1794121199122,
+          "blacklistCount": 1
         }
       }
     },
@@ -73,7 +77,7 @@
           "failedQueries": 48,
           "longestQueryTime": 31499,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849433641,
+          "redemptionStartTimestamp": 1793862127155,
           "blacklistedUntil": 1793905186728,
           "blacklistCount": 1
         },
@@ -317,7 +321,7 @@
         },
         "https://cosmoshub.api.pocket.network": {
           "failedQueries": 0,
-          "longestQueryTime": 284,
+          "longestQueryTime": 110,
           "consecutiveInfraFailures": 0
         }
       }
@@ -383,7 +387,7 @@
           "failedQueries": 12,
           "longestQueryTime": 3500,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849433704,
+          "redemptionStartTimestamp": 1793862126438,
           "blacklistedUntil": 1793909017011,
           "blacklistCount": 1
         },
@@ -515,7 +519,7 @@
         },
         "https://rest.cosmos.directory/dymension": {
           "failedQueries": 0,
-          "longestQueryTime": 543,
+          "longestQueryTime": 557,
           "consecutiveInfraFailures": 0
         }
       }
@@ -525,7 +529,7 @@
       "rest": {
         "https://rest.cosmos.directory/gitopia": {
           "failedQueries": 0,
-          "longestQueryTime": 659,
+          "longestQueryTime": 923,
           "consecutiveInfraFailures": 0
         }
       }
@@ -535,7 +539,7 @@
       "rest": {
         "https://rest.cosmos.directory/atomone": {
           "failedQueries": 0,
-          "longestQueryTime": 277,
+          "longestQueryTime": 857,
           "consecutiveInfraFailures": 0
         }
       }
@@ -544,10 +548,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/chain4energy": {
-          "failedQueries": 17,
+          "failedQueries": 19,
           "longestQueryTime": 42300,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849448776,
+          "redemptionStartTimestamp": 1793862141500,
           "blacklistedUntil": 1793903852528,
           "blacklistCount": 1
         },
@@ -769,7 +773,7 @@
         },
         "https://api-c4e.mzonder.com": {
           "failedQueries": 0,
-          "longestQueryTime": 143,
+          "longestQueryTime": 168,
           "consecutiveInfraFailures": 0
         }
       }
@@ -781,7 +785,7 @@
           "failedQueries": 13,
           "longestQueryTime": 14911,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849449304,
+          "redemptionStartTimestamp": 1793862142271,
           "blacklistedUntil": 1793901698740,
           "blacklistCount": 1
         },
@@ -1003,7 +1007,7 @@
         },
         "https://sunrise-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 286,
+          "longestQueryTime": 447,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1044,10 +1048,10 @@
           "blacklistCount": 1
         },
         "https://rest.cosmos.directory/celestia": {
-          "failedQueries": 18,
+          "failedQueries": 20,
           "longestQueryTime": 19701,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849464782,
+          "redemptionStartTimestamp": 1793862157700,
           "blacklistedUntil": 1793904774127,
           "blacklistCount": 1
         },
@@ -1116,7 +1120,7 @@
           "blacklistCount": 1
         },
         "https://celestia-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 60303,
           "consecutiveInfraFailures": 3,
           "redemptionStartTimestamp": 1793638943729
@@ -1211,7 +1215,7 @@
         },
         "https://api.archive.celestia.validatus.com": {
           "failedQueries": 0,
-          "longestQueryTime": 58,
+          "longestQueryTime": 83,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1221,7 +1225,7 @@
       "rest": {
         "https://rest.cosmos.directory/archway": {
           "failedQueries": 0,
-          "longestQueryTime": 211,
+          "longestQueryTime": 231,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1230,10 +1234,10 @@
       "rpc": {},
       "rest": {
         "https://lava-api.finteh.org:443": {
-          "failedQueries": 16,
+          "failedQueries": 18,
           "longestQueryTime": 65306,
           "consecutiveInfraFailures": 7,
-          "redemptionStartTimestamp": 1793849530430,
+          "redemptionStartTimestamp": 1793862225202,
           "blacklistedUntil": 1793903963628,
           "blacklistCount": 1
         },
@@ -1390,14 +1394,16 @@
           "blacklistCount": 1
         },
         "https://lava-api.bluestake.net": {
-          "failedQueries": 6,
+          "failedQueries": 10,
           "longestQueryTime": 133,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1793763226639
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121391452,
+          "blacklistedUntil": 1794121391452,
+          "blacklistCount": 1
         },
         "https://rest.cosmos.directory/lava": {
           "failedQueries": 0,
-          "longestQueryTime": 321,
+          "longestQueryTime": 475,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1539,7 +1545,7 @@
         },
         "https://rest.cosmos.directory/bitcanna": {
           "failedQueries": 0,
-          "longestQueryTime": 217,
+          "longestQueryTime": 147,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1548,10 +1554,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/source": {
-          "failedQueries": 24,
+          "failedQueries": 25,
           "longestQueryTime": 56500,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793849531297,
+          "redemptionStartTimestamp": 1793862226483,
           "blacklistedUntil": 1793902427028,
           "blacklistCount": 1
         },
@@ -1709,9 +1715,9 @@
         },
         "https://source-api.bluestake.net": {
           "failedQueries": 2,
-          "longestQueryTime": 99,
+          "longestQueryTime": 510,
           "consecutiveInfraFailures": 1,
-          "redemptionStartTimestamp": 1793849535235
+          "redemptionStartTimestamp": 1793862230191
         }
       }
     },
@@ -1722,7 +1728,7 @@
           "failedQueries": 10,
           "longestQueryTime": 74101,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849531209,
+          "redemptionStartTimestamp": 1793862226512,
           "blacklistedUntil": 1793934174328,
           "blacklistCount": 1
         },
@@ -1862,7 +1868,7 @@
         },
         "https://api.persistence.validatus.com": {
           "failedQueries": 0,
-          "longestQueryTime": 251,
+          "longestQueryTime": 364,
           "consecutiveInfraFailures": 0
         }
       }
@@ -1871,10 +1877,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stargaze": {
-          "failedQueries": 156,
+          "failedQueries": 191,
           "longestQueryTime": 76999,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793849531326,
+          "redemptionStartTimestamp": 1793862226563,
           "blacklistedUntil": 1793902350228,
           "blacklistCount": 1
         },
@@ -2023,7 +2029,7 @@
           "blacklistCount": 1
         },
         "https://stargaze.api.pocket.network": {
-          "failedQueries": 152,
+          "failedQueries": 187,
           "longestQueryTime": 53999,
           "redemptionStartTimestamp": 1793639515492,
           "consecutiveInfraFailures": 4
@@ -2037,7 +2043,7 @@
           "failedQueries": 12,
           "longestQueryTime": 76600,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849531226,
+          "redemptionStartTimestamp": 1793862226369,
           "blacklistedUntil": 1793902508028,
           "blacklistCount": 1
         },
@@ -2169,7 +2175,7 @@
         },
         "https://sentinel-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 236,
+          "longestQueryTime": 354,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2178,10 +2184,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/jackal": {
-          "failedQueries": 13,
+          "failedQueries": 14,
           "longestQueryTime": 77099,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849531089,
+          "redemptionStartTimestamp": 1793862226192,
           "blacklistedUntil": 1793911690232,
           "blacklistCount": 1
         },
@@ -2194,7 +2200,7 @@
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/jackal": {
-          "failedQueries": 12,
+          "failedQueries": 13,
           "longestQueryTime": 46488,
           "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793637734229
@@ -2232,7 +2238,7 @@
           "blacklistCount": 1
         },
         "https://jackal-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 14,
+          "failedQueries": 15,
           "longestQueryTime": 26608,
           "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793638674329
@@ -2270,7 +2276,7 @@
           "blacklistCount": 1
         },
         "https://public.stakewolle.com/cosmos/jackal/rest": {
-          "failedQueries": 12,
+          "failedQueries": 13,
           "longestQueryTime": 36100,
           "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793639165027
@@ -2306,18 +2312,18 @@
           "blacklistCount": 1
         },
         "https://jackal.api.pocket.network": {
-          "failedQueries": 9,
-          "longestQueryTime": 117,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650155028,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0
+          "failedQueries": 11,
+          "longestQueryTime": 119,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121430232,
+          "blacklistedUntil": 1794121430232,
+          "blacklistCount": 1
         },
         "https://api.jackal.nodestake.org": {
           "failedQueries": 2,
-          "longestQueryTime": 165,
+          "longestQueryTime": 314,
           "consecutiveInfraFailures": 1,
-          "redemptionStartTimestamp": 1793849534897
+          "redemptionStartTimestamp": 1793862230107
         }
       }
     },
@@ -2333,7 +2339,7 @@
           "failedQueries": 18,
           "longestQueryTime": 19101,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848111236,
+          "redemptionStartTimestamp": 1793860903322,
           "blacklistedUntil": 1793908178685,
           "blacklistCount": 1
         },
@@ -2351,13 +2357,13 @@
           "failedQueries": 10,
           "longestQueryTime": 19700,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847712481,
+          "redemptionStartTimestamp": 1793860527012,
           "blacklistedUntil": 1793906830428,
           "blacklistCount": 1
         },
         "https://devnet.api.agoric.net:443": {
           "failedQueries": 0,
-          "longestQueryTime": 223,
+          "longestQueryTime": 303,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2366,21 +2372,25 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/8ball": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 117,
           "redemptionStartTimestamp": 1793649107393
         },
         "https://rest.8ball.info": {
-          "failedQueries": 8,
-          "longestQueryTime": 181,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649111092
+          "failedQueries": 10,
+          "longestQueryTime": 182,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119733839,
+          "blacklistedUntil": 1794119733839,
+          "blacklistCount": 1
         },
         "https://api-8ball.nodine.id/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 15,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649114659
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119729859,
+          "blacklistedUntil": 1794119729859,
+          "blacklistCount": 1
         }
       }
     },
@@ -2388,15 +2398,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/akashtestnet1": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 55,
           "redemptionStartTimestamp": 1793649107393
         },
         "https://api.sandbox-01.aksh.pw:443": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 10002,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847712573,
+          "redemptionStartTimestamp": 1793860527133,
           "blacklistedUntil": 1794020690058,
           "blacklistCount": 1
         }
@@ -2406,40 +2416,52 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/aaronetwork": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 50,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649117951
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119747912,
+          "blacklistedUntil": 1794119747912,
+          "blacklistCount": 1
         },
         "https://mainnet-api.aaronetwork.xyz": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649151507
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119781219,
+          "blacklistedUntil": 1794119781219,
+          "blacklistCount": 1
         },
         "https://aaronetwork_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649155000
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119740851,
+          "blacklistedUntil": 1794119740851,
+          "blacklistCount": 1
         },
         "https://api-aaronetwork.sychonix.com/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649158585
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119744329,
+          "blacklistedUntil": 1794119744329,
+          "blacklistCount": 1
         },
         "https://api-aaronetwork.vinjan.xyz": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 116,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649158701
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119747990,
+          "blacklistedUntil": 1794119747990,
+          "blacklistCount": 1
         },
         "https://api.aaronetwork.indonode.net": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649162369
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119737303,
+          "blacklistedUntil": 1794119737303,
+          "blacklistCount": 1
         }
       }
     },
@@ -2447,15 +2469,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/archwaytestnet": {
-          "failedQueries": 16,
-          "longestQueryTime": 60,
+          "failedQueries": 20,
+          "longestQueryTime": 95,
           "redemptionStartTimestamp": 1793649141833
         },
         "https://api.constantine.archway.io": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793847746309,
+          "redemptionStartTimestamp": 1793860560991,
           "blacklistedUntil": 1793934328570,
           "blacklistCount": 1
         }
@@ -2483,7 +2505,7 @@
         },
         "https://atomone-testnet-api.cogwheel.zone": {
           "failedQueries": 0,
-          "longestQueryTime": 360,
+          "longestQueryTime": 347,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2492,31 +2514,31 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/axelartestnet": {
-          "failedQueries": 15,
+          "failedQueries": 18,
           "longestQueryTime": 80,
           "redemptionStartTimestamp": 1793649146097
         },
         "https://lcd-axelar-testnet.imperator.co:443": {
-          "failedQueries": 15,
-          "longestQueryTime": 277,
+          "failedQueries": 18,
+          "longestQueryTime": 278,
           "redemptionStartTimestamp": 1793649146097
         },
         "https://axelartest-lcd.quickapi.com/": {
-          "failedQueries": 15,
+          "failedQueries": 18,
           "longestQueryTime": 539,
           "redemptionStartTimestamp": 1793649146097
         },
         "https://axelar-testnet-api.ibs.team:443": {
-          "failedQueries": 19,
+          "failedQueries": 22,
           "longestQueryTime": 10027,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847792767,
+          "redemptionStartTimestamp": 1793860599831,
           "blacklistedUntil": 1793908379323,
           "blacklistCount": 1
         },
         "https://axelartest.lcd.quantnode.xyz": {
           "failedQueries": 0,
-          "longestQueryTime": 167,
+          "longestQueryTime": 111,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2525,20 +2547,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/acrechain": {
-          "failedQueries": 44,
+          "failedQueries": 55,
           "longestQueryTime": 84,
           "redemptionStartTimestamp": 1793649163369
         },
         "https://lcd-acre.synergynodes.com": {
-          "failedQueries": 43,
-          "longestQueryTime": 85,
+          "failedQueries": 54,
+          "longestQueryTime": 86,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847775878,
+          "redemptionStartTimestamp": 1793860589624,
           "blacklistedUntil": 1793908366345,
           "blacklistCount": 1
         },
         "https://acrechain-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 44,
+          "failedQueries": 55,
           "longestQueryTime": 282,
           "redemptionStartTimestamp": 1793649166817
         },
@@ -2564,12 +2586,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/babylontestnet": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 62,
           "redemptionStartTimestamp": 1793649180903
         },
         "https://babylon-testnet-api.nodes.guru": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 30,
           "redemptionStartTimestamp": 1793649184897
         }
@@ -2579,15 +2601,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/bitwaydevnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 41,
           "redemptionStartTimestamp": 1793649184897
         },
         "http://45.77.249.30:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649218147
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119837190,
+          "blacklistedUntil": 1794119837190,
+          "blacklistCount": 1
         }
       }
     },
@@ -2612,7 +2636,7 @@
         },
         "https://agoric-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 214,
+          "longestQueryTime": 294,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2632,13 +2656,13 @@
           "failedQueries": 10,
           "longestQueryTime": 183,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849648760,
+          "redemptionStartTimestamp": 1793862349560,
           "blacklistedUntil": 1794020729969,
           "blacklistCount": 1
         },
         "https://rest-akash.ecostake.com": {
           "failedQueries": 0,
-          "longestQueryTime": 156,
+          "longestQueryTime": 211,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2648,7 +2672,7 @@
       "rest": {
         "https://rest.cosmos.directory/aioz": {
           "failedQueries": 0,
-          "longestQueryTime": 1069,
+          "longestQueryTime": 676,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2658,7 +2682,7 @@
       "rest": {
         "https://rest.cosmos.directory/allora": {
           "failedQueries": 0,
-          "longestQueryTime": 91,
+          "longestQueryTime": 183,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2668,7 +2692,7 @@
       "rest": {
         "https://rest.cosmos.directory/amitis": {
           "failedQueries": 0,
-          "longestQueryTime": 831,
+          "longestQueryTime": 555,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2677,15 +2701,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/andromeda1": {
-          "failedQueries": 60,
+          "failedQueries": 75,
           "longestQueryTime": 202,
           "redemptionStartTimestamp": 1793649207982
         },
         "https://api.andromeda-1.andromeda.aviaone.com/": {
-          "failedQueries": 63,
+          "failedQueries": 78,
           "longestQueryTime": 6,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849655949,
+          "redemptionStartTimestamp": 1793862357193,
           "blacklistedUntil": 1793908411614,
           "blacklistCount": 1
         },
@@ -2722,7 +2746,7 @@
           "blacklistCount": 1
         },
         "https://andromeda-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 60,
+          "failedQueries": 75,
           "longestQueryTime": 301,
           "redemptionStartTimestamp": 1793649255956
         },
@@ -2735,7 +2759,7 @@
           "blacklistCount": 1
         },
         "https://andromeda-api.highstakes.ch": {
-          "failedQueries": 60,
+          "failedQueries": 75,
           "longestQueryTime": 772,
           "redemptionStartTimestamp": 1793649259716
         },
@@ -2769,7 +2793,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/celestiatestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 50,
           "redemptionStartTimestamp": 1793649219147
         }
@@ -2792,7 +2816,7 @@
           "failedQueries": 14,
           "longestQueryTime": 6,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847830759,
+          "redemptionStartTimestamp": 1793860637256,
           "blacklistedUntil": 1793934421118,
           "blacklistCount": 1
         },
@@ -2821,12 +2845,9 @@
           "blacklistCount": 1
         },
         "https://api.celestia.testnet.dteam.tech:443": {
-          "failedQueries": 1,
-          "longestQueryTime": 452,
-          "redemptionStartTimestamp": 1793847831694,
-          "consecutiveInfraFailures": 0,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0
+          "failedQueries": 0,
+          "longestQueryTime": 450,
+          "consecutiveInfraFailures": 0
         }
       }
     },
@@ -2846,7 +2867,7 @@
         },
         "https://lcd-testnet.c4e.io": {
           "failedQueries": 0,
-          "longestQueryTime": 90,
+          "longestQueryTime": 94,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2855,15 +2876,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/composabletestnet": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 53,
           "redemptionStartTimestamp": 1793649241565
         },
         "https://api.composable-t.indonode.net": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 2,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847835290,
+          "redemptionStartTimestamp": 1793860637835,
           "blacklistedUntil": 1794020787334,
           "blacklistCount": 1
         },
@@ -2895,7 +2916,7 @@
         },
         "https://rest.testnet-1.tx.org:443": {
           "failedQueries": 0,
-          "longestQueryTime": 84,
+          "longestQueryTime": 87,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2904,20 +2925,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/cosmoshubtestnet": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 97,
           "redemptionStartTimestamp": 1793649251855
         },
         "https://cosmoshubt.lava.build": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 84,
           "redemptionStartTimestamp": 1793649251855
         },
         "https://rest.sentry-01.theta-testnet.polypore.xyz": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 10002,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847872848,
+          "redemptionStartTimestamp": 1793860675871,
           "blacklistedUntil": 1793908484792,
           "blacklistCount": 1
         },
@@ -2968,7 +2989,7 @@
       "rest": {
         "https://rest.cosmos.directory/arkeo": {
           "failedQueries": 0,
-          "longestQueryTime": 79,
+          "longestQueryTime": 85,
           "consecutiveInfraFailures": 0
         }
       }
@@ -2977,16 +2998,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/arkh": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 58,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649278645
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119813761,
+          "blacklistedUntil": 1794119813761,
+          "blacklistCount": 1
         },
         "https://arkhadian-mainnet-api.bonynode.online/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 5,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649281865
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119810088,
+          "blacklistedUntil": 1794119810088,
+          "blacklistCount": 1
         }
       }
     },
@@ -2997,7 +3022,7 @@
           "failedQueries": 12,
           "longestQueryTime": 47,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847800143,
+          "redemptionStartTimestamp": 1793860613801,
           "blacklistedUntil": 1793934402070,
           "blacklistCount": 1
         },
@@ -3032,11 +3057,8 @@
         },
         "https://mantle-lcd.dungeon.games": {
           "failedQueries": 0,
-          "longestQueryTime": 413,
-          "redemptionStartTimestamp": 0,
-          "consecutiveInfraFailures": 0,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0
+          "longestQueryTime": 389,
+          "consecutiveInfraFailures": 0
         }
       }
     },
@@ -3045,7 +3067,7 @@
       "rest": {
         "https://rest.cosmos.directory/aura": {
           "failedQueries": 0,
-          "longestQueryTime": 268,
+          "longestQueryTime": 1115,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3055,7 +3077,7 @@
       "rest": {
         "https://rest.cosmos.directory/axelar": {
           "failedQueries": 0,
-          "longestQueryTime": 224,
+          "longestQueryTime": 201,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3065,7 +3087,7 @@
       "rest": {
         "https://rest.cosmos.directory/babylon": {
           "failedQueries": 0,
-          "longestQueryTime": 90,
+          "longestQueryTime": 88,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3141,7 +3163,7 @@
         },
         "https://band.ibs.team:443/api": {
           "failedQueries": 0,
-          "longestQueryTime": 146,
+          "longestQueryTime": 169,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3151,7 +3173,7 @@
       "rest": {
         "https://rest.cosmos.directory/beezee": {
           "failedQueries": 0,
-          "longestQueryTime": 178,
+          "longestQueryTime": 155,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3161,7 +3183,7 @@
       "rest": {
         "https://rest.cosmos.directory/bitbadges": {
           "failedQueries": 0,
-          "longestQueryTime": 370,
+          "longestQueryTime": 383,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3227,7 +3249,7 @@
         },
         "https://rest.cosmos.directory/bitsong": {
           "failedQueries": 0,
-          "longestQueryTime": 248,
+          "longestQueryTime": 407,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3242,7 +3264,7 @@
         },
         "https://rest.provider-sentry-01.hub-testnet.polypore.xyz": {
           "failedQueries": 0,
-          "longestQueryTime": 314,
+          "longestQueryTime": 875,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3257,7 +3279,7 @@
         },
         "https://rest-testnet-node1.divineray.ca:443": {
           "failedQueries": 0,
-          "longestQueryTime": 603,
+          "longestQueryTime": 298,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3272,7 +3294,7 @@
         },
         "https://vota-testnet-rest.dorafactory.org": {
           "failedQueries": 0,
-          "longestQueryTime": 1701,
+          "longestQueryTime": 1582,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3299,7 +3321,7 @@
         },
         "https://dydx-testnet-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 83,
+          "longestQueryTime": 183,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3308,26 +3330,26 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/elystestnet": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 74,
           "redemptionStartTimestamp": 1793649416435
         },
         "https://api.testnet.elys.network": {
-          "failedQueries": 20,
-          "longestQueryTime": 166,
+          "failedQueries": 25,
+          "longestQueryTime": 196,
           "redemptionStartTimestamp": 1793649416435
         },
         "https://elys-testnet-api.itrocket.net": {
-          "failedQueries": 25,
-          "longestQueryTime": 4,
+          "failedQueries": 30,
+          "longestQueryTime": 5,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847909337,
+          "redemptionStartTimestamp": 1793860712687,
           "blacklistedUntil": 1793908619953,
           "blacklistCount": 1
         },
         "https://elys-testnet-rest.publicnode.com": {
-          "failedQueries": 20,
-          "longestQueryTime": 89,
+          "failedQueries": 25,
+          "longestQueryTime": 101,
           "redemptionStartTimestamp": 1793649420268
         }
       }
@@ -3336,15 +3358,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/empowertestnet": {
-          "failedQueries": 12,
-          "longestQueryTime": 65,
+          "failedQueries": 15,
+          "longestQueryTime": 82,
           "redemptionStartTimestamp": 1793649420268
         },
         "https://empower-testnet-api.polkachu.com:443": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 33,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847913398,
+          "redemptionStartTimestamp": 1793860716631,
           "blacklistedUntil": 1793934526812,
           "blacklistCount": 1
         },
@@ -3432,7 +3454,7 @@
         },
         "https://bitway.api.kjnodes.com": {
           "failedQueries": 0,
-          "longestQueryTime": 204,
+          "longestQueryTime": 373,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3441,21 +3463,25 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/entrypointtestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 71,
           "redemptionStartTimestamp": 1793649445955
         },
         "https://entry.api.t.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649448301
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119923510,
+          "blacklistedUntil": 1794119923510,
+          "blacklistCount": 1
         },
         "https://testnet-rest.entrypoint.zone": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 5008,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649466964
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119942084,
+          "blacklistedUntil": 1794119942084,
+          "blacklistCount": 1
         }
       }
     },
@@ -3469,7 +3495,7 @@
         },
         "https://api.testnet.hippo-protocol.com/": {
           "failedQueries": 0,
-          "longestQueryTime": 502,
+          "longestQueryTime": 540,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3484,7 +3510,7 @@
         },
         "https://testnet.ixo.earth/rest/": {
           "failedQueries": 0,
-          "longestQueryTime": 75,
+          "longestQueryTime": 82,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3499,7 +3525,7 @@
         },
         "https://injective-testnet-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 99,
+          "longestQueryTime": 95,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3508,15 +3534,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/int3facetestnet": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 60,
           "redemptionStartTimestamp": 1793649467963
         },
         "https://api.testnet.int3face.zone": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 633,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847939922,
+          "redemptionStartTimestamp": 1793860742886,
           "blacklistedUntil": 1793934563145,
           "blacklistCount": 1
         }
@@ -3527,7 +3553,7 @@
       "rest": {
         "https://rest.cosmos.directory/blg24": {
           "failedQueries": 0,
-          "longestQueryTime": 67,
+          "longestQueryTime": 76,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3536,7 +3562,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/jackaltestnet2": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 58,
           "redemptionStartTimestamp": 1793649473946
         }
@@ -3569,40 +3595,52 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/bluzelle": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649475598
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119835386,
+          "blacklistedUntil": 1794119835386,
+          "blacklistCount": 1
         },
         "https://a.client.sentry.net.bluzelle.com:1317": {
-          "failedQueries": 8,
-          "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649509146
+          "failedQueries": 10,
+          "longestQueryTime": 10002,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119868536,
+          "blacklistedUntil": 1794119868536,
+          "blacklistCount": 1
         },
         "https://b.client.sentry.net.bluzelle.com:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649512565
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119824274,
+          "blacklistedUntil": 1794119824274,
+          "blacklistCount": 1
         },
         "https://c.client.sentry.net.bluzelle.com:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649545864
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119901869,
+          "blacklistedUntil": 1794119901869,
+          "blacklistCount": 1
         },
         "https://bluzelle-api.genznodes.dev/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 4,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649549613
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119831640,
+          "blacklistedUntil": 1794119831640,
+          "blacklistCount": 1
         },
         "https://bluzelle_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649553022
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119827954,
+          "blacklistedUntil": 1794119827954,
+          "blacklistCount": 1
         }
       }
     },
@@ -3610,15 +3648,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/kimanetworktestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 32,
           "redemptionStartTimestamp": 1793649477651
         },
         "https://api.sardis.kima.network/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649510722
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119981522,
+          "blacklistedUntil": 1794119981522,
+          "blacklistCount": 1
         }
       }
     },
@@ -3626,15 +3666,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/kujiratestnet": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 73,
           "redemptionStartTimestamp": 1793649511722
         },
         "https://kujira-testnet-api.polkachu.com/": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847984417,
+          "redemptionStartTimestamp": 1793860781542,
           "blacklistedUntil": 1794020941302,
           "blacklistCount": 1
         }
@@ -3650,7 +3690,7 @@
         },
         "https://api.kaon.kyve.network": {
           "failedQueries": 0,
-          "longestQueryTime": 307,
+          "longestQueryTime": 88,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3665,7 +3705,7 @@
         },
         "https://lav1.lava.build/": {
           "failedQueries": 0,
-          "longestQueryTime": 4237,
+          "longestQueryTime": 222,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3674,15 +3714,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/likecointestnet": {
-          "failedQueries": 4,
-          "longestQueryTime": 49,
+          "failedQueries": 5,
+          "longestQueryTime": 51,
           "redemptionStartTimestamp": 1793649515069
         },
         "https://node.testnet.like.co/": {
-          "failedQueries": 8,
-          "longestQueryTime": 160,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649518837
+          "failedQueries": 10,
+          "longestQueryTime": 351,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119989811,
+          "blacklistedUntil": 1794119989811,
+          "blacklistCount": 1
         }
       }
     },
@@ -3696,7 +3738,7 @@
         },
         "https://rest.limonata.xyz": {
           "failedQueries": 0,
-          "longestQueryTime": 387,
+          "longestQueryTime": 431,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3711,7 +3753,7 @@
         },
         "https://lcd.testnet.lumera.io:443": {
           "failedQueries": 0,
-          "longestQueryTime": 271,
+          "longestQueryTime": 290,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3726,7 +3768,7 @@
         },
         "https://nodes.liftedinit.tech/manifest/testnet/api": {
           "failedQueries": 0,
-          "longestQueryTime": 497,
+          "longestQueryTime": 500,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3735,20 +3777,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/mantrachaintestnet": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 61,
           "redemptionStartTimestamp": 1793649521071
         },
         "https://api.hongbai.mantrachain.io": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793847997786,
+          "redemptionStartTimestamp": 1793860791112,
           "blacklistedUntil": 1793934649837,
           "blacklistCount": 1
         },
         "https://mantra-testnet-rest.publicnode.com": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 90,
           "redemptionStartTimestamp": 1793649554023
         }
@@ -3764,7 +3806,7 @@
         },
         "https://lcd.bostrom.cybernode.ai": {
           "failedQueries": 0,
-          "longestQueryTime": 280,
+          "longestQueryTime": 300,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3779,7 +3821,7 @@
         },
         "https://api.dukong.mantrachain.io": {
           "failedQueries": 0,
-          "longestQueryTime": 277,
+          "longestQueryTime": 327,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3788,15 +3830,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/marstestnet": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 50,
           "redemptionStartTimestamp": 1793649555025
         },
         "https://testnet-rest.marsprotocol.io/": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 4,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848032088,
+          "redemptionStartTimestamp": 1793860825343,
           "blacklistedUntil": 1794020990077,
           "blacklistCount": 1
         },
@@ -3814,10 +3856,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/canto": {
-          "failedQueries": 28,
+          "failedQueries": 34,
           "longestQueryTime": 243,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793847994743,
+          "redemptionStartTimestamp": 1793860706223,
           "blacklistedUntil": 1793908757217,
           "blacklistCount": 1
         },
@@ -3838,7 +3880,7 @@
           "blacklistCount": 1
         },
         "https://canto-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 24,
+          "failedQueries": 30,
           "longestQueryTime": 211,
           "redemptionStartTimestamp": 1793649564793
         },
@@ -3856,15 +3898,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/neutrontestnet": {
-          "failedQueries": 28,
+          "failedQueries": 35,
           "longestQueryTime": 166,
           "redemptionStartTimestamp": 1793649562295
         },
         "https://rest-falcron.pion-1.ntrn.tech": {
-          "failedQueries": 31,
+          "failedQueries": 38,
           "longestQueryTime": 10093,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848069754,
+          "redemptionStartTimestamp": 1793860862899,
           "blacklistedUntil": 1793908795258,
           "blacklistCount": 1
         },
@@ -3891,7 +3933,7 @@
       "rest": {
         "https://rest.cosmos.directory/carbon": {
           "failedQueries": 0,
-          "longestQueryTime": 1673,
+          "longestQueryTime": 640,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3900,8 +3942,8 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/cerberus": {
-          "failedQueries": 4,
-          "longestQueryTime": 33,
+          "failedQueries": 5,
+          "longestQueryTime": 36,
           "redemptionStartTimestamp": 1793649570498
         }
       }
@@ -3911,7 +3953,7 @@
       "rest": {
         "https://rest.cosmos.directory/cheqd": {
           "failedQueries": 0,
-          "longestQueryTime": 433,
+          "longestQueryTime": 282,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3929,7 +3971,7 @@
         },
         "https://api.chihuahua.wtf": {
           "failedQueries": 0,
-          "longestQueryTime": 138,
+          "longestQueryTime": 235,
           "consecutiveInfraFailures": 0
         }
       }
@@ -3958,15 +4000,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/comdex": {
-          "failedQueries": 72,
+          "failedQueries": 90,
           "longestQueryTime": 178,
           "redemptionStartTimestamp": 1793649572731
         },
         "https://rest.comdex.one": {
-          "failedQueries": 64,
+          "failedQueries": 82,
           "longestQueryTime": 5,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849586412,
+          "redemptionStartTimestamp": 1793862287329,
           "blacklistedUntil": 1793908776036,
           "blacklistCount": 1
         },
@@ -3995,8 +4037,8 @@
           "blacklistCount": 1
         },
         "https://comdex-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 72,
-          "longestQueryTime": 247,
+          "failedQueries": 90,
+          "longestQueryTime": 266,
           "redemptionStartTimestamp": 1793649587235
         },
         "https://comdex-api.w3coins.io": {
@@ -4016,7 +4058,7 @@
           "blacklistCount": 1
         },
         "https://comdex-rest.publicnode.com": {
-          "failedQueries": 72,
+          "failedQueries": 90,
           "longestQueryTime": 251,
           "redemptionStartTimestamp": 1793649594469
         },
@@ -4072,7 +4114,7 @@
         },
         "https://noble-testnet-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 100,
+          "longestQueryTime": 50,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4081,15 +4123,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/noistestnet": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 78,
           "redemptionStartTimestamp": 1793649604412
         },
         "https://api.nois.mcbnode.online": {
-          "failedQueries": 24,
-          "longestQueryTime": 3,
+          "failedQueries": 28,
+          "longestQueryTime": 8,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848104018,
+          "redemptionStartTimestamp": 1793860897116,
           "blacklistedUntil": 1793934727992,
           "blacklistCount": 1
         },
@@ -4121,7 +4163,7 @@
         },
         "https://rila-lcd.nolus.network": {
           "failedQueries": 0,
-          "longestQueryTime": 1201,
+          "longestQueryTime": 199,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4130,7 +4172,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nolustestnet1": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 62,
           "redemptionStartTimestamp": 1793649614884
         }
@@ -4146,7 +4188,7 @@
         },
         "https://api.testnet.nvnmchain.io": {
           "failedQueries": 0,
-          "longestQueryTime": 304,
+          "longestQueryTime": 297,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4155,20 +4197,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/osmosistestnet4": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 78,
           "redemptionStartTimestamp": 1793649617051
         },
         "https://osmosistest-lcd.quickapi.com/": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 184,
           "redemptionStartTimestamp": 1793649617051
         },
         "https://lcd.osmo-test.ccvalidators.com/": {
-          "failedQueries": 25,
+          "failedQueries": 30,
           "longestQueryTime": 9,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848111328,
+          "redemptionStartTimestamp": 1793860903393,
           "blacklistedUntil": 1793908820694,
           "blacklistCount": 1
         },
@@ -4186,10 +4228,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/composable": {
-          "failedQueries": 85,
+          "failedQueries": 110,
           "longestQueryTime": 145,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849659816,
+          "redemptionStartTimestamp": 1793862360932,
           "blacklistedUntil": 1793908820026,
           "blacklistCount": 1
         },
@@ -4202,7 +4244,7 @@
           "blacklistCount": 1
         },
         "https://composable-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 100,
+          "failedQueries": 125,
           "longestQueryTime": 311,
           "redemptionStartTimestamp": 1793649620688
         },
@@ -4284,15 +4326,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/outbedevnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 66,
           "redemptionStartTimestamp": 1793649625326
         },
         "https://rpc.dev.outbe.net:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649657754
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120140943,
+          "blacklistedUntil": 1794120140943,
+          "blacklistCount": 1
         }
       }
     },
@@ -4300,15 +4344,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/persistencetestnet2": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 456,
           "redemptionStartTimestamp": 1793649658754
         },
         "https://api-persistence-testnet-01.stakeflow.io/": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848148534,
+          "redemptionStartTimestamp": 1793860940978,
           "blacklistedUntil": 1793934790333,
           "blacklistCount": 1
         },
@@ -4358,22 +4402,28 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/conscious": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 42,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649660754
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119945320,
+          "blacklistedUntil": 1794119945320,
+          "blacklistCount": 1
         },
         "https://api.cvn.io": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649694049
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119978611,
+          "blacklistedUntil": 1794119978611,
+          "blacklistCount": 1
         },
         "https://conscious_mainnet_api.chain.whenmoonwhenlambo.money/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649697408
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794119941766,
+          "blacklistedUntil": 1794119941766,
+          "blacklistCount": 1
         }
       }
     },
@@ -4381,15 +4431,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/prysmdevnet": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 110,
           "redemptionStartTimestamp": 1793649679394
         },
         "https://prysm-api-devnet.kleomedes.network/": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 348,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848157132,
+          "redemptionStartTimestamp": 1793860949078,
           "blacklistedUntil": 1793908884485,
           "blacklistCount": 1
         },
@@ -4496,7 +4546,7 @@
       "rest": {
         "https://rest.cosmos.directory/coreum": {
           "failedQueries": 0,
-          "longestQueryTime": 165,
+          "longestQueryTime": 259,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4505,10 +4555,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/crescent": {
-          "failedQueries": 93,
+          "failedQueries": 126,
           "longestQueryTime": 108,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849861355,
+          "redemptionStartTimestamp": 1793862497855,
           "blacklistedUntil": 1793908906969,
           "blacklistCount": 1
         },
@@ -4545,8 +4595,8 @@
           "blacklistCount": 1
         },
         "https://crescent-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 108,
-          "longestQueryTime": 284,
+          "failedQueries": 141,
+          "longestQueryTime": 314,
           "redemptionStartTimestamp": 1793649748856
         },
         "https://api-crescent-01.stakeflow.io": {
@@ -4579,15 +4629,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/qubeticstestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 47,
           "redemptionStartTimestamp": 1793649719832
         },
         "https://swagger-testnet.qubetics.work/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649752064
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120186959,
+          "blacklistedUntil": 1794120186959,
+          "blacklistCount": 1
         }
       }
     },
@@ -4595,15 +4647,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/quicksilvertestnet2": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 70,
           "redemptionStartTimestamp": 1793649752470
         },
         "https://quick.api.t.stavr.tech": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 38,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848194746,
+          "redemptionStartTimestamp": 1793860986982,
           "blacklistedUntil": 1794021155938,
           "blacklistCount": 1
         },
@@ -4622,7 +4674,7 @@
       "rest": {
         "https://rest.cosmos.directory/cronos": {
           "failedQueries": 0,
-          "longestQueryTime": 105,
+          "longestQueryTime": 120,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4631,15 +4683,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/sagatestnet": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 59,
           "redemptionStartTimestamp": 1793649760291
         },
         "https://testnet-ssc-lcd.sagarpc.io/": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848198556,
+          "redemptionStartTimestamp": 1793860991002,
           "blacklistedUntil": 1794021159649,
           "blacklistCount": 1
         }
@@ -4650,7 +4702,7 @@
       "rest": {
         "https://rest.cosmos.directory/cryptoorgchain": {
           "failedQueries": 0,
-          "longestQueryTime": 95,
+          "longestQueryTime": 91,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4659,40 +4711,46 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/cudos": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 36,
           "redemptionStartTimestamp": 1793649761385
         },
         "http://mainnet-full-node-01.hosts.cudos.org:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 12,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649764163
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120017844,
+          "blacklistedUntil": 1794120017844,
+          "blacklistCount": 1
         },
         "https://mainnet-full-node-02.hosts.cudos.org:31317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649767600
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120014349,
+          "blacklistedUntil": 1794120014349,
+          "blacklistCount": 1
         },
         "https://cudos-api.kleomedes.network": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 121,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649773059
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120021911,
+          "blacklistedUntil": 1794120021911,
+          "blacklistCount": 1
         },
         "https://cudos-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 269,
           "redemptionStartTimestamp": 1793649774060
         },
         "https://rest.lavenderfive.com:443/cudos": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 56,
           "redemptionStartTimestamp": 1793649778011
         },
         "https://cudos-rest.publicnode.com": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 89,
           "redemptionStartTimestamp": 1793649778011
         }
@@ -4702,15 +4760,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/seitestnet2": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 34,
           "redemptionStartTimestamp": 1793649764241
         },
         "https://api-testnet-sei.stingray.plus": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 48,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649767767
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120198356,
+          "blacklistedUntil": 1794120198356,
+          "blacklistCount": 1
         }
       }
     },
@@ -4718,33 +4778,41 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/sgetestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 34,
           "redemptionStartTimestamp": 1793649768601
         },
         "https://api.testnet.sgenetwork.io": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649771252
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120201704,
+          "blacklistedUntil": 1794120201704,
+          "blacklistCount": 1
         },
         "https://api-t.sge.nodestake.top/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 4,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649775052
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120209278,
+          "blacklistedUntil": 1794120209278,
+          "blacklistCount": 1
         },
         "https://saage-testnet-api.polkachu.com/": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649778606
+          "failedQueries": 10,
+          "longestQueryTime": 13,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120205427,
+          "blacklistedUntil": 1794120205427,
+          "blacklistCount": 1
         },
         "https://sge.api.t.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649781907
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120213220,
+          "blacklistedUntil": 1794120213220,
+          "blacklistCount": 1
         }
       }
     },
@@ -4753,7 +4821,7 @@
       "rest": {
         "https://rest.cosmos.directory/decentr": {
           "failedQueries": 0,
-          "longestQueryTime": 170,
+          "longestQueryTime": 206,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4763,7 +4831,7 @@
       "rest": {
         "https://rest.cosmos.directory/desmos": {
           "failedQueries": 0,
-          "longestQueryTime": 193,
+          "longestQueryTime": 108,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4772,27 +4840,33 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/dhealth": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 38,
           "redemptionStartTimestamp": 1793649778011
         },
         "https://lcd.dhealth.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649780865
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120029125,
+          "blacklistedUntil": 1794120029125,
+          "blacklistCount": 1
         },
         "https://api.dhealth.nodestake.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649784050
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120032908,
+          "blacklistedUntil": 1794120032908,
+          "blacklistCount": 1
         },
         "https://dhealth-api.polkachu.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649787376
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120025710,
+          "blacklistedUntil": 1794120025710,
+          "blacklistCount": 1
         }
       }
     },
@@ -4800,15 +4874,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stargazetestnet": {
-          "failedQueries": 24,
+          "failedQueries": 30,
           "longestQueryTime": 83,
           "redemptionStartTimestamp": 1793649782908
         },
         "https://rest.elgafar-1.stargaze-apis.com": {
-          "failedQueries": 28,
-          "longestQueryTime": 6,
+          "failedQueries": 34,
+          "longestQueryTime": 16,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848223709,
+          "redemptionStartTimestamp": 1793861017077,
           "blacklistedUntil": 1793908985618,
           "blacklistCount": 1
         }
@@ -4818,12 +4892,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stridetestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 36,
           "redemptionStartTimestamp": 1793649786184
         },
         "https://stride.testnet-1.stridenet.co/api": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 352,
           "redemptionStartTimestamp": 1793649786184
         }
@@ -4833,27 +4907,33 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/swisstroniktestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 44,
           "redemptionStartTimestamp": 1793649787187
         },
         "https://api.testnet.swisstronik.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 7210,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649811539
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120253071,
+          "blacklistedUntil": 1794120253071,
+          "blacklistCount": 1
         },
         "https://testnet-swisstronik-api.genznodes.dev": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649814812
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120224455,
+          "blacklistedUntil": 1794120224455,
+          "blacklistCount": 1
         },
         "https://rest.swisstronik.comunitynode.my.id/": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649818373
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120228209,
+          "blacklistedUntil": 1794120228209,
+          "blacklistCount": 1
         }
       }
     },
@@ -4861,15 +4941,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/dig": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 66,
           "redemptionStartTimestamp": 1793649788376
         },
         "https://api-1-dig.notional.ventures": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848122621,
+          "redemptionStartTimestamp": 1793860832940,
           "blacklistedUntil": 1794021081349,
           "blacklistCount": 1
         },
@@ -4888,7 +4968,7 @@
       "rest": {
         "https://rest.cosmos.directory/divine": {
           "failedQueries": 0,
-          "longestQueryTime": 417,
+          "longestQueryTime": 367,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4898,7 +4978,7 @@
       "rest": {
         "https://rest.cosmos.directory/doravota": {
           "failedQueries": 0,
-          "longestQueryTime": 1009,
+          "longestQueryTime": 1008,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4907,15 +4987,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/dungeon1": {
-          "failedQueries": 44,
+          "failedQueries": 55,
           "longestQueryTime": 71,
           "redemptionStartTimestamp": 1793649799117
         },
         "https://api-dungeon-1.seraphim.zone": {
-          "failedQueries": 43,
+          "failedQueries": 54,
           "longestQueryTime": 8,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848135923,
+          "redemptionStartTimestamp": 1793860845673,
           "blacklistedUntil": 1793909001897,
           "blacklistCount": 1
         },
@@ -4941,55 +5021,55 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/dydx": {
-          "failedQueries": 4,
+          "failedQueries": 8,
           "longestQueryTime": 161,
-          "consecutiveInfraFailures": 2,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849857973
         },
         "https://dydx-rest.kingnodes.com:443": {
-          "failedQueries": 4,
-          "longestQueryTime": 66,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 101,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849861895
         },
         "https://rest.lavenderfive.com:443/dydx": {
-          "failedQueries": 4,
-          "longestQueryTime": 283,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 292,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849863278
         },
         "https://dydx-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 2,
-          "longestQueryTime": 166,
+          "failedQueries": 4,
+          "longestQueryTime": 174,
           "redemptionStartTimestamp": 1793849864078
         },
         "https://dydx-rest.publicnode.com": {
-          "failedQueries": 4,
+          "failedQueries": 8,
           "longestQueryTime": 55,
-          "consecutiveInfraFailures": 2,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849867108
         },
         "https://dydx-lcd.enigma-validator.com": {
-          "failedQueries": 4,
-          "longestQueryTime": 10000,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 10001,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849900452
         },
         "https://dydx-api.noders.services": {
-          "failedQueries": 4,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849903907
         },
         "https://dydx.rpc.uquad.org:443": {
-          "failedQueries": 4,
-          "longestQueryTime": 7222,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 10000,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793849922380
         },
         "https://dydx-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 71,
+          "longestQueryTime": 87,
           "consecutiveInfraFailures": 0
         }
       }
@@ -4998,15 +5078,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/symphonytestnet": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 81,
           "redemptionStartTimestamp": 1793649819374
         },
         "https://symphony.test.api.nodeshub.online/": {
-          "failedQueries": 24,
-          "longestQueryTime": 4,
+          "failedQueries": 28,
+          "longestQueryTime": 8,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848260083,
+          "redemptionStartTimestamp": 1793861053113,
           "blacklistedUntil": 1793934911190,
           "blacklistCount": 1
         },
@@ -5032,13 +5112,13 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/synternettestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 68,
           "redemptionStartTimestamp": 1793649826803
         },
         "https://api-testnet.synternet.com/": {
-          "failedQueries": 4,
-          "longestQueryTime": 174,
+          "failedQueries": 5,
+          "longestQueryTime": 386,
           "redemptionStartTimestamp": 1793649826803
         }
       }
@@ -5047,20 +5127,22 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/terra2testnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 37,
           "redemptionStartTimestamp": 1793649826803
         },
         "https://pisco-lcd.terra.dev:443": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 138,
           "redemptionStartTimestamp": 1793649832092
         },
         "https://terra-testnet-api.polkachu.com:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 4,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649834154
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120265117,
+          "blacklistedUntil": 1794120265117,
+          "blacklistCount": 1
         }
       }
     },
@@ -5074,7 +5156,7 @@
         },
         "https://lcd.titannet.io:443": {
           "failedQueries": 0,
-          "longestQueryTime": 1311,
+          "longestQueryTime": 1867,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5083,21 +5165,25 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/dyson": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 46,
           "redemptionStartTimestamp": 1793649836098
         },
         "https://dys-api.dysonprotocol.com:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649868310
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120088590,
+          "blacklistedUntil": 1794120088590,
+          "blacklistCount": 1
         },
         "https://dyson-api.cogwheel.zone:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 130,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649872394
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120055331,
+          "blacklistedUntil": 1794120055331,
+          "blacklistCount": 1
         }
       }
     },
@@ -5105,15 +5191,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/titantestnet": {
-          "failedQueries": 20,
+          "failedQueries": 25,
           "longestQueryTime": 84,
           "redemptionStartTimestamp": 1793649836098
         },
         "https://titan-testnet-lcd.titanlab.io:443": {
-          "failedQueries": 25,
-          "longestQueryTime": 3,
+          "failedQueries": 30,
+          "longestQueryTime": 5,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848273046,
+          "redemptionStartTimestamp": 1793861067046,
           "blacklistedUntil": 1793909038793,
           "blacklistCount": 1
         },
@@ -5139,15 +5225,17 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/wardenprotocoltestnet": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 53,
           "redemptionStartTimestamp": 1793649846559
         },
         "https://api.docas.wardenprotocol.org/": {
-          "failedQueries": 8,
-          "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649849492
+          "failedQueries": 10,
+          "longestQueryTime": 4,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120274456,
+          "blacklistedUntil": 1794120274456,
+          "blacklistCount": 1
         }
       }
     },
@@ -5155,7 +5243,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/xiontestnet1": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 194,
           "redemptionStartTimestamp": 1793649850492
         }
@@ -5171,7 +5259,7 @@
         },
         "https://api.xion-testnet-2.burnt.com": {
           "failedQueries": 0,
-          "longestQueryTime": 928,
+          "longestQueryTime": 529,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5186,7 +5274,7 @@
         },
         "https://api.xrpl.cumulo.com.es": {
           "failedQueries": 0,
-          "longestQueryTime": 370,
+          "longestQueryTime": 393,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5201,7 +5289,7 @@
         },
         "https://testnet-api.zigchain.com": {
           "failedQueries": 0,
-          "longestQueryTime": 149,
+          "longestQueryTime": 151,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5210,22 +5298,28 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/echelon": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 37,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649876150
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120095740,
+          "blacklistedUntil": 1794120095740,
+          "blacklistCount": 1
         },
         "https://ech01api.mindheartsoul.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649909814
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120129633,
+          "blacklistedUntil": 1794120129633,
+          "blacklistCount": 1
         },
         "https://api.echjoker.lol": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793649913685
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120092255,
+          "blacklistedUntil": 1794120092255,
+          "blacklistCount": 1
         }
       }
     },
@@ -5233,21 +5327,21 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/elys": {
-          "failedQueries": 9,
+          "failedQueries": 11,
           "longestQueryTime": 80,
           "redemptionStartTimestamp": 1793649914673
         },
         "https://api.elys.network": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849778470,
+          "redemptionStartTimestamp": 1793862443393,
           "blacklistedUntil": 1793909147267,
           "blacklistCount": 1
         },
         "https://elys-rest.publicnode.com": {
-          "failedQueries": 5,
-          "longestQueryTime": 84,
+          "failedQueries": 7,
+          "longestQueryTime": 88,
           "redemptionStartTimestamp": 1793763616466
         },
         "https://elys-mainnet-api.itrocket.net": {
@@ -5283,8 +5377,8 @@
           "blacklistCount": 1
         },
         "https://elys-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 5,
-          "longestQueryTime": 185,
+          "failedQueries": 7,
+          "longestQueryTime": 193,
           "redemptionStartTimestamp": 1793763630422
         },
         "https://elys-api.vnodesv.net": {
@@ -5297,7 +5391,7 @@
         },
         "https://elys-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 131,
+          "longestQueryTime": 139,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5306,15 +5400,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/emoney": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 94,
           "redemptionStartTimestamp": 1793649947908
         },
         "https://emoney.validator.network/api/": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 242,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848220837,
+          "redemptionStartTimestamp": 1793860930329,
           "blacklistedUntil": 1793934867580,
           "blacklistCount": 1
         },
@@ -5333,7 +5427,7 @@
       "rest": {
         "https://rest.cosmos.directory/empowerchain": {
           "failedQueries": 0,
-          "longestQueryTime": 577,
+          "longestQueryTime": 539,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5342,62 +5436,80 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/epix": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 541,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763616986
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121605108,
+          "blacklistedUntil": 1794121605108,
+          "blacklistCount": 1
         },
         "https://api.epix.zone": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 435,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763621529
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121600362,
+          "blacklistedUntil": 1794121600362,
+          "blacklistCount": 1
         },
         "https://api-epix.onenov.xyz": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 257,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763625970
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121595881,
+          "blacklistedUntil": 1794121595881,
+          "blacklistCount": 1
         },
         "https://api-epix.vinjan-inc.com": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 108,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763629418
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121584462,
+          "blacklistedUntil": 1794121584462,
+          "blacklistCount": 1
         },
         "https://api-epix.dnsarz.net": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 227,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763633581
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121591840,
+          "blacklistedUntil": 1794121591840,
+          "blacklistCount": 1
         },
         "https://mainnet-epix-api.konsortech.xyz:443": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 76,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763640872
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121580987,
+          "blacklistedUntil": 1794121580987,
+          "blacklistCount": 1
         },
         "https://api.nodesafe-app.xyz/epix/": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 620,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763645613
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121610222,
+          "blacklistedUntil": 1794121610222,
+          "blacklistCount": 1
         },
         "https://epix.api.m.anode.team": {
-          "failedQueries": 10,
+          "failedQueries": 12,
           "longestQueryTime": 108,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763649383
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121588243,
+          "blacklistedUntil": 1794121588243,
+          "blacklistCount": 1
         },
         "https://epix-api.tintonode.win": {
-          "failedQueries": 8,
+          "failedQueries": 12,
           "longestQueryTime": 965,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1793763700828
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121618721,
+          "blacklistedUntil": 1794121618721,
+          "blacklistCount": 1
         },
         "https://epix-api.linknode.org": {
           "failedQueries": 0,
-          "longestQueryTime": 55,
+          "longestQueryTime": 98,
           "consecutiveInfraFailures": 0,
           "redemptionStartTimestamp": 0,
           "blacklistedUntil": 0,
@@ -5409,15 +5521,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/evmos": {
-          "failedQueries": 128,
-          "longestQueryTime": 199,
+          "failedQueries": 160,
+          "longestQueryTime": 201,
           "redemptionStartTimestamp": 1793649955473
         },
         "https://rest.bd.evmos.org:1317": {
-          "failedQueries": 106,
+          "failedQueries": 138,
           "longestQueryTime": 7,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849553163,
+          "redemptionStartTimestamp": 1793862245373,
           "blacklistedUntil": 1793909158873,
           "blacklistCount": 1
         },
@@ -5470,7 +5582,7 @@
           "blacklistCount": 1
         },
         "https://evmos-rest.publicnode.com": {
-          "failedQueries": 128,
+          "failedQueries": 160,
           "longestQueryTime": 252,
           "redemptionStartTimestamp": 1793650008465
         },
@@ -5544,16 +5656,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/fandomchain": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 47,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650045606
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120157837,
+          "blacklistedUntil": 1794120157837,
+          "blacklistCount": 1
         },
         "https://api.fandomchain.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 5008,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650063995
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120175940,
+          "blacklistedUntil": 1794120175940,
+          "blacklistCount": 1
         }
       }
     },
@@ -5562,7 +5678,7 @@
       "rest": {
         "https://rest.cosmos.directory/fetchhub": {
           "failedQueries": 0,
-          "longestQueryTime": 305,
+          "longestQueryTime": 348,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5572,7 +5688,7 @@
       "rest": {
         "https://rest.cosmos.directory/firmachain": {
           "failedQueries": 0,
-          "longestQueryTime": 513,
+          "longestQueryTime": 688,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5581,7 +5697,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/furya": {
-          "failedQueries": 25,
+          "failedQueries": 30,
           "longestQueryTime": 43,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793909268140,
@@ -5589,7 +5705,7 @@
           "blacklistCount": 1
         },
         "https://furya.api.nodeshub.online": {
-          "failedQueries": 25,
+          "failedQueries": 30,
           "longestQueryTime": 8,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793909271397,
@@ -5602,20 +5718,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/fxcore": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 66,
           "redemptionStartTimestamp": 1793650071990
         },
         "https://fx-rest.functionx.io": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 298,
           "redemptionStartTimestamp": 1793650077762
         },
         "https://functionx.api.nodeshub.online:443": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848279759,
+          "redemptionStartTimestamp": 1793860983447,
           "blacklistedUntil": 1793934927985,
           "blacklistCount": 1
         }
@@ -5625,10 +5741,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/galaxy": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 42,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650084487
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120196211,
+          "blacklistedUntil": 1794120196211,
+          "blacklistCount": 1
         }
       }
     },
@@ -5653,7 +5771,7 @@
         },
         "https://rest.cosmos.directory/gateway": {
           "failedQueries": 0,
-          "longestQueryTime": 125,
+          "longestQueryTime": 163,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5663,7 +5781,7 @@
       "rest": {
         "https://rest.cosmos.directory/genesisl1": {
           "failedQueries": 0,
-          "longestQueryTime": 365,
+          "longestQueryTime": 81,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5673,7 +5791,7 @@
       "rest": {
         "https://rest.cosmos.directory/gnodi": {
           "failedQueries": 0,
-          "longestQueryTime": 153,
+          "longestQueryTime": 322,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5683,7 +5801,7 @@
       "rest": {
         "https://rest.cosmos.directory/gonka": {
           "failedQueries": 0,
-          "longestQueryTime": 68,
+          "longestQueryTime": 49,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5693,7 +5811,7 @@
       "rest": {
         "https://rest.cosmos.directory/gravitybridge": {
           "failedQueries": 0,
-          "longestQueryTime": 150,
+          "longestQueryTime": 203,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5702,10 +5820,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/haqq": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 226,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849647509,
+          "redemptionStartTimestamp": 1793862348594,
           "blacklistedUntil": 1794022616103,
           "blacklistCount": 1
         },
@@ -5799,7 +5917,7 @@
         },
         "https://haqq-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 126,
+          "longestQueryTime": 144,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5808,16 +5926,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/hazinachain": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 114,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650092626
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120198209,
+          "blacklistedUntil": 1794120198209,
+          "blacklistCount": 1
         },
         "https://api.hazinachain.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 138,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650092765
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120198280,
+          "blacklistedUntil": 1794120198280,
+          "blacklistCount": 1
         }
       }
     },
@@ -5826,7 +5948,7 @@
       "rest": {
         "https://rest.cosmos.directory/hippoprotocol": {
           "failedQueries": 0,
-          "longestQueryTime": 355,
+          "longestQueryTime": 432,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5836,7 +5958,7 @@
       "rest": {
         "https://rest.cosmos.directory/humans": {
           "failedQueries": 0,
-          "longestQueryTime": 217,
+          "longestQueryTime": 244,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5846,7 +5968,7 @@
       "rest": {
         "https://rest.cosmos.directory/hyve": {
           "failedQueries": 0,
-          "longestQueryTime": 365,
+          "longestQueryTime": 374,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5855,8 +5977,49 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/impacthub": {
+          "failedQueries": 4,
+          "longestQueryTime": 235,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862690146
+        },
+        "https://proxies.sifchain.finance/api/impacthub-3/rest": {
+          "failedQueries": 6,
+          "longestQueryTime": 5,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1793862693787
+        },
+        "https://impacthub.ixo.world/rest/": {
+          "failedQueries": 4,
+          "longestQueryTime": 45,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862697205
+        },
+        "https://rest.lavenderfive.com:443/impacthub": {
+          "failedQueries": 3,
+          "longestQueryTime": 26,
+          "redemptionStartTimestamp": 1793862705521
+        },
+        "https://ixo.ibs.team/api": {
+          "failedQueries": 6,
+          "longestQueryTime": 14,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1793862708293
+        },
+        "https://ixo-api.bluestake.net": {
+          "failedQueries": 4,
+          "longestQueryTime": 71,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862712342
+        },
+        "https://impacthub_mainnet_api.chain.whenmoonwhenlambo.money": {
+          "failedQueries": 6,
+          "longestQueryTime": 2,
+          "consecutiveInfraFailures": 3,
+          "redemptionStartTimestamp": 1793862715483
+        },
+        "https://ixo.api.m.stavr.tech": {
           "failedQueries": 0,
-          "longestQueryTime": 192,
+          "longestQueryTime": 124,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5865,10 +6028,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/imversed": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 46,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650096986
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120203019,
+          "blacklistedUntil": 1794120203019,
+          "blacklistCount": 1
         }
       }
     },
@@ -5895,14 +6060,14 @@
           "blacklistedUntil": 0,
           "blacklistCount": 0
         },
-        "https://injective-rest.publicnode.com": {
-          "failedQueries": 0,
-          "longestQueryTime": 42,
-          "consecutiveInfraFailures": 0
-        },
         "https://injective-api.highstakes.ch": {
           "failedQueries": 0,
-          "longestQueryTime": 889,
+          "longestQueryTime": 1111,
+          "consecutiveInfraFailures": 0
+        },
+        "https://injective-rest.publicnode.com": {
+          "failedQueries": 0,
+          "longestQueryTime": 74,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5912,7 +6077,7 @@
       "rest": {
         "https://rest.cosmos.directory/initia": {
           "failedQueries": 0,
-          "longestQueryTime": 432,
+          "longestQueryTime": 397,
           "consecutiveInfraFailures": 0
         }
       }
@@ -5921,15 +6086,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/int3face": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 79,
           "redemptionStartTimestamp": 1793650137093
         },
         "https://api.mainnet.int3face.zone": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 662,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848309389,
+          "redemptionStartTimestamp": 1793861008245,
           "blacklistedUntil": 1793934954667,
           "blacklistCount": 1
         }
@@ -5939,7 +6104,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/intento": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 56,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021270703,
@@ -5947,8 +6112,8 @@
           "blacklistCount": 1
         },
         "https://lcd-mainnet.intento.zone": {
-          "failedQueries": 14,
-          "longestQueryTime": 456,
+          "failedQueries": 16,
+          "longestQueryTime": 481,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021275208,
           "blacklistedUntil": 1794021275208,
@@ -5978,7 +6143,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/joltify": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 39,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021298669,
@@ -5986,7 +6151,7 @@
           "blacklistCount": 1
         },
         "https://lcd.joltify.io/": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 9,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021291517,
@@ -5994,7 +6159,7 @@
           "blacklistCount": 1
         },
         "https://joltify_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021294767,
@@ -6021,7 +6186,7 @@
         },
         "https://juno.api.m.stavr.tech": {
           "failedQueries": 0,
-          "longestQueryTime": 126,
+          "longestQueryTime": 97,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6038,8 +6203,16 @@
           "blacklistCount": 0
         },
         "https://api.data.kava.io/": {
+          "failedQueries": 10,
+          "longestQueryTime": 10001,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120267851,
+          "blacklistedUntil": 1794120267851,
+          "blacklistCount": 1
+        },
+        "https://kava-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 334,
+          "longestQueryTime": 189,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6048,15 +6221,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/kichain": {
-          "failedQueries": 16,
-          "longestQueryTime": 74,
+          "failedQueries": 26,
+          "longestQueryTime": 157,
           "redemptionStartTimestamp": 1793650238304
         },
         "https://api-mainnet.blockchain.ki": {
-          "failedQueries": 22,
+          "failedQueries": 32,
           "longestQueryTime": 8,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849866980,
+          "redemptionStartTimestamp": 1793862497829,
           "blacklistedUntil": 1794021326972,
           "blacklistCount": 1
         },
@@ -6077,7 +6250,7 @@
           "blacklistCount": 1
         },
         "https://kichain-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 16,
+          "failedQueries": 26,
           "longestQueryTime": 218,
           "redemptionStartTimestamp": 1793650248605
         },
@@ -6119,16 +6292,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/kimanetwork": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 34,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650265844
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120276678,
+          "blacklistedUntil": 1794120276678,
+          "blacklistCount": 1
         },
         "https://api.kima.network": {
-          "failedQueries": 8,
-          "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650299487
+          "failedQueries": 10,
+          "longestQueryTime": 10003,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120310134,
+          "blacklistedUntil": 1794120310134,
+          "blacklistCount": 1
         }
       }
     },
@@ -6136,16 +6313,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/konstellation": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650303237
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120317504,
+          "blacklistedUntil": 1794120317504,
+          "blacklistCount": 1
         },
         "https://konstellation-rest.stakerhouse.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650306997
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120313625,
+          "blacklistedUntil": 1794120313625,
+          "blacklistCount": 1
         }
       }
     },
@@ -6156,7 +6337,7 @@
           "failedQueries": 10,
           "longestQueryTime": 51,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849583781,
+          "redemptionStartTimestamp": 1793862284482,
           "blacklistedUntil": 1793909511008,
           "blacklistCount": 1
         },
@@ -6218,7 +6399,7 @@
         },
         "https://kopi-api.bluestake.net": {
           "failedQueries": 0,
-          "longestQueryTime": 232,
+          "longestQueryTime": 291,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6227,10 +6408,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/kujira": {
-          "failedQueries": 160,
+          "failedQueries": 210,
           "longestQueryTime": 261,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849583076,
+          "redemptionStartTimestamp": 1793862276163,
           "blacklistedUntil": 1793909536835,
           "blacklistCount": 1
         },
@@ -6291,7 +6472,7 @@
           "blacklistCount": 1
         },
         "https://kujira-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 200,
+          "failedQueries": 250,
           "longestQueryTime": 309,
           "redemptionStartTimestamp": 1793650363120
         },
@@ -6328,8 +6509,8 @@
           "blacklistCount": 1
         },
         "https://kujira-rest.publicnode.com": {
-          "failedQueries": 200,
-          "longestQueryTime": 211,
+          "failedQueries": 250,
+          "longestQueryTime": 239,
           "redemptionStartTimestamp": 1793650374053
         },
         "https://kujira-rest.interstellar-lounge.org": {
@@ -6355,7 +6536,7 @@
       "rest": {
         "https://rest.cosmos.directory/kyve": {
           "failedQueries": 0,
-          "longestQueryTime": 234,
+          "longestQueryTime": 289,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6364,33 +6545,41 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lambda": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 36,
           "redemptionStartTimestamp": 1793650389842
         },
         "https://rest.lambda.im": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650422959
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120398973,
+          "blacklistedUntil": 1794120398973,
+          "blacklistCount": 1
         },
         "https://lambda.api.m.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650426731
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120358548,
+          "blacklistedUntil": 1794120358548,
+          "blacklistCount": 1
         },
         "https://lambda-api.noders.services": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650430028
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120362236,
+          "blacklistedUntil": 1794120362236,
+          "blacklistCount": 1
         },
         "https://lambda_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650433915
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120365501,
+          "blacklistedUntil": 1794120365501,
+          "blacklistCount": 1
         }
       }
     },
@@ -6399,7 +6588,7 @@
       "rest": {
         "https://rest.cosmos.directory/likecoin": {
           "failedQueries": 0,
-          "longestQueryTime": 335,
+          "longestQueryTime": 281,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6408,10 +6597,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lombardledger": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 53,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650438145
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120404206,
+          "blacklistedUntil": 1794120404206,
+          "blacklistCount": 1
         }
       }
     },
@@ -6419,10 +6610,12 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lorenzo": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 34,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650441496
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120407777,
+          "blacklistedUntil": 1794120407777,
+          "blacklistCount": 1
         }
       }
     },
@@ -6430,8 +6623,50 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lumen": {
+          "failedQueries": 4,
+          "longestQueryTime": 204,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862689746
+        },
+        "https://lumen-api.linknode.org": {
+          "failedQueries": 4,
+          "longestQueryTime": 49,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862693299
+        },
+        "https://api-lumen.onenov.xyz": {
+          "failedQueries": 4,
+          "longestQueryTime": 15,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862697101
+        },
+        "https://api.lumen.chaintools.tech": {
+          "failedQueries": 4,
+          "longestQueryTime": 37,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862701940
+        },
+        "https://lumen-mainnet-api.mekonglabs.com/": {
+          "failedQueries": 4,
+          "longestQueryTime": 35,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862705675
+        },
+        "https://m-lumen.api.utsa.tech/": {
+          "failedQueries": 4,
+          "longestQueryTime": 35,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862709676
+        },
+        "https://api.nodesafe-app.xyz/lumen": {
+          "failedQueries": 4,
+          "longestQueryTime": 283,
+          "consecutiveInfraFailures": 2,
+          "redemptionStartTimestamp": 1793862714352
+        },
+        "https://lumen-api.tintonode.win": {
           "failedQueries": 0,
-          "longestQueryTime": 734,
+          "longestQueryTime": 940,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6440,27 +6675,33 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lumenx": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 48,
           "redemptionStartTimestamp": 1793650442495
         },
         "https://api-lumenx.cryptonet.pl/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650445856
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120414962,
+          "blacklistedUntil": 1794120414962,
+          "blacklistCount": 1
         },
         "https://api-lumenx.nodine.id/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650449277
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120411730,
+          "blacklistedUntil": 1794120411730,
+          "blacklistCount": 1
         },
         "https://lcd.lumenx.hexnodes.co/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650452649
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120418654,
+          "blacklistedUntil": 1794120418654,
+          "blacklistCount": 1
         }
       }
     },
@@ -6469,7 +6710,7 @@
       "rest": {
         "https://rest.cosmos.directory/lumera": {
           "failedQueries": 0,
-          "longestQueryTime": 536,
+          "longestQueryTime": 230,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6478,10 +6719,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/lumnetwork": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 43,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848524546,
+          "redemptionStartTimestamp": 1793861218941,
           "blacklistedUntil": 1794021499838,
           "blacklistCount": 1
         },
@@ -6494,7 +6735,7 @@
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/lumnetwork": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 52,
           "redemptionStartTimestamp": 1793650464664
         },
@@ -6537,7 +6778,7 @@
       "rest": {
         "https://rest.cosmos.directory/luxa": {
           "failedQueries": 0,
-          "longestQueryTime": 331,
+          "longestQueryTime": 327,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6546,13 +6787,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/mande": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 49,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650478524
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120430493,
+          "blacklistedUntil": 1794120430493,
+          "blacklistCount": 1
         },
         "https://mande-mainnet-rest.public.blastapi.io": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 55,
           "redemptionStartTimestamp": 1793650479524
         }
@@ -6562,22 +6805,28 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/manifest": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 58,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650481953
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120440791,
+          "blacklistedUntil": 1794120440791,
+          "blacklistCount": 1
         },
         "https://nodes.liftedinit.app/manifest/api": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650485537
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120433978,
+          "blacklistedUntil": 1794120433978,
+          "blacklistCount": 1
         },
         "https://manifest-rest.liftedinit.app": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650489020
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120437196,
+          "blacklistedUntil": 1794120437196,
+          "blacklistCount": 1
         }
       }
     },
@@ -6586,7 +6835,7 @@
       "rest": {
         "https://rest.cosmos.directory/mantrachain": {
           "failedQueries": 0,
-          "longestQueryTime": 218,
+          "longestQueryTime": 176,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6595,25 +6844,26 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/mars": {
-          "failedQueries": 40,
+          "failedQueries": 54,
           "longestQueryTime": 86,
           "redemptionStartTimestamp": 1793650490021
         },
         "https://rest.marsprotocol.io:443": {
-          "failedQueries": 44,
+          "failedQueries": 58,
           "longestQueryTime": 5,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849792856,
+          "redemptionStartTimestamp": 1793862458163,
           "blacklistedUntil": 1793909693183,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/mars": {
-          "failedQueries": 40,
+          "failedQueries": 55,
           "longestQueryTime": 60,
-          "redemptionStartTimestamp": 1793650497102
+          "redemptionStartTimestamp": 1793650497102,
+          "consecutiveInfraFailures": 1
         },
         "https://mars-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 40,
+          "failedQueries": 54,
           "longestQueryTime": 192,
           "redemptionStartTimestamp": 1793650497102
         },
@@ -6650,7 +6900,7 @@
           "blacklistCount": 1
         },
         "https://mars-rest.publicnode.com": {
-          "failedQueries": 40,
+          "failedQueries": 54,
           "longestQueryTime": 85,
           "redemptionStartTimestamp": 1793650518689
         }
@@ -6660,24 +6910,26 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/medasdigital": {
-          "failedQueries": 7,
+          "failedQueries": 8,
           "longestQueryTime": 10000,
           "consecutiveInfraFailures": 2,
           "redemptionStartTimestamp": 1793650523221
         },
         "https://medasdigital_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 10,
-          "longestQueryTime": 2,
+          "failedQueries": 11,
+          "longestQueryTime": 3,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1794107832600,
+          "redemptionStartTimestamp": 1793861256205,
           "blacklistedUntil": 1794107832600,
           "blacklistCount": 1
         },
         "https://lcd.medas-digital.io:1317/": {
-          "failedQueries": 4,
-          "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 2,
-          "redemptionStartTimestamp": 1793848595026
+          "failedQueries": 0,
+          "longestQueryTime": 1100,
+          "redemptionStartTimestamp": 0,
+          "consecutiveInfraFailures": 0,
+          "blacklistedUntil": 0,
+          "blacklistCount": 0
         }
       }
     },
@@ -6685,40 +6937,52 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/meme": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 37,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650529245
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120475375,
+          "blacklistedUntil": 1794120475375,
+          "blacklistCount": 1
         },
         "https://api-meme-1.meme.sx/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650562444
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120512466,
+          "blacklistedUntil": 1794120512466,
+          "blacklistCount": 1
         },
         "https://meme-api.polkachu.com/": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650565787
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120464710,
+          "blacklistedUntil": 1794120464710,
+          "blacklistCount": 1
         },
         "https://api-meme.pupmos.network/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650569069
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120468004,
+          "blacklistedUntil": 1794120468004,
+          "blacklistCount": 1
         },
         "https://meme.api.m.anode.team": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 190,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650576479
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120478743,
+          "blacklistedUntil": 1794120478743,
+          "blacklistCount": 1
         },
         "https://meme.api.m.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 35,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650580271
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120471722,
+          "blacklistedUntil": 1794120471722,
+          "blacklistCount": 1
         }
       }
     },
@@ -6726,7 +6990,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/microtick": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 63,
           "redemptionStartTimestamp": 1793650581272
         }
@@ -6736,10 +7000,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/migaloo": {
-          "failedQueries": 61,
+          "failedQueries": 78,
           "longestQueryTime": 57,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848696247,
+          "redemptionStartTimestamp": 1793861324777,
           "blacklistedUntil": 1793909784183,
           "blacklistCount": 1
         },
@@ -6760,7 +7024,7 @@
           "blacklistCount": 1
         },
         "https://migaloo-rest.publicnode.com": {
-          "failedQueries": 68,
+          "failedQueries": 85,
           "longestQueryTime": 109,
           "redemptionStartTimestamp": 1793650592216
         }
@@ -6770,15 +7034,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/milkyway": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 82,
           "redemptionStartTimestamp": 1793650593294
         },
         "https://lcd.mainnet.milkyway.zone/": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848700051,
+          "redemptionStartTimestamp": 1793861328543,
           "blacklistedUntil": 1793935294678,
           "blacklistCount": 1
         }
@@ -6788,22 +7052,28 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/mirage": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 658,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650602534
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120545822,
+          "blacklistedUntil": 1794120545822,
+          "blacklistCount": 1
         },
         "https://mirage.talk/chain/rest": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 104,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650606750
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120537433,
+          "blacklistedUntil": 1794120537433,
+          "blacklistCount": 1
         },
         "https://mirage.vote/chain/rest": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 163,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650610870
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120541722,
+          "blacklistedUntil": 1794120541722,
+          "blacklistCount": 1
         }
       }
     },
@@ -6812,7 +7082,7 @@
       "rest": {
         "https://rest.cosmos.directory/mtgbp": {
           "failedQueries": 0,
-          "longestQueryTime": 355,
+          "longestQueryTime": 234,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6822,12 +7092,12 @@
       "rest": {
         "https://rest.neutron.solva.solutions:443": {
           "failedQueries": 0,
-          "longestQueryTime": 202,
+          "longestQueryTime": 244,
           "consecutiveInfraFailures": 0
         },
         "https://rest.cosmos.directory/neutron": {
           "failedQueries": 0,
-          "longestQueryTime": 161,
+          "longestQueryTime": 111,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6837,7 +7107,7 @@
       "rest": {
         "https://rest.cosmos.directory/mucoin": {
           "failedQueries": 0,
-          "longestQueryTime": 695,
+          "longestQueryTime": 366,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6847,7 +7117,7 @@
       "rest": {
         "https://rest.cosmos.directory/neutaro": {
           "failedQueries": 0,
-          "longestQueryTime": 125,
+          "longestQueryTime": 615,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6857,7 +7127,7 @@
       "rest": {
         "https://rest.cosmos.directory/neutronx": {
           "failedQueries": 0,
-          "longestQueryTime": 73,
+          "longestQueryTime": 94,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6866,10 +7136,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nibiru": {
-          "failedQueries": 12,
-          "longestQueryTime": 481,
+          "failedQueries": 14,
+          "longestQueryTime": 537,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849575465,
+          "redemptionStartTimestamp": 1793862268276,
           "blacklistedUntil": 1794022504649,
           "blacklistCount": 1
         },
@@ -6906,7 +7176,7 @@
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/nibiru": {
-          "failedQueries": 11,
+          "failedQueries": 13,
           "longestQueryTime": 43,
           "redemptionStartTimestamp": 1793652513348
         },
@@ -6959,12 +7229,12 @@
           "blacklistCount": 1
         },
         "https://nibiru-rest.publicnode.com": {
-          "failedQueries": 8,
-          "longestQueryTime": 93,
+          "failedQueries": 10,
+          "longestQueryTime": 104,
           "redemptionStartTimestamp": 1793652536631
         },
         "https://api.nibiru.roomit.xyz": {
-          "failedQueries": 11,
+          "failedQueries": 13,
           "longestQueryTime": 18,
           "redemptionStartTimestamp": 1793652540282
         },
@@ -6986,7 +7256,7 @@
         },
         "https://nibiru-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 94,
+          "longestQueryTime": 144,
           "consecutiveInfraFailures": 0
         }
       }
@@ -6995,37 +7265,43 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nillion": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 52,
           "redemptionStartTimestamp": 1793650616132
         },
         "https://nillion-api.lavenderfive.com": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 35,
           "redemptionStartTimestamp": 1793650619439
         },
         "https://api.nillion.nodestake.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 5,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650621738
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120559924,
+          "blacklistedUntil": 1794120559924,
+          "blacklistCount": 1
         },
         "https://nillion-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 4,
-          "longestQueryTime": 174,
+          "failedQueries": 5,
+          "longestQueryTime": 183,
           "redemptionStartTimestamp": 1793650622739
         },
         "https://nillion-mainnet-api.shazoes.xyz": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 69,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650625237
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120563561,
+          "blacklistedUntil": 1794120563561,
+          "blacklistCount": 1
         },
         "https://api.nillion.validatus.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650628733
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120556573,
+          "blacklistedUntil": 1794120556573,
+          "blacklistCount": 1
         }
       }
     },
@@ -7033,16 +7309,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nim": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 55,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650632206
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120570194,
+          "blacklistedUntil": 1794120570194,
+          "blacklistCount": 1
         },
         "https://rest.mainnet.nimnet.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793650635575
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120566844,
+          "blacklistedUntil": 1794120566844,
+          "blacklistCount": 1
         }
       }
     },
@@ -7067,7 +7347,7 @@
         },
         "https://rest.cosmos.directory/noble": {
           "failedQueries": 0,
-          "longestQueryTime": 101,
+          "longestQueryTime": 107,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7076,15 +7356,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nois": {
-          "failedQueries": 64,
+          "failedQueries": 80,
           "longestQueryTime": 153,
           "redemptionStartTimestamp": 1793650643554
         },
         "https://m-nois.api.utsa.tech": {
-          "failedQueries": 58,
-          "longestQueryTime": 5,
+          "failedQueries": 74,
+          "longestQueryTime": 53,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849639727,
+          "redemptionStartTimestamp": 1793862340770,
           "blacklistedUntil": 1793909846349,
           "blacklistCount": 1
         },
@@ -7183,7 +7463,7 @@
       "rest": {
         "https://rest.cosmos.directory/nolus": {
           "failedQueries": 0,
-          "longestQueryTime": 383,
+          "longestQueryTime": 191,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7192,7 +7472,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/nomic": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 47,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793935364880,
@@ -7200,7 +7480,7 @@
           "blacklistCount": 1
         },
         "https://app.nomic.io:8443": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793935398340,
@@ -7214,7 +7494,7 @@
       "rest": {
         "https://rest.cosmos.directory/nvnmchain": {
           "failedQueries": 0,
-          "longestQueryTime": 518,
+          "longestQueryTime": 542,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7224,7 +7504,7 @@
       "rest": {
         "https://rest.cosmos.directory/nyx": {
           "failedQueries": 0,
-          "longestQueryTime": 108,
+          "longestQueryTime": 84,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7233,25 +7513,25 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/odin1": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 64,
           "redemptionStartTimestamp": 1793650759524
         },
         "http://34.79.179.216:1317/": {
-          "failedQueries": 24,
-          "longestQueryTime": 10004,
+          "failedQueries": 28,
+          "longestQueryTime": 10006,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848795122,
+          "redemptionStartTimestamp": 1793861418912,
           "blacklistedUntil": 1793935436678,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/odin": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 29,
           "redemptionStartTimestamp": 1793650796277
         },
         "https://odin-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 250,
           "redemptionStartTimestamp": 1793650796277
         }
@@ -7261,7 +7541,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/okexchain": {
-          "failedQueries": 25,
+          "failedQueries": 30,
           "longestQueryTime": 44,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793909999921,
@@ -7274,15 +7554,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/omniflixhub": {
-          "failedQueries": 76,
+          "failedQueries": 95,
           "longestQueryTime": 142,
           "redemptionStartTimestamp": 1793650800245
         },
         "https://api.omniflix.nodestake.org": {
-          "failedQueries": 67,
-          "longestQueryTime": 14,
+          "failedQueries": 86,
+          "longestQueryTime": 40,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849590613,
+          "redemptionStartTimestamp": 1793862291710,
           "blacklistedUntil": 1793910003885,
           "blacklistCount": 1
         },
@@ -7311,7 +7591,7 @@
           "blacklistCount": 1
         },
         "https://omniflixhub-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 76,
+          "failedQueries": 95,
           "longestQueryTime": 316,
           "redemptionStartTimestamp": 1793650814700
         },
@@ -7364,7 +7644,7 @@
           "blacklistCount": 1
         },
         "https://omniflix-rest.publicnode.com": {
-          "failedQueries": 76,
+          "failedQueries": 95,
           "longestQueryTime": 215,
           "redemptionStartTimestamp": 1793650897470
         },
@@ -7382,15 +7662,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/onex": {
-          "failedQueries": 16,
+          "failedQueries": 20,
           "longestQueryTime": 74,
           "redemptionStartTimestamp": 1793650911960
         },
         "https://rest.mainnet.onex.onomy.io": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793848849038,
+          "redemptionStartTimestamp": 1793861472012,
           "blacklistedUntil": 1793935456798,
           "blacklistCount": 1
         }
@@ -7400,20 +7680,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/onomy": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 39,
           "redemptionStartTimestamp": 1793650915661
         },
         "https://rest-mainnet.onomy.io": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793848852536,
+          "redemptionStartTimestamp": 1793861475782,
           "blacklistedUntil": 1794021758629,
           "blacklistCount": 1
         },
         "https://onomy-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 211,
           "redemptionStartTimestamp": 1793650919822
         }
@@ -7424,7 +7704,7 @@
       "rest": {
         "https://rest.cosmos.directory/optio": {
           "failedQueries": 0,
-          "longestQueryTime": 430,
+          "longestQueryTime": 426,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7446,7 +7726,7 @@
           "failedQueries": 12,
           "longestQueryTime": 2,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849667833,
+          "redemptionStartTimestamp": 1793862368377,
           "blacklistedUntil": 1794021764537,
           "blacklistCount": 1
         },
@@ -7490,7 +7770,7 @@
         },
         "https://rest.cosmos.directory/oraichain": {
           "failedQueries": 0,
-          "longestQueryTime": 195,
+          "longestQueryTime": 175,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7500,7 +7780,7 @@
       "rest": {
         "https://rest.cosmos.directory/osmosis": {
           "failedQueries": 0,
-          "longestQueryTime": 101,
+          "longestQueryTime": 171,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7510,7 +7790,7 @@
       "rest": {
         "https://rest.cosmos.directory/panacea": {
           "failedQueries": 0,
-          "longestQueryTime": 316,
+          "longestQueryTime": 892,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7520,7 +7800,7 @@
       "rest": {
         "https://rest.cosmos.directory/passage": {
           "failedQueries": 0,
-          "longestQueryTime": 264,
+          "longestQueryTime": 385,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7530,7 +7810,7 @@
       "rest": {
         "https://rest.cosmos.directory/paxi": {
           "failedQueries": 0,
-          "longestQueryTime": 632,
+          "longestQueryTime": 641,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7539,10 +7819,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/planq": {
-          "failedQueries": 61,
-          "longestQueryTime": 86,
+          "failedQueries": 78,
+          "longestQueryTime": 102,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849666248,
+          "redemptionStartTimestamp": 1793862367313,
           "blacklistedUntil": 1793910154443,
           "blacklistCount": 1
         },
@@ -7587,7 +7867,7 @@
           "blacklistCount": 1
         },
         "https://api.planq.roomit.xyz": {
-          "failedQueries": 68,
+          "failedQueries": 85,
           "longestQueryTime": 23,
           "redemptionStartTimestamp": 1793651006048
         },
@@ -7637,48 +7917,58 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/point": {
-          "failedQueries": 8,
-          "longestQueryTime": 33,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651030264
+          "failedQueries": 10,
+          "longestQueryTime": 35,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120721882,
+          "blacklistedUntil": 1794120721882,
+          "blacklistCount": 1
         },
         "https://rpc-mainnet-1.point.space:1317": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651033955
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120711406,
+          "blacklistedUntil": 1794120711406,
+          "blacklistCount": 1
         },
         "https://point.api.m.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 35,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651037693
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120725739,
+          "blacklistedUntil": 1794120725739,
+          "blacklistCount": 1
         },
         "https://api.point.nodestake.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651041168
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120715046,
+          "blacklistedUntil": 1794120715046,
+          "blacklistCount": 1
         },
         "https://api.point.indonode.net": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651044749
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120718269,
+          "blacklistedUntil": 1794120718269,
+          "blacklistCount": 1
         }
       }
     },
     "pio-mainnet-1": {
       "rpc": {},
       "rest": {
-        "https://api.provenance.io": {
-          "failedQueries": 0,
-          "longestQueryTime": 354,
-          "consecutiveInfraFailures": 0
-        },
         "https://rest.cosmos.directory/provenance": {
           "failedQueries": 0,
-          "longestQueryTime": 167,
+          "longestQueryTime": 243,
+          "consecutiveInfraFailures": 0
+        },
+        "https://api.provenance.io": {
+          "failedQueries": 0,
+          "longestQueryTime": 170,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7687,25 +7977,25 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/pryzm": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 104,
           "redemptionStartTimestamp": 1793651045749
         },
         "https://api.pryzm.zone": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 5,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793848921506,
+          "redemptionStartTimestamp": 1793861533612,
           "blacklistedUntil": 1793910248711,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/pryzm": {
-          "failedQueries": 40,
-          "longestQueryTime": 25,
+          "failedQueries": 50,
+          "longestQueryTime": 32,
           "redemptionStartTimestamp": 1793651052452
         },
         "https://pryzm-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 40,
+          "failedQueries": 50,
           "longestQueryTime": 226,
           "redemptionStartTimestamp": 1793651052452
         },
@@ -7724,7 +8014,7 @@
       "rest": {
         "https://rest.cosmos.directory/pundix": {
           "failedQueries": 0,
-          "longestQueryTime": 482,
+          "longestQueryTime": 455,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7733,22 +8023,28 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/pylons": {
-          "failedQueries": 8,
-          "longestQueryTime": 35,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651064057
+          "failedQueries": 10,
+          "longestQueryTime": 44,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120752563,
+          "blacklistedUntil": 1794120752563,
+          "blacklistCount": 1
         },
         "https://rest.nodejumper.io/pylons": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651067315
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120744974,
+          "blacklistedUntil": 1794120744974,
+          "blacklistCount": 1
         },
         "https://pylons-api.noders.services": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651071071
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120748710,
+          "blacklistedUntil": 1794120748710,
+          "blacklistCount": 1
         }
       }
     },
@@ -7756,15 +8052,15 @@
       "rpc": {},
       "rest": {
         "https://rest.lavenderfive.com:443/quasar": {
-          "failedQueries": 43,
+          "failedQueries": 52,
           "longestQueryTime": 51,
           "consecutiveInfraFailures": 7,
-          "redemptionStartTimestamp": 1793849660137,
+          "redemptionStartTimestamp": 1793862361019,
           "blacklistedUntil": 1793936619728,
           "blacklistCount": 1
         },
         "https://rest.cosmos.directory/quasar": {
-          "failedQueries": 36,
+          "failedQueries": 45,
           "longestQueryTime": 148,
           "redemptionStartTimestamp": 1793651072072
         },
@@ -7785,7 +8081,7 @@
           "blacklistCount": 1
         },
         "https://quasar-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 36,
+          "failedQueries": 45,
           "longestQueryTime": 269,
           "redemptionStartTimestamp": 1793651080200
         },
@@ -7806,7 +8102,7 @@
           "blacklistCount": 1
         },
         "https://quasar-rest.publicnode.com": {
-          "failedQueries": 36,
+          "failedQueries": 45,
           "longestQueryTime": 165,
           "redemptionStartTimestamp": 1793651088088
         },
@@ -7849,7 +8145,7 @@
       "rest": {
         "https://rest.cosmos.directory/qfs": {
           "failedQueries": 0,
-          "longestQueryTime": 349,
+          "longestQueryTime": 345,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7859,7 +8155,7 @@
       "rest": {
         "https://rest.cosmos.directory/qie": {
           "failedQueries": 0,
-          "longestQueryTime": 449,
+          "longestQueryTime": 477,
           "consecutiveInfraFailures": 0
         }
       }
@@ -7868,10 +8164,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/quicksilver": {
-          "failedQueries": 91,
-          "longestQueryTime": 54,
+          "failedQueries": 118,
+          "longestQueryTime": 81,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849582732,
+          "redemptionStartTimestamp": 1793862275642,
           "blacklistedUntil": 1793910310685,
           "blacklistCount": 1
         },
@@ -7924,7 +8220,7 @@
           "blacklistCount": 1
         },
         "https://quicksilver-rest.publicnode.com": {
-          "failedQueries": 108,
+          "failedQueries": 135,
           "longestQueryTime": 149,
           "redemptionStartTimestamp": 1793651192247
         },
@@ -7990,7 +8286,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/qwoyn": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 44,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793848957152,
@@ -7998,7 +8294,7 @@
           "blacklistCount": 1
         },
         "https://rest-qwoyn.theamsolutions.info:443": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 614,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021878088,
@@ -8006,7 +8302,7 @@
           "blacklistCount": 1
         },
         "https://qwoyn-rest.staketab.org": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021911690,
@@ -8014,7 +8310,7 @@
           "blacklistCount": 1
         },
         "https://qwoyn.api.m.stavr.tech": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 36,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021866627,
@@ -8022,7 +8318,7 @@
           "blacklistCount": 1
         },
         "https://qwoyn-rest-archive.staketab.org": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 121,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021877474,
@@ -8030,7 +8326,7 @@
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/qwoyn": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 55,
           "redemptionStartTimestamp": 1794108157190,
           "consecutiveInfraFailures": 6,
@@ -8038,7 +8334,7 @@
           "blacklistCount": 1
         },
         "https://api-qwoyn.mzonder.com": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021863225,
@@ -8046,7 +8342,7 @@
           "blacklistCount": 1
         },
         "https://lcd.qwoyn.bronbro.io:443": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 49,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1794021873442,
@@ -8059,10 +8355,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/realio": {
-          "failedQueries": 12,
+          "failedQueries": 14,
           "longestQueryTime": 152,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849667326,
+          "redemptionStartTimestamp": 1793862367607,
           "blacklistedUntil": 1794022776680,
           "blacklistCount": 1
         },
@@ -8148,7 +8444,7 @@
         },
         "https://realio.api.m.stavr.tech": {
           "failedQueries": 0,
-          "longestQueryTime": 50,
+          "longestQueryTime": 60,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8157,15 +8453,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/rebus": {
-          "failedQueries": 7,
+          "failedQueries": 16,
           "longestQueryTime": 120,
           "redemptionStartTimestamp": 1793651285108
         },
         "https://api.rebuschain.com:1317/": {
-          "failedQueries": 11,
-          "longestQueryTime": 10001,
+          "failedQueries": 20,
+          "longestQueryTime": 10003,
           "consecutiveInfraFailures": 7,
-          "redemptionStartTimestamp": 1794109249289,
+          "redemptionStartTimestamp": 1793862701166,
           "blacklistedUntil": 1794109249289,
           "blacklistCount": 1
         },
@@ -8202,7 +8498,7 @@
           "blacklistCount": 1
         },
         "https://rebus-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 7,
+          "failedQueries": 16,
           "longestQueryTime": 294,
           "redemptionStartTimestamp": 1793651333255
         },
@@ -8215,8 +8511,8 @@
           "blacklistCount": 1
         },
         "https://rebus-rest.publicnode.com": {
-          "failedQueries": 7,
-          "longestQueryTime": 110,
+          "failedQueries": 16,
+          "longestQueryTime": 198,
           "redemptionStartTimestamp": 1793651336678
         }
       }
@@ -8281,7 +8577,7 @@
         },
         "https://rest.cosmos.directory/regen": {
           "failedQueries": 0,
-          "longestQueryTime": 376,
+          "longestQueryTime": 379,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8291,7 +8587,7 @@
       "rest": {
         "https://rest.cosmos.directory/ritbit": {
           "failedQueries": 0,
-          "longestQueryTime": 184,
+          "longestQueryTime": 167,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8300,33 +8596,41 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/rizon": {
-          "failedQueries": 8,
-          "longestQueryTime": 37,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651386519
+          "failedQueries": 10,
+          "longestQueryTime": 39,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120878574,
+          "blacklistedUntil": 1794120878574,
+          "blacklistCount": 1
         },
         "https://restapi.rizon.world/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651390013
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120867476,
+          "blacklistedUntil": 1794120867476,
+          "blacklistCount": 1
         },
         "https://api.rizon.chaintools.tech/": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651393605
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120871041,
+          "blacklistedUntil": 1794120871041,
+          "blacklistCount": 1
         },
         "https://rizon-rest.publicnode.com": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 94,
           "redemptionStartTimestamp": 1793651394608
         },
         "https://rizon.api.m.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651397330
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120874968,
+          "blacklistedUntil": 1794120874968,
+          "blacklistCount": 1
         }
       }
     },
@@ -8334,20 +8638,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/routerchain": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 64,
           "redemptionStartTimestamp": 1793651398330
         },
         "https://sentry.lcd.routerprotocol.com/": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849073374,
+          "redemptionStartTimestamp": 1793861678612,
           "blacklistedUntil": 1793935743008,
           "blacklistCount": 1
         },
         "https://router-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 12,
+          "failedQueries": 15,
           "longestQueryTime": 612,
           "redemptionStartTimestamp": 1793651401734
         },
@@ -8374,7 +8678,7 @@
       "rest": {
         "https://rest.cosmos.directory/safrochain": {
           "failedQueries": 0,
-          "longestQueryTime": 331,
+          "longestQueryTime": 693,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8384,7 +8688,7 @@
       "rest": {
         "https://rest.cosmos.directory/saga": {
           "failedQueries": 0,
-          "longestQueryTime": 133,
+          "longestQueryTime": 213,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8393,16 +8697,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/scorum": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 41,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651413445
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120891165,
+          "blacklistedUntil": 1794120891165,
+          "blacklistCount": 1
         },
         "https://scorum-blockchain-mainnet-api.scorum.com": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651417120
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794120887445,
+          "blacklistedUntil": 1794120887445,
+          "blacklistCount": 1
         }
       }
     },
@@ -8410,31 +8718,31 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/secretnetwork": {
-          "failedQueries": 34,
+          "failedQueries": 44,
           "longestQueryTime": 53,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849090356,
+          "redemptionStartTimestamp": 1793861696309,
           "blacklistedUntil": 1793910620862,
           "blacklistCount": 1
         },
         "http://secretnetwork-mainnet-lcd.autostake.com:1317": {
-          "failedQueries": 10,
-          "longestQueryTime": 10000,
+          "failedQueries": 13,
+          "longestQueryTime": 10001,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793910655884,
           "blacklistedUntil": 1793910655884,
           "blacklistCount": 1
         },
         "https://1rpc.io/scrt-lcd": {
-          "failedQueries": 10,
-          "longestQueryTime": 146,
+          "failedQueries": 13,
+          "longestQueryTime": 151,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793910656008,
           "blacklistedUntil": 1793910656008,
           "blacklistCount": 1
         },
         "https://lcd.mainnet.secretsaturn.net": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793910659718,
@@ -8442,7 +8750,7 @@
           "blacklistCount": 1
         },
         "https://rest-secret.01node.com": {
-          "failedQueries": 10,
+          "failedQueries": 13,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793910693499,
@@ -8450,20 +8758,17 @@
           "blacklistCount": 1
         },
         "https://public.stakewolle.com/cosmos/secretnetwork/rest": {
-          "failedQueries": 10,
-          "longestQueryTime": 111,
+          "failedQueries": 13,
+          "longestQueryTime": 551,
           "consecutiveInfraFailures": 5,
           "redemptionStartTimestamp": 1793910693572,
           "blacklistedUntil": 1793910693572,
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/secretnetwork": {
-          "failedQueries": 11,
-          "longestQueryTime": 86,
-          "consecutiveInfraFailures": 3,
-          "redemptionStartTimestamp": 1793849087036,
-          "blacklistedUntil": 0,
-          "blacklistCount": 0
+          "failedQueries": 0,
+          "longestQueryTime": 68,
+          "consecutiveInfraFailures": 0
         }
       }
     },
@@ -8472,7 +8777,7 @@
       "rest": {
         "https://rest.cosmos.directory/seda": {
           "failedQueries": 0,
-          "longestQueryTime": 449,
+          "longestQueryTime": 405,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8532,7 +8837,7 @@
         },
         "https://sei.api.pocket.network": {
           "failedQueries": 0,
-          "longestQueryTime": 168,
+          "longestQueryTime": 203,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8541,10 +8846,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/self": {
-          "failedQueries": 24,
+          "failedQueries": 28,
           "longestQueryTime": 56,
           "consecutiveInfraFailures": 8,
-          "redemptionStartTimestamp": 1793849095199,
+          "redemptionStartTimestamp": 1793861780085,
           "blacklistedUntil": 1793935789063,
           "blacklistCount": 1
         },
@@ -8589,8 +8894,8 @@
           "blacklistCount": 1
         },
         "https://selfchain-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 16,
-          "longestQueryTime": 198,
+          "failedQueries": 20,
+          "longestQueryTime": 214,
           "redemptionStartTimestamp": 1793651576118
         },
         "https://api.selfchain.nodestake.org": {
@@ -8607,7 +8912,7 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/sge": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 77,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911910031,
@@ -8615,23 +8920,23 @@
           "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/sge": {
-          "failedQueries": 41,
-          "longestQueryTime": 65,
+          "failedQueries": 50,
+          "longestQueryTime": 77,
           "redemptionStartTimestamp": 1793911871865,
           "consecutiveInfraFailures": 5,
           "blacklistedUntil": 1793911871865,
           "blacklistCount": 1
         },
         "https://sge-api.polkachu.com/": {
-          "failedQueries": 42,
-          "longestQueryTime": 3,
+          "failedQueries": 51,
+          "longestQueryTime": 4,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911874820,
           "blacklistedUntil": 1793911874820,
           "blacklistCount": 1
         },
         "https://api.sge.nodestake.org": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911878470,
@@ -8639,7 +8944,7 @@
           "blacklistCount": 1
         },
         "https://api-sge.nodeist.net/": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 299,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911871099,
@@ -8647,7 +8952,7 @@
           "blacklistCount": 1
         },
         "https://sge.api.m.stavr.tech": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 105,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911913594,
@@ -8655,7 +8960,7 @@
           "blacklistCount": 1
         },
         "https://sge-api.ramuchi.tech/": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 6,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911882155,
@@ -8663,15 +8968,15 @@
           "blacklistCount": 1
         },
         "https://sge-rest.stakerhouse.com": {
-          "failedQueries": 42,
-          "longestQueryTime": 3,
+          "failedQueries": 51,
+          "longestQueryTime": 4,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911892944,
           "blacklistedUntil": 1793911892944,
           "blacklistCount": 1
         },
         "https://rest.sge.tcnetwork.io": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911896365,
@@ -8679,7 +8984,7 @@
           "blacklistCount": 1
         },
         "https://sge-api.sr20de.xyz": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 34,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911899593,
@@ -8687,7 +8992,7 @@
           "blacklistCount": 1
         },
         "https://mainnet-sge-api.konsortech.xyz": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 21,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911903326,
@@ -8695,7 +9000,7 @@
           "blacklistCount": 1
         },
         "https://sge-api.genznodes.dev": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 5,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911906510,
@@ -8703,7 +9008,7 @@
           "blacklistCount": 1
         },
         "https://api.sge.roomit.xyz/": {
-          "failedQueries": 42,
+          "failedQueries": 51,
           "longestQueryTime": 4,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911885729,
@@ -8711,8 +9016,8 @@
           "blacklistCount": 1
         },
         "https://sge_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 42,
-          "longestQueryTime": 4,
+          "failedQueries": 51,
+          "longestQueryTime": 14,
           "consecutiveInfraFailures": 6,
           "redemptionStartTimestamp": 1793911889354,
           "blacklistedUntil": 1793911889354,
@@ -8731,7 +9036,7 @@
         },
         "https://lcd.explorer.shareri.ng/": {
           "failedQueries": 0,
-          "longestQueryTime": 273,
+          "longestQueryTime": 270,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8751,14 +9056,14 @@
           "consecutiveInfraFailures": 1,
           "redemptionStartTimestamp": 1793651671029
         },
-        "https://api-shido.onenov.xyz": {
-          "failedQueries": 0,
-          "longestQueryTime": 172,
-          "consecutiveInfraFailures": 0
-        },
         "https://rest.cosmos.directory/shido": {
           "failedQueries": 0,
-          "longestQueryTime": 168,
+          "longestQueryTime": 480,
+          "consecutiveInfraFailures": 0
+        },
+        "https://api-shido.onenov.xyz": {
+          "failedQueries": 0,
+          "longestQueryTime": 119,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8768,7 +9073,7 @@
       "rest": {
         "https://rest.cosmos.directory/shentu": {
           "failedQueries": 0,
-          "longestQueryTime": 211,
+          "longestQueryTime": 207,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8777,10 +9082,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/sidechain": {
-          "failedQueries": 36,
+          "failedQueries": 50,
           "longestQueryTime": 65,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793850005519,
+          "redemptionStartTimestamp": 1793862641290,
           "blacklistedUntil": 1793910874983,
           "blacklistCount": 1
         },
@@ -8809,8 +9114,8 @@
           "blacklistCount": 1
         },
         "https://side-rest.publicnode.com": {
-          "failedQueries": 32,
-          "longestQueryTime": 116,
+          "failedQueries": 46,
+          "longestQueryTime": 166,
           "redemptionStartTimestamp": 1793651685910
         },
         "https://side.api.kjnodes.com": {
@@ -8851,10 +9156,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/sifchain": {
-          "failedQueries": 43,
+          "failedQueries": 54,
           "longestQueryTime": 192,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849161985,
+          "redemptionStartTimestamp": 1793861851898,
           "blacklistedUntil": 1793910903838,
           "blacklistCount": 1
         },
@@ -8867,12 +9172,12 @@
           "blacklistCount": 1
         },
         "https://sifchain-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 44,
-          "longestQueryTime": 192,
+          "failedQueries": 55,
+          "longestQueryTime": 202,
           "redemptionStartTimestamp": 1793651707710
         },
         "https://sifchain-rest.publicnode.com": {
-          "failedQueries": 44,
+          "failedQueries": 55,
           "longestQueryTime": 207,
           "redemptionStartTimestamp": 1793651707710
         },
@@ -8899,7 +9204,7 @@
       "rest": {
         "https://rest.cosmos.directory/sommelier": {
           "failedQueries": 0,
-          "longestQueryTime": 149,
+          "longestQueryTime": 132,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8909,7 +9214,7 @@
       "rest": {
         "https://rest.cosmos.directory/sovr": {
           "failedQueries": 0,
-          "longestQueryTime": 563,
+          "longestQueryTime": 478,
           "consecutiveInfraFailures": 0
         }
       }
@@ -8918,15 +9223,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stafihub": {
-          "failedQueries": 24,
+          "failedQueries": 30,
           "longestQueryTime": 1522,
           "redemptionStartTimestamp": 1793651781305
         },
         "https://public-rest-rpc1.stafihub.io": {
-          "failedQueries": 28,
+          "failedQueries": 34,
           "longestQueryTime": 10002,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849200910,
+          "redemptionStartTimestamp": 1793861890707,
           "blacklistedUntil": 1793911014010,
           "blacklistCount": 1
         },
@@ -8952,15 +9257,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/starname": {
-          "failedQueries": 32,
+          "failedQueries": 40,
           "longestQueryTime": 1586,
           "redemptionStartTimestamp": 1793651861720
         },
         "https://rest.starname.app": {
-          "failedQueries": 34,
+          "failedQueries": 42,
           "longestQueryTime": 10001,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849255894,
+          "redemptionStartTimestamp": 1793861945918,
           "blacklistedUntil": 1793911094504,
           "blacklistCount": 1
         }
@@ -8970,28 +9275,36 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stratos": {
-          "failedQueries": 8,
-          "longestQueryTime": 40,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651899248
+          "failedQueries": 10,
+          "longestQueryTime": 75,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121189587,
+          "blacklistedUntil": 1794121189587,
+          "blacklistCount": 1
         },
         "https://rest.thestratos.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651902755
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121178534,
+          "blacklistedUntil": 1794121178534,
+          "blacklistCount": 1
         },
         "https://stratos-api.noders.services:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 4,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651906212
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121182157,
+          "blacklistedUntil": 1794121182157,
+          "blacklistCount": 1
         },
         "https://api.stratos.nodestake.org": {
-          "failedQueries": 8,
-          "longestQueryTime": 12,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793651909882
+          "failedQueries": 10,
+          "longestQueryTime": 48,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121186056,
+          "blacklistedUntil": 1794121186056,
+          "blacklistCount": 1
         }
       }
     },
@@ -8999,54 +9312,54 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/stride": {
-          "failedQueries": 4,
+          "failedQueries": 8,
           "longestQueryTime": 93,
-          "consecutiveInfraFailures": 2,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850002120
         },
         "https://stride.rpc.uquad.org:443": {
-          "failedQueries": 4,
-          "longestQueryTime": 15,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 16,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850005776
         },
         "https://rest.lavenderfive.com:443/stride": {
-          "failedQueries": 4,
-          "longestQueryTime": 281,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 305,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850010177
         },
         "https://stride-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 2,
-          "longestQueryTime": 184,
+          "failedQueries": 4,
+          "longestQueryTime": 189,
           "redemptionStartTimestamp": 1793850011177
         },
         "https://stride-rest.publicnode.com": {
-          "failedQueries": 5,
-          "longestQueryTime": 75,
+          "failedQueries": 7,
+          "longestQueryTime": 85,
           "redemptionStartTimestamp": 1793850011177
         },
         "https://stride-api.stakeandrelax.net": {
-          "failedQueries": 4,
-          "longestQueryTime": 15,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 16,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850013935
         },
         "https://public.stakewolle.com/cosmos/stride/rest": {
-          "failedQueries": 4,
+          "failedQueries": 8,
           "longestQueryTime": 82,
-          "consecutiveInfraFailures": 2,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850017390
         },
         "https://api.stride.citizenweb3.com": {
-          "failedQueries": 4,
-          "longestQueryTime": 14,
-          "consecutiveInfraFailures": 2,
+          "failedQueries": 8,
+          "longestQueryTime": 15,
+          "consecutiveInfraFailures": 4,
           "redemptionStartTimestamp": 1793850020962
         },
         "https://stride-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 126,
+          "longestQueryTime": 136,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9055,32 +9368,38 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/synternet": {
-          "failedQueries": 8,
-          "longestQueryTime": 33,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652071780
+          "failedQueries": 10,
+          "longestQueryTime": 48,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121220322,
+          "blacklistedUntil": 1794121220322,
+          "blacklistCount": 1
         },
         "https://api.synternet.com/": {
-          "failedQueries": 4,
-          "longestQueryTime": 293,
+          "failedQueries": 5,
+          "longestQueryTime": 306,
           "redemptionStartTimestamp": 1793652072780
         },
         "https://synternet_mainnet_api.chain.whenmoonwhenlambo.money": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652075573
+          "failedQueries": 10,
+          "longestQueryTime": 3,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121216624,
+          "blacklistedUntil": 1794121216624,
+          "blacklistCount": 1
         },
         "https://synternet-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 4,
+          "failedQueries": 5,
           "longestQueryTime": 203,
           "redemptionStartTimestamp": 1793652076573
         },
         "https://synternet-mainnet-api.shazoes.xyz": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 68,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652079307
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121223890,
+          "blacklistedUntil": 1794121223890,
+          "blacklistCount": 1
         }
       }
     },
@@ -9088,16 +9407,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/tail": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 37,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652082963
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121227751,
+          "blacklistedUntil": 1794121227751,
+          "blacklistCount": 1
         },
         "https://api.trusttails.io": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 10001,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652116442
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121261008,
+          "blacklistedUntil": 1794121261008,
+          "blacklistCount": 1
         }
       }
     },
@@ -9106,7 +9429,7 @@
       "rest": {
         "https://rest.cosmos.directory/taketitan": {
           "failedQueries": 0,
-          "longestQueryTime": 333,
+          "longestQueryTime": 326,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9115,10 +9438,10 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/teritori": {
-          "failedQueries": 16,
+          "failedQueries": 18,
           "longestQueryTime": 46,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849648255,
+          "redemptionStartTimestamp": 1793862348932,
           "blacklistedUntil": 1793911320562,
           "blacklistCount": 1
         },
@@ -9187,13 +9510,13 @@
           "blacklistCount": 1
         },
         "https://teritori-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 13,
-          "longestQueryTime": 178,
+          "failedQueries": 15,
+          "longestQueryTime": 182,
           "redemptionStartTimestamp": 1793652148763
         },
         "https://teritori-rest.publicnode.com": {
-          "failedQueries": 13,
-          "longestQueryTime": 90,
+          "failedQueries": 15,
+          "longestQueryTime": 93,
           "redemptionStartTimestamp": 1793652148763
         },
         "https://teritori_mainnet_api.chain.whenmoonwhenlambo.money": {
@@ -9214,7 +9537,7 @@
         },
         "https://teritori-api.bluestake.net": {
           "failedQueries": 0,
-          "longestQueryTime": 142,
+          "longestQueryTime": 107,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9244,7 +9567,7 @@
         },
         "https://rest.cosmos.directory/terra": {
           "failedQueries": 0,
-          "longestQueryTime": 249,
+          "longestQueryTime": 233,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9254,7 +9577,7 @@
       "rest": {
         "https://rest.cosmos.directory/terra2": {
           "failedQueries": 0,
-          "longestQueryTime": 350,
+          "longestQueryTime": 496,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9263,15 +9586,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/tgrade": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 50,
           "redemptionStartTimestamp": 1793652153241
         },
         "https://api.mainnet-1.tgrade.confio.run": {
-          "failedQueries": 14,
+          "failedQueries": 16,
           "longestQueryTime": 2,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849373584,
+          "redemptionStartTimestamp": 1793862064712,
           "blacklistedUntil": 1794022330550,
           "blacklistCount": 1
         },
@@ -9290,7 +9613,7 @@
       "rest": {
         "https://rest.cosmos.directory/thejaynetwork": {
           "failedQueries": 0,
-          "longestQueryTime": 712,
+          "longestQueryTime": 738,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9299,34 +9622,44 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/titan": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 50,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652164450
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121287196,
+          "blacklistedUntil": 1794121287196,
+          "blacklistCount": 1
         },
         "https://titan-lcd.titanlab.io:443": {
-          "failedQueries": 8,
-          "longestQueryTime": 2,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652168020
+          "failedQueries": 10,
+          "longestQueryTime": 4,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121272782,
+          "blacklistedUntil": 1794121272782,
+          "blacklistCount": 1
         },
         "https://titan-lcd-tokyo.titanlab.io:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652171825
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121276057,
+          "blacklistedUntil": 1794121276057,
+          "blacklistCount": 1
         },
         "https://titan-lcd-seoul.titanlab.io:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652175304
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121279839,
+          "blacklistedUntil": 1794121279839,
+          "blacklistCount": 1
         },
         "https://titan-lcd-hongkong.titanlab.io:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 4,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652178817
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121283363,
+          "blacklistedUntil": 1794121283363,
+          "blacklistCount": 1
         }
       }
     },
@@ -9334,20 +9667,20 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/umee": {
-          "failedQueries": 100,
+          "failedQueries": 125,
           "longestQueryTime": 158,
           "redemptionStartTimestamp": 1793652179817
         },
         "https://umee.api.m.stavr.tech": {
-          "failedQueries": 85,
+          "failedQueries": 110,
           "longestQueryTime": 218,
           "consecutiveInfraFailures": 5,
-          "redemptionStartTimestamp": 1793849583542,
+          "redemptionStartTimestamp": 1793862275718,
           "blacklistedUntil": 1793911382890,
           "blacklistCount": 1
         },
         "https://umee-mainnet-lcd.autostake.com:443": {
-          "failedQueries": 100,
+          "failedQueries": 125,
           "longestQueryTime": 217,
           "redemptionStartTimestamp": 1793652183576
         },
@@ -9462,7 +9795,7 @@
       "rest": {
         "https://rest.cosmos.directory/unification": {
           "failedQueries": 0,
-          "longestQueryTime": 274,
+          "longestQueryTime": 127,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9472,7 +9805,7 @@
       "rest": {
         "https://rest.cosmos.directory/uptick": {
           "failedQueries": 0,
-          "longestQueryTime": 177,
+          "longestQueryTime": 186,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9481,15 +9814,15 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/vidulum": {
-          "failedQueries": 12,
-          "longestQueryTime": 50,
+          "failedQueries": 15,
+          "longestQueryTime": 52,
           "redemptionStartTimestamp": 1793652228680
         },
         "https://mainnet-lcd.vidulum.app": {
-          "failedQueries": 18,
+          "failedQueries": 21,
           "longestQueryTime": 3,
           "consecutiveInfraFailures": 6,
-          "redemptionStartTimestamp": 1793849411105,
+          "redemptionStartTimestamp": 1793862103880,
           "blacklistedUntil": 1793936146302,
           "blacklistCount": 1
         },
@@ -9524,7 +9857,7 @@
       "rest": {
         "https://rest.cosmos.directory/wolochain": {
           "failedQueries": 0,
-          "longestQueryTime": 111,
+          "longestQueryTime": 140,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9534,7 +9867,7 @@
       "rest": {
         "https://rest.cosmos.directory/xion": {
           "failedQueries": 0,
-          "longestQueryTime": 677,
+          "longestQueryTime": 564,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9544,7 +9877,7 @@
       "rest": {
         "https://rest.cosmos.directory/xpla": {
           "failedQueries": 0,
-          "longestQueryTime": 342,
+          "longestQueryTime": 1128,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9554,7 +9887,7 @@
       "rest": {
         "https://rest.cosmos.directory/xrplevm": {
           "failedQueries": 0,
-          "longestQueryTime": 475,
+          "longestQueryTime": 519,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9563,27 +9896,33 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/zenrock": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 49,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652248630
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121325056,
+          "blacklistedUntil": 1794121325056,
+          "blacklistCount": 1
         },
         "https://api.diamond.zenrocklabs.io/": {
-          "failedQueries": 4,
-          "longestQueryTime": 20,
+          "failedQueries": 5,
+          "longestQueryTime": 21,
           "redemptionStartTimestamp": 1793652253166
         },
         "https://api.zenrock.nodestake.org": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 7,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652255692
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121318020,
+          "blacklistedUntil": 1794121318020,
+          "blacklistCount": 1
         },
         "https://zenrock.api.m.stavr.tech": {
-          "failedQueries": 8,
-          "longestQueryTime": 35,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793652259461
+          "failedQueries": 10,
+          "longestQueryTime": 49,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121321677,
+          "blacklistedUntil": 1794121321677,
+          "blacklistCount": 1
         }
       }
     },
@@ -9592,7 +9931,7 @@
       "rest": {
         "https://rest.cosmos.directory/zigchain": {
           "failedQueries": 0,
-          "longestQueryTime": 276,
+          "longestQueryTime": 131,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9607,7 +9946,7 @@
         },
         "https://lcd.aura.network/": {
           "failedQueries": 0,
-          "longestQueryTime": 682,
+          "longestQueryTime": 758,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9617,7 +9956,7 @@
       "rest": {
         "https://rest.cosmos.directory/axone": {
           "failedQueries": 0,
-          "longestQueryTime": 444,
+          "longestQueryTime": 584,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9626,61 +9965,77 @@
       "rpc": {},
       "rest": {
         "https://rest.cosmos.directory/zetachain": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 275,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763725758
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121677795,
+          "blacklistedUntil": 1794121677795,
+          "blacklistCount": 1
         },
         "https://zetachain.blockpi.network/lcd/v1/public": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 79,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763729553
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121673426,
+          "blacklistedUntil": 1794121673426,
+          "blacklistCount": 1
         },
         "https://zetachain-mainnet-archive.allthatnode.com:1317": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 3,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763733174
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121654583,
+          "blacklistedUntil": 1794121654583,
+          "blacklistCount": 1
         },
         "https://rest.lavenderfive.com:443/zetachain": {
-          "failedQueries": 7,
+          "failedQueries": 9,
           "longestQueryTime": 31,
           "redemptionStartTimestamp": 1793763736988
         },
         "https://api.zetachain.nodestake.org": {
-          "failedQueries": 8,
-          "longestQueryTime": 11,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763740027
+          "failedQueries": 10,
+          "longestQueryTime": 13,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121657970,
+          "blacklistedUntil": 1794121657970,
+          "blacklistCount": 1
         },
         "https://zetachain-api.noders.services": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763743532
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121661933,
+          "blacklistedUntil": 1794121661933,
+          "blacklistCount": 1
         },
         "https://zetachain.api.nodeshub.online:443": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 550,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763748571
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121682929,
+          "blacklistedUntil": 1794121682929,
+          "blacklistCount": 1
         },
         "https://zeta.api.m.stavr.tech": {
-          "failedQueries": 8,
+          "failedQueries": 10,
           "longestQueryTime": 36,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763752247
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121665938,
+          "blacklistedUntil": 1794121665938,
+          "blacklistCount": 1
         },
         "https://zetachain-mainnet-cosmos.reliableninjas.com": {
-          "failedQueries": 8,
-          "longestQueryTime": 78,
-          "consecutiveInfraFailures": 4,
-          "redemptionStartTimestamp": 1793763756169
+          "failedQueries": 10,
+          "longestQueryTime": 229,
+          "consecutiveInfraFailures": 5,
+          "redemptionStartTimestamp": 1794121669909,
+          "blacklistedUntil": 1794121669909,
+          "blacklistCount": 1
         },
         "https://zetachain-api.polkachu.com": {
           "failedQueries": 0,
-          "longestQueryTime": 134,
+          "longestQueryTime": 102,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9690,7 +10045,7 @@
       "rest": {
         "https://rest.cosmos.directory/union": {
           "failedQueries": 0,
-          "longestQueryTime": 319,
+          "longestQueryTime": 312,
           "consecutiveInfraFailures": 0
         }
       }
@@ -9700,7 +10055,7 @@
       "rest": {
         "https://rest.cosmos.directory/althea": {
           "failedQueries": 0,
-          "longestQueryTime": 87,
+          "longestQueryTime": 95,
           "consecutiveInfraFailures": 0
         }
       }
