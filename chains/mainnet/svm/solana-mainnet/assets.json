@@ -1,0 +1,24 @@
+{
+  "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo": {
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "exponent": 6,
+    "logo": "https://424565.fs1.hubspotusercontent-na1.net/hubfs/424565/PYUSDLOGO.png",
+    "coinGeckoId": "paypal-usd",
+    "mintAddress": "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo",
+    "tokenType": "spl"
+  },
+  "_sources": {
+    "2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo": {
+      "reason": "Paxos-issued PYUSD on Solana, the same coin as Ethereum PYUSD (paypal-usd). Paxos mints it natively on Solana, so it is not a bridged copy: its origin is this chain. Neither upstream Solana source lists it (cosmos/chain-registry _non-cosmos/solana; the 2022 solana-labs token list the refresh falls back to without JUPITER_API_KEY), so routing answered 'Token not found on chain solana-mainnet'. It is a Token-2022 mint (owner TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb), not classic SPL Token; the asset format has no token-program field. Added with David's approval, 2026-11-08.",
+      "evidence": [
+        "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet.md (fetched 2026-11-08): Solana Mainnet Beta 2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo; Ethereum Mainnet 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "getAccountInfo jsonParsed via https://solana-rpc.publicnode.com (2026-11-08): program spl-token-2022, owner TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb, decimals 6, tokenMetadata name 'PayPal USD' symbol PYUSD, extensions incl. transferFeeConfig (0 bps), transferHook (no program), permanentDelegate",
+        "https://api.coingecko.com/api/v3/coins/paypal-usd (fetched 2026-11-08): platforms solana 2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo (decimal_place 6) and ethereum 0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+        "Logo: the image in the mint's on-chain metadata URI https://token-metadata.paxos.com/pyusd_metadata/prod/solana/pyusd_metadata.json (fetched 2026-11-08)",
+        "https://api.relay.link/chains (fetched 2026-11-08): Solana (792703809) solverCurrencies include PYUSD 2b1kV6DkPAnxd5ixfnxCpjxmKwqjjaYmCZfHsFu24GXo, decimals 6; Ethereum's include PYUSD 0x6c3ea9036406852006290770bedfcaba0e23a0e8, decimals 6"
+      ],
+      "checked": "2026-11-08"
+    }
+  }
+}
