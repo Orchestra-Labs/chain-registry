@@ -1,0 +1,13 @@
+{
+  "status": "killed",
+  "_status_source": {
+    "reason": "Evmos shut down: governance proposal #331 ('Evmos Shutdown') passed in May 2026 and the chain halted at block 37,318,000, around 2026-05-18. The cosmos side (evmos_9001-2) already publishes as killed from upstream cosmos/chain-registry, but the EVM entry (eip155 9001, from the EVM chain list) still published as live. This is the same chain, so it is killed too. Added with David's approval, 2026-11-09.",
+    "evidence": [
+      "https://www.kucoin.com/news/flash/cosmos-evm-chain-evmos-network-officially-shut-down-website-and-infrastructure-unavailable (released 2026-05-24, fetched 2026-11-09): Evmos 'has passed Governance Proposal #331, \"Evmos Shutdown,\" with 99.8% of votes in favor'; nodes cease operation at block height 37,318,000, approximately May 18",
+      "https://phemex.com/news/article/evmos-halts-operations-following-shutdown-proposal-approval-85093 (2026-05-24, fetched 2026-11-09): decision made on May 15; operations ceased at block height 37,318,000, approximately on May 18",
+      "https://github.com/cosmos/chain-registry/commit/dc97e7124d (2026-06-03, #7710 'chore(evmos): mark chain status as killed'); evmos/chain.json on master has status killed, chain_id evmos_9001-2 (fetched 2026-11-09)",
+      "eth_chainId POST, 2026-11-09 02:06 UTC: https://rpc.evmos.lava.build HTTP 410 {\"error\":\"This endpoint has been discontinued.\"}; https://evmos.lava.build HTTP 502; https://evmos-rpc.publicnode.com HTTP 404; https://evmos-evm-rpc.publicnode.com (the published eip155 9001 RPC) HTTP 404"
+    ],
+    "checked": "2026-11-09"
+  }
+}

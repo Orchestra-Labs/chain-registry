@@ -1,0 +1,23 @@
+{
+  "0x28f1f38a9f7db1f769a71af0a13e8bace2ab0e9f": {
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "exponent": 6,
+    "coinGeckoId": "paypal-usd",
+    "contractAddress": "0x28f1f38a9f7db1f769a71af0a13e8bace2ab0e9f",
+    "tokenType": "erc20",
+    "verified": true
+  },
+  "_sources": {
+    "0x28f1f38a9f7db1f769a71af0a13e8bace2ab0e9f": {
+      "reason": "Paxos-issued PYUSD on Stable, the same coin as Ethereum PYUSD (paypal-usd), priced as paypal-usd like the other PYUSD entries. Paxos issues it on Stable itself: the chain is on Paxos's PYUSD mainnet list, with its own Paxos supply-control contract (0x4FA5f914c132Bef506Bc3aFB583186211a3c0EA2), so it is not a bridged copy. Only the verified-token list (Paxos docs) adds it, after overrides merge and without a CoinGecko ID, so the override is the full asset that step would add; a coinGeckoId-only patch would publish the address as the symbol. Added with David's approval, 2026-11-09.",
+      "evidence": [
+        "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet.md (fetched 2026-11-09): Stable Mainnet token 0x28F1f38a9F7dB1f769A71aF0a13E8BACe2ab0E9f, supply control 0x4FA5f914c132Bef506Bc3aFB583186211a3c0EA2; Ethereum Mainnet 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "eth_call via https://rpc.stable.xyz (eth_chainId 0x3dc, 2026-11-09): symbol() = PYUSD, name() = 'PayPal USD', decimals() = 6",
+        "https://api.coingecko.com/api/v3/coins/paypal-usd (fetched 2026-11-09): no Stable platform (platforms: ethereum, polygon-pos, ink, x-layer, solana, arbitrum-one, stellar), so CoinGecko has no contract entry for this chain; priced by the coin, paypal-usd",
+        "https://docs.stable.xyz/en/reference/connect (fetched 2026-11-09): Stable Mainnet Chain ID 988, Stable Testnet 2201; https://rpc.stable.xyz eth_chainId 0x3dc = 988"
+      ],
+      "checked": "2026-11-09"
+    }
+  }
+}
