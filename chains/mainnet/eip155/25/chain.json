@@ -1,0 +1,17 @@
+{
+  "explorers": [
+    {
+      "kind": "Cronos Explorer",
+      "url": "https://explorer.cronos.org",
+      "tx_page": "https://explorer.cronos.org/tx/${txHash}"
+    }
+  ],
+  "_explorers_source": {
+    "reason": "ethereum-lists lists Cronos Explorer with standard \"none\", so the registry publishes no tx page for Cronos (it takes only EIP-3091 explorers); Cronos Explorer serves a transaction at /tx/<hash>.",
+    "evidence": [
+      "eth_getBlockByNumber latest via https://evm.cronos.org on 2026-11-08: block 104724398, tx 0xb2e902096b53b1f69b08ddd6497cfd9a378db53c77b7093efe648daaa56efc31",
+      "GET https://explorer.cronos.org/tx/0xb2e902096b53b1f69b08ddd6497cfd9a378db53c77b7093efe648daaa56efc31 on 2026-11-08: 200, the page carries that tx (blockNumber 104724398)"
+    ],
+    "checked": "2026-11-08"
+  }
+}
