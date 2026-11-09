@@ -2,6 +2,15 @@
   "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383": {
     "coinGeckoId": null
   },
+  "0x6c3ea9036406852006290770bedfcaba0e23a0e8": {
+    "symbol": "PYUSD",
+    "name": "PayPal USD",
+    "exponent": 6,
+    "coinGeckoId": "paypal-usd",
+    "contractAddress": "0x6c3ea9036406852006290770bedfcaba0e23a0e8",
+    "tokenType": "erc20",
+    "verified": true
+  },
   "_sources": {
     "0x9356f6d95b8e109f4b7ce3e49d672967d3b48383": {
       "reason": "This is Kinza Babylon Staked BTC; cosmos/chain-registry _non-cosmos/ethereum gives it kintsugi-btc (Kintsugi BTC, a Kusama-ecosystem token). No CoinGecko coin lists the contract: unpriced beats wrong.",
@@ -10,6 +19,15 @@
         "https://api.coingecko.com/api/v3/coins/list?include_platform=true (fetched 2026-11-03): kintsugi-btc = 'Kintsugi BTC' with no platforms; no coin lists 0x9356f6d95b8e109f4b7ce3e49d672967d3b48383; no coin named Kinza"
       ],
       "checked": "2026-11-03"
+    },
+    "0x6c3ea9036406852006290770bedfcaba0e23a0e8": {
+      "reason": "Paxos-issued PYUSD, the original coin, priced as paypal-usd like the other PYUSD entries. Only the verified-token list (Paxos docs) adds it, after overrides merge and without a CoinGecko ID, so the override is the full asset that step would add; a coinGeckoId-only patch would publish the address as the symbol. Added with David's approval, 2026-11-08.",
+      "evidence": [
+        "https://docs.paxos.com/guides/stablecoin/pyusd/mainnet.md (fetched 2026-11-08): Ethereum Mainnet 0x6c3ea9036406852006290770BEdFcAbA0e23A0e8",
+        "eth_call via https://ethereum-rpc.publicnode.com (eth_chainId 0x1, 2026-11-08): symbol() = PYUSD, name() = 'PayPal USD', decimals() = 6",
+        "https://api.coingecko.com/api/v3/coins/paypal-usd (fetched 2026-11-08): platforms ethereum 0x6c3ea9036406852006290770bedfcaba0e23a0e8 (decimal_place 6)"
+      ],
+      "checked": "2026-11-08"
     }
   }
 }
