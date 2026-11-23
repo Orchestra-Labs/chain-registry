@@ -1,0 +1,202 @@
+{
+  "sha": "f47d3559ecb21e93b3141953c4b11c3ca743fed2",
+  "lastUpdated": "2026-11-23T16:28:36.703Z",
+  "data": {
+    "mainnet": {
+      "bip122": {
+        "bitcoin-mainnet": {
+          "chain_name": "bitcoin",
+          "status": "live",
+          "website": "https://bitcoin.org",
+          "network_level": "mainnet",
+          "pretty_name": "Bitcoin",
+          "chain_type": "bip122",
+          "chain_id": "bitcoin-mainnet",
+          "bech32_prefix": "bc",
+          "fees": [],
+          "staking_denoms": [],
+          "rpc_uris": [],
+          "rest_uris": [
+            {
+              "address": "https://mempool.space/api",
+              "provider": "mempool.space"
+            },
+            {
+              "address": "https://blockstream.info/api",
+              "provider": "blockstream"
+            }
+          ],
+          "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+          "explorers": [
+            {
+              "kind": "mempool.space",
+              "url": "https://mempool.space",
+              "tx_page": "https://mempool.space/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            },
+            "network_level": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            }
+          },
+          "assets": {
+            "sat": {
+              "denom": "sat",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "exponent": 8,
+              "isFeeToken": false,
+              "networkName": "Bitcoin",
+              "chainId": "bitcoin-mainnet",
+              "coinGeckoId": "bitcoin",
+              "price": 0,
+              "originDenom": "sat",
+              "originChainId": "bitcoin-mainnet"
+            }
+          }
+        }
+      }
+    },
+    "testnet": {
+      "bip122": {
+        "bitcoin-testnet": {
+          "chain_name": "bitcoin-testnet",
+          "status": "live",
+          "website": "https://bitcoin.org",
+          "network_level": "testnet",
+          "pretty_name": "Bitcoin Testnet",
+          "chain_type": "bip122",
+          "chain_id": "bitcoin-testnet",
+          "bech32_prefix": "tb",
+          "fees": [],
+          "staking_denoms": [],
+          "rpc_uris": [],
+          "rest_uris": [
+            {
+              "address": "https://mempool.space/testnet/api",
+              "provider": "mempool.space"
+            },
+            {
+              "address": "https://blockstream.info/testnet/api",
+              "provider": "blockstream"
+            }
+          ],
+          "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+          "explorers": [
+            {
+              "kind": "mempool.space",
+              "url": "https://mempool.space/testnet",
+              "tx_page": "https://mempool.space/testnet/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            },
+            "network_level": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            }
+          },
+          "assets": {
+            "sat": {
+              "denom": "sat",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "exponent": 8,
+              "isFeeToken": false,
+              "networkName": "Bitcoin Testnet",
+              "chainId": "bitcoin-testnet",
+              "coinGeckoId": "bitcoin",
+              "price": 0,
+              "originDenom": "sat",
+              "originChainId": "bitcoin-testnet"
+            }
+          }
+        },
+        "bitcoin-signet": {
+          "chain_name": "bitcoin-signet",
+          "status": "live",
+          "website": "https://bitcoin.org",
+          "network_level": "testnet",
+          "pretty_name": "Bitcoin Signet",
+          "chain_type": "bip122",
+          "chain_id": "bitcoin-signet",
+          "bech32_prefix": "tb",
+          "fees": [],
+          "staking_denoms": [],
+          "rpc_uris": [],
+          "rest_uris": [
+            {
+              "address": "https://mempool.space/signet/api",
+              "provider": "mempool.space"
+            }
+          ],
+          "logo_uri": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+          "explorers": [
+            {
+              "kind": "mempool.space",
+              "url": "https://mempool.space/signet",
+              "tx_page": "https://mempool.space/signet/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            },
+            "network_level": {
+              "verified": true,
+              "by": [
+                "static-definition"
+              ]
+            }
+          },
+          "assets": {
+            "sat": {
+              "denom": "sat",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://raw.githubusercontent.com/cosmos/chain-registry/master/_non-cosmos/bitcoin/images/btc.png",
+              "symbol": "BTC",
+              "name": "Bitcoin",
+              "exponent": 8,
+              "isFeeToken": false,
+              "networkName": "Bitcoin Signet",
+              "chainId": "bitcoin-signet",
+              "coinGeckoId": "bitcoin",
+              "price": 0,
+              "originDenom": "sat",
+              "originChainId": "bitcoin-signet"
+            }
+          }
+        }
+      }
+    }
+  }
+}

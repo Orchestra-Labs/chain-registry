@@ -1,0 +1,247 @@
+{
+  "sha": "f47d3559ecb21e93b3141953c4b11c3ca743fed2",
+  "lastUpdated": "2026-11-23T16:28:36.703Z",
+  "data": {
+    "mainnet": {
+      "tron": {
+        "728126428": {
+          "chain_name": "tron",
+          "status": "live",
+          "website": "https://tron.network",
+          "network_level": "mainnet",
+          "pretty_name": "Tron Mainnet",
+          "chain_type": "tron",
+          "chain_id": "728126428",
+          "bech32_prefix": "",
+          "slip44": 195,
+          "fees": [
+            {
+              "denom": "sun",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "sun"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.ankr.com/tron_jsonrpc",
+              "provider": "ankr"
+            },
+            {
+              "address": "https://api.trongrid.io/jsonrpc",
+              "provider": "trongrid"
+            }
+          ],
+          "rest_uris": [
+            {
+              "address": "https://api.trongrid.io",
+              "provider": "trongrid"
+            }
+          ],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+          "explorers": [
+            {
+              "kind": "tronscan",
+              "url": "https://tronscan.org",
+              "tx_page": "https://tronscan.org/#/transaction/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": false,
+              "by": [
+                "ethereum-lists-group",
+                "caip-namespace"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "family-rule"
+              ]
+            }
+          },
+          "assets": {
+            "sun": {
+              "denom": "sun",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+              "symbol": "TRX",
+              "name": "Tron",
+              "exponent": 6,
+              "isFeeToken": true,
+              "networkName": "Tron Mainnet",
+              "chainId": "728126428",
+              "price": 0,
+              "originDenom": "sun",
+              "originChainId": "728126428"
+            }
+          }
+        }
+      }
+    },
+    "testnet": {
+      "tron": {
+        "2494104990": {
+          "chain_name": "tron-shasta",
+          "status": "live",
+          "website": "https://tron.network",
+          "network_level": "testnet",
+          "pretty_name": "Tron Shasta",
+          "chain_type": "tron",
+          "chain_id": "2494104990",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "sun",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "sun"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://api.shasta.trongrid.io/jsonrpc",
+              "provider": "trongrid"
+            }
+          ],
+          "rest_uris": [
+            {
+              "address": "https://api.shasta.trongrid.io",
+              "provider": "trongrid"
+            }
+          ],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+          "explorers": [
+            {
+              "kind": "shasta tronscan",
+              "url": "https://shasta.tronscan.org",
+              "tx_page": "https://shasta.tronscan.org/#/transaction/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": false,
+              "by": [
+                "ethereum-lists-group",
+                "caip-namespace"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "family-rule"
+              ]
+            }
+          },
+          "assets": {
+            "sun": {
+              "denom": "sun",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+              "symbol": "TRX",
+              "name": "Tron",
+              "exponent": 6,
+              "isFeeToken": true,
+              "networkName": "Tron Shasta",
+              "chainId": "2494104990",
+              "price": 0,
+              "originDenom": "sun",
+              "originChainId": "2494104990"
+            }
+          }
+        },
+        "3448148188": {
+          "chain_name": "tron-nile",
+          "status": "live",
+          "website": "https://tron.network",
+          "network_level": "testnet",
+          "pretty_name": "Tron Nile",
+          "chain_type": "tron",
+          "chain_id": "3448148188",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "sun",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "sun"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://nile.trongrid.io/jsonrpc",
+              "provider": "trongrid"
+            }
+          ],
+          "rest_uris": [
+            {
+              "address": "https://nile.trongrid.io",
+              "provider": "trongrid"
+            }
+          ],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+          "explorers": [
+            {
+              "kind": "nile tronscan",
+              "url": "https://nile.tronscan.org",
+              "tx_page": "https://nile.tronscan.org/#/transaction/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": false,
+              "by": [
+                "ethereum-lists-group",
+                "caip-namespace"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "family-rule"
+              ]
+            }
+          },
+          "assets": {
+            "sun": {
+              "denom": "sun",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tron.jpg",
+              "symbol": "TRX",
+              "name": "Tron",
+              "exponent": 6,
+              "isFeeToken": true,
+              "networkName": "Tron Nile",
+              "chainId": "3448148188",
+              "price": 0,
+              "originDenom": "sun",
+              "originChainId": "3448148188"
+            }
+          }
+        }
+      }
+    }
+  }
+}
