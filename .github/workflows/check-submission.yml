@@ -1,0 +1,43 @@
+# Source for Orchestra-Labs/chain-registry's .github/workflows/check-submission.yml (committed there by hand: the
+# refresh's token can't write workflows). Runs main's tools/check-submission.cjs, published by the refresh, against a
+# PR's community/ chains. pull_request_target, so it runs main's code: the PR's files are fetched as data and read with
+# `git show`, never checked out or run. No secrets; the token is read-only.
+name: Check chain submission
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: read
+
+concurrency:
+  group: check-submission-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch the PR's files (data only)
+        env:
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: git fetch --depth=1 --no-tags "https://github.com/${REPO}.git" "refs/pull/${PR}/head:pr"
+      - name: List the changed files
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+        run: gh api --paginate "repos/${REPO}/pulls/${PR}/files" --jq '.[] | .status + "\t" + .filename' > "$RUNNER_TEMP/changed.tsv"
+      - name: Check the submission
+        run: node tools/check-submission.cjs "$RUNNER_TEMP/changed.tsv" pr
