@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T01:12:17.381Z",
+  "lastUpdated": "2026-11-25T02:13:43.708Z",
   "data": {
     "mainnet": {
       "svm": {
@@ -30,18 +30,6 @@
             {
               "address": "https://solana-rpc.publicnode.com",
               "provider": "PublicNode"
-            },
-            {
-              "address": "https://solana.drpc.org",
-              "provider": "dRPC"
-            },
-            {
-              "address": "https://solana.api.onfinality.io/public",
-              "provider": "OnFinality"
-            },
-            {
-              "address": "https://rpc.ankr.com/solana",
-              "provider": "Ankr"
             },
             {
               "address": "https://api.mainnet-beta.solana.com",
@@ -248713,14 +248701,6 @@
               "provider": "OnFinality"
             },
             {
-              "address": "https://solana-devnet.drpc.org",
-              "provider": "dRPC"
-            },
-            {
-              "address": "https://rpc.ankr.com/solana_devnet",
-              "provider": "Ankr"
-            },
-            {
               "address": "https://api.devnet.solana.com",
               "provider": "Solana"
             }
@@ -259906,12 +259886,8 @@
           ],
           "rpc_uris": [
             {
-              "address": "https://solana-testnet.drpc.org",
-              "provider": "dRPC"
-            },
-            {
-              "address": "https://rpc.ankr.com/solana_testnet",
-              "provider": "Ankr"
+              "address": "https://solana-testnet-rpc.publicnode.com",
+              "provider": "PublicNode"
             },
             {
               "address": "https://api.testnet.solana.com",
