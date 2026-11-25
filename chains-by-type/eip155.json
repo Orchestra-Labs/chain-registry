@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T02:13:43.708Z",
+  "lastUpdated": "2026-11-25T03:09:56.214Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,8 +14945,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -65068,7 +65067,7 @@
         },
         "3501": {
           "chain_name": "JFIN",
-          "status": "killed",
+          "status": "live",
           "website": "https://jfinchain.com",
           "network_level": "mainnet",
           "pretty_name": "JFIN Chain",
@@ -65107,7 +65106,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -90469,7 +90469,7 @@
         },
         "10011": {
           "chain_name": "DeepSafe",
-          "status": "killed",
+          "status": "live",
           "website": "https://deepsafe.network/",
           "network_level": "mainnet",
           "pretty_name": "DeepSafe Beta Mainnet",
@@ -94512,7 +94512,7 @@
         },
         "15551": {
           "chain_name": "loop",
-          "status": "live",
+          "status": "killed",
           "website": "http://theloopnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "LoopNetwork Mainnet",
@@ -94544,8 +94544,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -117923,7 +117922,7 @@
         },
         "80096": {
           "chain_name": "hzc",
-          "status": "live",
+          "status": "killed",
           "website": "http://hizoco.net",
           "network_level": "mainnet",
           "pretty_name": "Hizoco mainnet",
@@ -117953,9 +117952,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_hizoco.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -139045,7 +139044,7 @@
         },
         "65000000": {
           "chain_name": "aut",
-          "status": "live",
+          "status": "killed",
           "website": "https://autonity.org/",
           "network_level": "mainnet",
           "pretty_name": "Autonity Mainnet",
@@ -139094,8 +139093,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -189576,7 +189574,7 @@
         },
         "33111": {
           "chain_name": "curtis",
-          "status": "live",
+          "status": "killed",
           "website": "https://curtis.hub.caldera.xyz",
           "network_level": "testnet",
           "pretty_name": "Curtis",
@@ -189613,9 +189611,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -195721,7 +195719,7 @@
         },
         "69923": {
           "chain_name": "ilyt",
-          "status": "live",
+          "status": "killed",
           "website": "https://ility.xyz",
           "network_level": "testnet",
           "pretty_name": "ILITY Testnet",
@@ -195758,9 +195756,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -205718,9 +205716,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
