@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T01:12:17.381Z",
+  "lastUpdated": "2026-11-25T00:57:11.962Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,7 +14945,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -45269,9 +45270,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -45644,7 +45645,7 @@
         },
         "980": {
           "chain_name": "top_evm",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.topnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "TOP Mainnet EVM",
@@ -95387,9 +95388,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -139043,7 +139044,7 @@
         },
         "65000000": {
           "chain_name": "aut",
-          "status": "killed",
+          "status": "live",
           "website": "https://autonity.org/",
           "network_level": "mainnet",
           "pretty_name": "Autonity Mainnet",
@@ -139092,7 +139093,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -149793,9 +149795,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -174164,9 +174166,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -175520,7 +175522,7 @@
         },
         "7336": {
           "chain_name": "pruvtestnet",
-          "status": "live",
+          "status": "killed",
           "website": "https://pruv.gitbook.io/pruv-network/",
           "network_level": "testnet",
           "pretty_name": "Pruv Testnet",
@@ -175557,9 +175559,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -195718,7 +195720,7 @@
         },
         "69923": {
           "chain_name": "ilyt",
-          "status": "killed",
+          "status": "live",
           "website": "https://ility.xyz",
           "network_level": "testnet",
           "pretty_name": "ILITY Testnet",
@@ -195755,9 +195757,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
