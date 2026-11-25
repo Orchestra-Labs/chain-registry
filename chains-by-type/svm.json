@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T04:17:17.209Z",
+  "lastUpdated": "2026-11-25T05:17:04.377Z",
   "data": {
     "mainnet": {
       "svm": {
@@ -27,6 +27,10 @@
             "lamport"
           ],
           "rpc_uris": [
+            {
+              "address": "https://bridge.orchestralabs.org/api/v1/rpc/solana-mainnet",
+              "provider": "Orchestra"
+            },
             {
               "address": "https://solana-rpc.publicnode.com",
               "provider": "PublicNode"

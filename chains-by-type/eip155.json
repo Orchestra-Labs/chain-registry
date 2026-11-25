@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T04:17:17.209Z",
+  "lastUpdated": "2026-11-25T05:17:04.377Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -29745,7 +29745,7 @@
         },
         "160": {
           "chain_name": "eva",
-          "status": "killed",
+          "status": "live",
           "website": "https://amax.network",
           "network_level": "mainnet",
           "pretty_name": "Armonia Eva Chain Mainnet",
@@ -29777,7 +29777,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC answers another chain ID"
             },
             "network_level": {
               "verified": false,
@@ -33700,10 +33701,11 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
-              ]
+                "ethereum-lists"
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": true,
@@ -45643,7 +45645,7 @@
         },
         "980": {
           "chain_name": "top_evm",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.topnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "TOP Mainnet EVM",
@@ -77857,8 +77859,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -90468,7 +90469,7 @@
         },
         "10011": {
           "chain_name": "DeepSafe",
-          "status": "live",
+          "status": "killed",
           "website": "https://deepsafe.network/",
           "network_level": "mainnet",
           "pretty_name": "DeepSafe Beta Mainnet",
@@ -90498,9 +90499,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_deepsafe.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -133636,7 +133637,7 @@
         },
         "1000001": {
           "chain_name": "wvm",
-          "status": "killed",
+          "status": "live",
           "website": "https://e-talk.xyz/webchain",
           "network_level": "mainnet",
           "pretty_name": "WebChain ETK",
@@ -133673,9 +133674,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -139043,7 +139044,7 @@
         },
         "65000000": {
           "chain_name": "aut",
-          "status": "killed",
+          "status": "live",
           "website": "https://autonity.org/",
           "network_level": "mainnet",
           "pretty_name": "Autonity Mainnet",
@@ -139092,7 +139093,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -146923,7 +146925,7 @@
         },
         "159": {
           "chain_name": "rbat",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.roburna.com/",
           "network_level": "testnet",
           "pretty_name": "Roburna Testnet",
@@ -146960,9 +146962,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -195718,7 +195720,7 @@
         },
         "69923": {
           "chain_name": "ilyt",
-          "status": "killed",
+          "status": "live",
           "website": "https://ility.xyz",
           "network_level": "testnet",
           "pretty_name": "ILITY Testnet",
@@ -195755,9 +195757,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
