@@ -1,6 +1,6 @@
 {
-  "sha": "f47d3559ecb21e93b3141953c4b11c3ca743fed2",
-  "lastUpdated": "2026-11-23T16:33:06.079Z",
+  "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
+  "lastUpdated": "2026-11-25T00:57:11.962Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -26510,6 +26510,10 @@
             {
               "address": "https://unichain-rpc.blockreq.com/v1/rpc/public",
               "provider": "blockreq"
+            },
+            {
+              "address": "https://rpc.nodeflare.app/unichain/public",
+              "provider": "nodeflare"
             }
           ],
           "rest_uris": [],
@@ -38586,6 +38590,148 @@
             }
           }
         },
+        "454": {
+          "chain_name": "tsx-bastion",
+          "status": "live",
+          "website": "https://tsx.network",
+          "network_level": "mainnet",
+          "pretty_name": "TSX Bastion",
+          "chain_type": "eip155",
+          "chain_id": "454",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://bastion.tsx.network/rpc",
+              "provider": "tsx"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+          "explorers": [
+            {
+              "kind": "TSX Explorer",
+              "url": "https://scan.tsx.network/bastion",
+              "tx_page": "https://scan.tsx.network/bastion/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "slip44"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+              "symbol": "TSX",
+              "name": "TSX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "TSX Bastion",
+              "chainId": "454",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "454",
+              "tokenType": "native"
+            }
+          }
+        },
+        "455": {
+          "chain_name": "tsx-horizon",
+          "status": "live",
+          "website": "https://tsx.network",
+          "network_level": "mainnet",
+          "pretty_name": "TSX Horizon",
+          "chain_type": "eip155",
+          "chain_id": "455",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://horizon.tsx.network/rpc",
+              "provider": "tsx"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+          "explorers": [
+            {
+              "kind": "TSX Explorer",
+              "url": "https://scan.tsx.network/horizon",
+              "tx_page": "https://scan.tsx.network/horizon/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "slip44"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+              "symbol": "TSX",
+              "name": "TSX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "TSX Horizon",
+              "chainId": "455",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "455",
+              "tokenType": "native"
+            }
+          }
+        },
         "456": {
           "chain_name": "arzio",
           "status": "killed",
@@ -40461,7 +40607,7 @@
         },
         "589": {
           "chain_name": "lady",
-          "status": "killed",
+          "status": "live",
           "website": "https://ladyswap.us",
           "network_level": "mainnet",
           "pretty_name": "LadyChain",
@@ -40498,9 +40644,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -42368,7 +42514,7 @@
         },
         "739": {
           "chain_name": "pob",
-          "status": "killed",
+          "status": "live",
           "website": "https://pionechain.com",
           "network_level": "mainnet",
           "pretty_name": "Pione BOS Chain Mainnet",
@@ -42405,9 +42551,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -42859,87 +43005,6 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "784",
-              "tokenType": "native"
-            }
-          }
-        },
-        "786": {
-          "chain_name": "maal",
-          "status": "live",
-          "website": "https://www.maalchain.com/",
-          "network_level": "mainnet",
-          "pretty_name": "MAAL Chain",
-          "chain_type": "eip155",
-          "chain_id": "786",
-          "bech32_prefix": "",
-          "fees": [
-            {
-              "denom": "wei",
-              "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
-              }
-            }
-          ],
-          "staking_denoms": [
-            "wei"
-          ],
-          "rpc_uris": [
-            {
-              "address": "https://node1-mainnet.maalscan.io/",
-              "provider": "maalscan"
-            },
-            {
-              "address": "https://node2-mainnet.maalscan.io/",
-              "provider": "maalscan"
-            },
-            {
-              "address": "https://node3-mainnet.maalscan.io/",
-              "provider": "maalscan"
-            }
-          ],
-          "rest_uris": [],
-          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_maal.jpg",
-          "explorers": [
-            {
-              "kind": "maalscan",
-              "url": "https://maalscan.io",
-              "tx_page": "https://maalscan.io/tx/${txHash}"
-            }
-          ],
-          "verification": {
-            "chain_type": {
-              "verified": false,
-              "by": [
-                "ethereum-lists"
-              ],
-              "note": "its RPC answers another chain ID"
-            },
-            "network_level": {
-              "verified": false,
-              "by": [
-                "chainlist.org",
-                "slip44"
-              ]
-            }
-          },
-          "assets": {
-            "wei": {
-              "denom": "wei",
-              "amount": "0",
-              "displayAmount": "0",
-              "isIbc": false,
-              "logo": "https://icons.llamao.fi/icons/chains/rsz_maal.jpg",
-              "symbol": "MAAL",
-              "name": "MAAL",
-              "exponent": 18,
-              "isFeeToken": true,
-              "networkName": "MAAL Chain",
-              "chainId": "786",
-              "price": 0,
-              "originDenom": "wei",
-              "originChainId": "786",
               "tokenType": "native"
             }
           }
@@ -44885,7 +44950,7 @@
         },
         "944": {
           "chain_name": "zigchain",
-          "status": "killed",
+          "status": "live",
           "website": "https://zigchain.com/",
           "network_level": "mainnet",
           "pretty_name": "ZIGChain",
@@ -44921,9 +44986,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -45168,7 +45233,7 @@
         },
         "968": {
           "chain_name": "dgram",
-          "status": "killed",
+          "status": "live",
           "website": "https://doc.datagram.network/introduction/what-is-datagram",
           "network_level": "mainnet",
           "pretty_name": "Datagram",
@@ -45205,9 +45270,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -45580,7 +45645,7 @@
         },
         "980": {
           "chain_name": "top_evm",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.topnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "TOP Mainnet EVM",
@@ -46486,7 +46551,7 @@
         },
         "1009": {
           "chain_name": "Jumboscan",
-          "status": "live",
+          "status": "killed",
           "website": "https://jumbochain.org",
           "network_level": "mainnet",
           "pretty_name": "Jumbochain Mainnet",
@@ -46535,9 +46600,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -47077,9 +47142,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_conflux.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -53242,10 +53307,11 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
-              ]
+                "ethereum-lists"
+              ],
+              "note": "its RPC answers another chain ID"
             },
             "network_level": {
               "verified": true,
@@ -60563,7 +60629,7 @@
         },
         "2355": {
           "chain_name": "silicon-zk",
-          "status": "killed",
+          "status": "live",
           "website": "https://docs.silicon.network",
           "network_level": "mainnet",
           "pretty_name": "Silicon zkEVM",
@@ -60604,9 +60670,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -65002,7 +65068,7 @@
         },
         "3501": {
           "chain_name": "JFIN",
-          "status": "live",
+          "status": "killed",
           "website": "https://jfinchain.com",
           "network_level": "mainnet",
           "pretty_name": "JFIN Chain",
@@ -65041,8 +65107,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -70242,7 +70307,7 @@
         },
         "5090": {
           "chain_name": "pio",
-          "status": "killed",
+          "status": "live",
           "website": "https://pionechain.com",
           "network_level": "mainnet",
           "pretty_name": "Pione Chain Mainnet",
@@ -70282,7 +70347,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC answers another chain ID"
             },
             "network_level": {
               "verified": false,
@@ -77792,7 +77858,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -86851,7 +86918,7 @@
         },
         "8825": {
           "chain_name": "qvtx",
-          "status": "killed",
+          "status": "live",
           "website": "https://quantvestrix.io",
           "network_level": "mainnet",
           "pretty_name": "QVTX",
@@ -86884,9 +86951,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -90547,7 +90614,7 @@
         },
         "10025": {
           "chain_name": "aeon",
-          "status": "killed",
+          "status": "live",
           "website": "",
           "network_level": "mainnet",
           "pretty_name": "AEON Chain",
@@ -90577,9 +90644,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_aeon.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -95321,9 +95388,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -96696,7 +96763,7 @@
         },
         "20010": {
           "chain_name": "mandala",
-          "status": "killed",
+          "status": "live",
           "website": "https://mandalachain.io",
           "network_level": "mainnet",
           "pretty_name": "Mandala Chain",
@@ -96733,9 +96800,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -96911,7 +96978,7 @@
         },
         "20232": {
           "chain_name": "qvtx2",
-          "status": "killed",
+          "status": "live",
           "website": "https://quantvestrix.io",
           "network_level": "mainnet",
           "pretty_name": "QVTX Aeon",
@@ -96944,9 +97011,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -111005,6 +111072,76 @@
             }
           }
         },
+        "52401": {
+          "chain_name": "qu",
+          "status": "live",
+          "website": "https://quinvium.com",
+          "network_level": "mainnet",
+          "pretty_name": "Quinvium",
+          "chain_type": "eip155",
+          "chain_id": "52401",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc.quinvium.com",
+              "provider": "quinvium"
+            }
+          ],
+          "rest_uris": [],
+          "explorers": [
+            {
+              "kind": "Quinvium Explorer",
+              "url": "https://explorer.quinvium.com",
+              "tx_page": "https://explorer.quinvium.com/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "slip44"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "QU",
+              "name": "Quinvium",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Quinvium",
+              "chainId": "52401",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "52401",
+              "tokenType": "native"
+            }
+          }
+        },
         "53277": {
           "chain_name": "DOID",
           "status": "killed",
@@ -116496,9 +116633,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -118374,6 +118511,78 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "81457",
+              "tokenType": "native"
+            }
+          }
+        },
+        "81630": {
+          "chain_name": "steemvm",
+          "status": "live",
+          "website": "https://svmapp.com",
+          "network_level": "mainnet",
+          "pretty_name": "SteemVM",
+          "chain_type": "eip155",
+          "chain_id": "81630",
+          "bech32_prefix": "",
+          "slip44": 60,
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://evm.steemvmscan.com",
+              "provider": "steemvmscan"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_steemvm.jpg",
+          "explorers": [
+            {
+              "kind": "SteemVM Blockscout",
+              "url": "https://evmscan.steemvmscan.com",
+              "tx_page": "https://evmscan.steemvmscan.com/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "names"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_steemvm.jpg",
+              "symbol": "STEEM",
+              "name": "Steem",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "SteemVM",
+              "chainId": "81630",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "81630",
               "tokenType": "native"
             }
           }
@@ -127232,7 +127441,7 @@
         },
         "327126": {
           "chain_name": "waba",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.wabanetwork.org",
           "network_level": "mainnet",
           "pretty_name": "WABA Chain Mainnet",
@@ -127265,7 +127474,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -134598,6 +134808,76 @@
             }
           }
         },
+        "3690369": {
+          "chain_name": "pagachain",
+          "status": "live",
+          "website": "https://explorer.pagachain.com",
+          "network_level": "mainnet",
+          "pretty_name": "Pagachain",
+          "chain_type": "eip155",
+          "chain_id": "3690369",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://pagachain.com",
+              "provider": "pagachain"
+            }
+          ],
+          "rest_uris": [],
+          "explorers": [
+            {
+              "kind": "Pagachain Explorer",
+              "url": "https://explorer.pagachain.com",
+              "tx_page": "https://explorer.pagachain.com/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "slip44"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "CENT",
+              "name": "Cent",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Pagachain",
+              "chainId": "3690369",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "3690369",
+              "tokenType": "native"
+            }
+          }
+        },
         "4000003": {
           "chain_name": "alt-zerogas",
           "status": "killed",
@@ -138764,7 +139044,7 @@
         },
         "65000000": {
           "chain_name": "aut",
-          "status": "killed",
+          "status": "live",
           "website": "https://autonity.org/",
           "network_level": "mainnet",
           "pretty_name": "Autonity Mainnet",
@@ -138813,7 +139093,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -143119,7 +143400,7 @@
         },
         "2716446429837001": {
           "chain_name": "dffc",
-          "status": "killed",
+          "status": "live",
           "website": "https://duckfourfourchain.zeninhost.xyz",
           "network_level": "mainnet",
           "pretty_name": "DuckFourFourChain",
@@ -143149,9 +143430,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_dffc.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -150474,6 +150755,77 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "443",
+              "tokenType": "native"
+            }
+          }
+        },
+        "445": {
+          "chain_name": "tsx-testnet",
+          "status": "live",
+          "website": "https://tsx.network",
+          "network_level": "testnet",
+          "pretty_name": "TSX Testnet",
+          "chain_type": "eip155",
+          "chain_id": "445",
+          "bech32_prefix": "",
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://testnet.tsx.network/rpc",
+              "provider": "tsx"
+            }
+          ],
+          "rest_uris": [],
+          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+          "explorers": [
+            {
+              "kind": "TSX Explorer",
+              "url": "https://scan.tsx.network/testnet",
+              "tx_page": "https://scan.tsx.network/testnet/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "names"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "https://icons.llamao.fi/icons/chains/rsz_tsx.jpg",
+              "symbol": "TSX",
+              "name": "TSX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "TSX Testnet",
+              "chainId": "445",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "445",
               "tokenType": "native"
             }
           }
@@ -175170,7 +175522,7 @@
         },
         "7336": {
           "chain_name": "pruvtestnet",
-          "status": "live",
+          "status": "killed",
           "website": "https://pruv.gitbook.io/pruv-network/",
           "network_level": "testnet",
           "pretty_name": "Pruv Testnet",
@@ -175207,9 +175559,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -185992,7 +186344,7 @@
         },
         "20011": {
           "chain_name": "mandala-testnet",
-          "status": "killed",
+          "status": "live",
           "website": "https://mandalachain.io",
           "network_level": "testnet",
           "pretty_name": "Mandala Chain Testnet",
@@ -186029,9 +186381,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -190393,78 +190745,6 @@
             }
           }
         },
-        "42429": {
-          "chain_name": "tempo-andantino",
-          "status": "killed",
-          "website": "https://tempo.xyz",
-          "network_level": "testnet",
-          "pretty_name": "Tempo Testnet Andantino (Deprecated)",
-          "chain_type": "eip155",
-          "chain_id": "42429",
-          "bech32_prefix": "",
-          "fees": [
-            {
-              "denom": "wei",
-              "gasPriceStep": {
-                "low": 0.01,
-                "average": 0.025,
-                "high": 0.04
-              }
-            }
-          ],
-          "staking_denoms": [
-            "wei"
-          ],
-          "rpc_uris": [
-            {
-              "address": "https://rpc.testnet.tempo.xyz",
-              "provider": "tempo"
-            }
-          ],
-          "rest_uris": [],
-          "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_tempo.jpg",
-          "explorers": [
-            {
-              "kind": "tempo-explorer",
-              "url": "https://explore.andantino.tempo.xyz",
-              "tx_page": "https://explore.andantino.tempo.xyz/tx/${txHash}"
-            }
-          ],
-          "verification": {
-            "chain_type": {
-              "verified": false,
-              "by": [
-                "ethereum-lists"
-              ],
-              "note": "its RPC answers another chain ID"
-            },
-            "network_level": {
-              "verified": true,
-              "by": [
-                "chainlink"
-              ]
-            }
-          },
-          "assets": {
-            "wei": {
-              "denom": "wei",
-              "amount": "0",
-              "displayAmount": "0",
-              "isIbc": false,
-              "logo": "https://icons.llamao.fi/icons/chains/rsz_tempo.jpg",
-              "symbol": "USD",
-              "name": "No native currency",
-              "exponent": 18,
-              "isFeeToken": true,
-              "networkName": "Tempo Testnet Andantino (Deprecated)",
-              "chainId": "42429",
-              "price": 0,
-              "originDenom": "wei",
-              "originChainId": "42429",
-              "tokenType": "native"
-            }
-          }
-        },
         "42431": {
           "chain_name": "tempo-moderato",
           "status": "live",
@@ -192458,6 +192738,77 @@
             }
           },
           "insecure_endpoints": true
+        },
+        "52402": {
+          "chain_name": "qu-test",
+          "status": "live",
+          "website": "https://quinvium.com",
+          "network_level": "testnet",
+          "pretty_name": "Quinvium Testnet",
+          "chain_type": "eip155",
+          "chain_id": "52402",
+          "bech32_prefix": "",
+          "slip44": 1,
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://rpc1.quinvium.com",
+              "provider": "quinvium"
+            }
+          ],
+          "rest_uris": [],
+          "explorers": [
+            {
+              "kind": "Quinvium Testnet Explorer",
+              "url": "https://testnet.quinvium.com",
+              "tx_page": "https://testnet.quinvium.com/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "names"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "tQU",
+              "name": "Quinvium Testnet",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Quinvium Testnet",
+              "chainId": "52402",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "52402",
+              "tokenType": "native"
+            }
+          }
         },
         "53302": {
           "chain_name": "seedsep",
@@ -206315,11 +206666,10 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+                "rpc-probe"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -213321,6 +213671,77 @@
               "price": 0,
               "originDenom": "wei",
               "originChainId": "1212111",
+              "tokenType": "native"
+            }
+          }
+        },
+        "1234571": {
+          "chain_name": "primium-testnet",
+          "status": "live",
+          "website": "https://staking-testnet.codexnetwork.org/",
+          "network_level": "testnet",
+          "pretty_name": "Primium Testnet",
+          "chain_type": "eip155",
+          "chain_id": "1234571",
+          "bech32_prefix": "",
+          "slip44": 1,
+          "fees": [
+            {
+              "denom": "wei",
+              "gasPriceStep": {
+                "low": 0.01,
+                "average": 0.025,
+                "high": 0.04
+              }
+            }
+          ],
+          "staking_denoms": [
+            "wei"
+          ],
+          "rpc_uris": [
+            {
+              "address": "https://node1-testnet.codexnetwork.org",
+              "provider": "codexnetwork"
+            }
+          ],
+          "rest_uris": [],
+          "explorers": [
+            {
+              "kind": "Primium Explorer",
+              "url": "https://explorer-testnet.codexnetwork.org",
+              "tx_page": "https://explorer-testnet.codexnetwork.org/tx/${txHash}"
+            }
+          ],
+          "verification": {
+            "chain_type": {
+              "verified": true,
+              "by": [
+                "rpc-probe"
+              ]
+            },
+            "network_level": {
+              "verified": false,
+              "by": [
+                "names"
+              ]
+            }
+          },
+          "assets": {
+            "wei": {
+              "denom": "wei",
+              "amount": "0",
+              "displayAmount": "0",
+              "isIbc": false,
+              "logo": "",
+              "symbol": "DEX",
+              "name": "DEX",
+              "exponent": 18,
+              "isFeeToken": true,
+              "networkName": "Primium Testnet",
+              "chainId": "1234571",
+              "price": 0,
+              "originDenom": "wei",
+              "originChainId": "1234571",
               "tokenType": "native"
             }
           }
