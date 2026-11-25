@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T03:09:56.214Z",
+  "lastUpdated": "2026-11-25T04:17:17.209Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,7 +14945,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -29744,7 +29745,7 @@
         },
         "160": {
           "chain_name": "eva",
-          "status": "live",
+          "status": "killed",
           "website": "https://amax.network",
           "network_level": "mainnet",
           "pretty_name": "Armonia Eva Chain Mainnet",
@@ -29776,8 +29777,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC answers another chain ID"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -33700,11 +33700,10 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+                "rpc-probe"
+              ]
             },
             "network_level": {
               "verified": true,
@@ -90499,9 +90498,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_deepsafe.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -101469,9 +101468,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -117922,7 +117921,7 @@
         },
         "80096": {
           "chain_name": "hzc",
-          "status": "killed",
+          "status": "live",
           "website": "http://hizoco.net",
           "network_level": "mainnet",
           "pretty_name": "Hizoco mainnet",
@@ -117952,9 +117951,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_hizoco.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -133637,7 +133636,7 @@
         },
         "1000001": {
           "chain_name": "wvm",
-          "status": "live",
+          "status": "killed",
           "website": "https://e-talk.xyz/webchain",
           "network_level": "mainnet",
           "pretty_name": "WebChain ETK",
@@ -133674,9 +133673,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -135497,7 +135496,7 @@
         },
         "7000700": {
           "chain_name": "jmdt",
-          "status": "killed",
+          "status": "live",
           "website": "https://jmdt.io",
           "network_level": "mainnet",
           "pretty_name": "JMDT Mainnet",
@@ -135538,9 +135537,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -146924,7 +146923,7 @@
         },
         "159": {
           "chain_name": "rbat",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.roburna.com/",
           "network_level": "testnet",
           "pretty_name": "Roburna Testnet",
@@ -146961,9 +146960,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -205716,9 +205715,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
