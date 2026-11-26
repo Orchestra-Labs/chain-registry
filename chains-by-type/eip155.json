@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-25T05:17:04.377Z",
+  "lastUpdated": "2026-11-26T03:10:08.681Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,8 +14945,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -45645,7 +45644,7 @@
         },
         "980": {
           "chain_name": "top_evm",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.topnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "TOP Mainnet EVM",
@@ -51809,7 +51808,7 @@
         },
         "1425": {
           "chain_name": "onino",
-          "status": "live",
+          "status": "killed",
           "website": "https://onino.io",
           "network_level": "mainnet",
           "pretty_name": "ONINO Mainnet",
@@ -51849,8 +51848,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -58465,7 +58463,7 @@
         },
         "2099": {
           "chain_name": "pikochain",
-          "status": "live",
+          "status": "killed",
           "website": "https://pikochain.serveousercontent.com",
           "network_level": "mainnet",
           "pretty_name": "PikoChain",
@@ -58495,9 +58493,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pikochain.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -63535,7 +63533,7 @@
         },
         "3045": {
           "chain_name": "vyre",
-          "status": "live",
+          "status": "killed",
           "website": "https://vyrechain.com",
           "network_level": "mainnet",
           "pretty_name": "VYRE",
@@ -63572,9 +63570,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -66572,7 +66570,7 @@
         },
         "3989": {
           "chain_name": "ptc",
-          "status": "killed",
+          "status": "live",
           "website": "https://pionetrace.com",
           "network_level": "mainnet",
           "pretty_name": "Pione Trace Mainnet",
@@ -66609,9 +66607,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -70231,7 +70229,7 @@
         },
         "5080": {
           "chain_name": "pzo",
-          "status": "killed",
+          "status": "live",
           "website": "https://pionechain.com",
           "network_level": "mainnet",
           "pretty_name": "Pione Zero",
@@ -70273,9 +70271,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -77859,7 +77857,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -87924,7 +87923,7 @@
         },
         "8995": {
           "chain_name": "berg",
-          "status": "live",
+          "status": "killed",
           "website": "https://bloxberg.org",
           "network_level": "mainnet",
           "pretty_name": "bloxberg",
@@ -87953,9 +87952,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -90119,7 +90118,7 @@
         },
         "9982": {
           "chain_name": "mfevscan",
-          "status": "live",
+          "status": "killed",
           "website": "https://mfevscan.com",
           "network_level": "mainnet",
           "pretty_name": "MFEV CHAIN MAINNET",
@@ -90156,9 +90155,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -90469,7 +90468,7 @@
         },
         "10011": {
           "chain_name": "DeepSafe",
-          "status": "killed",
+          "status": "live",
           "website": "https://deepsafe.network/",
           "network_level": "mainnet",
           "pretty_name": "DeepSafe Beta Mainnet",
@@ -90499,9 +90498,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_deepsafe.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -94512,7 +94511,7 @@
         },
         "15551": {
           "chain_name": "loop",
-          "status": "killed",
+          "status": "live",
           "website": "http://theloopnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "LoopNetwork Mainnet",
@@ -94544,7 +94543,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -139044,7 +139044,7 @@
         },
         "65000000": {
           "chain_name": "aut",
-          "status": "live",
+          "status": "killed",
           "website": "https://autonity.org/",
           "network_level": "mainnet",
           "pretty_name": "Autonity Mainnet",
@@ -139093,8 +139093,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -143400,7 +143399,7 @@
         },
         "2716446429837001": {
           "chain_name": "dffc",
-          "status": "live",
+          "status": "killed",
           "website": "https://duckfourfourchain.zeninhost.xyz",
           "network_level": "mainnet",
           "pretty_name": "DuckFourFourChain",
@@ -143430,9 +143429,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_dffc.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -174128,7 +174127,7 @@
         },
         "6423": {
           "chain_name": "ynxtest",
-          "status": "live",
+          "status": "killed",
           "website": "https://ynxweb4.com",
           "network_level": "testnet",
           "pretty_name": "YNX Testnet",
@@ -174166,9 +174165,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -187985,10 +187984,11 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
-              ]
+                "ethereum-lists"
+              ],
+              "note": "its RPC answers another chain ID"
             },
             "network_level": {
               "verified": false,
@@ -189575,7 +189575,7 @@
         },
         "33111": {
           "chain_name": "curtis",
-          "status": "killed",
+          "status": "live",
           "website": "https://curtis.hub.caldera.xyz",
           "network_level": "testnet",
           "pretty_name": "Curtis",
@@ -189612,9 +189612,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -205717,9 +205717,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -218600,7 +218600,7 @@
         },
         "20260532": {
           "chain_name": "gridmindt",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.grid-mind.com/blockchain",
           "network_level": "testnet",
           "pretty_name": "GridMind Testnet",
@@ -218641,9 +218641,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -219734,7 +219734,7 @@
         },
         "77777777": {
           "chain_name": "cryptos-testnet-beta",
-          "status": "live",
+          "status": "killed",
           "website": "https://cryptos.com",
           "network_level": "testnet",
           "pretty_name": "Cryptos Testnet Beta",
@@ -219770,9 +219770,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
