@@ -1,6 +1,6 @@
 {
   "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-26T03:10:08.681Z",
+  "lastUpdated": "2026-11-27T03:10:19.035Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,7 +14945,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -39780,11 +39781,10 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+                "rpc-probe"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -41208,7 +41208,7 @@
         },
         "648": {
           "chain_name": "ace",
-          "status": "live",
+          "status": "killed",
           "website": "https://ace.fusionist.io/",
           "network_level": "mainnet",
           "pretty_name": "Endurance Smart Chain Mainnet",
@@ -41244,9 +41244,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -45232,7 +45232,7 @@
         },
         "968": {
           "chain_name": "dgram",
-          "status": "live",
+          "status": "killed",
           "website": "https://doc.datagram.network/introduction/what-is-datagram",
           "network_level": "mainnet",
           "pretty_name": "Datagram",
@@ -45269,9 +45269,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -45644,7 +45644,7 @@
         },
         "980": {
           "chain_name": "top_evm",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.topnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "TOP Mainnet EVM",
@@ -47268,7 +47268,7 @@
         },
         "1062": {
           "chain_name": "bighive",
-          "status": "live",
+          "status": "killed",
           "website": "https://bighive-beets.com",
           "network_level": "mainnet",
           "pretty_name": "Bighive Mainnet",
@@ -47305,9 +47305,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -49096,7 +49096,7 @@
         },
         "1213": {
           "chain_name": "popcat",
-          "status": "killed",
+          "status": "live",
           "website": "https://popcateum.org",
           "network_level": "mainnet",
           "pretty_name": "Popcateum Mainnet",
@@ -49125,9 +49125,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -58463,7 +58463,7 @@
         },
         "2099": {
           "chain_name": "pikochain",
-          "status": "killed",
+          "status": "live",
           "website": "https://pikochain.serveousercontent.com",
           "network_level": "mainnet",
           "pretty_name": "PikoChain",
@@ -58493,9 +58493,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pikochain.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -71634,7 +71634,7 @@
         },
         "5511": {
           "chain_name": "PP",
-          "status": "live",
+          "status": "killed",
           "website": "https://pointpay.io",
           "network_level": "mainnet",
           "pretty_name": "PointPay Mainnet",
@@ -71671,9 +71671,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -72203,7 +72203,7 @@
         },
         "5680": {
           "chain_name": "scdo",
-          "status": "live",
+          "status": "killed",
           "website": "https://scdo.com.au",
           "network_level": "mainnet",
           "pretty_name": "SCDO Shard0",
@@ -72237,9 +72237,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_scdo.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -77688,7 +77688,7 @@
         },
         "7979": {
           "chain_name": "dos",
-          "status": "killed",
+          "status": "live",
           "website": "https://doschain.com",
           "network_level": "mainnet",
           "pretty_name": "DOS Chain",
@@ -77725,9 +77725,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -77857,8 +77857,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -86917,7 +86916,7 @@
         },
         "8825": {
           "chain_name": "qvtx",
-          "status": "live",
+          "status": "killed",
           "website": "https://quantvestrix.io",
           "network_level": "mainnet",
           "pretty_name": "QVTX",
@@ -86950,9 +86949,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -87923,7 +87922,7 @@
         },
         "8995": {
           "chain_name": "berg",
-          "status": "killed",
+          "status": "live",
           "website": "https://bloxberg.org",
           "network_level": "mainnet",
           "pretty_name": "bloxberg",
@@ -90498,9 +90497,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_deepsafe.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -94511,7 +94510,7 @@
         },
         "15551": {
           "chain_name": "loop",
-          "status": "live",
+          "status": "killed",
           "website": "http://theloopnetwork.org/",
           "network_level": "mainnet",
           "pretty_name": "LoopNetwork Mainnet",
@@ -94543,8 +94542,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -96978,7 +96976,7 @@
         },
         "20232": {
           "chain_name": "qvtx2",
-          "status": "live",
+          "status": "killed",
           "website": "https://quantvestrix.io",
           "network_level": "mainnet",
           "pretty_name": "QVTX Aeon",
@@ -97011,9 +97009,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -97547,7 +97545,7 @@
         },
         "20770": {
           "chain_name": "clutch",
-          "status": "live",
+          "status": "killed",
           "website": "https://clutchprotocol.io",
           "network_level": "mainnet",
           "pretty_name": "Clutch",
@@ -97576,9 +97574,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -132282,7 +132280,7 @@
         },
         "810180": {
           "chain_name": "zklink-nova",
-          "status": "killed",
+          "status": "live",
           "website": "https://zklink.io",
           "network_level": "mainnet",
           "pretty_name": "zkLink Nova Mainnet",
@@ -132323,7 +132321,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": true,
@@ -143399,7 +143398,7 @@
         },
         "2716446429837001": {
           "chain_name": "dffc",
-          "status": "killed",
+          "status": "live",
           "website": "https://duckfourfourchain.zeninhost.xyz",
           "network_level": "mainnet",
           "pretty_name": "DuckFourFourChain",
@@ -143429,9 +143428,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_dffc.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -146924,7 +146923,7 @@
         },
         "159": {
           "chain_name": "rbat",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.roburna.com/",
           "network_level": "testnet",
           "pretty_name": "Roburna Testnet",
@@ -146961,9 +146960,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -174127,7 +174126,7 @@
         },
         "6423": {
           "chain_name": "ynxtest",
-          "status": "killed",
+          "status": "live",
           "website": "https://ynxweb4.com",
           "network_level": "testnet",
           "pretty_name": "YNX Testnet",
@@ -174165,9 +174164,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -187944,7 +187943,7 @@
         },
         "26482": {
           "chain_name": "ducatusx-testnet",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.ducatuscoins.com/ducatusx",
           "network_level": "testnet",
           "pretty_name": "DucatusX Testnet",
@@ -187987,8 +187986,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC answers another chain ID"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -189433,7 +189431,7 @@
         },
         "33101": {
           "chain_name": "zil-testnet",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.zilliqa.com",
           "network_level": "testnet",
           "pretty_name": "Zilliqa 2 Testnet",
@@ -189470,9 +189468,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -204767,7 +204765,7 @@
         },
         "202020": {
           "chain_name": "tDSC",
-          "status": "live",
+          "status": "killed",
           "website": "https://decimalchain.com",
           "network_level": "testnet",
           "pretty_name": "Decimal Smart Chain Testnet",
@@ -204805,9 +204803,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
