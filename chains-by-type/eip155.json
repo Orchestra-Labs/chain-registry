@@ -1,6 +1,6 @@
 {
-  "sha": "a23d024879483ef9a57c200e0f8a4776835b5334",
-  "lastUpdated": "2026-11-27T03:10:19.035Z",
+  "sha": "faa9bfb64c9d3fc2ee2384216180c39a3e66e24c",
+  "lastUpdated": "2026-11-28T03:09:53.770Z",
   "data": {
     "mainnet": {
       "eip155": {
@@ -14945,8 +14945,7 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ],
-              "note": "its RPC has no eth_sendRawTransaction"
+              ]
             },
             "network_level": {
               "verified": false,
@@ -23267,7 +23266,7 @@
         },
         "66": {
           "chain_name": "okt",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.okex.com/okc",
           "network_level": "mainnet",
           "pretty_name": "OKXChain Mainnet",
@@ -23307,9 +23306,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -24580,7 +24579,7 @@
         },
         "88": {
           "chain_name": "vic",
-          "status": "live",
+          "status": "killed",
           "website": "https://viction.xyz",
           "network_level": "mainnet",
           "pretty_name": "Viction",
@@ -24610,9 +24609,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -29674,7 +29673,7 @@
         },
         "158": {
           "chain_name": "rba",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.roburna.com/",
           "network_level": "mainnet",
           "pretty_name": "Roburna Mainnet",
@@ -29711,9 +29710,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -51808,7 +51807,7 @@
         },
         "1425": {
           "chain_name": "onino",
-          "status": "killed",
+          "status": "live",
           "website": "https://onino.io",
           "network_level": "mainnet",
           "pretty_name": "ONINO Mainnet",
@@ -51848,7 +51847,8 @@
               "verified": false,
               "by": [
                 "ethereum-lists"
-              ]
+              ],
+              "note": "its RPC has no eth_sendRawTransaction"
             },
             "network_level": {
               "verified": false,
@@ -53905,7 +53905,7 @@
         },
         "1717": {
           "chain_name": "DRC",
-          "status": "killed",
+          "status": "live",
           "website": "https://doric.network",
           "network_level": "mainnet",
           "pretty_name": "Doric Network",
@@ -53942,9 +53942,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -58463,7 +58463,7 @@
         },
         "2099": {
           "chain_name": "pikochain",
-          "status": "live",
+          "status": "killed",
           "website": "https://pikochain.serveousercontent.com",
           "network_level": "mainnet",
           "pretty_name": "PikoChain",
@@ -58493,9 +58493,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_pikochain.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -60627,7 +60627,7 @@
         },
         "2355": {
           "chain_name": "silicon-zk",
-          "status": "live",
+          "status": "killed",
           "website": "https://docs.silicon.network",
           "network_level": "mainnet",
           "pretty_name": "Silicon zkEVM",
@@ -60668,9 +60668,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -64360,7 +64360,7 @@
         },
         "3330": {
           "chain_name": "t2t",
-          "status": "live",
+          "status": "killed",
           "website": "https://www.two-trader.com",
           "network_level": "mainnet",
           "pretty_name": "Two-Trader Mainnet",
@@ -64396,9 +64396,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -71634,7 +71634,7 @@
         },
         "5511": {
           "chain_name": "PP",
-          "status": "killed",
+          "status": "live",
           "website": "https://pointpay.io",
           "network_level": "mainnet",
           "pretty_name": "PointPay Mainnet",
@@ -71671,9 +71671,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -72203,7 +72203,7 @@
         },
         "5680": {
           "chain_name": "scdo",
-          "status": "killed",
+          "status": "live",
           "website": "https://scdo.com.au",
           "network_level": "mainnet",
           "pretty_name": "SCDO Shard0",
@@ -72237,9 +72237,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_scdo.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -87951,9 +87951,9 @@
           "rest_uris": [],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -90497,9 +90497,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_deepsafe.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -90612,7 +90612,7 @@
         },
         "10025": {
           "chain_name": "aeon",
-          "status": "live",
+          "status": "killed",
           "website": "",
           "network_level": "mainnet",
           "pretty_name": "AEON Chain",
@@ -90642,9 +90642,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_aeon.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -123271,9 +123271,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -143398,7 +143398,7 @@
         },
         "2716446429837001": {
           "chain_name": "dffc",
-          "status": "live",
+          "status": "killed",
           "website": "https://duckfourfourchain.zeninhost.xyz",
           "network_level": "mainnet",
           "pretty_name": "DuckFourFourChain",
@@ -143428,9 +143428,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_dffc.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {
@@ -146609,9 +146609,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_six.jpg",
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -146923,7 +146923,7 @@
         },
         "159": {
           "chain_name": "rbat",
-          "status": "killed",
+          "status": "live",
           "website": "https://www.roburna.com/",
           "network_level": "testnet",
           "pretty_name": "Roburna Testnet",
@@ -146960,9 +146960,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -215855,7 +215855,7 @@
         },
         "5511555": {
           "chain_name": "PPTEST",
-          "status": "killed",
+          "status": "live",
           "website": "https://pointpay.io",
           "network_level": "testnet",
           "pretty_name": "PointPay Testnet",
@@ -215892,9 +215892,9 @@
           ],
           "verification": {
             "chain_type": {
-              "verified": false,
+              "verified": true,
               "by": [
-                "ethereum-lists"
+                "rpc-probe"
               ]
             },
             "network_level": {
@@ -220583,7 +220583,7 @@
         },
         "188962142": {
           "chain_name": "crynux-base-sepolia",
-          "status": "live",
+          "status": "killed",
           "website": "https://crynux.io",
           "network_level": "testnet",
           "pretty_name": "Crynux on Base Sepolia",
@@ -220613,9 +220613,9 @@
           "logo_uri": "https://icons.llamao.fi/icons/chains/rsz_crynux.jpg",
           "verification": {
             "chain_type": {
-              "verified": true,
+              "verified": false,
               "by": [
-                "rpc-probe"
+                "ethereum-lists"
               ]
             },
             "network_level": {

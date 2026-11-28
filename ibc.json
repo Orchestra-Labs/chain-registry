@@ -6793,6 +6793,18 @@
           "channel_id": "channel-586"
         }
       },
+      "kripton-1,osmosis-1": {
+        "kripton-1": {
+          "client_id": "07-tendermint-0",
+          "connection_id": "connection-0",
+          "channel_id": "channel-0"
+        },
+        "osmosis-1": {
+          "client_id": "07-tendermint-3771",
+          "connection_id": "connection-11105",
+          "channel_id": "channel-111106"
+        }
+      },
       "kaiyo-1,mars-1": {
         "kaiyo-1": {
           "client_id": "07-tendermint-78",
@@ -8833,6 +8845,18 @@
           "channel_id": "channel-0"
         }
       },
+      "osmosis-1,tat-1": {
+        "osmosis-1": {
+          "client_id": "07-tendermint-3775",
+          "connection_id": "connection-11107",
+          "channel_id": "channel-111108"
+        },
+        "tat-1": {
+          "client_id": "07-tendermint-1",
+          "connection_id": "connection-1",
+          "channel_id": "channel-1"
+        }
+      },
       "osmosis-1,teritori-1": {
         "osmosis-1": {
           "client_id": "07-tendermint-2192",
@@ -8955,14 +8979,14 @@
       },
       "osmosis-1,xpex-2": {
         "osmosis-1": {
-          "client_id": "07-tendermint-3765",
-          "connection_id": "connection-11102",
-          "channel_id": "channel-111103"
+          "client_id": "07-tendermint-3778",
+          "connection_id": "connection-11109",
+          "channel_id": "channel-111110"
         },
         "xpex-2": {
-          "client_id": "07-tendermint-1",
-          "connection_id": "connection-1",
-          "channel_id": "channel-1"
+          "client_id": "07-tendermint-2",
+          "connection_id": "connection-3",
+          "channel_id": "channel-2"
         }
       },
       "dimension_37-1,osmosis-1": {
@@ -11057,9 +11081,9 @@
       }
     }
   },
-  "lastUpdated": "2026-11-27T03:10:20.873Z",
+  "lastUpdated": "2026-11-28T03:09:55.092Z",
   "commitHashes": {
-    "mainnetHash": "a23d024879483ef9a57c200e0f8a4776835b5334",
-    "testnetHash": "a23d024879483ef9a57c200e0f8a4776835b5334"
+    "mainnetHash": "faa9bfb64c9d3fc2ee2384216180c39a3e66e24c",
+    "testnetHash": "faa9bfb64c9d3fc2ee2384216180c39a3e66e24c"
   }
 }
